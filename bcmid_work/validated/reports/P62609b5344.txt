@@ -1,0 +1,38 @@
+ID: 7708/18
+Ref. Dr: <NOM>: Mammography & <NOM>: <DATE> 12:30:00 <NOM>: 000
+Age: 56 <NOM>: F
+<NOM>
+ <NOM> <NOM> (ACR b)
+ <NOM>-<NOM> <NOM> <NOM> <NOM> <NOM> (<NOM>).
+ <NOM> node.
+ <NOM> <NOM>.
+ <NOM> shadows.
+ <NOM>.
+<NOM>
+ <NOM> <NOM>.
+ <NOM> following:
+ <NOM> <NOM>
+<NOM>, <NOM> 9-10 o’<NOM>
+<NOM> 2.1x1.2 cm ( about 6cm <NOM>, 1cm
+<NOM>), <NOM>, <NOM> & <NOM> lesions….
+<NOM>.
+ <NOM> <NOM> <NOM>
+& <NOM> thickening, <NOM> 2.6cm x 2cm
+…. <NOM>.
+…….. <NOM> <NOM>
+nodes…… BIRADS-5.
+ <NOM> following:
+ <NOM> <NOM>
+<NOM> 6 o’<NOM> 1.3cm x 0.8cm <NOM> <NOM>, <NOM> & <NOM>…. <NOM>.
+ <NOM> <NOM> <NOM> exceeding 3mm…. <NOM>.
+…… <NOM> BIRADS4a…. <NOM>.
+Conclusion
+ <NOM> <NOM> <NOM> … BIRADS-5…. <NOM> <NOM> multicentricity & bilaterality, <NOM> extension,
+<NOM>-<NOM>.
+ <NOM> lesion … BIRADS4a… <NOM>.
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM>. MS

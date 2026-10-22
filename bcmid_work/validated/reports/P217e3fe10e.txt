@@ -1,0 +1,21 @@
+ID : 4397/15
+<NOM>: <NOM> .DR .<NOM> Date: <DATE> 8:48:48 <NOM> : <NOM> MAMMOGRAPHY
+ <NOM> <NOM> (ACR a)
+ <NOM> <NOM>,
+<NOM> <NOM> clips …….Post-<NOM>
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM>.
+ <NOM>:
+1. <NOM> 11 o ‘<NOM> <NOM> <NOM>, <NOM> 22x11 mm.
+2. <NOM> lesion ,<NOM> 4x4 <NOM> <NOM> 2o’<NOM> ,
+…..<NOM> <NOM>…
+BIRADS 3
+ Still, <NOM> .
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM>-<NOM>
+<NOM>…. BIRADS 3
+Dr. <NOM>, MS.

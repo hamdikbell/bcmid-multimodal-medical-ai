@@ -1,0 +1,19 @@
+ID: 4033/15
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 10:00:00 <NOM>: <NOM> <NOM>
+ <NOM> <NOM> (ACR b)
+ <NOM> <NOM>, <NOM>, <NOM> clips…...<NOM>
+ <NOM>.
+ <NOM> <NOM>.
+<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM> <NOM> <NOM> <NOM>. …<NOM> .
+ <NOM> cysts .
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> …..<NOM>….BIRADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM>, MS.

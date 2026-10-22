@@ -1,0 +1,24 @@
+ID: 04409/22
+Ref. Dr: <NOM>: Mammography&<NOM>: <DATE> 2:45:00 <NOM>: <NOM>: 53 <NOM>: F
+<NOM>
+ <NOM> <NOM> (ACR b)
+ <NOM> <NOM> <NOM> …...<NOM>
+ <NOM>.
+ <NOM> <NOM>.
+<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM> edema. …<NOM> .
+ <NOM> <NOM> <NOM> seen.
+ Right 3 o’<NOM> <NOM>
+about 6 x 3mm, a <NOM> <NOM> bed…<NOM>.
+ <NOM> 3 o’<NOM> <NOM> 4.7 <NOM> content,<NOM>(<NOM>) <NOM> …BIRADS 3 <NOM>-up.
+ <NOM> <NOM>.
+ <NOM> <NOM> .
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> cysts
+…BIRADS 3..6 <NOM>.
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+DR.<NOM>,EFR

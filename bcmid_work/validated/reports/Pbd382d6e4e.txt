@@ -1,0 +1,19 @@
+ID: 3052/14
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 11:30:00 <NOM>: <NOM> MAMMOGRPHY
+ <NOM> <NOM>.
+ <NOM> <NOM> parenchyma.
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+ <NOM> <NOM>.
+<NOM>:
+ <NOM> <NOM> <NOM> <NOM> <NOM>
+lobules.
+ <NOM>.
+ <NOM> <NOM> region.
+ <NOM> detected.
+<NOM> 2
+<NOM> <NOM> ( BI- RADS)
+BIRAD 0 <NOM> 1 <NOM> , <NOM> 2 <NOM> 3 <NOM> , 6 <NOM> 4 <NOM> , <NOM> 5 <NOM>
+Dr. <NOM> , MS

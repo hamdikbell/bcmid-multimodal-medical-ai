@@ -1,0 +1,21 @@
+ID: 1796/18
+Ref. Dr: <NOM>: Mammography & <NOM>: 20-May-21 11:00:00 <NOM>:
+<NOM> <NOM> <NOM>
+ <NOM> <NOM> .. (ACR C).
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+<NOM>:
+ <NOM> <NOM> <NOM> <NOM> <NOM> 13 x5 mm … <NOM> /<NOM> .
+ <NOM> <NOM> .
+ <NOM>.
+<NOM> for 49 <NOM> <NOM> <NOM> <NOM>
+<NOM> <NOM> <NOM> <NOM> .
+<NOM> parenchyma. …<NOM>
+BIRADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B - I RsuAsDpi c(i4o)<NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr .<NOM>

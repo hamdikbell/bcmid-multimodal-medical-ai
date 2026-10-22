@@ -1,0 +1,18 @@
+ID: 00561/22
+Ref. Dr: <NOM>: <NOM>: <DATE> 10:00:00 <NOM>:
+Age: 58 <NOM>: F
+<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM>
+2 o’<NOM> averaging 18x12mm <NOM> ( <NOM> ) …. <NOM> .
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> , <NOM>
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM>
+….<NOM> ….BIRADS 6
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM> Dr.<NOM>,MD

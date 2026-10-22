@@ -1,0 +1,26 @@
+ID: 06532/20
+procedure: Mammography & <NOM>. DR.: <NOM>: 19-May-21 11:30:00 <NOM>: <NOM>
+<NOM>
+ <NOM> <NOM> ACR B
+ <NOM> <NOM> <NOM> …<NOM> <NOM>
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+ <NOM>
+<NOM>:
+ <NOM> <NOM> <NOM> <NOM> 5 to 6 o’<NOM> :
+o 5 o’<NOM> 41 x 19 <NOM> skin
+o 6 o’<NOM> <NOM> 9x 3 mm
+, 23 <NOM> <NOM>
+o <NOM> <NOM> <NOM> <NOM> nodes
+….. <NOM> process
+ <NOM>
+ <NOM> <NOM> region.
+ <NOM> detected.
+<NOM> <NOM> <NOM> <NOM> <NOM> … BIRADS 6 Dr. BIRADS 6
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. Walaa M.Saad,MS

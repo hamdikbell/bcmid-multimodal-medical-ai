@@ -1,0 +1,21 @@
+ID: 02095/21
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 11:30:00 <NOM>:
+<NOM>
+ <NOM> <NOM> pattern
+..ACRD
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>:
+ <NOM> <NOM>
+<NOM>.
+ <NOM>.
+ <NOM> <NOM> region.
+ <NOM> detected.
+ <NOM> <NOM> <NOM> 25 x8 mm ..<NOM> for 36 <NOM> <NOM> <NOM> <NOM> <NOM>
+<NOM> <NOM> <NOM>’s <NOM> .
+BIRAD 2
+<NOM> <NOM> ( BI- RADS)
+BIRAD 0 <NOM> 1 <NOM> , <NOM> 2 <NOM> 3 <NOM> , 6 <NOM> 4 <NOM> , <NOM> 5 <NOM>
+Dr. <NOM>

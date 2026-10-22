@@ -1,0 +1,22 @@
+ID: 0343/15
+Ref. Dr.: <NOM>: Mammography & <NOM>: 06-Jul-21 1:30:00 <NOM>: <NOM> <NOM> <NOM> a <NOM> <NOM> views … <NOM> U/S, <NOM>
+ <NOM> <NOM> (ACR A).
+ A <NOM> <NOM> <NOM> <NOM>
+ <NOM> opacities.
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM> <NOM> <NOM>.
+ <NOM> <NOM> <NOM> .
+ <NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM>
+detected.
+ <NOM> <NOM> <NOM> <NOM>.
+ <NOM> <NOM> 12.3 x 5.5 <NOM> <NOM> <NOM> <NOM> <NOM>-<NOM> <NOM>…...<NOM> ……BIRADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM>,EFR

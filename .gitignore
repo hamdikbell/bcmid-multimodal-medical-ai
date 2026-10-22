@@ -1,0 +1,53 @@
+# ==============================================================================
+# BCMID Medical AI — Git Ignore Configuration
+# ==============================================================================
+
+# Raw and Heavy Datasets (> 100 MB, strictly excluded from GitHub)
+BCMID/
+BCMID.zip
+*.zip
+*.tar.gz
+*.dcm
+bcmid_work/validated/mammo/
+bcmid_work/validated/us/
+bcmid_work/uploads/
+bcmid_work/raw/
+bcmid_work/sent_emails/
+
+# Private Patient Mappings (HIPAA / GDPR Compliance - Do Not Share)
+**/id_mapping_PRIVATE.csv
+id_mapping_PRIVATE.csv
+SECRET_do_not_share/
+*.progress.json
+.progress.json
+
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Python Cache & Runtime Artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.virtual_documents/
+*.egg-info/
+dist/
+build/
+
+# Logs & Databases
+*.log
+*.sqlite
+*.sqlite3
+
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.bak

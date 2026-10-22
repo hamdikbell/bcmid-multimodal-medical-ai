@@ -1,0 +1,26 @@
+ID: 03881/22
+Ref. Dr: <NOM>: Mammography & <NOM>: 03-Oct-23 6:00:00 <NOM>: <NOM> MAMMOGRAPHY
+ <NOM> pattern (ACR B)
+ <NOM> <NOM>, <NOM>,
+<NOM>, <NOM> <NOM>… Post-<NOM>.
+ <NOM> punctate & <NOM>.
+ <NOM> <NOM>
+ <NOM>.
+<NOM>
+ <NOM>
+ <NOM> <NOM>
+ <NOM> <NOM> <NOM>.
+ <NOM>
+1. <NOM> <NOM> 0.35cm ,
+<NOM> <NOM> <NOM> <NOM> <NOM> & <NOM> <NOM> 7.5mm x 1.4cm & 0.34cm x 5.4cm <NOM> &
+<NOM> …. <NOM> <NOM> <NOM> <NOM>.
+2. <NOM> 3.5 mm
+3. Otherwise ,<NOM> <NOM>
+…… <NOM>:
+<NOM> <NOM> <NOM> <NOM> <NOM> bed ……<NOM>……….BIRADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>, <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM>.MS

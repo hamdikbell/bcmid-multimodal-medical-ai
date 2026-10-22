@@ -1,0 +1,21 @@
+ID: 00472/20
+Ref. Prof.: <NOM>: Mammography&<NOM>: <DATE> 12:00:00 <NOM>: 54 <NOM>
+ <NOM> <NOM> (ACR C)
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+ <NOM> <NOM>.
+<NOM>:
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM> <NOM> region.
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> 54 <NOM> <NOM> <NOM> <NOM> <NOM> identified ….BIRADS-1
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM>.MS

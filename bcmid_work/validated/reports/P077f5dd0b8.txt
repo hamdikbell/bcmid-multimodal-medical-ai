@@ -1,0 +1,24 @@
+ID: 04376/19
+Ref. Dr: <NOM>: Mammography & <NOM>: <DATE> 11:00:00 <NOM>: <NOM>: 58 <NOM>: F
+<NOM> <NOM> a <NOM> <NOM> views … <NOM> U/S, <NOM>
+ <NOM> <NOM> ( ACR A)
+ <NOM>.
+ <NOM> <NOM> .
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM> <NOM>
+<NOM> <NOM> <NOM>.
+ <NOM> cysts .
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM> <NOM> 5 mm … <NOM> <NOM> <NOM> <NOM> <NOM> …. <NOM> .
+ <NOM> <NOM> <NOM> ,<NOM> 13 x 8 mm …<NOM>.
+<NOM> <NOM> <NOM> <NOM> <NOM>, <NOM> <NOM> <NOM> <NOM> detected …..<NOM>
+BIRADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM> .EFR

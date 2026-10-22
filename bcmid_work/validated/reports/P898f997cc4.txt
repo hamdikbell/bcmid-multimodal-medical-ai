@@ -1,0 +1,22 @@
+ID: 2092/13
+Ref. Prof: <NOM>: Mammography & <NOM>: <DATE> 3:15:00 <NOM>: 53 <NOM>
+ <NOM> <NOM> (ACR b) .
+ <NOM> <NOM> <NOM> , <NOM> <NOM> seen.
+ <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM> 7
+o’<NOM> <NOM>-<NOM> <NOM> <NOM> mammography.
+ <NOM> <NOM> .
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> <NOM> study …..<NOM>. ….BIRADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr/ <NOM>, MS.

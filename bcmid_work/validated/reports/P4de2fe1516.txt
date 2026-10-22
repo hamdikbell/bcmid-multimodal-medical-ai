@@ -1,0 +1,18 @@
+ID: 1949/14
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 9:00:00 <NOM>: <NOM> <NOM>
+ <NOM> of (ACRA).
+ <NOM> <NOM>….Suspious
+ <NOM>.
+ <NOM> noted.
+ <NOM> <NOM> <NOM>:
+ <NOM> 9 o’<NOM>, 2 <NOM>
+<NOM> 15 x 7 <NOM> <NOM> ……Suspicious ….<NOM>
+ <NOM> <NOM> region.
+ <NOM> nodes
+ <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> ….<NOM> ….BIRADS 4b
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. Walaa M.Saad,MS

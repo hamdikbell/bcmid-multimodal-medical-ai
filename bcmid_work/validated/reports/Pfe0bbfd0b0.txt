@@ -1,0 +1,25 @@
+Sex: F
+<NOM>: <DATE> MRN: 04272/20
+<NOM>: <DATE> <NOM>: MG & <NOM>
+<NOM> by a <NOM> <NOM>
+views ...<NOM>, <NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM>…<NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM> (1 cm) , <NOM> , Right 4
+o’<NOM> <NOM> 1.5x1.3 <NOM>
+<NOM> <NOM> 20x5 <NOM> <NOM>. <NOM> <NOM>…<NOM>.
+ <NOM> flap.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM>.
+<NOM> <NOM>.
+BIRADS 2
+<NOM> <NOM> ( BI- RADS)
+BIRAD 0 <NOM> 1 <NOM> , <NOM> 2 <NOM> 3 <NOM> , 6 <NOM> 4 <NOM> , <NOM> 5 <NOM>
+Dr.<NOM>

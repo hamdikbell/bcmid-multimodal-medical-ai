@@ -1,0 +1,21 @@
+ID: 1610/19
+Ref. Prof: <NOM>-<NOM>: MG &<NOM>: 13-Apr-2021 3:00:00 <NOM> : H.D
+<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM> parenchyma.
+ A <NOM> <NOM> <NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+ <NOM> <NOM>.
+<NOM>:
+ <NOM> <NOM> <NOM> <NOM> <NOM> 3.3mm…..<NOM>
+<NOM> 3 months …BIRADS 3
+ <NOM> <NOM> <NOM> <NOM> <NOM>
+<NOM>.
+ <NOM> <NOM> region.
+ <NOM> detected.
+BIRAD 3
+<NOM> <NOM> ( BI- RADS)
+BIRAD 0 <NOM> 1 <NOM> , <NOM> 2 <NOM> 3 <NOM> , 6 <NOM> 4 <NOM> , <NOM> 5 <NOM>
+DR.<NOM>.MS

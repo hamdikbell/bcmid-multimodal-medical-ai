@@ -1,0 +1,17 @@
+ID: 1583/19
+Ref. Dr: <NOM>: <NOM>: <DATE> 10:15:00 <NOM>:
+<NOM>
+ <NOM> b
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM> <NOM> <NOM>, averaging 2 <NOM> <NOM> <NOM>. <NOM> <NOM>
+ <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> lobules.
+ <NOM> <NOM> .
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM> <NOM>.
+<NOM> & <NOM> <NOM> <NOM> <NOM> 2
+Dr.<NOM>.MS

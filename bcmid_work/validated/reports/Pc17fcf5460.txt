@@ -1,0 +1,43 @@
+ID: 1677/19
+Ref. Dr: <NOM>: Mammography & <NOM>: 16-Aug-22 10:45:00 <NOM>: <NOM> MAMMOGRPHY
+ <NOM> <NOM> ACR B
+ <NOM> <NOM> <NOM> ; <NOM>-<NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>:
+ <NOM> <NOM> <NOM> <NOM> <NOM>
+lobules.
+ <NOM> <NOM> <NOM> <NOM>… <NOM>, <NOM> :
+1. 2 o’ <NOM> 9mm x 6mm, 8cm <NOM>.
+2. 4 o’<NOM> 12mm x 7mm , 10cm <NOM>.
+3. Denovo 9 o’<NOM> <NOM> 8mm x
+4.5mm.
+ <NOM> <NOM> <NOM> &
+<NOM>, <NOM>:
+1. <NOM> 9mm x 3mm.
+2. <NOM> 10 o’<NOM> 6.5mm x 6.3mm & 4mm x 3mm
+respectively.
+3. <NOM> 8 o’<NOM> 6mm x 3mm & 8mm x 3.5mm
+respectively.
+ <NOM> <NOM> <NOM> <NOM> <NOM>-<NOM>…
+<NOM>, <NOM> :
+4. 9 o’ <NOM> 13mm x 11mm.
+5. Two 10 o’<NOM> 10mm x 8mm. & 11mm x 7mm
+respectively.
+6. 11 o’<NOM> 15mm x 11mm.
+7. Denovo 3 o’<NOM> 5mm <NOM>.
+ <NOM> <NOM> <NOM> &
+<NOM>, <NOM> 2 o’<NOM>
+<NOM> 9.9mm x 3mm , 8mm x 5mm & 6mm x 3mm respectively.
+pto
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> & <NOM>…..
+BIRADS-2.
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM>. <NOM>. MS

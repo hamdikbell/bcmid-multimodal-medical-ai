@@ -1,0 +1,23 @@
+ID: 2981/16
+Ref. Dr: <NOM>-<NOM>: Mammography & <NOM>: 14-Jun-22 11:30:00 <NOM>: <NOM> MAMMOGRPHY
+ <NOM> <NOM> A
+ <NOM> <NOM>.... post-<NOM>.
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+ <NOM> <NOM>.
+<NOM>:
+ <NOM> <NOM>..
+ <NOM> <NOM>
+<NOM> <NOM> 1.6cm x 1.1cm <NOM> at 3 o’<NOM> <NOM> <NOM> scar….. <NOM>….. <NOM>…..BIRADS-4b.
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> <NOM> recurrence…. <NOM>
+…. BIRADS4-b.
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM>. MS

@@ -1,0 +1,24 @@
+ID: 02899/20
+Ref. Dr: <NOM>: Mammography & <NOM>: <DATE> 11:30:00 <NOM>: <NOM>: 52 <NOM>: F
+<NOM> by a <NOM> <NOM> views ...<NOM>, <NOM>.
+ <NOM> <NOM> (<NOM>
+B).
+ <NOM> density, <NOM>-<NOM> … <NOM>.
+ <NOM>.
+ <NOM>.
+ <NOM> enlargement.
+<NOM>
+ <NOM> <NOM>-<NOM>.
+ <NOM> <NOM> , <NOM>
+<NOM>…<NOM>.
+ <NOM> <NOM> <NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+OPINION
+-<NOM> <NOM> <NOM>…BIRADS-2…
+<NOM>., <NOM> <NOM> <NOM> system ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM>. MS

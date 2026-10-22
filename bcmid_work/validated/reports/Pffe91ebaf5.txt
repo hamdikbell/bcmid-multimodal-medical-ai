@@ -1,0 +1,20 @@
+ID: 04837/20
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 10:00:00 <NOM>:
+<NOM>
+ <NOM> <NOM> 2
+ <NOM> <NOM> parenchyma.
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+ <NOM> <NOM>.
+<NOM>:
+ <NOM> <NOM>
+ <NOM> <NOM> nodes
+ <NOM>.
+ <NOM> <NOM> region.
+ <NOM> detected.
+<NOM> <NOM> 2
+<NOM> <NOM> ( BI- RADS)
+BIRAD 0 <NOM> 1 <NOM> , <NOM> 2 <NOM> 3 <NOM> , 6 <NOM> 4 <NOM> , <NOM> 5 <NOM>
+Dr. <NOM> , MS

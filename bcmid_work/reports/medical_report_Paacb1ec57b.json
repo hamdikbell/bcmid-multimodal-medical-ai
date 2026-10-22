@@ -1,0 +1,49 @@
+{
+  "pseudo_id": "Paacb1ec57b",
+  "age": 51,
+  "predicted_birads": "BI-RADS 3",
+  "confidence": 0.78,
+  "risk_level": "Short-Interval Surveillance",
+  "summary": "Findings in patient Paacb1ec57b exhibit predominantly benign morphological characteristics with low probability of malignancy (0.12). Short-interval surveillance is appropriate.",
+  "recommendations": [
+    "Short-interval 6-month follow-up imaging (unilateral).",
+    "Comparison with baseline views."
+  ],
+  "limitations": [
+    "Artificial Intelligence diagnostic assistance system — not certified as autonomous diagnostic tool.",
+    "Must be reviewed and validated by a licensed radiologist before clinical intervention."
+  ],
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "source_type": "ACR_GUIDELINE",
+      "doc_id": "ACR_BIRADS_4B",
+      "similarity": 0.808,
+      "passage": "[ACR BI-RADS Category 4B: Moderate Suspicion for Malignancy] ACR BI-RADS Category 4B: Moderate suspicion for malignancy. Malignancy risk range is > 10% to <= 50%. Includes amorphous or coarse heterogeneous calcifications, or solid mass with partially indistinct margins. Tissue diagnosis via image-guided biopsy is recommended."
+    },
+    {
+      "evidence_id": "E2",
+      "source_type": "ACR_GUIDELINE",
+      "doc_id": "ACR_BIRADS_3",
+      "similarity": 0.801,
+      "passage": "[ACR BI-RADS Category 3: Probably Benign] ACR BI-RADS Category 3: Probably Benign finding. Finding has a very high probability (> 98%) of being benign. Malignancy risk is > 0% but <= 2%. Specific findings include non-calcified circumscribed solid mass, focal asymmetry, or cluster of round punctate calcifications. Management: Short-interval follow-up (usually unilateral at 6 months, then bilateral at 12 and 24 months) to establish stability."
+    },
+    {
+      "evidence_id": "E3",
+      "source_type": "ACR_GUIDELINE",
+      "doc_id": "ACR_BIRADS_4A",
+      "similarity": 0.798,
+      "passage": "[ACR BI-RADS Category 4A: Low Suspicion for Malignancy] ACR BI-RADS Category 4A: Low suspicion for malignancy. Malignancy risk range is > 2% to <= 10%. Includes partially circumscribed solid mass with ultrasound features suggestive of fibroadenoma, or solitary complicated cyst. Tissue sampling (core needle biopsy) is indicated, though benign pathology is expected."
+    }
+  ],
+  "heatmaps": {
+    "mammo_html": "<div style=\"text-align:center; width:100%;\"><img src=\"/uploads/Paacb1ec57b/Paacb1ec57b_mammo_gradcam.png\" style=\"max-width:100%; max-height:230px; object-fit:contain; border-radius:8px; border:2px solid #3b82f6; display:block; margin:0 auto;\"><p style=\"font-size:12px; color:#cbd5e1; margin-top:8px; margin-bottom:0;\"><b>Mammography</b>: Grad-CAM XAI Attention Map</p></div>",
+    "us_html": "<div style=\"text-align:center; width:100%;\"><img src=\"/uploads/Paacb1ec57b/Paacb1ec57b_us_gradcam.png\" style=\"max-width:100%; max-height:230px; object-fit:contain; border-radius:8px; border:2px solid #3b82f6; display:block; margin:0 auto;\"><p style=\"font-size:12px; color:#cbd5e1; margin-top:8px; margin-bottom:0;\"><b>Ultrasound</b>: Grad-CAM XAI Attention Map</p></div>"
+  },
+  "safety_audit": {
+    "approved": true,
+    "attempts": 1,
+    "status": "APPROVED_BY_SAFETY_AGENT",
+    "feedback_resolved": []
+  }
+}

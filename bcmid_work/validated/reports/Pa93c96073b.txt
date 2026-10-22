@@ -1,0 +1,29 @@
+ID: 5310/19
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 11:45:00 <NOM>:
+<NOM>
+ <NOM> <NOM> (ACR c)
+ A <NOM> <NOM> <NOM> <NOM> (<NOM> <NOM>)
+ <NOM>.
+ <NOM>.
+<NOM>:
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM>
+<NOM> <NOM> <NOM>
+<NOM>:
+- At 1 o’<NOM> 4 <NOM> and 9 <NOM> <NOM> 15x6 mm…(<NOM> mass)
+- At 10 o’<NOM> 5 <NOM> and 9.6 <NOM> <NOM> 8x5 mm.
+- At 9 o’<NOM> 10 <NOM> and 19 <NOM> <NOM> 9x4 mm.
+……<NOM> <NOM> <NOM>; BI-RADS 3.
+ <NOM> –<NOM>- <NOM> <NOM>
+…<NOM>; BI-RADS 2.
+ <NOM> <NOM> <NOM>.
+ <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> <NOM>, <NOM> <NOM> <NOM> <NOM> <NOM>; BI-
+RADS 3.
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr/ <NOM>, MS.

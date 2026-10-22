@@ -1,0 +1,20 @@
+ID: 4105/18
+procedure: Mammography & <NOM>. DR.: <NOM>: 14-Apr-21 6:15:00 <NOM>: <NOM> <NOM> <NOM> B
+ <NOM> <NOM> <NOM> <NOM> <NOM> . ..<NOM> changes
+ <NOM> changes
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM>-<NOM>.
+ <NOM> <NOM> <NOM> 7 mm , <NOM> <NOM> <NOM> <NOM> <NOM> 3.5x 2 cm …<NOM> edema
+,<NOM> <NOM>
+ <NOM> <NOM> <NOM> identified
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> <NOM>:-<NOM> ……<NOM>. ……BI-RADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. Walaa M.Saad,MS

@@ -1,0 +1,24 @@
+Id :3664/19
+Ref .Dr . <NOM> ; MG & <NOM> :<DATE> <NOM> :
+<NOM> <NOM> a <NOM> <NOM> views ...<NOM>, <NOM>.
+ <NOM> <NOM> (ACR a).
+
+ <NOM> <NOM> <NOM> <NOM> <NOM> …….Post-<NOM>
+ <NOM>.
+ <NOM>.
+ <NOM> <NOM> .
+<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM> <NOM> <NOM> (3.5mm)
+…….. <NOM>.
+ <NOM> cysts .
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM>
+<NOM> <NOM> <NOM> <NOM> <NOM> …….. <NOM>……. BIRAD1
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM>. MS

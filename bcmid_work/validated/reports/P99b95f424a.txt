@@ -1,0 +1,26 @@
+ID: 2645/10
+Ref. Prof: <NOM>: Mammography & <NOM>: 14-Sep-21 9:30:00 <NOM>: <NOM> MAMMOGRAPHY
+ <NOM> <NOM> (ACR b)
+ <NOM> <NOM> <NOM> <NOM> <NOM> … .<NOM>.
+ <NOM>.
+ <NOM> .
+<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM> 2 o’<NOM>
+ <NOM> <NOM> measuring
+8 x 3 mm ….<NOM>
+ <NOM> <NOM> <NOM>-
+<NOM> 7 mm ….<NOM>
+ <NOM> <NOM> along 2 o’<NOM> 5.5 <NOM>.
+ <NOM> detected.
+ <NOM> <NOM>.
+ <NOM> <NOM>; <NOM> <NOM>. <NOM> <NOM>…? <NOM> <NOM>.
+ <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM>
+<NOM> <NOM> <NOM> <NOM> <NOM> …? <NOM> <NOM>.
+. ……BI-RADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM>,MS

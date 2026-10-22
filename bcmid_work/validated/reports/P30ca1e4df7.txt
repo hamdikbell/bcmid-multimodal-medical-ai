@@ -1,0 +1,8 @@
+ID: 03964/22
+Ref. Dr: <NOM>: Mammography&<NOM>: <DATE> 11:00:00 <NOM>: <NOM>: 51 <NOM>: M
+51 <NOM> <NOM>
+<NOM> about 3x2.3 cm ( <NOM> ) <NOM> <NOM> <NOM> <NOM> <NOM> , <NOM>
+BIRADS 6
+<NOM> <NOM> <NOM>
+<NOM> ( CC & <NOM> )
+Dr.<NOM>

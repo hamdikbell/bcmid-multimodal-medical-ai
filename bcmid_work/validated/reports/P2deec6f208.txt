@@ -1,0 +1,14 @@
+ID: 02962/20
+Ref. Prof: <NOM>: Mammography & <NOM>: 27-Apr-2021 12:00:00 <NOM> ; <NOM>
+<NOM>
+ <NOM> of (ACR B).
+ <NOM> <NOM>....<NOM>
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM>-<NOM>
+ <NOM> a <NOM> 6x24 <NOM> <NOM> <NOM>, <NOM> <NOM> reaching 8mm <NOM>, otherwise, <NOM> <NOM>…..<NOM>
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM>
+<NOM> a <NOM> <NOM>, <NOM> <NOM> detected ……….<NOM>……… BI-RADS 3
+Dr. <NOM>.MS

@@ -1,0 +1,22 @@
+ID: 0249/16
+Ref. Dr: <NOM>: Mammography & <NOM>: <DATE> 9:30:00 <NOM>: <NOM> MAMMOGRAPHY
+ <NOM> <NOM> (ACR B) .
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+ <NOM> <NOM> TRASONOGRAPHY
+ <NOM> <NOM> <NOM> <NOM> <NOM> <NOM>.
+ <NOM> cysts.
+ <NOM> <NOM> <NOM> 6 mm , <NOM> content , <NOM> <NOM>…..<NOM>
+ <NOM> <NOM> <NOM> <NOM>.
+ <NOM> <NOM> <NOM>
+<NOM> <NOM> <NOM> <NOM>
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> …..<NOM>…..
+BIRADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM> <NOM>

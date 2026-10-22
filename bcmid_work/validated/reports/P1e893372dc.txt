@@ -1,0 +1,22 @@
+ID: 3915/18
+Ref. Dr: <NOM>: MG &<NOM>: <DATE> <NOM>: <NOM> MAMMOGRPHY
+ <NOM> <NOM> B
+ A <NOM> <NOM>-<NOM>
+ <NOM> <NOM> parenchyma.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+ <NOM> <NOM> TRASONOGAPHY:
+ A <NOM> <NOM> <NOM>
+at 12 o’<NOM> 5 <NOM>, averaging 4mm…<NOM> (??intra-
+<NOM>)..<NOM>…BIRADS 3
+ <NOM> <NOM>.
+ <NOM> <NOM> noted, <NOM>
+6mm…..<NOM> …<NOM> <NOM> /
+histopathology….BIRADS 0
+ <NOM> <NOM> <NOM> <NOM> <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM>:
+ <NOM> <NOM> up..BIRADS 3
+ <NOM> nodes…BIRADS 0
+DR.<NOM>.MS

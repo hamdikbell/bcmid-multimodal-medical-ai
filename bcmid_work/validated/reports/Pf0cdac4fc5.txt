@@ -1,0 +1,18 @@
+ID: 1231/18
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 1:30:00 <NOM>: <NOM> <NOM>
+ <NOM> <NOM> A
+ A <NOM> <NOM> <NOM> <NOM>.
+ <NOM> <NOM> parenchyma.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>:
+ <NOM> <NOM> a <NOM> <NOM> <NOM> inte4rnal <NOM> 1 o’<NOM>, 6
+<NOM> averaging 7x9mm…<NOM> (??fibroadenoma)…BIRADS
+3..<NOM>
+ A <NOM> <NOM> <NOM> 5mm
+ <NOM> <NOM> <NOM> <NOM> <NOM> lobules.
+ <NOM> <NOM> <NOM>.
+ <NOM> <NOM>.
+BIRADS 3
+DR.<NOM>.MS

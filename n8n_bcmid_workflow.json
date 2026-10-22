@@ -1,0 +1,312 @@
+{
+  "name": "BCMID Medical AI - 8 Agents Official Workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "bcmid/run",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "id": "node-1-trigger",
+      "name": "1. Trigger (Webhook / File upload)",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        112,
+        304
+      ],
+      "webhookId": "bcmid-triage-webhook"
+    },
+    {
+      "parameters": {},
+      "id": "node-1-manual",
+      "name": "1b. Manual Trigger (Test)",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        112,
+        480
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/agent/data-quality",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "pseudo_id",
+              "value": "={{ $json.body?.pseudo_id || $json.pseudo_id || 'P0159' }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "id": "node-2-dq",
+      "name": "2. Data & Quality Agent",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        368,
+        368
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/agent/vision",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "pseudo_id",
+              "value": "={{ $json.pseudo_id }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "id": "node-3-vision",
+      "name": "3. Multimodal Vision Agent",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        624,
+        368
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/agent/rag",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "pseudo_id",
+              "value": "={{ $json.pseudo_id }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "id": "node-4-rag",
+      "name": "4. RAG Agent",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        880,
+        368
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/agent/reasoning",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "pseudo_id",
+              "value": "={{ $json.pseudo_id }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "id": "node-5-reasoning",
+      "name": "5. Reasoning Agent",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1152,
+        368
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/agent/quality",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "pseudo_id",
+              "value": "={{ $json.pseudo_id }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "id": "node-6-safety",
+      "name": "6. Quality Agent (Safety)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1408,
+        368
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/agent/report",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "pseudo_id",
+              "value": "={{ $json.pseudo_id }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "id": "node-7-report",
+      "name": "7. Generate Report (PDF/JSON)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1664,
+        368
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/agent/notify",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "pseudo_id",
+              "value": "={{ $json.pseudo_id }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "id": "node-8-output",
+      "name": "8. Send Output (Email / Dashboard)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1920,
+        368
+      ]
+    }
+  ],
+  "connections": {
+    "1. Trigger (Webhook / File upload)": {
+      "main": [
+        [
+          {
+            "node": "2. Data & Quality Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "1b. Manual Trigger (Test)": {
+      "main": [
+        [
+          {
+            "node": "2. Data & Quality Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "2. Data & Quality Agent": {
+      "main": [
+        [
+          {
+            "node": "3. Multimodal Vision Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "3. Multimodal Vision Agent": {
+      "main": [
+        [
+          {
+            "node": "4. RAG Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "4. RAG Agent": {
+      "main": [
+        [
+          {
+            "node": "5. Reasoning Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "5. Reasoning Agent": {
+      "main": [
+        [
+          {
+            "node": "6. Quality Agent (Safety)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "6. Quality Agent (Safety)": {
+      "main": [
+        [
+          {
+            "node": "7. Generate Report (PDF/JSON)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "7. Generate Report (PDF/JSON)": {
+      "main": [
+        [
+          {
+            "node": "8. Send Output (Email / Dashboard)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false,
+    "timeSavedMode": "fixed",
+    "callerPolicy": "workflowsFromSameOwner"
+  }
+}

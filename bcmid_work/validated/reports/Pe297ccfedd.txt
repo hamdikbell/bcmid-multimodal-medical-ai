@@ -1,0 +1,26 @@
+ID: 1019/18
+Ref. Prof: <NOM>: Mammography & <NOM>: 20-Apr-2021 5:00:00 <NOM>: <NOM>
+<NOM>
+ <NOM> <NOM> A
+ <NOM> <NOM> noted.
+ <NOM> <NOM> <NOM>.
+ <NOM> <NOM> <NOM>
+<NOM>.
+<NOM>:
+ <NOM> 2 o’<NOM> <NOM> <NOM> 2.7 x 2.1 x 2.2 <NOM> <NOM> ,<NOM> 11 <NOM>.....<NOM> …. BIRADS 5….<NOM>.
+ A <NOM> <NOM> <NOM> 10x 5
+mm….<NOM>…..BIRADS 3.
+ <NOM> <NOM> 3 o’<NOM>
+<NOM> 13 x 7 mm…<NOM>.
+ <NOM> <NOM> <NOM>
+….<NOM>.
+ <NOM> 3 o’<NOM> 9 x 6.5 mm….<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> and a <NOM> <NOM>
+lesion …BIRADS 5…..<NOM>.
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM> Dr.<NOM>,EFR

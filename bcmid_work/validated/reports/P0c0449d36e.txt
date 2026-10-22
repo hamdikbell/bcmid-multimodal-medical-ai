@@ -1,0 +1,22 @@
+ID: 0165/09
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 9:30:00 <NOM>:
+<NOM>
+ <NOM> pattern (ACR A)
+ <NOM>.
+ <NOM> ,,<NOM>.
+ <NOM> .
+<NOM>
+ <NOM> parenchyma
+ <NOM> <NOM>
+ <NOM> <NOM>.
+ <NOM> enlargement.
+ <NOM> <NOM> <NOM> ;<NOM> <NOM> ,<NOM> region 4 <NOM> <NOM>, <NOM> <NOM>….. <NOM>
+<NOM> <NOM> <NOM> <NOM> .
+<NOM> <NOM> <NOM>
+detected .. <NOM> .….BIRADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B - I sRuAspDic (i4o)<NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+<NOM>

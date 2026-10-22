@@ -1,0 +1,23 @@
+ID: 0331/15
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 1:00:00 <NOM>: <NOM> MAMMOGRAPHY
+ <NOM> <NOM> B .
+ <NOM> <NOM> <NOM> & <NOM> <NOM>. ….. <NOM> changes
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> foci … <NOM>
+ Stationary:
+1. <NOM> <NOM> 12 x 6 <NOM> <NOM> 7 mm ….<NOM> carcinoma
+2. <NOM> <NOM>
+2x1.3cm…<NOM>
+ <NOM> <NOM> <NOM> 21 x 13 mm
+ <NOM> <NOM> cyst.
+ <NOM> <NOM>
+OPINION:
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> , <NOM> nodes , <NOM> nodes … BIRADS 6
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. Walaa M.Saad,MS

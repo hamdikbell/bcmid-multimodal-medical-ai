@@ -1,0 +1,67 @@
+{
+  "version": "v3",
+  "date": "2026-10-15",
+  "corrections": {
+    "1_birads_confiance": [
+      "Suppression de la note 'calibrée' sur la confiance — remplacée par 'non calibrée cliniquement'",
+      "predicted_birads=None si valeur brute invalide — motif explicite fourni",
+      "Aucune catégorie fabriquée par règle de secours"
+    ],
+    "2_isolation_modalites": [
+      "Condition image : zéro texte, zéro cas similaires — vérifié mathématiquement",
+      "Condition texte : zéro vision, zéro heatmap — vérifié mathématiquement",
+      "3 requêtes RAG séparées : query_img, query_txt, query_both"
+    ],
+    "3_rag_exclusion": [
+      "search_cases() exclut : même patient + même groupe + même pli",
+      "group_pseudo ajouté aux chunks C pour permettre l'exclusion de groupe",
+      "Test automatique : 0 violation sur 30 patients × 5 résultats"
+    ],
+    "4_raisonnement": [
+      "vision_interpretation_sentence() : probabilités brutes inchangées",
+      "Mode extractif explicitement signalé (reasoning_mode='extractive')",
+      "LLM optionnel avec fallback extractif explicite si échec",
+      "Sortie LLM invalide → extract_json() retourne None → fallback"
+    ],
+    "5_controle_qualite": [
+      "validate_medical_report() : validation de TOUS les champs SCHEMA",
+      "Statuts explicites : checks_passed | review_required | not_evaluated",
+      "groundedness/hallucinations = 'not_evaluated' (jamais auto-déclarés)",
+      "Inversion mammo/écho vérifiée (heuristique)",
+      "Discordance obligatoirement signalée si pm≥0.5 XOR pu≥0.5"
+    ],
+    "6_xai": [
+      "build_heatmap_summary() : retourne null si heatmap absente",
+      "Aucune phrase générique de secours inventée",
+      "zone_desc() : calcul à partir des coordonnées réelles",
+      "Détection des phrases XAI génériques fabriquées"
+    ],
+    "7_kaggle": [
+      "Cellule R0 de diagnostic préalable des fichiers et dépendances",
+      "safe_sample() : ne crashe pas sur une catégorie vide",
+      "Chemins centralisés dans WORK_DIR + SEARCH_BASES",
+      "CPU/GPU auto-détecté, LLM facultatif"
+    ]
+  },
+  "limites_restantes": [
+    "Détection d'inversion mammo/écho heuristique (non exhaustive)",
+    "Guidelines ACR hardcodées (résumés éditoriaux, non PDFs officiels)",
+    "LLM non testé sur Kaggle dans cette session",
+    "Calibration de la confiance non vérifiable sans données de calibration",
+    "Cohérence BI-RADS / probabilités non validée cliniquement"
+  ],
+  "tests_adversariaux": {
+    "T1_inversion_signalee": "PASS",
+    "T2_inversion_non_signalee": "PASS",
+    "T3_fausse_citation": "PASS",
+    "T4_nombre_invente": "PASS",
+    "T5_mesure_legitime": "PASS",
+    "T6_texte_fuite_vision": "PASS",
+    "T7_image_cas_similaires_interdits": "PASS",
+    "T8_prediction_manquante": "PASS",
+    "T9_sortie_llm_invalide": "PASS",
+    "T10_appareil_non_standard": "PASS"
+  },
+  "tests_passes": 10,
+  "tests_total": 10
+}

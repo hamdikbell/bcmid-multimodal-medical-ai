@@ -1,0 +1,21 @@
+ID: 3399/16
+Ref . Dr: <NOM>: Mammography &<NOM>:27-Apr-2021 12:30:00 <NOM>: <NOM>
+<NOM>:
+<NOM> by a <NOM> <NOM> views …….<NOM>, <NOM>
+ <NOM> pattern (ACR A)
+ <NOM> <NOM> noted
+ <NOM>.
+ <NOM>.
+<NOM>:
+ <NOM> <NOM> 2 o’clock 3 <NOM> <NOM> 6 x 4 mm….<NOM>….BIRADS
+2
+ <NOM> <NOM> 3 o’<NOM>, 3
+<NOM> averaging 8x4mm…<NOM>…<NOM>…BIRADS 3
+ <NOM> <NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM> .
+OPINION:
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM>
+<NOM> <NOM>….<NOM> …..BIRAD 3
+DR.<NOM>.MS

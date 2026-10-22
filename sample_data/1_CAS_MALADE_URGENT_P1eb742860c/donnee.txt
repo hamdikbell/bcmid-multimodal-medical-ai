@@ -1,0 +1,11 @@
+Fiche Patiente : P1eb742860c 
+Âge : 58 ans 
+
+1. Observations Cliniques / Historique
+
+Masse spiculée irrégulière au quadrant supéro-externe gauche, mesurant 18 mm. Atténuation acoustique postérieure franche avec engainement tissulaire et microcalcifications polymorphes groupées. Biopsie guidée au trocart (CNB) requise en urgence.
+
+2. Hypothèse / Suspicion Clinique Prévue
+
+ Suspicion Forte / Modérée → Attente BI-RADS 4A (Biopsie CNB)
+

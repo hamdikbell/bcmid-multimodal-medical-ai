@@ -1,0 +1,31 @@
+zip_path: "C:/Users/moham/OneDrive - ESPRIT/Documents/deeplearning5eme/BCMID.zip"
+tsv_path: "C:/Users/moham/OneDrive - ESPRIT/Documents/deeplearning5eme/BCMID_annotations.tsv"
+work_dir: "C:/Users/moham/OneDrive - ESPRIT/Documents/deeplearning5eme/bcmid_work"
+private_dir: "C:/Users/moham/OneDrive - ESPRIT/Documents/deeplearning5eme/bcmid_work"
+
+preprocessing:
+  target_size: 512
+  mammo_clahe_clip_limit: 2.0
+  mammo_clahe_tile_grid: 8
+  us_median_ksize: 3
+  nlm_h: 5          # Non-Local Means filter strength for mammography
+  bit_depth: 8
+
+modality_policy:
+  require_report: false   # include patients without PDF report (flagged as partial)
+  min_modalities: 2       # require both US and mammo for "complete"
+
+integrity:
+  min_dimension: 32
+  std_threshold: 1.0      # images with std < this are flagged as uniform
+
+splits:
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  random_seed: 42
+  rare_class_threshold: 5  # classes with fewer patients get grouped as "rare"
+
+logging:
+  level: "INFO"
+  file: "dq_agent.log"

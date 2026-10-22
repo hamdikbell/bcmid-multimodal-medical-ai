@@ -1,0 +1,20 @@
+ID: 02300/21
+procedure: Mammography&<NOM>. DR.: <NOM>: 05-May-21 11:00:00 <NOM>: <NOM> MAMMOGRAPHY:
+ <NOM> of (ACR C).
+ <NOM> <NOM>-<NOM>
+..<NOM>
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM>-<NOM>
+ <NOM> <NOM> , <NOM> , <NOM> 17x
+18 mm , otherwise, <NOM> <NOM>…..<NOM>
+ <NOM> <NOM>
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> ……….<NOM>……… BI-RADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. Walaa M.Saad,MS

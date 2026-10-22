@@ -1,0 +1,19 @@
+ID: 2071/19
+Ref. Prof: <NOM>: Mammography & <NOM>: 31-Aug-21 11:00:00 <NOM>: <NOM> MAMMOGRPHY
+ <NOM> <NOM> ..(ACR c)
+ <NOM> <NOM> asymmetry … <NOM>
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM>. Still, <NOM> <NOM>.
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> for a <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr/ <NOM>, MS.

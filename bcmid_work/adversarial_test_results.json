@@ -1,0 +1,59 @@
+{
+  "T1_inversion_signalee": {
+    "status": "PASS",
+    "errors": []
+  },
+  "T2_inversion_non_signalee": {
+    "status": "PASS",
+    "errors": [
+      "discordance_mammo_echo_non_signalee"
+    ]
+  },
+  "T3_fausse_citation": {
+    "status": "PASS",
+    "errors": [
+      "citation_inexistante:G5"
+    ]
+  },
+  "T4_nombre_invente": {
+    "status": "PASS",
+    "errors": [
+      "nombre_externe_suspect:0.42",
+      "discordance_mammo_echo_non_signalee"
+    ]
+  },
+  "T5_mesure_legitime": {
+    "status": "PASS",
+    "errors": [
+      "discordance_mammo_echo_non_signalee"
+    ]
+  },
+  "T6_texte_fuite_vision": {
+    "status": "PASS",
+    "errors": [
+      "fuite_vision:predicted_birads fourni en condition texte",
+      "fuite_vision:confidence fournie en condition texte",
+      "fuite_vision:visual_explanations en condition texte"
+    ]
+  },
+  "T7_image_cas_similaires_interdits": {
+    "status": "PASS",
+    "errors": [
+      "fuite:cas_similaires_en_condition_image"
+    ]
+  },
+  "T8_prediction_manquante": {
+    "status": "PASS",
+    "errors": []
+  },
+  "T9_sortie_llm_invalide": {
+    "status": "PASS",
+    "extracted": null
+  },
+  "T10_appareil_non_standard": {
+    "status": "PASS",
+    "errors": [
+      "appareil_non_standard_non_signale"
+    ]
+  }
+}

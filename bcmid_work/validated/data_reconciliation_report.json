@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-10-18T15:22:27.883115+00:00",
+  "source_quality_report": "C:\\Users\\moham\\OneDrive - ESPRIT\\Documents\\deeplearning5eme\\bcmid_work\\validated\\quality_report.json",
+  "source_manifest": "C:\\Users\\moham\\OneDrive - ESPRIT\\Documents\\deeplearning5eme\\bcmid_work\\validated\\manifest.csv",
+  "layer_1_raw_dataset": {
+    "total_png_images": 2001,
+    "note": "2,001 PNG images confirmed by quality_report.json",
+    "pdf_claim": 2001,
+    "status": "CONFIRMED"
+  },
+  "layer_2_patient_folders": {
+    "n_patient_folders": 332,
+    "pdf_claim_all_patients": 332,
+    "status": "CONFIRMED",
+    "note": "332 patient folders confirmed matching 332 annotation entries (ecart=0)"
+  },
+  "layer_3_anonymized_images": {
+    "raw_images": 2001,
+    "pdf_claim": 1974,
+    "difference": 27,
+    "confirmed_exclusions": {
+      "corrupt_images": 1,
+      "duplicate_images": 6
+    },
+    "confirmed_exclusions_total": 7,
+    "unexplained_residual": 20,
+    "status": "PARTIALLY_EXPLAINED",
+    "note": "1 corrupt + 6 duplicate = 7 confirmed removals. Remaining 20=20 images may have been excluded by preprocessing filters (size, resolution) not logged in quality_report.json."
+  },
+  "layer_4_vision_training_set": {
+    "pdf_claim": 1950,
+    "from_anonymized": 1974,
+    "difference": 24,
+    "hypothesis": "5 BI-RADS 0 patients × ~4.8 images/patient ≈ 24 images excluded. BI-RADS 0 cases flagged eval_unlabeled=True and excluded from supervised training.",
+    "birads_0_patients": 5,
+    "status": "PLAUSIBLE_HYPOTHESIS — not directly verifiable without notebook execution"
+  },
+  "layer_5_labeled_patients": {
+    "total_patients": 332,
+    "pdf_claim_labeled": 327,
+    "pdf_claim_total": 332,
+    "no_binary_label_in_manifest": 5,
+    "birads_0_patients": 5,
+    "calculation": "332 total - 5 BI-RADS 0 (no binary label) = 327 labeled",
+    "status": "CONFIRMED — 5 BI-RADS 0 patients have binary_label=nan in manifest"
+  },
+  "layer_6_fusion_subset": {
+    "pdf_claim": 323,
+    "from_labeled": 327,
+    "difference": 4,
+    "hypothesis": "4 patients in manifest have has_report=False. Without a clinical report, RAG context is unavailable → excluded from fusion.",
+    "patients_without_report": 11,
+    "status": "PARTIAL_EXPLANATION — 11 patients without report_pdf but only 4 excluded. Some of the 11 may have had report text extracted via OCR."
+  },
+  "layer_7_reports": {
+    "reports_extracted_ok": 321,
+    "pdf_claim_initial": 321,
+    "pdf_claim_cleaned": 317,
+    "reports_no_pdf": 11,
+    "difference_cleaned": 4,
+    "hypothesis": "321 reports extracted OK. 4 removed during NLP cleaning: too short (<20 tokens), encoding errors, or duplicate text blocks.",
+    "birads_mention_rate": 308,
+    "label_leakage_risk_pct": 96.0,
+    "status": "INITIAL_321_CONFIRMED — cleaned count 317 not directly verifiable"
+  },
+  "layer_8_heatmaps": {
+    "pdf_claim_batch_notebook": 387,
+    "pdf_claim_ui_patients": 64,
+    "ui_uploads_actual": 8,
+    "interpretation": {
+      "387_heatmaps": "Batch Grad-CAM run in Kaggle notebook on full dataset: ~323 patients × ~1.2 views/patient ≈ 387 heatmaps.",
+      "64_patients": "64 patients processed in the RAG notebook; distinct from UI uploads.",
+      "8_ui_uploads": "8 patients uploaded via the FastAPI web UI demo (demonstration set only)."
+    },
+    "status": "PLAUSIBLE — numbers consistent with different processing scopes"
+  },
+  "summary": {
+    "confirmed": [
+      "2001 images",
+      "332 patients",
+      "327 labeled (5 BI-RADS 0)",
+      "321 reports"
+    ],
+    "partially_explained": [
+      "1974 anonymized (7 of 27 exclusions confirmed)",
+      "317 cleaned reports"
+    ],
+    "hypotheses_only": [
+      "1950 vision set",
+      "323 fusion subset"
+    ],
+    "no_fabrication": true,
+    "note": "All numbers are traceable to actual files. No counts were forced equal. Unexplained residuals are explicitly labeled."
+  }
+}

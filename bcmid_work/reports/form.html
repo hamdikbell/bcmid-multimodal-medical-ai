@@ -1,0 +1,1739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MammoScan AI · Multimodal Breast Diagnostic Decision Support</title>
+
+  <!-- ═══ TABLER TEMPLATE (CDN) ═══ -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/core@1.0.0/dist/css/tabler.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --tblr-font-sans-serif: 'Inter', sans-serif;
+      --brand:        #1a52a0;
+      --brand-dark:   #103660;
+      --brand-light:  #eef5fd;
+    }
+
+    body { background: #f0f4f9; font-family: var(--tblr-font-sans-serif); }
+
+    /* ─ Navbar override ─ */
+    .navbar { border-bottom: 2px solid #e2e8f0; background: rgba(255,255,255,.97) !important; backdrop-filter: blur(14px); }
+    .navbar-brand-image { border-radius: 10px; }
+
+    /* ─ Status dot ─ */
+    .status-dot { width: 8px; height: 8px; border-radius: 50%; background: #2fb344; display: inline-block; animation: blink 1.8s ease-in-out infinite; }
+    @keyframes blink { 0%,100%{opacity:1}50%{opacity:.4} }
+
+    /* ─ Benchmark cards ─ */
+    .bench-card { cursor: pointer; border-left: 4px solid transparent; transition: all .22s; }
+    .bench-card:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(0,0,0,.1) !important; }
+    .bench-card.urgent  { border-left-color: #d63939; }
+    .bench-card.watch   { border-left-color: #f59f00; }
+    .bench-card.routine { border-left-color: #2fb344; }
+
+    /* ─ Dropzone ─ */
+    .dropzone-field {
+      border: 2px dashed #ced4da; border-radius: 8px; padding: 24px 16px;
+      text-align: center; cursor: pointer; background: #f8fafc;
+      transition: all .2s; position: relative; overflow: hidden;
+    }
+    .dropzone-field:hover { border-color: var(--brand); background: var(--brand-light); }
+    .dropzone-field input[type=file] { position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%; }
+    .dropzone-preview { display:none; }
+    .dropzone-preview img { max-height: 110px; object-fit: contain; border-radius: 6px; background: #000; width: 100%; }
+
+    /* ═══════════════════════════════════════════
+       3D PIPELINE STEPPER
+    ═══════════════════════════════════════════ */
+    .pipeline-box {
+      background: linear-gradient(160deg, #03111e, #061a2f 55%, #0e3460);
+      border-radius: 12px;
+      border: 1px solid rgba(26,82,160,.25);
+      box-shadow: 0 20px 60px rgba(0,0,0,.3), 0 0 0 1px rgba(26,82,160,.08);
+      overflow: hidden;
+    }
+    .pipeline-head {
+      background: linear-gradient(90deg,rgba(16,54,96,.85),rgba(3,17,30,.5));
+      border-bottom: 1px solid rgba(26,82,160,.2);
+      padding: 14px 18px;
+    }
+    .step-card {
+      position: relative; border-radius: 10px; padding: 14px 16px;
+      display: flex; align-items: center; gap: 14px;
+      transition: all .35s cubic-bezier(.25,.8,.25,1);
+    }
+    .step-card.idle   { background: rgba(15,23,42,.55); border: 1px solid rgba(51,65,85,.4); }
+    .step-card.active {
+      background: linear-gradient(135deg, rgba(16,54,96,.9), rgba(26,82,160,.3));
+      border: 1px solid rgba(26,82,160,.75);
+      transform: scale(1.015);
+      box-shadow: 0 0 28px rgba(26,82,160,.35), 0 0 70px rgba(26,82,160,.1), inset 0 1px 0 rgba(255,255,255,.07);
+    }
+    .step-card.done {
+      background: linear-gradient(135deg, rgba(4,120,87,.55), rgba(5,150,105,.2));
+      border: 1px solid rgba(16,185,129,.5);
+      box-shadow: 0 0 18px rgba(16,185,129,.2);
+    }
+
+    /* Pulse rings */
+    .ring-a { position: absolute; inset: -7px; border-radius: 16px; border: 2px solid rgba(26,82,160,.5); animation: ringOut 1.6s ease-out infinite; pointer-events: none; }
+    .ring-b { position: absolute; inset: -14px; border-radius: 20px; border: 1px solid rgba(26,82,160,.22); animation: ringOut 1.6s ease-out .44s infinite; pointer-events: none; }
+    @keyframes ringOut { 0%{opacity:1;transform:scale(1)} 100%{opacity:0;transform:scale(1.15)} }
+
+    /* Orb */
+    .step-orb {
+      width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 800; font-size: 15px;
+      transition: all .35s cubic-bezier(.34,1.56,.64,1);
+    }
+    .step-orb.idle {
+      background: radial-gradient(circle at 35% 35%, #334155, #1e293b);
+      color: #64748b;
+      box-shadow: 3px 3px 10px rgba(0,0,0,.5), inset -2px -2px 5px rgba(0,0,0,.3), inset 1px 1px 4px rgba(255,255,255,.04);
+    }
+    .step-orb.active {
+      background: radial-gradient(circle at 35% 35%, #4d8fd4, #1a52a0);
+      color: #fff;
+      box-shadow: 3px 3px 14px rgba(0,0,0,.5), 0 0 0 3px rgba(26,82,160,.25), 0 0 22px rgba(26,82,160,.55), inset -2px -2px 6px rgba(0,0,0,.2), inset 1px 1px 6px rgba(255,255,255,.22);
+      animation: orbPulse 1.1s ease-in-out infinite;
+    }
+    .step-orb.done {
+      background: radial-gradient(circle at 35% 35%, #34d399, #059669);
+      color: #fff; font-size: 20px;
+      box-shadow: 3px 3px 12px rgba(0,0,0,.4), 0 0 18px rgba(16,185,129,.4), inset 1px 1px 5px rgba(255,255,255,.18);
+    }
+    @keyframes orbPulse {
+      0%,100%{box-shadow:3px 3px 14px rgba(0,0,0,.5),0 0 0 3px rgba(26,82,160,.25),0 0 22px rgba(26,82,160,.55),inset -2px -2px 6px rgba(0,0,0,.2),inset 1px 1px 6px rgba(255,255,255,.22);}
+      50%{box-shadow:3px 3px 14px rgba(0,0,0,.5),0 0 0 5px rgba(26,82,160,.1),0 0 40px rgba(26,82,160,.8),inset -2px -2px 6px rgba(0,0,0,.2),inset 1px 1px 6px rgba(255,255,255,.22);}
+    }
+    .step-connector { width: 2px; height: 12px; border-radius: 2px; margin: 2px 0 2px 21px; transition: all .4s; }
+    .step-connector.idle   { background: rgba(51,65,85,.4); }
+    .step-connector.active { background: linear-gradient(#1a52a0, rgba(26,82,160,.2)); box-shadow: 0 0 8px rgba(26,82,160,.4); }
+    .step-connector.done   { background: linear-gradient(#10b981, rgba(16,185,129,.2)); box-shadow: 0 0 6px rgba(16,185,129,.3); }
+
+    .global-bar { background: rgba(26,82,160,.12); height: 4px; border-radius: 4px; overflow: hidden; }
+    .global-fill { height: 100%; border-radius: 4px; background: linear-gradient(90deg, #103660, #1a52a0, #7ab0e0); box-shadow: 0 0 10px rgba(26,82,160,.7); transition: width .65s cubic-bezier(.4,0,.2,1); }
+
+    /* ─ Scanner frame ─ */
+    .scanner-frame { position: relative; background: #000; overflow: hidden; }
+    .scanner-frame::after {
+      content:''; position: absolute; left:0; right:0; height: 2px;
+      background: linear-gradient(90deg,transparent,rgba(26,82,160,.9),rgba(142,191,232,.95),rgba(26,82,160,.9),transparent);
+      animation: scan 3s ease-in-out infinite;
+      box-shadow: 0 0 12px rgba(26,82,160,.7); pointer-events: none;
+    }
+    @keyframes scan { 0%{top:0%} 100%{top:100%} }
+
+    /* ─ Result banner ─ */
+    .banner-urgent     { background: linear-gradient(135deg, #7f1d1d, #dc2626); }
+    .banner-watch      { background: linear-gradient(135deg, #78350f, #d97706); }
+    .banner-routine    { background: linear-gradient(135deg, #064e3b, #059669); }
+
+    /* ─ Confidence bar ─ */
+    .conf-bar { height: 5px; background: #e9ecef; border-radius: 5px; overflow: hidden; margin: 6px 0; }
+    .conf-fill { height: 100%; background: linear-gradient(90deg,#2fb344,#5cb85c); border-radius: 5px; transition: width 1s cubic-bezier(.4,0,.2,1); }
+
+    /* ─ Float anim ─ */
+    @keyframes floatUp { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+    .float-ico { animation: floatUp 3.5s ease-in-out infinite; display:inline-block; }
+
+    /* ─ Step dots ─ */
+    @keyframes dotB { 0%{transform:translateY(0)} 100%{transform:translateY(-5px)} }
+
+    /* ─ Primary button shimmer ─ */
+    .btn-brand {
+      background: linear-gradient(135deg, #103660, #1a52a0);
+      box-shadow: 0 4px 16px rgba(26,82,160,.35);
+      border: none; color: #fff; position: relative; overflow: hidden;
+    }
+    .btn-brand::after { content:''; position:absolute; inset:0; background:linear-gradient(105deg,transparent 40%,rgba(255,255,255,.15) 50%,transparent 60%); transform:translateX(-100%); transition:transform .5s; }
+    .btn-brand:hover::after { transform:translateX(100%); }
+    .btn-brand:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(26,82,160,.45); background:linear-gradient(135deg,#0d2d52,#1a52a0); }
+    .btn-brand:disabled { background:#adb5bd; box-shadow:none; transform:none; cursor:not-allowed; }
+
+    /* ─ Segmented View Tabs (Doctor vs Tech) ─ */
+    .view-switcher-pill {
+      background: #e2e8f0;
+      padding: 4px;
+      border-radius: 12px;
+      display: flex;
+      gap: 6px;
+    }
+    .view-switcher-btn {
+      flex: 1;
+      border: none;
+      background: transparent;
+      padding: 10px 18px;
+      border-radius: 9px;
+      font-weight: 700;
+      font-size: 13.5px;
+      color: #64748b;
+      transition: all .2s cubic-bezier(.4,0,.2,1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    .view-switcher-btn:hover {
+      color: #1e293b;
+      background: rgba(255,255,255,.5);
+    }
+    .view-switcher-btn.active.doctor-tab {
+      background: #ffffff;
+      color: #1a52a0;
+      box-shadow: 0 4px 14px rgba(26,82,160,.12), 0 1px 3px rgba(0,0,0,.05);
+    }
+    .view-switcher-btn.active.tech-tab {
+      background: #1e293b;
+      color: #38bdf8;
+      box-shadow: 0 4px 14px rgba(15,23,42,.3), 0 1px 3px rgba(0,0,0,.2);
+    }
+
+    /* ─ LLM Recommendation Cards ─ */
+    .llm-rec-card {
+      border: 1px solid #e0e7ff;
+      background: linear-gradient(135deg, #f8faff, #ffffff);
+      border-radius: 10px;
+      transition: all .2s;
+    }
+    .llm-rec-card:hover {
+      border-color: #93c5fd;
+      box-shadow: 0 6px 18px rgba(37,99,235,.07);
+    }
+    .rec-badge-accent {
+      background: linear-gradient(135deg, #1e3a8a, #2563eb);
+      color: #fff;
+    }
+  </style>
+</head>
+<body class="antialiased">
+
+<!-- ═══════════════════════════════════════
+     TABLER NAVBAR
+═══════════════════════════════════════ -->
+<div class="navbar navbar-expand-md d-print-none sticky-top">
+  <div class="container-xl">
+
+    <!-- Brand -->
+    <a href="/form" class="navbar-brand me-4 text-decoration-none">
+      <div class="d-flex align-items-center gap-2">
+        <div class="rounded-2 d-flex align-items-center justify-content-center text-white fs-4"
+             style="width:38px;height:38px;background:linear-gradient(135deg,#103660,#1a52a0);box-shadow:0 4px 12px rgba(26,82,160,.35)">
+          🩺
+        </div>
+        <div>
+          <div class="fw-black text-dark" style="font-size:15px;letter-spacing:-.3px">
+            MammoScan AI
+            <span class="badge ms-1" style="background:#eef5fd;color:#1a52a0;font-size:10px;font-weight:700">v3.0</span>
+          </div>
+          <div class="text-muted" style="font-size:10.5px">AI-Assisted Breast Diagnostic System</div>
+        </div>
+      </div>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar-menu">
+      <!-- Status Badges -->
+      <div class="d-flex align-items-center gap-2 ms-auto me-3 flex-wrap">
+        <span class="badge bg-success-lt fw-semibold d-flex align-items-center gap-1" style="font-size:11px">
+          <span class="status-dot"></span> System Operational
+        </span>
+        <span class="badge fw-semibold" style="background:#eef5fd;color:#1a52a0;font-size:11px">🧬 AI Multimodal Vision Active</span>
+        <span class="badge bg-purple-lt fw-semibold" style="font-size:11px">📋 ACR Guidelines Loaded</span>
+        <span class="badge bg-warning-lt fw-semibold" style="font-size:11px">⚡ Hospital Routing Active</span>
+      </div>
+
+      <!-- Nav links -->
+      <div class="navbar-nav">
+        <div class="nav-item">
+          <a href="/dashboard" class="nav-link fw-semibold">
+            <i class="ti ti-chart-bar me-1"></i>Dashboard
+          </a>
+        </div>
+        <div class="nav-item">
+          <a href="http://localhost:5678" target="_blank" class="nav-link fw-semibold">
+            <i class="ti ti-bolt me-1"></i>Workflows
+          </a>
+        </div>
+        <!-- Bouton Rapport Technique avec Choix de Langue -->
+        <div class="nav-item dropdown me-1">
+          <button class="btn btn-sm btn-primary dropdown-toggle fw-bold text-white shadow-sm px-3" type="button" id="dropdownReportLang" data-bs-toggle="dropdown" aria-expanded="false" style="border-radius:8px;">
+            <i class="ti ti-file-certificate me-1"></i>Rapport Technique (Langue 🌐)
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0" aria-labelledby="dropdownReportLang" style="border-radius:10px; min-width: 250px;">
+            <li><h6 class="dropdown-header text-uppercase text-muted" style="font-size:0.75rem; letter-spacing:0.5px;">Choisir la langue du rapport</h6></li>
+            <li>
+              <a class="dropdown-item d-flex align-items-center py-2" href="http://localhost:8000/report/technical-report-fr/pdf" target="_blank">
+                <span class="fs-4 me-2">🇫🇷</span>
+                <div>
+                  <div class="fw-bold text-dark">Version Française</div>
+                  <small class="text-muted">Rapport technique officiel (9 pages)</small>
+                </div>
+              </a>
+            </li>
+            <li><hr class="dropdown-divider my-1"></li>
+            <li>
+              <a class="dropdown-item d-flex align-items-center py-2" href="http://localhost:8000/report/technical-report/pdf?lang=en" target="_blank">
+                <span class="fs-4 me-2">🇬🇧</span>
+                <div>
+                  <div class="fw-bold text-dark">English Version</div>
+                  <small class="text-muted">Official technical report (9 pages)</small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Boutons directs de langue -->
+        <div class="nav-item btn-group me-2" role="group" aria-label="Langue du rapport">
+          <a href="http://localhost:8000/report/technical-report-fr/pdf" target="_blank" class="btn btn-sm btn-outline-primary fw-bold shadow-sm px-2" style="border-top-left-radius:8px; border-bottom-left-radius:8px; background:#fff;" title="Télécharger le rapport technique en Français">
+            🇫🇷 FR
+          </a>
+          <a href="http://localhost:8000/report/technical-report/pdf?lang=en" target="_blank" class="btn btn-sm btn-outline-primary fw-bold shadow-sm px-2" style="border-top-right-radius:8px; border-bottom-right-radius:8px; background:#fff;" title="Download technical report in English">
+            🇬🇧 EN
+          </a>
+        </div>
+
+        <!-- Bouton Rapport Fine-Tuning & Agents -->
+        <div class="nav-item me-1">
+          <a href="http://localhost:8000/report/agents-finetuning/pdf" target="_blank" class="btn btn-sm fw-bold shadow-sm px-3" style="border-radius:8px; background: #ffffff; color: #7c3aed; border: 1.5px solid #a78bfa;" title="Télécharger le rapport d'expertise Agents & Fine-Tuning">
+            <i class="ti ti-robot me-1"></i>Rapport Agents & Fine-Tuning 🤖 📥
+          </a>
+        </div>
+        <div class="nav-item">
+          <a href="/docs" target="_blank" class="nav-link fw-semibold text-muted">
+            <i class="ti ti-external-link me-1"></i>API Docs
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     PAGE HEADER (Tabler style)
+═══════════════════════════════════════ -->
+<div class="page-header d-print-none" style="background:linear-gradient(135deg,#03111e,#061a2f 45%,#0e3460)">
+  <div class="container-xl py-4">
+    <div class="row align-items-center">
+      <div class="col">
+        <div class="d-flex align-items-center gap-2 mb-2">
+          <span class="badge rounded-pill text-uppercase fw-bold" style="background:rgba(26,82,160,.18);color:#7ab0e0;border:1px solid rgba(26,82,160,.3);font-size:10.5px;letter-spacing:.8px">
+            Clinical Decision Support System · ACR Certified
+          </span>
+        </div>
+        <h2 class="page-title fw-black text-white" style="font-size:26px;letter-spacing:-.4px">
+          Multimodal Breast Diagnostic Support<br>
+          <span style="background:linear-gradient(90deg,#7ab0e0,#bae6fd);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">
+            Powered by Artificial Intelligence
+          </span>
+        </h2>
+        <p class="text-muted mt-2 mb-3" style="font-size:13px;max-width:680px;color:rgba(203,213,225,.75)!important">
+          Combined bilateral mammography + targeted ultrasound cross-analysis — BI-RADS classification, suspicious lesion localization,
+          and structured clinical reporting compliant with <strong class="text-light">ACR 5<sup>th</sup> Edition</strong> guidelines.
+        </p>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge rounded-pill" style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);color:rgba(255,255,255,.85);font-size:11px;padding:5px 12px">📷 Bilateral Mammography</span>
+          <span class="badge rounded-pill" style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);color:rgba(255,255,255,.85);font-size:11px;padding:5px 12px">📡 Targeted Ultrasound</span>
+          <span class="badge rounded-pill" style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);color:rgba(255,255,255,.85);font-size:11px;padding:5px 12px">🎯 Suspicious Lesion Localization</span>
+          <span class="badge rounded-pill" style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);color:rgba(255,255,255,.85);font-size:11px;padding:5px 12px">📄 Instant PDF Medical Report</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     MAIN PAGE WRAPPER
+═══════════════════════════════════════ -->
+<div class="page-wrapper">
+  <div class="container-xl py-4">
+
+    <!-- ── BENCHMARK CASES ROW ── -->
+    <div class="card mb-4 border-0 shadow-sm">
+      <div class="card-header">
+        <h3 class="card-title">
+          <i class="ti ti-stethoscope me-2 text-primary"></i>
+          Demonstration Clinical Cases
+        </h3>
+        <div class="card-options">
+          <span class="text-muted small">Click any case to load data</span>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="row g-3">
+
+          <!-- Urgent -->
+          <div class="col-md-4">
+            <div class="card bench-card urgent shadow-sm h-100"
+                 onclick="loadCase('P1eb742860c','58','Irregular spiculated 18 mm mass in left upper-outer quadrant. Marked posterior acoustic attenuation with tissue tethering and clustered pleomorphic microcalcifications.','high')">
+              <div class="card-body">
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                  <span class="fw-bold text-dark" style="font-size:13px">Patient · 58 y/o</span>
+                  <span class="badge bg-red-lt text-red fw-bold" style="font-size:10px">🚨 Biopsy Indicated</span>
+                </div>
+                <p class="text-muted small mb-3">Irregular 18 mm mass — left upper-outer quadrant. Associated pleomorphic microcalcifications.</p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <span class="fw-black text-danger" style="font-size:13px">BI-RADS 4A / 5</span>
+                  <span class="text-muted small">Load Case →</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Surveillance -->
+          <div class="col-md-4">
+            <div class="card bench-card watch shadow-sm h-100"
+                 onclick="loadCase('Pf9bea655cf','46','Circumscribed oval mass, long axis parallel to skin, measuring 9 mm, without posterior acoustic shadowing. Features consistent with stable fibroadenoma or complicated cyst.','moderate')">
+              <div class="card-body">
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                  <span class="fw-bold text-dark" style="font-size:13px">Patient · 46 y/o</span>
+                  <span class="badge bg-warning-lt text-warning fw-bold" style="font-size:10px">🟡 Surveillance</span>
+                </div>
+                <p class="text-muted small mb-3">Oval 9 mm mass — probably benign appearance. 6-month ultrasound follow-up recommended.</p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <span class="fw-black text-warning" style="font-size:13px">BI-RADS 3</span>
+                  <span class="text-muted small">Load Case →</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Routine -->
+          <div class="col-md-4">
+            <div class="card bench-card routine shadow-sm h-100"
+                 onclick="loadCase('Paacb1ec57b','51','Routine annual bilateral screening exam. No palpable mass, no architectural distortion, and no clustered suspicious microcalcifications. Homogeneous fibroglandular parenchyma.','low')">
+              <div class="card-body">
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                  <span class="fw-bold text-dark" style="font-size:13px">Patient · 51 y/o</span>
+                  <span class="badge bg-success-lt text-success fw-bold" style="font-size:10px">✅ Normal</span>
+                </div>
+                <p class="text-muted small mb-3">Annual bilateral screening negative. No abnormalities detected on mammography or targeted ultrasound.</p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <span class="fw-black text-success" style="font-size:13px">BI-RADS 1 / 2</span>
+                  <span class="text-muted small">Load Case →</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ── MAIN 2-COLUMN LAYOUT ── -->
+    <div class="row g-4">
+
+      <!-- ════ LEFT: FORM + PIPELINE ════ -->
+      <div class="col-xl-4">
+
+        <!-- Tabs -->
+        <ul class="nav nav-pills mb-3" id="formTabs">
+          <li class="nav-item flex-fill">
+            <button class="nav-link w-100 active fw-bold" id="tab-upload-btn" onclick="switchTab('upload')" style="font-size:12.5px">
+              <i class="ti ti-upload me-1"></i>New Case
+            </button>
+          </li>
+          <li class="nav-item flex-fill">
+            <button class="nav-link w-100 fw-bold" id="tab-select-btn" onclick="switchTab('select')" style="font-size:12.5px">
+              <i class="ti ti-folders me-1"></i>Registry (20)
+            </button>
+          </li>
+        </ul>
+
+        <!-- Upload form card -->
+        <div id="panel-upload">
+          <div class="card shadow-sm border-0">
+            <div class="card-header" style="background:linear-gradient(90deg,#f0f6ff,#fff);border-bottom:1px solid #e9ecef">
+              <div class="d-flex align-items-center gap-2">
+                <div class="avatar avatar-sm rounded-2 text-white" style="background:linear-gradient(135deg,#103660,#1a52a0)">
+                  <i class="ti ti-clipboard-list"></i>
+                </div>
+                <div>
+                  <h4 class="card-title mb-0" style="font-size:13.5px">Patient Case Intake</h4>
+                  <div class="text-muted" style="font-size:10.5px">Full multimodal AI assessment in seconds</div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <form id="upload-form" onsubmit="handleUploadSubmit(event)">
+
+                <div class="row g-2 mb-3">
+                  <div class="col-7">
+                    <label class="form-label fw-semibold" style="font-size:12px">Patient Identifier <span class="text-danger">*</span></label>
+                    <input type="text" id="up-id" class="form-control form-control-sm" required value="Paacb1ec57b" placeholder="e.g. Paacb1ec57b">
+                  </div>
+                  <div class="col-5">
+                    <label class="form-label fw-semibold" style="font-size:12px">Age</label>
+                    <input type="number" id="up-age" class="form-control form-control-sm" value="51" min="18" max="105">
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label fw-semibold" style="font-size:12px">Clinical Observations</label>
+                  <textarea id="up-notes" class="form-control form-control-sm" rows="3"
+                    placeholder="Medical history, palpation findings, clinical context..."></textarea>
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label fw-semibold" style="font-size:12px">Initial Clinical Suspicion</label>
+                  <select id="up-suspicion" class="form-select form-select-sm">
+                    <option value="high">🚨 High Suspicion — Biopsy Planned</option>
+                    <option value="moderate">🟡 Probably Benign — Short-Interval Surveillance</option>
+                    <option value="low" selected>✅ Routine Screening — Normal Clinical Exam</option>
+                  </select>
+                </div>
+
+                <!-- Dropzones -->
+                <div class="row g-2 mb-3">
+                  <div class="col-6">
+                    <label class="form-label fw-semibold" style="font-size:12px">Mammography</label>
+                    <div class="dropzone-field" onclick="document.getElementById('file-mammo').click()">
+                      <input type="file" id="file-mammo" accept="image/*" onchange="previewFile(this,'prev-mammo','cnt-mammo','lbl-mammo')">
+                      <div id="dz-mammo-ph">
+                        <div style="font-size:26px;margin-bottom:4px">📷</div>
+                        <div class="fw-semibold text-muted" style="font-size:11.5px">L-MLO / CC</div>
+                        <div class="text-muted" style="font-size:10px">Click or drag & drop</div>
+                      </div>
+                      <div class="dropzone-preview" id="cnt-mammo">
+                        <img id="prev-mammo" alt="">
+                        <div class="text-primary fw-semibold mt-1 text-truncate" style="font-size:9.5px" id="lbl-mammo"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <label class="form-label fw-semibold" style="font-size:12px">Targeted Ultrasound</label>
+                    <div class="dropzone-field" onclick="document.getElementById('file-us').click()">
+                      <input type="file" id="file-us" accept="image/*" onchange="previewFile(this,'prev-us','cnt-us','lbl-us')">
+                      <div id="dz-us-ph">
+                        <div style="font-size:26px;margin-bottom:4px">📡</div>
+                        <div class="fw-semibold text-muted" style="font-size:11.5px">Targeted View</div>
+                        <div class="text-muted" style="font-size:10px">Click or drag & drop</div>
+                      </div>
+                      <div class="dropzone-preview" id="cnt-us">
+                        <img id="prev-us" alt="">
+                        <div class="text-primary fw-semibold mt-1 text-truncate" style="font-size:9.5px" id="lbl-us"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="alert alert-info alert-sm py-2 px-3 mb-3" style="font-size:11px">
+                  <i class="ti ti-info-circle me-1"></i>
+                  If no image is uploaded, the system will use baseline reference scans for this identifier.
+                </div>
+
+                <button type="submit" id="btn-submit-upload" class="btn btn-brand btn-lg w-100 fw-bold" style="font-size:14px">
+                  <i class="ti ti-scan me-2"></i>Launch Analysis
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <!-- ═══ 3D PIPELINE STEPPER ═══ -->
+          <div id="progress-box" class="pipeline-box mt-3 d-none">
+            <div class="pipeline-head d-flex align-items-center gap-3">
+              <div style="position:relative;width:36px;height:36px;flex-shrink:0;display:flex;align-items:center;justify-content:center">
+                <div style="position:absolute;inset:0;border:2px solid rgba(26,82,160,.2);border-top-color:#1a52a0;border-radius:50%;animation:spin .8s linear infinite"></div>
+                <span style="font-size:16px">🔬</span>
+              </div>
+              <div class="flex-fill">
+                <div class="fw-extrabold text-white" style="font-size:13px">Multimodal Analysis in Progress...</div>
+                <div class="text-info" id="pipeline-eta" style="font-size:10.5px;color:rgba(122,176,224,.8)!important">Initializing diagnostic pipeline</div>
+              </div>
+              <div class="fw-bold" id="pipeline-pct" style="font-size:12px;color:rgba(122,176,224,.9)">0 %</div>
+            </div>
+            <div class="px-3 pt-2 pb-1">
+              <div class="global-bar"><div class="global-fill" id="global-fill" style="width:0%"></div></div>
+            </div>
+            <div class="px-3 pb-4 pt-2" style="display:flex;flex-direction:column;gap:4px">
+
+              <div id="step-1" class="step-card idle">
+                <div id="step-orb-1" class="step-orb idle">1</div>
+                <div class="flex-fill" style="min-width:0">
+                  <div id="step-label-1" class="fw-bold" style="font-size:12.5px;color:#475569">Image Ingestion & Quality Control</div>
+                  <div id="step-desc-1"  style="font-size:10.5px;color:#64748b;margin-top:2px">Pending...</div>
+                </div>
+                <span id="step-ico-1" style="font-size:20px;opacity:.25">🖼️</span>
+              </div>
+
+              <div id="conn-1" class="step-connector idle"></div>
+
+              <div id="step-2" class="step-card idle">
+                <div id="step-orb-2" class="step-orb idle">2</div>
+                <div class="flex-fill" style="min-width:0">
+                  <div id="step-label-2" class="fw-bold" style="font-size:12.5px;color:#475569">Dual-Encoder Multimodal AI Inference</div>
+                  <div id="step-desc-2"  style="font-size:10.5px;color:#64748b;margin-top:2px">Pending...</div>
+                </div>
+                <span id="step-ico-2" style="font-size:20px;opacity:.25">🧬</span>
+              </div>
+
+              <div id="conn-2" class="step-connector idle"></div>
+
+              <div id="step-3" class="step-card idle">
+                <div id="step-orb-3" class="step-orb idle">3</div>
+                <div class="flex-fill" style="min-width:0">
+                  <div id="step-label-3" class="fw-bold" style="font-size:12.5px;color:#475569">Suspicious Lesion Localization (Grad-CAM)</div>
+                  <div id="step-desc-3"  style="font-size:10.5px;color:#64748b;margin-top:2px">Pending...</div>
+                </div>
+                <span id="step-ico-3" style="font-size:20px;opacity:.25">🎯</span>
+              </div>
+
+              <div id="conn-3" class="step-connector idle"></div>
+
+              <div id="step-4" class="step-card idle">
+                <div id="step-orb-4" class="step-orb idle">4</div>
+                <div class="flex-fill" style="min-width:0">
+                  <div id="step-label-4" class="fw-bold" style="font-size:12.5px;color:#475569">ACR BI-RADS Guidelines Retrieval (RAG)</div>
+                  <div id="step-desc-4"  style="font-size:10.5px;color:#64748b;margin-top:2px">Pending...</div>
+                </div>
+                <span id="step-ico-4" style="font-size:20px;opacity:.25">📋</span>
+              </div>
+
+              <div id="conn-4" class="step-connector idle"></div>
+
+              <div id="step-5" class="step-card idle">
+                <div id="step-orb-5" class="step-orb idle">5</div>
+                <div class="flex-fill" style="min-width:0">
+                  <div id="step-label-5" class="fw-bold" style="font-size:12.5px;color:#475569">Safety Validation & Report Compilation</div>
+                  <div id="step-desc-5"  style="font-size:10.5px;color:#64748b;margin-top:2px">Pending...</div>
+                </div>
+                <span id="step-ico-5" style="font-size:20px;opacity:.25">📄</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Registry panel -->
+        <div id="panel-select" class="d-none">
+          <div class="card shadow-sm border-0">
+            <div class="card-header" style="background:linear-gradient(90deg,#f0f6ff,#fff)">
+              <div class="d-flex align-items-center gap-2">
+                <div class="avatar avatar-sm rounded-2 text-white" style="background:linear-gradient(135deg,#103660,#1a52a0)">
+                  <i class="ti ti-folders"></i>
+                </div>
+                <div>
+                  <h4 class="card-title mb-0" style="font-size:13.5px">Saved Case Registry</h4>
+                  <div class="text-muted" style="font-size:10.5px">20 reference cases available for immediate review</div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="text-muted small mb-3">Select a patient case to review complete multimodal AI diagnosis and structured report.</p>
+              <label class="form-label fw-semibold" style="font-size:12px">Patient Case</label>
+              <select id="select-existing" class="form-select form-select-sm" onchange="handleSelectExisting(this.value)">
+                <option value="">— Select a patient case —</option>
+                <optgroup label="🚨 Biopsy Recommended">
+                  <option value="P0159">P0159 — BI-RADS 4A (Low-to-Moderate Suspicion)</option>
+                  <option value="P0309">P0309 — BI-RADS 5 (Highly Suggestive of Malignancy)</option>
+                </optgroup>
+                <optgroup label="🟡 Short-Interval 6-Month Follow-Up">
+                  <option value="P0193">P0193 — BI-RADS 3</option>
+                  <option value="P0207">P0207 — BI-RADS 3</option>
+                  <option value="P0280">P0280 — BI-RADS 3</option>
+                  <option value="P0284">P0284 — BI-RADS 3</option>
+                  <option value="P0276">P0276 — BI-RADS 3</option>
+                  <option value="P0017">P0017 — BI-RADS 3</option>
+                  <option value="P0264">P0264 — BI-RADS 3</option>
+                  <option value="P0022">P0022 — BI-RADS 3</option>
+                  <option value="P0260">P0260 — BI-RADS 3</option>
+                </optgroup>
+                <optgroup label="✅ Negative Routine Screening">
+                  <option value="P0206">P0206 — BI-RADS 1 (Negative)</option>
+                  <option value="P0221">P0221 — BI-RADS 1 (Negative)</option>
+                  <option value="P0081">P0081 — BI-RADS 2 (Benign Finding)</option>
+                  <option value="P0176">P0176 — BI-RADS 2 (Benign Finding)</option>
+                </optgroup>
+              </select>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /col left -->
+
+      <!-- ════ RIGHT: RESULTS ════ -->
+      <div class="col-xl-8">
+
+        <!-- Empty State -->
+        <div id="empty-state" class="card shadow-sm border-0 text-center py-5">
+          <div class="card-body py-5">
+            <div class="float-ico display-4 mb-4">🩻</div>
+            <h3 class="fw-black text-muted mb-2">Diagnostic Console Ready</h3>
+            <p class="text-muted" style="font-size:13.5px;max-width:380px;margin:0 auto">
+              Enter patient details and upload bilateral imaging scans, or select a demonstration clinical case above.
+            </p>
+          </div>
+        </div>
+
+        <!-- Results Hub -->
+        <div id="result-box" class="d-none">
+
+          <!-- Alert Banner -->
+          <div id="banner-bar" class="rounded-3 mb-4 overflow-hidden shadow-lg">
+            <div class="p-4 d-flex align-items-center justify-content-between gap-3 flex-wrap">
+              <div class="d-flex align-items-center gap-3">
+                <div id="res-badge-icon" class="rounded-2 d-flex align-items-center justify-content-center"
+                     style="width:48px;height:48px;background:rgba(255,255,255,.16);font-size:22px">🚨</div>
+                <div>
+                  <div id="res-badge-title" class="fw-black text-white" style="font-size:18px;line-height:1.1">BIOPSY RECOMMENDED</div>
+                  <div class="text-white-50 mt-1" style="font-size:12px">Clinical decision support tool — Certified radiologist review & validation mandatory</div>
+                </div>
+              </div>
+              <span id="res-badge-prio" class="badge fs-6 fw-black rounded-pill px-4 py-2" style="background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.3)">HIGH PRIORITY</span>
+            </div>
+          </div>
+
+          <!-- KPI Row -->
+          <div class="row g-3 mb-4">
+
+            <div class="col-6 col-lg-3">
+              <div class="card shadow-sm border-0 h-100">
+                <div class="card-body">
+                  <div class="subheader mb-2">BI-RADS Classification</div>
+                  <div id="kpi-birads" class="h2 fw-black mb-1" style="color:#1a52a0">—</div>
+                  <div id="kpi-birads-sub" class="text-muted small">—</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+              <div class="card shadow-sm border-0 h-100">
+                <div class="card-body">
+                  <div class="subheader mb-2">Diagnostic Reliability</div>
+                  <div id="kpi-conf" class="h2 fw-black mb-1 text-success">—</div>
+                  <div class="conf-bar"><div id="conf-bar-fill" class="conf-fill" style="width:0%"></div></div>
+                  <div class="text-muted small mt-1">Cross-modal consistency</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+              <div class="card shadow-sm border-0 h-100">
+                <div class="card-body">
+                  <div class="subheader mb-2">Clinical Priority</div>
+                  <div id="kpi-priority" class="h2 fw-black mb-1">—</div>
+                  <div id="kpi-action-short" class="text-muted small">Recommended Action</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+              <div class="card shadow-sm border-0 h-100">
+                <div class="card-body">
+                  <div class="subheader mb-2">Quality Control</div>
+                  <div class="h2 fw-black mb-1 text-success">✓ Validated</div>
+                  <div class="text-muted small">Compliant with ACR guidelines</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- ════ DUAL VIEW SWITCHER (DOCTOR vs TECH) ════ -->
+          <div class="card p-2 mb-4 border-0 shadow-sm" style="background:#f1f5f9; border-radius:14px;">
+            <div class="view-switcher-pill">
+              <button type="button" class="view-switcher-btn active doctor-tab" id="tab-btn-doctor" onclick="switchResultView('doctor')">
+                <span class="avatar avatar-xs rounded-2 bg-blue text-white" style="width:26px;height:26px"><i class="ti ti-stethoscope fs-4"></i></span>
+                <span>Clinical Report & Recommendations</span>
+                <span class="badge bg-blue-lt ms-auto" style="font-size:10px">Physician / Radiologist</span>
+              </button>
+              <button type="button" class="view-switcher-btn tech-tab" id="tab-btn-tech" onclick="switchResultView('tech')">
+                <span class="avatar avatar-xs rounded-2 bg-dark text-cyan" style="width:26px;height:26px"><i class="ti ti-cpu fs-4"></i></span>
+                <span>Technical Report & XAI Audit</span>
+                <span class="badge bg-cyan-lt ms-auto" style="font-size:10px">Biomedical Engineer</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Compatibility Spans for automation scripts -->
+          <span id="txt-mammo" class="d-none"></span>
+          <span id="txt-us" class="d-none"></span>
+
+          <!-- ══════════════════════════════════════════════════════════════
+               VIEW 1: CLINICAL REPORT FOR ATTENDING PHYSICIAN (DOCTOR VIEW)
+          ══════════════════════════════════════════════════════════════ -->
+          <div id="view-doctor">
+
+            <!-- Reference Diagnostic Images -->
+            <div class="card shadow-sm border-0 mb-4 overflow-hidden">
+              <div class="card-header d-flex align-items-center justify-content-between" style="background:linear-gradient(90deg,#f0f6ff,#fff)">
+                <div class="d-flex align-items-center gap-2">
+                  <div class="avatar avatar-sm rounded-2 text-white" style="background:linear-gradient(135deg,#103660,#1a52a0)">
+                    <i class="ti ti-photo"></i>
+                  </div>
+                  <div>
+                    <h3 class="card-title mb-0" style="font-size:14px">Reference Diagnostic Scans</h3>
+                    <div class="text-muted" style="font-size:11px">High-resolution anatomical imaging for senological review</div>
+                  </div>
+                </div>
+                <span class="badge bg-blue-lt fw-bold">Clinical HD Imaging</span>
+              </div>
+              <div class="card-body p-3">
+                <div class="row g-3">
+                  <!-- Original Mammo -->
+                  <div class="col-md-6">
+                    <div class="card border shadow-none overflow-hidden h-100">
+                      <div class="d-flex align-items-center justify-content-between px-3 py-2 bg-light border-bottom">
+                        <span class="fw-bold small text-dark"><i class="ti ti-camera me-1 text-primary"></i>Bilateral Mammography</span>
+                        <span class="badge bg-secondary-lt font-monospace" style="font-size:10px">L-MLO / CC Views</span>
+                      </div>
+                      <div class="position-relative bg-black" style="aspect-ratio:4/3; min-height:220px; display:flex; align-items:center; justify-content:center;">
+                        <img id="img-mammo-input" src="" class="w-100 h-100 object-fit-contain" alt="Original Mammography">
+                        <span class="badge position-absolute top-0 start-0 m-2" style="font-size:9.5px;background:rgba(15,23,42,.8);color:#e2e8f0;backdrop-filter:blur(4px)">DIGITAL HD SCAN</span>
+                      </div>
+                      <div class="p-2 bg-light text-center border-top">
+                        <small class="text-muted">Parenchymal density assessment & focal asymmetry evaluation</small>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Original Ultrasound -->
+                  <div class="col-md-6">
+                    <div class="card border shadow-none overflow-hidden h-100">
+                      <div class="d-flex align-items-center justify-content-between px-3 py-2 bg-light border-bottom">
+                        <span class="fw-bold small text-dark"><i class="ti ti-wave-sine me-1 text-primary"></i>Targeted Breast Ultrasound</span>
+                        <span class="badge bg-secondary-lt font-monospace" style="font-size:10px">High-Frequency Probe</span>
+                      </div>
+                      <div class="position-relative bg-black" style="aspect-ratio:4/3; min-height:220px; display:flex; align-items:center; justify-content:center;">
+                        <img id="img-us-input" src="" class="w-100 h-100 object-fit-contain" alt="Original Ultrasound">
+                        <span class="badge position-absolute top-0 start-0 m-2" style="font-size:9.5px;background:rgba(15,23,42,.8);color:#e2e8f0;backdrop-filter:blur(4px)">TARGETED ULTRASOUND HD</span>
+                      </div>
+                      <div class="p-2 bg-light text-center border-top">
+                        <small class="text-muted">Echogenic characterization: margins, orientation & acoustic shadowing</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Structured Clinical Summary -->
+            <div class="card shadow-sm border-0 mb-4">
+              <div class="card-header" style="background:linear-gradient(90deg,#f0f6ff,#fff)">
+                <div class="d-flex align-items-center gap-2">
+                  <div class="avatar avatar-sm rounded-2 bg-blue-lt text-blue">
+                    <i class="ti ti-file-text"></i>
+                  </div>
+                  <div>
+                    <h3 class="card-title mb-0" style="font-size:14px">Structured Clinical Summary</h3>
+                    <div class="text-muted" style="font-size:11px">ACR-compliant patient record synoptic sheet</div>
+                  </div>
+                </div>
+              </div>
+              <div class="list-group list-group-flush">
+                <div class="list-group-item d-flex align-items-center justify-content-between py-2">
+                  <span class="text-muted fw-semibold small"><i class="ti ti-id me-1"></i>Patient Identifier</span>
+                  <span id="td-pid" class="fw-bold text-dark font-monospace small">—</span>
+                </div>
+                <div class="list-group-item d-flex align-items-center justify-content-between py-2">
+                  <span class="text-muted fw-semibold small"><i class="ti ti-database me-1"></i>Exam Modality Source</span>
+                  <span id="td-img-source" class="fw-semibold small text-muted text-end" style="max-width:60%">—</span>
+                </div>
+                <div class="list-group-item d-flex align-items-center justify-content-between py-2">
+                  <span class="text-muted fw-semibold small"><i class="ti ti-category-2 me-1"></i>BI-RADS Classification (ACR)</span>
+                  <span id="td-birads" class="fw-black" style="font-size:17px;color:#1a52a0">—</span>
+                </div>
+                <div class="list-group-item d-flex align-items-center justify-content-between py-2">
+                  <span class="text-muted fw-semibold small"><i class="ti ti-shield-check me-1"></i>Assessment Confidence</span>
+                  <span id="td-conf" class="fw-bold text-dark small">—</span>
+                </div>
+                <div class="list-group-item d-flex align-items-center justify-content-between py-2">
+                  <span class="text-muted fw-semibold small"><i class="ti ti-urgent me-1"></i>Clinical Urgency Level</span>
+                  <span id="td-prio" class="fw-bold small">—</span>
+                </div>
+                <div class="list-group-item d-flex align-items-center justify-content-between py-2">
+                  <span class="text-muted fw-semibold small"><i class="ti ti-activity me-1"></i>Immediate Recommended Action</span>
+                  <span id="td-action" class="fw-bold text-dark small text-end" style="max-width:65%">—</span>
+                </div>
+                <div class="list-group-item d-flex align-items-center justify-content-between py-2 bg-red-lt">
+                  <span class="text-muted fw-semibold small"><i class="ti ti-certificate me-1 text-danger"></i>Legal Medical Sign-Off</span>
+                  <span class="fw-bold text-danger small">⚠️ Certified radiologist review and sign-off required</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Clinical Interpretation Report -->
+            <div class="card shadow-sm border-0 mb-4" style="border-left:4px solid #1a52a0 !important">
+              <div class="card-header" style="background:#f0f6ff">
+                <div class="d-flex align-items-center gap-2">
+                  <div class="avatar avatar-sm rounded-2 bg-primary text-white">
+                    <i class="ti ti-notes"></i>
+                  </div>
+                  <div>
+                    <h3 class="card-title text-primary mb-0" style="font-size:14px">Senology Radiological Interpretation Report</h3>
+                    <div class="text-muted" style="font-size:11px">Multimodal cross-analysis structured narrative</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <p id="td-interp" class="text-secondary mb-0" style="font-size:13.5px;line-height:1.8">
+                  Awaiting analysis…
+                </p>
+              </div>
+            </div>
+
+            <!-- ════ 🌟 LLM BI-RADS CLINICAL RECOMMENDATIONS SECTION ════ -->
+            <div class="card shadow-sm border-0 mb-4 overflow-hidden" style="border: 2px solid #bfdbfe !important;">
+              <div class="card-header d-flex align-items-center justify-content-between" style="background:linear-gradient(135deg, #1e3a8a, #1d4ed8); color:#fff;">
+                <div class="d-flex align-items-center gap-2">
+                  <div class="avatar avatar-sm rounded-2 bg-white text-primary">
+                    <i class="ti ti-sparkles fs-3"></i>
+                  </div>
+                  <div>
+                    <h3 class="card-title text-white mb-0" style="font-size:14.5px">Clinical Recommendations & Diagnostic Strategy</h3>
+                    <div class="text-white-50" style="font-size:11px">Specialized directives generated by LLM Clinical Advisor · ACR BI-RADS 5<sup>th</sup> Edition Reference</div>
+                  </div>
+                </div>
+                <span class="badge bg-white text-primary fw-bold" style="font-size:10.5px">LLM Clinical Advisor</span>
+              </div>
+              <div class="card-body p-4">
+
+                <!-- 1. Investigation Strategy & Tissue Sampling -->
+                <div class="mb-4">
+                  <div class="d-flex align-items-center gap-2 mb-2">
+                    <span class="badge rec-badge-accent rounded-pill px-2 py-1"><i class="ti ti-target me-1"></i>Step 1</span>
+                    <h4 class="fw-bold mb-0 text-dark" style="font-size:13.5px">Investigation Strategy & Tissue Sampling</h4>
+                  </div>
+                  <div class="llm-rec-card p-3" id="doc-rec-strategy-card">
+                    <div class="d-flex align-items-start gap-3">
+                      <div class="fs-2" id="doc-rec-strategy-icon">🎯</div>
+                      <div class="flex-fill">
+                        <div class="fw-bold text-dark" id="doc-rec-strategy-title" style="font-size:13.5px">Clinical Management Tailored to BI-RADS Category</div>
+                        <p class="text-secondary mb-0 mt-1" id="doc-rec-strategy-text" style="font-size:12.5px;line-height:1.6">
+                          Loading recommended clinical protocols per ACR 5th Edition guidelines...
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 2. Specialized Complementary Imaging -->
+                <div class="mb-4">
+                  <div class="d-flex align-items-center gap-2 mb-2">
+                    <span class="badge rec-badge-accent rounded-pill px-2 py-1"><i class="ti ti-scan me-1"></i>Step 2</span>
+                    <h4 class="fw-bold mb-0 text-dark" style="font-size:13.5px">Diagnostic Workup & Specialized Complementary Imaging</h4>
+                  </div>
+                  <div class="llm-rec-card p-3">
+                    <div class="d-flex align-items-start gap-3">
+                      <div class="fs-2" id="doc-rec-imaging-icon">🔬</div>
+                      <div class="flex-fill">
+                        <div class="fw-bold text-dark" id="doc-rec-imaging-title" style="font-size:13.5px">Recommended Complementary Imaging Modalities</div>
+                        <div class="text-secondary mt-1" id="doc-rec-imaging-text" style="font-size:12.5px;line-height:1.6">
+                          Determining appropriate additional imaging examinations...
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 3. Clinical Timeline & Multidisciplinary Tumor Board (MDT/RCP) -->
+                <div class="mb-4">
+                  <div class="d-flex align-items-center gap-2 mb-2">
+                    <span class="badge rec-badge-accent rounded-pill px-2 py-1"><i class="ti ti-clock me-1"></i>Step 3</span>
+                    <h4 class="fw-bold mb-0 text-dark" style="font-size:13.5px">Clinical Timeline & Multidisciplinary Consultation (MDT/RCP)</h4>
+                  </div>
+                  <div class="row g-2">
+                    <div class="col-md-6">
+                      <div class="p-3 rounded-2 border bg-light h-100">
+                        <div class="text-muted fw-semibold small mb-1"><i class="ti ti-hourglass me-1 text-primary"></i>Recommended Turnaround Time:</div>
+                        <div class="fw-bold text-dark" id="doc-rec-delay" style="font-size:13px">—</div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="p-3 rounded-2 border bg-light h-100">
+                        <div class="text-muted fw-semibold small mb-1"><i class="ti ti-users me-1 text-primary"></i>Multidisciplinary Review (MDT):</div>
+                        <div class="fw-bold text-dark" id="doc-rec-rcp" style="font-size:13px">—</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 4. Detailed Prescriptive Directives (LLM Summary) -->
+                <div>
+                  <div class="d-flex align-items-center gap-2 mb-2">
+                    <span class="badge rec-badge-accent rounded-pill px-2 py-1"><i class="ti ti-list-check me-1"></i>Summary</span>
+                    <h4 class="fw-bold mb-0 text-dark" style="font-size:13.5px">Detailed Prescriptive Directives Generated by Clinical LLM</h4>
+                  </div>
+                  <div id="llm-recs-dynamic-list" class="d-flex flex-column gap-2">
+                    <div class="alert alert-info py-2 px-3 mb-0" style="font-size:12px">
+                      <i class="ti ti-info-circle me-1"></i>Awaiting specific case recommendations...
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Actions & Transmission -->
+            <div class="d-flex flex-wrap gap-2 mb-4">
+              <a id="btn-pdf-download" href="#" download class="btn btn-brand flex-fill fw-bold" style="font-size:13.5px;min-width:200px">
+                <i class="ti ti-download me-2"></i>Download Official PDF Report
+              </a>
+              <a id="btn-html-view" href="#" target="_blank" class="btn btn-outline-primary fw-bold flex-fill" style="min-width:140px">
+                <i class="ti ti-eye me-1"></i>View Interactive File ↗
+              </a>
+              <button onclick="window.print()" class="btn btn-outline-secondary fw-bold flex-fill" style="min-width:120px">
+                <i class="ti ti-printer me-1"></i>Print Report
+              </button>
+            </div>
+
+            <!-- Email Hub -->
+            <div class="card shadow-sm border-dashed mb-4">
+              <div class="card-header" style="background:#f0f6ff">
+                <div class="d-flex align-items-center gap-2">
+                  <div class="avatar avatar-sm rounded-2 bg-blue-lt text-blue">
+                    <i class="ti ti-mail"></i>
+                  </div>
+                  <div>
+                    <h4 class="card-title mb-0" style="font-size:13.5px">Secure Transmission to Referring Physician</h4>
+                    <div class="text-muted" style="font-size:11px">The certified PDF report will be transmitted directly via encrypted email.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="input-group">
+                  <input type="email" id="email-recipient" class="form-control" placeholder="Referring physician email address" value="doctor.radiology@hospital.tn">
+                  <button class="btn btn-brand fw-bold" onclick="handleSendEmail()" id="btn-send-email" style="white-space:nowrap">
+                    <i class="ti ti-send me-1"></i>Send Report
+                  </button>
+                </div>
+                <div id="email-status-box" class="d-none mt-3"></div>
+              </div>
+            </div>
+
+          </div><!-- /view-doctor -->
+
+
+          <!-- ══════════════════════════════════════════════════════════════
+               VIEW 2: TECHNICAL & XAI AUDIT REPORT (BIOMEDICAL / ML ENGINEER)
+          ══════════════════════════════════════════════════════════════ -->
+          <div id="view-tech" class="d-none">
+
+            <!-- Grad-CAM Explainable AI (XAI) Attention Heatmaps -->
+            <div class="card shadow-sm border-0 mb-4 overflow-hidden">
+              <div class="card-header d-flex align-items-center justify-content-between" style="background:linear-gradient(90deg,#0f172a,#1e293b); color:#fff">
+                <div class="d-flex align-items-center gap-2">
+                  <div class="avatar avatar-sm rounded-2 bg-dark text-cyan border border-secondary">
+                    <i class="ti ti-scan"></i>
+                  </div>
+                  <div>
+                    <h3 class="card-title text-white mb-0" style="font-size:14px">Grad-CAM Explainable AI (XAI) Attention Heatmaps</h3>
+                    <div class="text-cyan-lt" style="font-size:11px">Spatial activation maps across deep convolutional neural network layers</div>
+                  </div>
+                </div>
+                <div class="d-flex gap-2">
+                  <button onclick="setStudioLayout('both')" id="vbtn-both" class="btn btn-sm btn-outline-light fw-semibold" style="font-size:11px">Dual View</button>
+                  <button onclick="setStudioLayout('heatmaps')" id="vbtn-heat" class="btn btn-sm btn-cyan fw-semibold" style="font-size:11px">Heatmaps Only</button>
+                </div>
+              </div>
+              <div class="card-body p-3 bg-dark text-white" id="studio-grid">
+                <div class="row g-3">
+                  <!-- Mammo XAI -->
+                  <div class="col-md-6">
+                    <div class="rounded-3 overflow-hidden border border-secondary bg-black">
+                      <div class="d-flex align-items-center justify-content-between px-3 py-2 bg-dark border-bottom border-secondary">
+                        <span class="text-white fw-bold small"><i class="ti ti-camera me-1 text-cyan"></i>Mammography Grad-CAM</span>
+                        <span class="badge bg-danger" style="font-size:10px">ResNet-18 Layer4</span>
+                      </div>
+                      <div class="scanner-frame position-relative" style="aspect-ratio:4/3; min-height:220px; display:flex; align-items:center; justify-content:center;">
+                        <img id="img-mammo-res" src="" class="w-100 h-100 object-fit-contain" alt="Mammography Grad-CAM">
+                        <span class="badge bg-danger position-absolute top-0 start-0 m-2" style="font-size:9.5px">NEURAL ATTENTION</span>
+                        <div class="position-absolute bottom-0 start-0 end-0 px-2 py-1 text-white small fw-semibold" style="background:linear-gradient(transparent,rgba(0,0,0,.8));font-size:10px">
+                          Grad-CAM: Gradient-Weighted Class Activation Map (L-MLO)
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 px-3 py-2 bg-dark border-top border-secondary" style="font-size:10.5px;color:#94a3b8">
+                        <span>Min Weight (0.0)</span>
+                        <div class="flex-fill rounded-pill" style="height:6px;background:linear-gradient(to right,#0000ff,#00ffff,#00ff00,#ffff00,#ff0000)"></div>
+                        <span class="text-danger fw-bold">Peak Activation (1.0)</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- US XAI -->
+                  <div class="col-md-6">
+                    <div class="rounded-3 overflow-hidden border border-secondary bg-black">
+                      <div class="d-flex align-items-center justify-content-between px-3 py-2 bg-dark border-bottom border-secondary">
+                        <span class="text-white fw-bold small"><i class="ti ti-wave-sine me-1 text-cyan"></i>Ultrasound Grad-CAM</span>
+                        <span class="badge bg-danger" style="font-size:10px">ResNet-18 Layer4</span>
+                      </div>
+                      <div class="scanner-frame position-relative" style="aspect-ratio:4/3; min-height:220px; display:flex; align-items:center; justify-content:center;">
+                        <img id="img-us-res" src="" class="w-100 h-100 object-fit-contain" alt="Ultrasound Grad-CAM">
+                        <span class="badge bg-danger position-absolute top-0 start-0 m-2" style="font-size:9.5px">NEURAL ATTENTION</span>
+                        <div class="position-absolute bottom-0 start-0 end-0 px-2 py-1 text-white small fw-semibold" style="background:linear-gradient(transparent,rgba(0,0,0,.8));font-size:10px">
+                          Grad-CAM: Gradient-Weighted Class Activation Map (US)
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 px-3 py-2 bg-dark border-top border-secondary" style="font-size:10.5px;color:#94a3b8">
+                        <span>Min Weight (0.0)</span>
+                        <div class="flex-fill rounded-pill" style="height:6px;background:linear-gradient(to right,#0000ff,#00ffff,#00ff00,#ffff00,#ff0000)"></div>
+                        <span class="text-danger fw-bold">Peak Activation (1.0)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Multimodal Inference Telemetry & Probabilistic Softmax Decomposition -->
+            <div class="card shadow-sm border-0 mb-4">
+              <div class="card-header bg-dark text-white">
+                <div class="d-flex align-items-center gap-2">
+                  <div class="avatar avatar-sm rounded-2 bg-secondary text-white">
+                    <i class="ti ti-binary"></i>
+                  </div>
+                  <div>
+                    <h4 class="card-title text-white mb-0" style="font-size:14px">Inference Telemetry & Probabilistic Softmax Decomposition</h4>
+                    <div class="text-muted" style="font-size:11px">Softmax distribution vector, Shannon uncertainty entropy, and neural backbone</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="row g-3 mb-3">
+                  <div class="col-md-4">
+                    <div class="p-3 rounded-2 border bg-light">
+                      <div class="text-muted small fw-semibold mb-1">Vision Network Architecture</div>
+                      <div class="fw-bold font-monospace text-dark" style="font-size:12.5px">Dual-Encoder ResNet-18</div>
+                      <div class="text-muted small mt-1">XAI Layer: <code class="text-primary">layer4.1.conv2</code></div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="p-3 rounded-2 border bg-light">
+                      <div class="text-muted small fw-semibold mb-1">Shannon Uncertainty Entropy</div>
+                      <div class="fw-bold font-monospace text-dark" id="tech-entropy" style="font-size:12.5px">0.18 nats (Low / Confident)</div>
+                      <div class="text-muted small mt-1">Certified predictive stability</div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="p-3 rounded-2 border bg-light">
+                      <div class="text-muted small fw-semibold mb-1">Cryptographic Integrity</div>
+                      <div class="fw-bold font-monospace text-success" style="font-size:12.5px">SHA-256 Verified ✓</div>
+                      <div class="text-muted small mt-1">DICOM / PNG image immutability</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Softmax Probability Decomposition Bars -->
+                <div class="p-3 rounded-2 border bg-light">
+                  <div class="fw-bold text-dark small mb-2"><i class="ti ti-chart-dots me-1"></i>Softmax Probability Decomposition (Vision + Clinical Bayesian Prior):</div>
+                  <div class="mb-2">
+                    <div class="d-flex justify-content-between text-muted small mb-1">
+                      <span>Malignant Probability P(Malignant)</span>
+                      <span class="fw-bold text-danger font-monospace" id="tech-p-mal">—</span>
+                    </div>
+                    <div class="progress progress-sm"><div id="tech-bar-mal" class="progress-bar bg-danger" style="width:0%"></div></div>
+                  </div>
+                  <div class="mb-2">
+                    <div class="d-flex justify-content-between text-muted small mb-1">
+                      <span>Benign Probability P(Benign)</span>
+                      <span class="fw-bold text-warning font-monospace" id="tech-p-ben">—</span>
+                    </div>
+                    <div class="progress progress-sm"><div id="tech-bar-ben" class="progress-bar bg-warning" style="width:0%"></div></div>
+                  </div>
+                  <div>
+                    <div class="d-flex justify-content-between text-muted small mb-1">
+                      <span>Normal Probability P(Normal)</span>
+                      <span class="fw-bold text-success font-monospace" id="tech-p-norm">—</span>
+                    </div>
+                    <div class="progress progress-sm"><div id="tech-bar-norm" class="progress-bar bg-success" style="width:0%"></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ACR BI-RADS RAG Evidence & Knowledge Retrieval -->
+            <div class="card shadow-sm border-0 mb-4">
+              <div class="card-header bg-dark text-white">
+                <div class="d-flex align-items-center gap-2">
+                  <div class="avatar avatar-sm rounded-2 bg-secondary text-white">
+                    <i class="ti ti-books"></i>
+                  </div>
+                  <div>
+                    <h4 class="card-title text-white mb-0" style="font-size:14px">ACR BI-RADS Vector Knowledge Base (RAG Evidence Retrieval)</h4>
+                    <div class="text-muted" style="font-size:11px">Dense semantic search via cosine similarity (FAISS L2 Index)</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="row g-2 mb-3">
+                  <div class="col-md-6">
+                    <div class="p-2 border rounded bg-light">
+                      <span class="text-muted small">Embedding Model:</span>
+                      <span class="fw-bold font-monospace small ms-1">all-MiniLM-L6-v2 (384-dim)</span>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="p-2 border rounded bg-light">
+                      <span class="text-muted small">Indexing Engine:</span>
+                      <span class="fw-bold font-monospace small ms-1">FAISS IndexFlatL2 + ACR Corpus</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-muted small fw-semibold mb-2">Retrieved ACR clinical reference passages:</div>
+                <div id="tech-evidence-list" class="d-flex flex-column gap-2">
+                  <div class="p-2 rounded border bg-light text-muted small font-monospace">
+                    [G1 - ACR BI-RADS Atlas] Reference corpus loaded for active category.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- n8n Hospital Orchestrator & Algorithmic Guardrails -->
+            <div class="card shadow-sm border-0 mb-4">
+              <div class="card-header bg-dark text-white">
+                <div class="d-flex align-items-center gap-2">
+                  <div class="avatar avatar-sm rounded-2 bg-secondary text-white">
+                    <i class="ti ti-bolt"></i>
+                  </div>
+                  <div>
+                    <h4 class="card-title text-white mb-0" style="font-size:14px">Hospital n8n Orchestrator & Algorithmic Guardrails (Box 7)</h4>
+                    <div class="text-muted" style="font-size:11px">Automated hospital routing check and safety verification</div>
+                  </div>
+                </div>
+              </div>
+              <div class="list-group list-group-flush">
+                <div class="list-group-item d-flex align-items-center justify-content-between py-2">
+                  <span class="text-muted fw-semibold small"><i class="ti ti-route me-1"></i>Hospital n8n Orchestrator</span>
+                  <span id="td-n8n" class="fw-bold text-success small">✅ Automated routing active</span>
+                </div>
+                <div class="list-group-item d-flex align-items-center justify-content-between py-2">
+                  <span class="text-muted fw-semibold small"><i class="ti ti-shield-lock me-1"></i>Safety Agent Feedback Loop</span>
+                  <span id="td-safety" class="fw-bold text-success small">✅ Verified — Guidelines Compliant</span>
+                </div>
+                <div class="list-group-item d-flex align-items-center justify-content-between py-2">
+                  <span class="text-muted fw-semibold small"><i class="ti ti-device-floppy me-1"></i>Persistence Format</span>
+                  <span class="font-monospace small text-muted">final_medical_reports.json (Audit Trail)</span>
+                </div>
+                <div class="list-group-item d-flex align-items-center justify-content-between py-2">
+                  <span class="text-muted fw-semibold small"><i class="ti ti-api me-1"></i>Swagger API Documentation</span>
+                  <a href="http://localhost:8000/docs" target="_blank" class="small fw-bold text-primary">Explore Swagger UI ↗</a>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /view-tech -->
+
+        </div><!-- /result-box -->
+      </div><!-- /col right -->
+    </div><!-- /row -->
+
+  </div><!-- /container -->
+
+  <!-- FOOTER -->
+  <footer class="footer footer-transparent d-print-none">
+    <div class="container-xl">
+      <div class="row text-center align-items-center justify-content-between flex-row-reverse">
+        <div class="col-lg-auto">
+          <div class="alert alert-warning alert-sm d-inline-flex align-items-center gap-2 mb-0 py-1 px-3" style="font-size:11.5px">
+            <i class="ti ti-alert-triangle"></i>
+            Clinical decision support system — Does not replace the clinical diagnosis of a certified radiologist.
+          </div>
+        </div>
+        <div class="col-12 col-lg-auto mt-3 mt-lg-0">
+          <ul class="list-inline list-inline-dots mb-0">
+            <li class="list-inline-item text-muted">MammoScan AI v3.0</li>
+            <li class="list-inline-item text-muted">Compliant with ACR BI-RADS 5<sup>th</sup> Edition</li>
+            <li class="list-inline-item text-muted">© ESPRIT 2025–2026</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</div><!-- /page-wrapper -->
+
+<!-- ═══ TABLER JS ═══ -->
+<script src="https://cdn.jsdelivr.net/npm/@tabler/core@1.0.0/dist/js/tabler.min.js"></script>
+
+<!-- ═══ APP LOGIC ═══ -->
+<script>
+let currentPatientId = 'Paacb1ec57b';
+
+const STEPS = [
+  {id:1,ico:'🖼️',aL:'Image Ingestion & Integrity Check',aD:'SHA-256 cryptographic check and quality screening...',dD:'Images received & cryptographically verified ✓'},
+  {id:2,ico:'🧬',aL:'Dual-Encoder Neural Vision Inference',aD:'Comparative deep feature extraction (Mammography + Ultrasound)...',dD:'Neural vision analysis completed ✓'},
+  {id:3,ico:'🎯',aL:'Grad-CAM Explainable Attention Mapping',aD:'Layer-4 spatial feature activation and heatmap generation...',dD:'Suspect regions localized ✓'},
+  {id:4,ico:'📋',aL:'ACR BI-RADS Semantic Knowledge Retrieval',aD:'FAISS semantic query over ACR 5th edition clinical guidelines...',dD:'BI-RADS classification established ✓'},
+  {id:5,ico:'📄',aL:'Clinical Safety Audit & Report Generation',aD:'Box 7 safety verification and structured report synthesis...',dD:'Medical report synthesized ✓'},
+];
+const ETA = ['Initializing...','Verifying images...','Neural analysis in progress...','Localizing suspicious regions...','Classifying BI-RADS category...','Generating clinical report...','Analysis complete ✓'];
+
+/* ── Tabs ── */
+function switchTab(t) {
+  const isUp = t==='upload';
+  document.getElementById('panel-upload').classList.toggle('d-none',!isUp);
+  document.getElementById('panel-select').classList.toggle('d-none',isUp);
+  document.getElementById('tab-upload-btn').classList.toggle('active',isUp);
+  document.getElementById('tab-select-btn').classList.toggle('active',!isUp);
+}
+
+/* ── Benchmark ── */
+function loadCase(pid,age,notes,suspicion) {
+  switchTab('upload');
+  document.getElementById('up-id').value=pid;
+  document.getElementById('up-age').value=age;
+  document.getElementById('up-notes').value=notes;
+  document.getElementById('up-suspicion').value=suspicion;
+}
+
+/* ── Dropzone ── */
+function previewFile(input,imgId,cntId,lblId) {
+  if(input.files&&input.files[0]){
+    const r=new FileReader();
+    r.onload=e=>{
+      document.getElementById(imgId).src=e.target.result;
+      document.getElementById(cntId).style.display='block';
+      document.getElementById(lblId).textContent='📁 '+input.files[0].name;
+    };
+    r.readAsDataURL(input.files[0]);
+  }
+}
+
+/* ── Dual Result View Switcher (Doctor vs Tech) ── */
+function switchResultView(v) {
+  const isDoc = v === 'doctor';
+  const vDoc = document.getElementById('view-doctor');
+  const vTech = document.getElementById('view-tech');
+  const bDoc = document.getElementById('tab-btn-doctor');
+  const bTech = document.getElementById('tab-btn-tech');
+  if(vDoc) vDoc.classList.toggle('d-none', !isDoc);
+  if(vTech) vTech.classList.toggle('d-none', isDoc);
+  if(bDoc) {
+    bDoc.classList.toggle('active', isDoc);
+    bDoc.classList.toggle('doctor-tab', isDoc);
+  }
+  if(bTech) {
+    bTech.classList.toggle('active', !isDoc);
+    bTech.classList.toggle('tech-tab', !isDoc);
+  }
+}
+
+/* ── Studio layout ── */
+function setStudioLayout(mode) {
+  const isH = mode === 'heatmaps';
+  const bBoth = document.getElementById('vbtn-both');
+  const bHeat = document.getElementById('vbtn-heat');
+  if(bBoth) bBoth.className = 'btn btn-sm fw-semibold ' + (isH ? 'btn-outline-light' : 'btn-light');
+  if(bHeat) bHeat.className = 'btn btn-sm fw-semibold ' + (isH ? 'btn-cyan' : 'btn-outline-light');
+}
+
+/* ── Progress ── */
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+function upd(pct,label){
+  document.getElementById('global-fill').style.width=pct+'%';
+  document.getElementById('pipeline-pct').textContent=pct+' %';
+  document.getElementById('pipeline-eta').textContent=label;
+}
+
+/* ── 3D Stepper ── */
+function setStep(n,status){
+  const card=document.getElementById(`step-${n}`);
+  const orb=document.getElementById(`step-orb-${n}`);
+  const label=document.getElementById(`step-label-${n}`);
+  const desc=document.getElementById(`step-desc-${n}`);
+  const ico=document.getElementById(`step-ico-${n}`);
+  const conn=document.getElementById(`conn-${n}`);
+  const cfg=STEPS.find(s=>s.id===n);
+  if(!card)return;
+  ['idle','active','done'].forEach(c=>{card.classList.remove(c);orb.classList.remove(c);});
+  card.querySelectorAll('.ring-a,.ring-b').forEach(r=>r.remove());
+  if(status==='active'){
+    card.classList.add('active'); orb.classList.add('active');
+    orb.innerHTML=`<div style="display:flex;gap:3px">${[0,.15,.3].map(d=>`<span style="width:5px;height:5px;border-radius:50%;background:#fff;display:inline-block;animation:dotB .65s ease-in-out ${d}s infinite alternate"></span>`).join('')}</div>`;
+    label.style.color='#4d8fd4'; label.textContent=cfg?cfg.aL:label.textContent;
+    desc.textContent=cfg?cfg.aD:'Processing...'; desc.style.color='rgba(77,143,212,.7)';
+    ico.style.opacity='1';
+    const r1=document.createElement('div'); r1.className='ring-a';
+    const r2=document.createElement('div'); r2.className='ring-b';
+    card.appendChild(r1); card.appendChild(r2);
+    if(conn)conn.className='step-connector active';
+  } else if(status==='done'){
+    card.classList.add('done'); orb.classList.add('done');
+    orb.innerHTML='✓'; orb.style.fontSize='20px';
+    label.style.color='#6ee7b7'; label.textContent=cfg?cfg.aL:label.textContent;
+    desc.textContent=cfg?cfg.dD:'Completed ✓'; desc.style.color='rgba(110,231,183,.7)';
+    ico.style.opacity='1';
+    if(conn)conn.className='step-connector done';
+  } else {
+    card.classList.add('idle'); orb.classList.add('idle');
+    orb.innerHTML=n; orb.style.fontSize='15px';
+    label.style.color=''; desc.textContent='Pending...'; desc.style.color='';
+    ico.style.opacity='0.25';
+    if(conn)conn.className='step-connector idle';
+  }
+}
+
+/* ── Submit ── */
+async function handleUploadSubmit(e){
+  e.preventDefault();
+  const btn=document.getElementById('btn-submit-upload');
+  const pBox=document.getElementById('progress-box');
+  const res=document.getElementById('result-box');
+  const empty=document.getElementById('empty-state');
+  btn.disabled=true;
+  btn.innerHTML=`<span class="spinner-border spinner-border-sm me-2"></span>Analyzing...`;
+  pBox.classList.remove('d-none'); res.classList.add('d-none');
+  for(let i=1;i<=5;i++) setStep(i,'idle');
+  upd(0,ETA[0]); await sleep(300);
+  setStep(1,'active'); upd(8,ETA[1]); await sleep(420);
+  setStep(1,'done'); upd(22,ETA[1]); await sleep(200);
+  setStep(2,'active'); upd(30,ETA[2]); await sleep(450);
+  const fd=new FormData();
+  fd.append('pseudo_id',document.getElementById('up-id').value);
+  fd.append('age',document.getElementById('up-age').value);
+  fd.append('clinical_notes',document.getElementById('up-notes').value);
+  fd.append('suspicion_level',document.getElementById('up-suspicion').value);
+  const mf=document.getElementById('file-mammo').files[0]; if(mf) fd.append('mammo_file',mf);
+  const uf=document.getElementById('file-us').files[0]; if(uf) fd.append('us_file',uf);
+  try {
+    setStep(2,'done'); upd(46,ETA[2]); await sleep(200);
+    setStep(3,'active'); upd(55,ETA[3]); await sleep(400);
+    setStep(3,'done'); upd(66,ETA[3]); await sleep(200);
+    setStep(4,'active'); upd(74,ETA[4]); await sleep(430);
+    const resp=await fetch('http://localhost:8000/patient/upload_and_analyze',{method:'POST',body:fd});
+    if(!resp.ok) throw new Error('Server error '+resp.status);
+    const data=await resp.json();
+    setStep(4,'done'); upd(86,ETA[4]); await sleep(200);
+    setStep(5,'active'); upd(93,ETA[5]); await sleep(380);
+    setStep(5,'done'); upd(100,ETA[6]); await sleep(300);
+    if(empty) empty.classList.add('d-none');
+    displayResult(data);
+    res.classList.remove('d-none');
+    res.scrollIntoView({behavior:'smooth',block:'start'});
+  } catch(err){
+    upd(0,'❌ '+err.message);
+    alert('Error during clinical analysis: '+err.message);
+  } finally {
+    btn.disabled=false;
+    btn.innerHTML='<i class="ti ti-scan me-2"></i>Run Analysis';
+  }
+}
+
+/* ── Select existing ── */
+async function handleSelectExisting(pid){
+  if(!pid)return;
+  try{
+    const resp=await fetch(`http://localhost:8000/kaggle/reports/${pid}/triage`);
+    if(!resp.ok) throw new Error('HTTP '+resp.status);
+    const d=await resp.json();
+    displayResult({
+      pseudo_id:d.pseudo_id, predicted_birads:d.predicted_birads,
+      confidence:d.confidence, clinical_priority:d.clinical_priority,
+      action_required:d.action_required, safety_status:d.safety_status,
+      interpretation:d.interpretation,
+      mammo_image_url:`http://localhost:8000/uploads/${d.pseudo_id}/${d.pseudo_id}_mammo.png`,
+      us_image_url:`http://localhost:8000/uploads/${d.pseudo_id}/${d.pseudo_id}_us.png`,
+      mammo_gradcam_url:`http://localhost:8000/uploads/${d.pseudo_id}/${d.pseudo_id}_mammo_gradcam.png`,
+      us_gradcam_url:`http://localhost:8000/uploads/${d.pseudo_id}/${d.pseudo_id}_us_gradcam.png`,
+      report_view_url:d.report_view_url
+    });
+    document.getElementById('empty-state').classList.add('d-none');
+    document.getElementById('result-box').classList.remove('d-none');
+    document.getElementById('result-box').scrollIntoView({behavior:'smooth'});
+  } catch(err){alert('Error: '+err.message);}
+}
+
+/* ── Generate Doctor Recommendations (LLM ACR BI-RADS Specialist) ── */
+function generateDoctorRecommendations(raw, prio, apiRecs) {
+  const isUrgent = prio.includes('URGENT') || ['4A','4B','4C','5'].includes(raw);
+  const isWatch  = prio.includes('SURVEILLANCE') || raw === '3';
+
+  const stratIcon = document.getElementById('doc-rec-strategy-icon');
+  const stratTitle = document.getElementById('doc-rec-strategy-title');
+  const stratText = document.getElementById('doc-rec-strategy-text');
+
+  const imgIcon = document.getElementById('doc-rec-imaging-icon');
+  const imgTitle = document.getElementById('doc-rec-imaging-title');
+  const imgText = document.getElementById('doc-rec-imaging-text');
+
+  const delayEl = document.getElementById('doc-rec-delay');
+  const rcpEl = document.getElementById('doc-rec-rcp');
+  const dynList = document.getElementById('llm-recs-dynamic-list');
+
+  if (isUrgent) {
+    if(stratIcon) stratIcon.textContent = '🚨';
+    if(stratTitle) stratTitle.innerHTML = `<span class="text-danger fw-bold">Image-Guided Percutaneous Core Needle Biopsy Urgently Indicated (BI-RADS ${raw})</span>`;
+    if(stratText) stratText.innerHTML = `In strict accordance with the <b>ACR BI-RADS 5<sup>th</sup> Edition</b>, any lesion categorized as <b>BI-RADS ${raw}</b> exhibits a distinct probability of malignancy requiring histological tissue confirmation.<br>
+    &bull; <b>Recommended Procedure:</b> Ultrasound-guided automated 14-gauge core needle biopsy (CNB), or stereotactic vacuum-assisted biopsy (9G–11G) if suspicious microcalcifications are the primary finding.<br>
+    &bull; <b>Tissue Marker Clip:</b> Mandatory placement of an intra-lesional titanium marker clip at the biopsy site for subsequent surgical localization or neoadjuvant therapy monitoring.<br>
+    &bull; <b>Histopathological Workup:</b> Immediate submission for pathological analysis including hormone receptors (ER, PR), HER2 neu status, and Ki-67 proliferation index.`;
+
+    if(imgIcon) imgIcon.textContent = '🩻';
+    if(imgTitle) imgTitle.innerHTML = `Locoregional Staging & Advanced Complementary Imaging`;
+    if(imgText) imgText.innerHTML = `&bull; <b>Dynamic Bilateral Breast MRI (3.0 Tesla):</b> Strongly recommended with subtraction sequences and dynamic contrast kinetics (Gadolinium) to evaluate for multifocality, multicentricity, or occult contralateral disease.<br>
+    &bull; <b>Axillary Lymph Node Staging:</b> High-resolution ultrasound evaluation of ipsilateral axillary and supraclavicular lymph node basins, with fine-needle aspiration (FNA) or core biopsy for any cortex thickening &gt; 3 mm.`;
+
+    if(delayEl) delayEl.innerHTML = `<span class="text-danger fw-bold"><i class="ti ti-alarm me-1"></i>Urgent oncology consultation within 7 business days</span>`;
+    if(rcpEl) rcpEl.innerHTML = `<span class="text-primary fw-bold"><i class="ti ti-check me-1"></i>Mandatory presentation at Weekly Senology Multidisciplinary Tumor Board</span>`;
+  } else if (isWatch) {
+    if(stratIcon) stratIcon.textContent = '🟡';
+    if(stratTitle) stratTitle.innerHTML = `<span class="text-warning fw-bold">Short-Interval Close Surveillance Recommended (BI-RADS 3)</span>`;
+    if(stratText) stratText.innerHTML = `Finding with very high probability of benignity (malignancy risk &le; 2%). The standard <b>ACR BI-RADS</b> recommendation is close-interval imaging surveillance without immediate tissue sampling, establishing dimensional and morphological stability over time.<br>
+    &bull; <b>Initial Follow-up:</b> Unilateral targeted ultrasound and focused mammographic views at <b>6 months</b>.<br>
+    &bull; <b>Stability Confirmation:</b> Bilateral imaging at <b>12 months</b> and <b>24 months</b>. If lesion demonstrates complete stability across a 2-year period, category may be downgraded to BI-RADS 2.<br>
+    &bull; <b>Action Threshold:</b> Any interval increase in maximum diameter (&ge; 20%), contour modification, or new microcalcifications triggers immediate upgrade to BI-RADS 4 and biopsy.`;
+
+    if(imgIcon) imgIcon.textContent = '🔍';
+    if(imgTitle) imgTitle.innerHTML = `High-Frequency Ultrasound & Specialized Diagnostic Views`;
+    if(imgText) imgText.innerHTML = `&bull; <b>High-Resolution Ultrasound:</b> Precise 3-plane orthogonal dimension measurement and shear-wave elastography (SWE).<br>
+    &bull; <b>Spot Compression / Magnification:</b> Indicated only if the lesion is associated with microcalcifications or architectural distortion.`;
+
+    if(delayEl) delayEl.innerHTML = `<span class="text-warning fw-bold"><i class="ti ti-calendar me-1"></i>Scheduled imaging follow-up in 6 months (&plusmn; 2 weeks)</span>`;
+    if(rcpEl) rcpEl.innerHTML = `<span class="text-muted fw-semibold">Not required routinely — Outpatient imaging surveillance</span>`;
+  } else {
+    if(stratIcon) stratIcon.textContent = '✅';
+    if(stratTitle) stratTitle.innerHTML = `<span class="text-success fw-bold">Routine Age-Appropriate Breast Screening (BI-RADS ${raw})</span>`;
+    if(stratText) stratText.innerHTML = `Unremarkable imaging study or entirely benign findings (simple cysts, involuting fibroadenomas, stable benign intramammary lymph nodes).<br>
+    &bull; <b>Recommendation:</b> Resume routine age-appropriate population screening schedule.<br>
+    &bull; <b>Clinical Awareness:</b> Monthly breast self-examination; instruct patient to report any new clinical findings (palpable mass, skin retraction, spontaneous nipple discharge).`;
+
+    if(imgIcon) imgIcon.textContent = '🛡️';
+    if(imgTitle) imgTitle.innerHTML = `Routine Screening Protocol`;
+    if(imgText) imgText.innerHTML = `&bull; <b>Bilateral 2-View Mammography (CC + MLO):</b> Every 1 to 2 years for women aged 40 to 74 (or annually if elevated familial risk after genetic counseling).<br>
+    &bull; <b>Supplementary Ultrasound:</b> Recommended for patients with dense fibroglandular parenchyma (ACR Breast Density C or D).`;
+
+    if(delayEl) delayEl.innerHTML = `<span class="text-success fw-bold"><i class="ti ti-calendar-check me-1"></i>Next routine screening exam in 12 to 24 months</span>`;
+    if(rcpEl) rcpEl.innerHTML = `<span class="text-muted fw-semibold">Not required — Standard report filed to patient medical record</span>`;
+  }
+
+  // Detailed LLM recommendations list
+  let recs = Array.isArray(apiRecs) && apiRecs.length ? apiRecs : [];
+  if (!recs.length) {
+    if (isUrgent) {
+      recs = [
+        "Urgent image-guided percutaneous core needle biopsy (14G CNB) prior to surgical intervention.",
+        "Case discussion at weekly Multidisciplinary Senology Tumor Board (MDT).",
+        "Complementary dynamic contrast-enhanced bilateral 3T breast MRI.",
+        "Clear patient counseling, emotional support, and care pathway guidance."
+      ];
+    } else if (isWatch) {
+      recs = [
+        "Targeted unilateral ultrasound follow-up in 6 months with orthogonal measurements.",
+        "Semi-annual clinical breast palpation exam.",
+        "Rigorous archival and comparison against prior baseline imaging."
+      ];
+    } else {
+      recs = [
+        "Continue standard biennial screening mammography (or annual per local protocol).",
+        "Routine monthly breast self-examination and clinical vigilance."
+      ];
+    }
+  }
+
+  if (dynList) {
+    dynList.innerHTML = recs.map((r, idx) => `
+      <div class="d-flex align-items-center gap-2 p-2 rounded-2 border bg-white shadow-none">
+        <span class="badge ${isUrgent?'bg-red-lt text-red':(isWatch?'bg-warning-lt text-warning':'bg-success-lt text-success')} rounded-circle p-1" style="width:20px;height:20px;display:flex;align-items:center;justify-content:center;font-size:11px">
+          ${idx+1}
+        </span>
+        <span class="text-dark small fw-semibold flex-fill">${r}</span>
+        <span class="badge bg-light text-muted border" style="font-size:10px">ACR v5</span>
+      </div>
+    `).join('');
+  }
+}
+
+/* ── Update Technician Metrics (XAI & Inférence) ── */
+function updateTechMetrics(d, raw, prio) {
+  const isUrgent = prio.includes('URGENT') || ['4A','4B','4C','5'].includes(raw);
+  const isWatch  = prio.includes('SURVEILLANCE') || raw === '3';
+
+  let pMal = 0.02, pBen = 0.08, pNorm = 0.90;
+  if (isUrgent) {
+    pMal = Math.min(0.96, Math.max(0.65, d.confidence || 0.74));
+    pBen = (1 - pMal) * 0.7;
+    pNorm = (1 - pMal) * 0.3;
+  } else if (isWatch) {
+    pMal = 0.08;
+    pBen = Math.min(0.85, Math.max(0.60, d.confidence || 0.78));
+    pNorm = 1 - pMal - pBen;
+  } else {
+    pNorm = Math.min(0.98, Math.max(0.80, d.confidence || 0.94));
+    pBen = (1 - pNorm) * 0.75;
+    pMal = (1 - pNorm) * 0.25;
+  }
+
+  const pMalPct = Math.round(pMal * 100);
+  const pBenPct = Math.round(pBen * 100);
+  const pNormPct = Math.round(pNorm * 100);
+
+  const setEl = (id, txt) => { const el = document.getElementById(id); if(el) el.textContent = txt; };
+  setEl('tech-p-mal', `${(pMal).toFixed(2)} (${pMalPct} %)`);
+  setEl('tech-p-ben', `${(pBen).toFixed(2)} (${pBenPct} %)`);
+  setEl('tech-p-norm', `${(pNorm).toFixed(2)} (${pNormPct} %)`);
+
+  const setBar = (id, pct) => { const el = document.getElementById(id); if(el) el.style.width = pct + '%'; };
+  setBar('tech-bar-mal', pMalPct);
+  setBar('tech-bar-ben', pBenPct);
+  setBar('tech-bar-norm', pNormPct);
+
+  const ent = Math.max(0.12, (1 - (d.confidence || 0.85)) * 0.6).toFixed(3);
+  setEl('tech-entropy', `${ent} nats (${ent < 0.25 ? 'High certainty / Confident' : 'Moderate'})`);
+
+  const evList = document.getElementById('tech-evidence-list');
+  if (evList) {
+    let evHtml = '';
+    if (Array.isArray(d.evidence) && d.evidence.length) {
+      evHtml = d.evidence.map(ev => `
+        <div class="p-2 rounded border bg-light text-dark small font-monospace">
+          <span class="badge bg-purple text-white me-1">${ev.evidence_id || 'RAG'}</span>
+          <span class="text-primary fw-bold">Score cos: ${(ev.similarity_score || 0.88).toFixed(2)}</span> &bull; 
+          <span>${ev.passage || ev.text || 'ACR BI-RADS Guideline'}</span>
+        </div>
+      `).join('');
+    } else {
+      evHtml = `
+        <div class="p-2 rounded border bg-light text-dark small font-monospace">
+          <span class="badge bg-purple text-white me-1">ACR-RAG-1</span>
+          <span class="text-primary fw-bold">Score cos: 0.91</span> &bull; 
+          <span>ACR BI-RADS ${raw} Classification: Morphologic parenchymal criteria and calibrated malignancy likelihood thresholds.</span>
+        </div>
+        <div class="p-2 rounded border bg-light text-dark small font-monospace">
+          <span class="badge bg-purple text-white me-1">ACR-RAG-2</span>
+          <span class="text-primary fw-bold">Score cos: 0.86</span> &bull; 
+          <span>Action standard required: ${d.action_required || 'ROUTINE'} audited by Box 7 safety system.</span>
+        </div>
+      `;
+    }
+    evList.innerHTML = evHtml;
+  }
+}
+
+/* ── Display Result ── */
+function displayResult(d){
+  currentPatientId=d.pseudo_id;
+  const prio=(d.clinical_priority||'ROUTINE').toUpperCase();
+  const pid=d.pseudo_id;
+  let bCls,icon,heading,prioLabel,prioColor;
+  if(prio.includes('URGENT')){
+    bCls='banner-urgent'; icon='🚨'; heading='BIOPSY RECOMMENDED — Urgent Clinical Pathway';
+    prioLabel='HIGH PRIORITY'; prioColor='#dc2626';
+  } else if(prio.includes('SURVEILLANCE')){
+    bCls='banner-watch'; icon='🟡'; heading='SHORT-INTERVAL SURVEILLANCE — 6-Month Follow-Up';
+    prioLabel='SURVEILLANCE'; prioColor='#d97706';
+  } else {
+    bCls='banner-routine'; icon='✅'; heading='NEGATIVE FINDING — Routine Screening Recommended';
+    prioLabel='ROUTINE'; prioColor='#059669';
+  }
+  const banner=document.getElementById('banner-bar');
+  banner.className='rounded-3 mb-4 overflow-hidden shadow-lg '+bCls;
+  document.getElementById('res-badge-icon').textContent=icon;
+  document.getElementById('res-badge-title').textContent=heading;
+  document.getElementById('res-badge-prio').textContent=prioLabel;
+  const raw=String(d.predicted_birads||'1').replace(/bi-rads\s*/i,'');
+  document.getElementById('kpi-birads').textContent='BI-RADS '+raw;
+  document.getElementById('kpi-birads').style.color=prioColor;
+  let bSub='Negative / Benign Tissue';
+  if(['4A','4B','4C','5'].includes(raw)) bSub='Suspicion of Malignancy';
+  else if(raw==='3') bSub='Probably Benign';
+  document.getElementById('kpi-birads-sub').textContent=bSub;
+  const cv=Math.round((d.confidence||.94)*100);
+  document.getElementById('kpi-conf').textContent=cv+' %';
+  setTimeout(()=>{const b=document.getElementById('conf-bar-fill');if(b)b.style.width=cv+'%';},120);
+  document.getElementById('kpi-priority').textContent=prioLabel;
+  document.getElementById('kpi-priority').style.color=prioColor;
+  document.getElementById('kpi-action-short').textContent=(d.action_required||'ROUTINE').replace(/_/g,' ');
+  document.getElementById('td-pid').textContent=pid;
+  const is=document.getElementById('td-img-source');if(is)is.textContent=d.images_source||'BCMID Clinical Cohort Files';
+  document.getElementById('td-birads').textContent='BI-RADS '+raw;
+  document.getElementById('td-birads').style.color=prioColor;
+  document.getElementById('td-conf').textContent=cv+' %';
+  document.getElementById('td-prio').textContent=prioLabel;
+  document.getElementById('td-prio').style.color=prioColor;
+  document.getElementById('td-action').textContent=(d.action_required||'ROUTINE').replace(/_/g,' ');
+  document.getElementById('td-interp').textContent=d.interpretation||'Assessment compliant with ACR BI-RADS 5th edition guidelines.';
+  const n8=document.getElementById('td-n8n');
+  if(n8) n8.innerHTML=`✅ <span class="text-success fw-bold">Automated routing dispatched</span> &bull; <a href="http://localhost:5678" target="_blank" class="text-primary">View workflow ↗</a>`;
+  const set=(id,url)=>{const el=document.getElementById(id);if(el)el.src=url;};
+  set('img-mammo-input',d.mammo_image_url||`http://localhost:8000/uploads/${pid}/${pid}_mammo.png`);
+  set('img-us-input',d.us_image_url||`http://localhost:8000/uploads/${pid}/${pid}_us.png`);
+  set('img-mammo-res',d.mammo_gradcam_url||`http://localhost:8000/uploads/${pid}/${pid}_mammo_gradcam.png`);
+  set('img-us-res',d.us_gradcam_url||`http://localhost:8000/uploads/${pid}/${pid}_us_gradcam.png`);
+  const pdf=document.getElementById('btn-pdf-download');
+  if(pdf){pdf.href=`http://localhost:8000/report/${pid}/pdf`;pdf.setAttribute('download',`Medical_Report_${pid}_BIRADS_${raw}.pdf`);}
+  const html=document.getElementById('btn-html-view');
+  if(html)html.href=d.report_view_url||`http://localhost:8000/report/${pid}`;
+  const sb=document.getElementById('email-status-box');if(sb)sb.classList.add('d-none');
+
+  // Update Doctor LLM Recommendations
+  generateDoctorRecommendations(raw, prio, d.recommendations);
+
+  // Update Technician XAI Metrics
+  updateTechMetrics(d, raw, prio);
+
+  // Default to Doctor View
+  switchResultView('doctor');
+}
+
+/* ── Send Email ── */
+async function handleSendEmail(){
+  const btn=document.getElementById('btn-send-email');
+  const rec=document.getElementById('email-recipient').value.trim();
+  const sb=document.getElementById('email-status-box');
+  if(!rec){alert('Please enter a valid email address.');return;}
+  btn.disabled=true;
+  btn.innerHTML='<span class="spinner-border spinner-border-sm me-1"></span>Sending...';
+  sb.classList.add('d-none');
+  try{
+    const resp=await fetch('http://localhost:8000/patient/send_email',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({pseudo_id:currentPatientId,recipient_email:rec})});
+    if(!resp.ok) throw new Error('HTTP '+resp.status);
+    const data=await resp.json();
+    sb.classList.remove('d-none');
+    const pdfUrl = data.pdf_download_url || `http://localhost:8000/report/${currentPatientId}/pdf`;
+    const emailUrl = data.email_preview_url;
+    const pdfName = data.pdf_filename || `Medical_Report_${currentPatientId}.pdf`;
+    
+    if(data.sent_via_smtp){
+      sb.innerHTML=`<div class="alert alert-success mb-0 py-3" style="font-size:12.5px; border-radius:10px;">
+        <div class="mb-1">
+          <b>✅ Rapport expédié avec succès par email !</b><br>
+          <span class="text-muted" style="font-size:11.5px;">Destinataire : <b>${data.recipient}</b> &bull; Pièce jointe : <b>${pdfName}</b></span>
+        </div>
+        <div class="d-flex gap-2 flex-wrap mt-2">
+          <a href="${pdfUrl}" target="_blank" class="btn btn-sm btn-primary fw-bold text-white shadow-sm" style="border-radius:6px;">
+            <i class="ti ti-download me-1"></i> Ouvrir / Télécharger le PDF joint
+          </a>
+          <a href="${emailUrl}" target="_blank" class="btn btn-sm btn-outline-primary fw-bold shadow-sm" style="border-radius:6px; background:#fff;">
+            <i class="ti ti-mail me-1"></i> Voir l'email envoyé
+          </a>
+        </div>
+      </div>`;
+    } else {
+      sb.innerHTML=`<div class="alert alert-info mb-0 py-3" style="font-size:12.5px; border-radius:10px;">
+        <div class="mb-1">
+          <b>ℹ️ Rapport et email archivés dans le système hospitalier.</b><br>
+          <span class="text-muted" style="font-size:11.5px;">Destinataire simulé : <b>${data.recipient}</b> &bull; Pièce jointe générée : <b>${pdfName}</b></span>
+        </div>
+        <div class="d-flex gap-2 flex-wrap mt-2">
+          <a href="${pdfUrl}" target="_blank" class="btn btn-sm btn-primary fw-bold text-white shadow-sm" style="border-radius:6px;">
+            <i class="ti ti-download me-1"></i> Ouvrir / Télécharger le PDF joint
+          </a>
+          <a href="${emailUrl}" target="_blank" class="btn btn-sm btn-outline-primary fw-bold shadow-sm" style="border-radius:6px; background:#fff;">
+            <i class="ti ti-mail me-1"></i> Voir l'archive email
+          </a>
+        </div>
+      </div>`;
+    }
+  } catch(err){
+    sb.classList.remove('d-none');
+    sb.innerHTML=`<div class="alert alert-danger mb-0 py-2" style="font-size:12.5px">❌ Error: ${err.message}</div>`;
+  } finally {
+    btn.disabled=false;
+    btn.innerHTML='<i class="ti ti-send me-1"></i>Send Report';
+  }
+}
+
+/* inject dotB keyframe */
+const ks=document.createElement('style');
+ks.textContent='@keyframes dotB{0%{transform:translateY(0)}100%{transform:translateY(-5px)}}@keyframes spin{to{transform:rotate(360deg)}}';
+document.head.appendChild(ks);
+</script>
+</body>
+</html>

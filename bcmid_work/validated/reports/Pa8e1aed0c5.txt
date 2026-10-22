@@ -1,0 +1,24 @@
+ID: 1349/17
+Ref. Dr: <NOM>: Mammography & <NOM>: <DATE> 9:45:00 <NOM>:
+<NOM>
+ <NOM> <NOM> (ACR c)
+ <NOM> noted.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM>.
+ <NOM> UOQ (<NOM> asymmetry)
+<NOM> <NOM> <NOM> <NOM>
+ <NOM> bilaterally.
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> 39 <NOM> <NOM> <NOM> <NOM> <NOM>
+<NOM> <NOM> <NOM>
+<NOM> <NOM> 6 months. ….BIRADS 3
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM>,MS

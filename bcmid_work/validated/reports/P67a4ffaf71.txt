@@ -1,0 +1,23 @@
+ID : 4639/16
+Dr. <NOM> Procedure : Mammography & <NOM> : <DATE> <NOM> : <NOM>
+<NOM> by a <NOM> <NOM> views
+…….<NOM>, <NOM>
+ <NOM> <NOM> <NOM> .
+ <NOM> <NOM>
+ <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM>
+<NOM> <NOM> ,, <NOM> <NOM> ..<NOM>
+<NOM> /<NOM>
+ <NOM> <NOM> .
+ <NOM> <NOM> <NOM>.
+ <NOM> <NOM> <NOM>
+<NOM> revealed , <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM>
+/<NOM>
+BIRADS3
+<NOM> <NOM> ( BI- RADS)
+BIRAD 0 <NOM> 1 <NOM> , <NOM> 2 <NOM> 3 <NOM> , 6 <NOM> 4 <NOM> , <NOM> 5 <NOM>
+Dr. <NOM>

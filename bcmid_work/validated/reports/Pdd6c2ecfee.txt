@@ -1,0 +1,24 @@
+ID: 05119/21
+Ref. Prof.: <NOM>: Mammography&<NOM>: <DATE> 10:30:00 <NOM>: 66 <NOM>
+ <NOM> <NOM> (ACR c)
+ <NOM> <NOM> <NOM>
+<NOM> <NOM> <NOM>…...<NOM>
+ <NOM> <NOM>
+macrocalcifications.
+ <NOM> <NOM> opacities .
+<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM> <NOM> changes . …<NOM> .
+ <NOM> <NOM> <NOM> seen.
+ Right 10 o’<NOM> <NOM> <NOM> & <NOM> 0.8cm x 0.4cm
+<NOM> <NOM> uptake … <NOM> post-<NOM> changes.
+ <NOM> <NOM> <NOM>
+<NOM>… <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> …..<NOM>….BIRADS 3
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM>. MS

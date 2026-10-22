@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Rapport Médical BCMID - P0207</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background:#f4f6f9; color:#212529; margin:0; padding:24px; }
+        .container { max-width:960px; margin:0 auto; background:#ffffff; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,0.08); overflow:hidden; border:1px solid #e2e8f0; }
+        .header { background:linear-gradient(135deg, #0b2545 0%, #134074 100%); color:#fff; padding:24px 32px; display:flex; justify-content:space-between; align-items:center; }
+        .section { padding:20px 32px; border-bottom:1px solid #edf2f7; }
+        .section-title { font-size:15px; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; color:#134074; margin-bottom:12px; display:flex; align-items:center; gap:8px; }
+        .badge { display:inline-block; padding:6px 14px; border-radius:20px; font-weight:bold; color:#fff; font-size:15px; }
+        .tag { display:inline-block; padding:3px 8px; border-radius:4px; font-size:11px; background:#edf2f7; color:#4a5568; margin-right:6px; }
+        .status-ok { background:#d4edda; color:#155724; padding:4px 10px; border-radius:4px; font-weight:600; font-size:12px; }
+        .status-warn { background:#fff3cd; color:#856404; padding:4px 10px; border-radius:4px; font-weight:600; font-size:12px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <h1 style="margin:0; font-size:22px;">BCMID Multimodal Clinical Report</h1>
+                <div style="font-size:13px; opacity:0.85; margin-top:4px;">Patient ID: <strong>P0207</strong> &bull; Modalité: <strong>texte</strong> &bull; Matériel: <strong>Non-standard (reduced resolution)</strong></div>
+            </div>
+            <div>
+                <span class="badge" style="background:#6c757d;">BI-RADS Non assigné</span>
+            </div>
+        </div>
+
+        <div class="section" style="background:#fafbfc;">
+            <div class="section-title">🩺 Synthèse & Interprétation Clinique</div>
+            <p style="font-size:14px; line-height:1.6; margin:0 0 10px 0;">Text-only evaluation: no deep learning vision scores available.</p>
+            <div>
+                <span class="tag">Confiance brute: N/A (non calibrée)</span>
+                <span class="tag">Raisonnement: llm_succeeded</span>
+                <span class="status-warn">Sécurité: review_required</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">📋 Recommandations Concrètes (ACR BI-RADS)</div>
+            <ul style="margin:0; padding-left:20px;"><li style="margin-bottom:6px; color:#1a365d; font-weight:500;">Clinical management per radiologist review of findings.</li><li style="margin-bottom:6px; color:#1a365d; font-weight:500;">Correlate with dedicated breast imaging.</li></ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">🔍 Explicabilité Visuelle (Grad-CAM XAI)</div>
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+                <div style="background:#f8f9fa; border:1px solid #e2e8f0; border-radius:6px; padding:12px;">
+                    <strong style="font-size:12px; color:#134074;">Mammographie Grad-CAM :</strong>
+                    <div style="font-size:13px; margin-top:6px; color:#2d3748;">None</div>
+                </div>
+                <div style="background:#f8f9fa; border:1px solid #e2e8f0; border-radius:6px; padding:12px;">
+                    <strong style="font-size:12px; color:#134074;">Échographie Grad-CAM :</strong>
+                    <div style="font-size:13px; margin-top:6px; color:#2d3748;">Non disponible</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">📚 Preuves Documentaires (ACR Guidelines & Cas similaires)</div>
+            <div style="margin-bottom:12px;">
+                <div style="font-weight:600; font-size:12px; color:#718096; margin-bottom:6px;">RÈGLES OFFICIELLES ACR INJECTÉES :</div>
+                <div style="background:#f8f9fa; border-left:4px solid #134074; padding:10px 14px; margin-bottom:8px; border-radius:4px; font-size:13px;">G1 [ACR_DENSITY] Composition A-D: A=almost entirely fatty, B=scattered fibroglandular, C=heterogeneously dense, D=extremely dense. ACR C/</div><div style="background:#f8f9fa; border-left:4px solid #134074; padding:10px 14px; margin-bottom:8px; border-radius:4px; font-size:13px;">G2 [ACR_MAMMO_DESC] Mammographic masses: shape (oval/round/irregular), margins (circumscribed/obscured/microlobulated/indistinct/spiculated)</div>
+            </div>
+            <div>
+                <div style="font-weight:600; font-size:12px; color:#718096; margin-bottom:6px;">CAS SIMILAIRES ANONYMISÉS (EXCLUSION PLI/GROUPE STRICTE) :</div>
+                <div style="background:#eef2f7; padding:8px 12px; margin-bottom:6px; border-radius:4px; font-size:12px;"><strong>[E1] P0229 (sim: 0.95):</strong> "ID: [ID] procedure: Mammography & US Breast Ref. Dr: [DOCTOR] Study Date: [DATE] REPORT BREAST MAMMOGRAPHY  Both breasts shadows are of (ACR B).  Stationary right patchy density….. ..post management"</div><div style="background:#eef2f7; padding:8px 12px; margin-bottom:6px; border-radius:4px; font-size:12px;"><strong>[E2] P0300 (sim: 0.95):</strong> "ID: [ID] Ref. Dr: [DOCTOR] procedure: Mammography & US breast Study Date: [DATE] reast Cancer BREAST MAMMOGRAPHY  Both breasts shadows are of ACR B  More or less stationary left asymmetrical minimal"</div><div style="background:#eef2f7; padding:8px 12px; margin-bottom:6px; border-radius:4px; font-size:12px;"><strong>[E3] P0042 (sim: 0.94):</strong> "ID: [ID] procedure: Mammography Ref. Dr: [DOCTOR] Study Date: [DATE] BREAST MAMMOGRAPHY  Both breasts shadows are of a symmetrical semi-dense pattern.  Left asymmetrical diffuse increased density an"</div>
+            </div>
+        </div>
+
+        <div class="section" style="background:#fffaf0; border-left:4px solid #dd6b20;">
+            <div class="section-title" style="color:#c05621;">⚠️ Limitations & Contrôle Qualité / Sécurité</div>
+            <ul style="margin:0; padding-left:20px;"><li style="margin-bottom:4px; color:#4a5568; font-size:12px;">Research baseline AI models — not clinically validated as autonomous diagnostic tools.</li><li style="margin-bottom:4px; color:#4a5568; font-size:12px;">Human radiologist review required before any clinical decision.</li><li style="margin-bottom:4px; color:#4a5568; font-size:12px;">Non-standard acquisition hardware: image quality may be reduced.</li><li style="margin-bottom:4px; color:#4a5568; font-size:12px;">Ultrasound model is secondary; mammography carries primary weight.</li></ul>
+            <div style="margin-top:12px; font-size:12px; color:#744210;">
+                <strong>Revue humaine obligatoire :</strong> Automated checks only — radiologist review mandatory for any clinical use
+            </div>
+        </div>
+
+        <div class="section" style="background:#edf2f7; display:flex; justify-content:space-between; align-items:center;">
+            <div>
+                <span style="font-size:12px; color:#4a5568;">Validé par l'orchestrateur n8n &bull; Statut : <strong>Triage automatique validé. Priorité: SURVEILLANCE. Recommandations confirmées.</strong></span>
+            </div>
+            <a href="index.html" style="text-decoration:none; color:#134074; font-weight:600; font-size:13px;">&larr; Retour au Dashboard</a>
+        </div>
+    </div>
+</body>
+</html>

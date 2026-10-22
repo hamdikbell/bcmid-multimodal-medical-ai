@@ -1,0 +1,23 @@
+ID: 2609/16
+Ref. Prof.: <NOM>: Mammography & <NOM>: <DATE> 1:30:00 <NOM>: 48 <NOM>
+ <NOM> <NOM> (ACR c).
+ <NOM> <NOM> <NOM> <NOM> <NOM> a well-<NOM> <NOM>…<NOM>.
+…… <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM>..<NOM>.
+ <NOM> <NOM> .
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM> <NOM> <NOM> a 2-3 o’<NOM> <NOM> <NOM> 22 x 10 <NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM>.
+BI-RADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr/ <NOM>, MS

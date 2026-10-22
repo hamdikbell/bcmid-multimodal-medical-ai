@@ -1,0 +1,21 @@
+ID: 3962/18
+procedure: Mammography&<NOM>. DR.: <NOM>: 05-May-21 11:15:00 <NOM>: <NOM> MAMMOGRAPHY
+ <NOM> (ACR A) .
+ <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM> <NOM>
+<NOM> <NOM> <NOM>.
+ <NOM> cysts .
+ <NOM>-<NOM> to 6.6 mm. <NOM> <NOM> <NOM> .
+ <NOM> <NOM> , <NOM> <NOM>.
+ <NOM> <NOM> band ….post-<NOM>
+<NOM> .
+ <NOM> (<NOM> bed )<NOM> <NOM> 15x 12 mm…<NOM> , <NOM> <NOM> +/- <NOM> <NOM> <NOM> <NOM> <NOM> <NOM>-<NOM> <NOM> bed …...<NOM> +/- <NOM> indicated ... BIRADS 3
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM>. Walaa M.Saad,<NOM>. <NOM>

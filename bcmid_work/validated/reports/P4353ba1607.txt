@@ -1,0 +1,22 @@
+ID: 3779/15
+Ref. Dr: <NOM>: Mammography&<NOM>: 27-Apr-2021 10:00:00 <NOM>: <NOM>
+<NOM>
+ <NOM> ( ACR B)
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM>
+<NOM>, <NOM> 5x3 <NOM> 11-12
+o’<NOM> para-<NOM>….BIRADS 2
+ <NOM> a <NOM> <NOM> <NOM>, averaging 10x3mm <NOM> 11-12
+o’<NOM>, 3 <NOM>…<NOM>
+up…BIRADS 3
+ <NOM>-<NOM>.
+ <NOM> ill -<NOM> 2 and 3 o’<NOM>’t <NOM> <NOM>
+ <NOM> <NOM> noted , <NOM> <NOM> <NOM> 4mm
+(<NOM> 6.3 mm) .. .. <NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM>
+…..<NOM> ….BIRADS 3
+Dr.<NOM>.MS

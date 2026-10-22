@@ -1,0 +1,26 @@
+ID: 00506/21
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 10:30:00 <NOM>:
+<NOM>
+ <NOM> <NOM> pattern ..ACR B
+ <NOM> <NOM> <NOM> ..<NOM>.
+ <NOM>
+-<NOM> <NOM> lesion .
+-<NOM> <NOM> <NOM>
+-<NOM>
+ <NOM>.
+ <NOM>.
+ <NOM> <NOM>.
+<NOM>:
+ <NOM> <NOM>.
+ <NOM> 3 o’<NOM> <NOM> <NOM> <NOM> 33x 19 mm , 3 <NOM>
+,2.5 <NOM> <NOM> <NOM> 15 x
+10 mm …suspicious ..<NOM>
+ <NOM> <NOM> .
+ <NOM> <NOM> <NOM> 14 x5 mm
+ <NOM> <NOM> region.
+ <NOM> <NOM> <NOM>.
+<NOM> <NOM> <NOM> LN
+……<NOM> …BIRADS 4b
+<NOM> <NOM> ( BI- RADS)
+BIRAD 0 <NOM> 1 <NOM> , <NOM> 2 <NOM> 3 <NOM> , 6 <NOM> 4 <NOM> , <NOM> 5 <NOM>
+Dr. <NOM>

@@ -1,0 +1,20 @@
+Sex: F
+<NOM>: <DATE> 9:00:00 <NOM>: 2702/19
+<NOM>: <DATE> 9:10:41 <NOM>: MG & <NOM>
+ <NOM> <NOM> (ACR b) .
+ <NOM> <NOM> <NOM> <NOM> ..<NOM>.
+ <NOM> <NOM> <NOM> a <NOM>….<NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM>, still, <NOM> <NOM>
+ Right 10 o’<NOM> <NOM> 7x 4 mm
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> ….<NOM> ….BIRADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+DR . <NOM> . MS

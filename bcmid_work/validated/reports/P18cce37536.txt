@@ -1,0 +1,24 @@
+Name: - <NOM>: - <DATE>
+ID:-00933/21
+<NOM>
+ <NOM> <NOM> C.
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>:
+ <NOM> <NOM> <NOM> <NOM> <NOM> lobules.
+ <NOM> <NOM> 1eft 3 o’<NOM>-
+<NOM> 9x5mm…<NOM>.
+ Right 9 o’<NOM> (<NOM> complain) <NOM>
+<NOM>. <NOM> Doppler…BIRADS3.
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM>
+ Right 9 o’<NOM> (<NOM> complain) <NOM>
+<NOM>. <NOM> Doppler…BIRADS3…<NOM>.
+ <NOM>.
+BIRAD 3
+BIRAD 0 <NOM> 1 <NOM> , <NOM> 2 <NOM> 3 <NOM> , 6 <NOM> 4 <NOM> , <NOM> 5 <NOM>
+Dr.<NOM>

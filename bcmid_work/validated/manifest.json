@@ -1,0 +1,6979 @@
+[
+  {
+    "pseudo_id": "P1eb742860c",
+    "n_us": 11,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P1eb742860c_us_0.png",
+      "us\\P1eb742860c_us_1.png",
+      "us\\P1eb742860c_us_10.png",
+      "us\\P1eb742860c_us_2.png",
+      "us\\P1eb742860c_us_3.png",
+      "us\\P1eb742860c_us_4.png",
+      "us\\P1eb742860c_us_5.png",
+      "us\\P1eb742860c_us_6.png",
+      "us\\P1eb742860c_us_7.png",
+      "us\\P1eb742860c_us_8.png",
+      "us\\P1eb742860c_us_9.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P1eb742860c_mammo_0.png",
+      "mammo\\P1eb742860c_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": false,
+    "birads": "5",
+    "label_group": "highly_suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P2b04eb4f12",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P2b04eb4f12_us_0.png",
+      "us\\P2b04eb4f12_us_1.png",
+      "us\\P2b04eb4f12_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P2b04eb4f12_mammo_0.png",
+      "mammo\\P2b04eb4f12_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": false,
+    "birads": "5",
+    "label_group": "highly_suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P7de45021db",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P7de45021db_us_0.png",
+      "us\\P7de45021db_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P7de45021db_mammo_0.png",
+      "mammo\\P7de45021db_mammo_1.png",
+      "mammo\\P7de45021db_mammo_2.png",
+      "mammo\\P7de45021db_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pf1f7d40883",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pf1f7d40883_us_0.png",
+      "us\\Pf1f7d40883_us_1.png",
+      "us\\Pf1f7d40883_us_2.png",
+      "us\\Pf1f7d40883_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pf1f7d40883_mammo_0.png",
+      "mammo\\Pf1f7d40883_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "5",
+    "label_group": "highly_suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Paacb1ec57b",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Paacb1ec57b_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Paacb1ec57b_mammo_0.png",
+      "mammo\\Paacb1ec57b_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P0c536c21f1",
+    "n_us": 6,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P0c536c21f1_us_0.png",
+      "us\\P0c536c21f1_us_1.png",
+      "us\\P0c536c21f1_us_2.png",
+      "us\\P0c536c21f1_us_3.png",
+      "us\\P0c536c21f1_us_4.png",
+      "us\\P0c536c21f1_us_5.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P0c536c21f1_mammo_0.png",
+      "mammo\\P0c536c21f1_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pbd89a5f2d0",
+    "n_us": 16,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pbd89a5f2d0_us_0.png",
+      "us\\Pbd89a5f2d0_us_1.png",
+      "us\\Pbd89a5f2d0_us_10.png",
+      "us\\Pbd89a5f2d0_us_11.png",
+      "us\\Pbd89a5f2d0_us_12.png",
+      "us\\Pbd89a5f2d0_us_13.png",
+      "us\\Pbd89a5f2d0_us_14.png",
+      "us\\Pbd89a5f2d0_us_15.png",
+      "us\\Pbd89a5f2d0_us_2.png",
+      "us\\Pbd89a5f2d0_us_3.png",
+      "us\\Pbd89a5f2d0_us_4.png",
+      "us\\Pbd89a5f2d0_us_5.png",
+      "us\\Pbd89a5f2d0_us_6.png",
+      "us\\Pbd89a5f2d0_us_7.png",
+      "us\\Pbd89a5f2d0_us_8.png",
+      "us\\Pbd89a5f2d0_us_9.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pbd89a5f2d0_mammo_0.png",
+      "mammo\\Pbd89a5f2d0_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pd18e3c33e9",
+    "n_us": 8,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pd18e3c33e9_us_0.png",
+      "us\\Pd18e3c33e9_us_1.png",
+      "us\\Pd18e3c33e9_us_2.png",
+      "us\\Pd18e3c33e9_us_3.png",
+      "us\\Pd18e3c33e9_us_4.png",
+      "us\\Pd18e3c33e9_us_5.png",
+      "us\\Pd18e3c33e9_us_6.png",
+      "us\\Pd18e3c33e9_us_7.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pd18e3c33e9_mammo_0.png",
+      "mammo\\Pd18e3c33e9_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P98365a8ef8",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P98365a8ef8_us_0.png",
+      "us\\P98365a8ef8_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P98365a8ef8_mammo_0.png",
+      "mammo\\P98365a8ef8_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "5",
+    "label_group": "highly_suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P32c2b647da",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P32c2b647da_us_0.png",
+      "us\\P32c2b647da_us_1.png",
+      "us\\P32c2b647da_us_2.png",
+      "us\\P32c2b647da_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P32c2b647da_mammo_0.png",
+      "mammo\\P32c2b647da_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": false,
+    "birads": "5",
+    "label_group": "highly_suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pccab5aa05d",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pccab5aa05d_us_0.png",
+      "us\\Pccab5aa05d_us_1.png",
+      "us\\Pccab5aa05d_us_2.png",
+      "us\\Pccab5aa05d_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pccab5aa05d_mammo_0.png",
+      "mammo\\Pccab5aa05d_mammo_1.png",
+      "mammo\\Pccab5aa05d_mammo_2.png",
+      "mammo\\Pccab5aa05d_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P8d80c2489b",
+    "n_us": 8,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P8d80c2489b_us_0.png",
+      "us\\P8d80c2489b_us_1.png",
+      "us\\P8d80c2489b_us_2.png",
+      "us\\P8d80c2489b_us_3.png",
+      "us\\P8d80c2489b_us_4.png",
+      "us\\P8d80c2489b_us_5.png",
+      "us\\P8d80c2489b_us_6.png",
+      "us\\P8d80c2489b_us_7.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P8d80c2489b_mammo_0.png",
+      "mammo\\P8d80c2489b_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P5bd94cd34b",
+    "n_us": 9,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P5bd94cd34b_us_0.png",
+      "us\\P5bd94cd34b_us_1.png",
+      "us\\P5bd94cd34b_us_2.png",
+      "us\\P5bd94cd34b_us_3.png",
+      "us\\P5bd94cd34b_us_4.png",
+      "us\\P5bd94cd34b_us_5.png",
+      "us\\P5bd94cd34b_us_6.png",
+      "us\\P5bd94cd34b_us_7.png",
+      "us\\P5bd94cd34b_us_8.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P5bd94cd34b_mammo_0.png",
+      "mammo\\P5bd94cd34b_mammo_1.png",
+      "mammo\\P5bd94cd34b_mammo_2.png",
+      "mammo\\P5bd94cd34b_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P851c9740e6",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P851c9740e6_us_0.png",
+      "us\\P851c9740e6_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P851c9740e6_mammo_0.png",
+      "mammo\\P851c9740e6_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pa93fde899e",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pa93fde899e_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pa93fde899e_mammo_0.png",
+      "mammo\\Pa93fde899e_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P991d221af8",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P991d221af8_us_0.png",
+      "us\\P991d221af8_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P991d221af8_mammo_0.png",
+      "mammo\\P991d221af8_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "0",
+    "label_group": "incomplete",
+    "binary_label": "nan",
+    "pathology_label": "nan"
+  },
+  {
+    "pseudo_id": "P7bd278e2ca",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P7bd278e2ca_us_0.png",
+      "us\\P7bd278e2ca_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P7bd278e2ca_mammo_0.png",
+      "mammo\\P7bd278e2ca_mammo_1.png",
+      "mammo\\P7bd278e2ca_mammo_2.png",
+      "mammo\\P7bd278e2ca_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P2b52e53bfe",
+    "n_us": 11,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P2b52e53bfe_us_0.png",
+      "us\\P2b52e53bfe_us_1.png",
+      "us\\P2b52e53bfe_us_10.png",
+      "us\\P2b52e53bfe_us_2.png",
+      "us\\P2b52e53bfe_us_3.png",
+      "us\\P2b52e53bfe_us_4.png",
+      "us\\P2b52e53bfe_us_5.png",
+      "us\\P2b52e53bfe_us_6.png",
+      "us\\P2b52e53bfe_us_7.png",
+      "us\\P2b52e53bfe_us_8.png",
+      "us\\P2b52e53bfe_us_9.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P2b52e53bfe_mammo_0.png",
+      "mammo\\P2b52e53bfe_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": false,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P9656178460",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P9656178460_us_0.png",
+      "us\\P9656178460_us_1.png",
+      "us\\P9656178460_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P9656178460_mammo_0.png",
+      "mammo\\P9656178460_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P5d2df54b02",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P5d2df54b02_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P5d2df54b02_mammo_0.png",
+      "mammo\\P5d2df54b02_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pf9bea655cf",
+    "n_us": 12,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pf9bea655cf_us_0.png",
+      "us\\Pf9bea655cf_us_1.png",
+      "us\\Pf9bea655cf_us_10.png",
+      "us\\Pf9bea655cf_us_11.png",
+      "us\\Pf9bea655cf_us_2.png",
+      "us\\Pf9bea655cf_us_3.png",
+      "us\\Pf9bea655cf_us_4.png",
+      "us\\Pf9bea655cf_us_5.png",
+      "us\\Pf9bea655cf_us_6.png",
+      "us\\Pf9bea655cf_us_7.png",
+      "us\\Pf9bea655cf_us_8.png",
+      "us\\Pf9bea655cf_us_9.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pf9bea655cf_mammo_0.png",
+      "mammo\\Pf9bea655cf_mammo_1.png",
+      "mammo\\Pf9bea655cf_mammo_2.png",
+      "mammo\\Pf9bea655cf_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P18cce37536",
+    "n_us": 6,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P18cce37536_us_0.png",
+      "us\\P18cce37536_us_1.png",
+      "us\\P18cce37536_us_2.png",
+      "us\\P18cce37536_us_3.png",
+      "us\\P18cce37536_us_4.png",
+      "us\\P18cce37536_us_5.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P18cce37536_mammo_0.png",
+      "mammo\\P18cce37536_mammo_1.png",
+      "mammo\\P18cce37536_mammo_2.png",
+      "mammo\\P18cce37536_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P4b09dc8af8",
+    "n_us": 9,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P4b09dc8af8_us_0.png",
+      "us\\P4b09dc8af8_us_1.png",
+      "us\\P4b09dc8af8_us_2.png",
+      "us\\P4b09dc8af8_us_3.png",
+      "us\\P4b09dc8af8_us_4.png",
+      "us\\P4b09dc8af8_us_5.png",
+      "us\\P4b09dc8af8_us_6.png",
+      "us\\P4b09dc8af8_us_7.png",
+      "us\\P4b09dc8af8_us_8.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P4b09dc8af8_mammo_0.png",
+      "mammo\\P4b09dc8af8_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": false,
+    "birads": "5",
+    "label_group": "highly_suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pf7a60686fe",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pf7a60686fe_us_0.png",
+      "us\\Pf7a60686fe_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pf7a60686fe_mammo_0.png",
+      "mammo\\Pf7a60686fe_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P98ef70d375",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P98ef70d375_us_0.png",
+      "us\\P98ef70d375_us_1.png",
+      "us\\P98ef70d375_us_2.png",
+      "us\\P98ef70d375_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P98ef70d375_mammo_0.png",
+      "mammo\\P98ef70d375_mammo_1.png",
+      "mammo\\P98ef70d375_mammo_2.png",
+      "mammo\\P98ef70d375_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pde205af440",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pde205af440_us_0.png",
+      "us\\Pde205af440_us_1.png",
+      "us\\Pde205af440_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pde205af440_mammo_0.png",
+      "mammo\\Pde205af440_mammo_1.png",
+      "mammo\\Pde205af440_mammo_2.png",
+      "mammo\\Pde205af440_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P603564f940",
+    "n_us": 9,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P603564f940_us_0.png",
+      "us\\P603564f940_us_1.png",
+      "us\\P603564f940_us_2.png",
+      "us\\P603564f940_us_3.png",
+      "us\\P603564f940_us_4.png",
+      "us\\P603564f940_us_5.png",
+      "us\\P603564f940_us_6.png",
+      "us\\P603564f940_us_7.png",
+      "us\\P603564f940_us_8.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P603564f940_mammo_0.png",
+      "mammo\\P603564f940_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P732cd8f7c4",
+    "n_us": 7,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P732cd8f7c4_us_0.png",
+      "us\\P732cd8f7c4_us_1.png",
+      "us\\P732cd8f7c4_us_2.png",
+      "us\\P732cd8f7c4_us_3.png",
+      "us\\P732cd8f7c4_us_4.png",
+      "us\\P732cd8f7c4_us_5.png",
+      "us\\P732cd8f7c4_us_6.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P732cd8f7c4_mammo_0.png",
+      "mammo\\P732cd8f7c4_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "5",
+    "label_group": "highly_suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P5889fe0201",
+    "n_us": 5,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P5889fe0201_us_0.png",
+      "us\\P5889fe0201_us_1.png",
+      "us\\P5889fe0201_us_2.png",
+      "us\\P5889fe0201_us_3.png",
+      "us\\P5889fe0201_us_4.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P5889fe0201_mammo_0.png",
+      "mammo\\P5889fe0201_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pb9db9af57d",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pb9db9af57d_us_0.png",
+      "us\\Pb9db9af57d_us_1.png",
+      "us\\Pb9db9af57d_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pb9db9af57d_mammo_0.png",
+      "mammo\\Pb9db9af57d_mammo_1.png",
+      "mammo\\Pb9db9af57d_mammo_2.png",
+      "mammo\\Pb9db9af57d_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pff34103c63",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pff34103c63_us_0.png",
+      "us\\Pff34103c63_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pff34103c63_mammo_0.png",
+      "mammo\\Pff34103c63_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pabfff0125c",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pabfff0125c_us_0.png",
+      "us\\Pabfff0125c_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pabfff0125c_mammo_0.png",
+      "mammo\\Pabfff0125c_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P54aa49adae",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P54aa49adae_us_0.png",
+      "us\\P54aa49adae_us_1.png",
+      "us\\P54aa49adae_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P54aa49adae_mammo_0.png",
+      "mammo\\P54aa49adae_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "5",
+    "label_group": "highly_suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P438ce0ee25",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P438ce0ee25_us_0.png",
+      "us\\P438ce0ee25_us_1.png",
+      "us\\P438ce0ee25_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P438ce0ee25_mammo_0.png",
+      "mammo\\P438ce0ee25_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pf0afe89517",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pf0afe89517_us_0.png",
+      "us\\Pf0afe89517_us_1.png",
+      "us\\Pf0afe89517_us_2.png",
+      "us\\Pf0afe89517_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pf0afe89517_mammo_0.png",
+      "mammo\\Pf0afe89517_mammo_1.png",
+      "mammo\\Pf0afe89517_mammo_2.png",
+      "mammo\\Pf0afe89517_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P0c0449d36e",
+    "n_us": 6,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P0c0449d36e_us_0.png",
+      "us\\P0c0449d36e_us_1.png",
+      "us\\P0c0449d36e_us_2.png",
+      "us\\P0c0449d36e_us_3.png",
+      "us\\P0c0449d36e_us_4.png",
+      "us\\P0c0449d36e_us_5.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P0c0449d36e_mammo_0.png",
+      "mammo\\P0c0449d36e_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P3280488d95",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P3280488d95_us_0.png",
+      "us\\P3280488d95_us_1.png",
+      "us\\P3280488d95_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P3280488d95_mammo_0.png",
+      "mammo\\P3280488d95_mammo_1.png",
+      "mammo\\P3280488d95_mammo_2.png",
+      "mammo\\P3280488d95_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P1aa1fc71dc",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P1aa1fc71dc_us_0.png",
+      "us\\P1aa1fc71dc_us_1.png",
+      "us\\P1aa1fc71dc_us_2.png",
+      "us\\P1aa1fc71dc_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P1aa1fc71dc_mammo_0.png",
+      "mammo\\P1aa1fc71dc_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P71f1e87376",
+    "n_us": 6,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P71f1e87376_us_0.png",
+      "us\\P71f1e87376_us_1.png",
+      "us\\P71f1e87376_us_2.png",
+      "us\\P71f1e87376_us_3.png",
+      "us\\P71f1e87376_us_4.png",
+      "us\\P71f1e87376_us_5.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P71f1e87376_mammo_0.png",
+      "mammo\\P71f1e87376_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P884eb201ac",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P884eb201ac_us_0.png",
+      "us\\P884eb201ac_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P884eb201ac_mammo_0.png",
+      "mammo\\P884eb201ac_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P69c83490d1",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P69c83490d1_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P69c83490d1_mammo_0.png",
+      "mammo\\P69c83490d1_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P393ff42119",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P393ff42119_us_0.png",
+      "us\\P393ff42119_us_1.png",
+      "us\\P393ff42119_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P393ff42119_mammo_0.png",
+      "mammo\\P393ff42119_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P97994b47a5",
+    "n_us": 8,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P97994b47a5_us_0.png",
+      "us\\P97994b47a5_us_1.png",
+      "us\\P97994b47a5_us_2.png",
+      "us\\P97994b47a5_us_3.png",
+      "us\\P97994b47a5_us_4.png",
+      "us\\P97994b47a5_us_5.png",
+      "us\\P97994b47a5_us_6.png",
+      "us\\P97994b47a5_us_7.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P97994b47a5_mammo_0.png",
+      "mammo\\P97994b47a5_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P656d641907",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P656d641907_us_0.png",
+      "us\\P656d641907_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P656d641907_mammo_0.png",
+      "mammo\\P656d641907_mammo_1.png",
+      "mammo\\P656d641907_mammo_2.png",
+      "mammo\\P656d641907_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pe68ab9dcf8",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pe68ab9dcf8_us_0.png",
+      "us\\Pe68ab9dcf8_us_1.png",
+      "us\\Pe68ab9dcf8_us_2.png",
+      "us\\Pe68ab9dcf8_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe68ab9dcf8_mammo_0.png",
+      "mammo\\Pe68ab9dcf8_mammo_1.png",
+      "mammo\\Pe68ab9dcf8_mammo_2.png",
+      "mammo\\Pe68ab9dcf8_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pff49ab492d",
+    "n_us": 8,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pff49ab492d_us_0.png",
+      "us\\Pff49ab492d_us_1.png",
+      "us\\Pff49ab492d_us_2.png",
+      "us\\Pff49ab492d_us_3.png",
+      "us\\Pff49ab492d_us_4.png",
+      "us\\Pff49ab492d_us_5.png",
+      "us\\Pff49ab492d_us_6.png",
+      "us\\Pff49ab492d_us_7.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pff49ab492d_mammo_0.png",
+      "mammo\\Pff49ab492d_mammo_1.png",
+      "mammo\\Pff49ab492d_mammo_2.png",
+      "mammo\\Pff49ab492d_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pb02d263868",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pb02d263868_us_0.png",
+      "us\\Pb02d263868_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pb02d263868_mammo_0.png",
+      "mammo\\Pb02d263868_mammo_1.png",
+      "mammo\\Pb02d263868_mammo_2.png",
+      "mammo\\Pb02d263868_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P62abb4380f",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P62abb4380f_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P62abb4380f_mammo_0.png",
+      "mammo\\P62abb4380f_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P727a7d4bdb",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P727a7d4bdb_us_0.png",
+      "us\\P727a7d4bdb_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P727a7d4bdb_mammo_0.png",
+      "mammo\\P727a7d4bdb_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pfa6922ada2",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pfa6922ada2_us_0.png",
+      "us\\Pfa6922ada2_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pfa6922ada2_mammo_0.png",
+      "mammo\\Pfa6922ada2_mammo_1.png",
+      "mammo\\Pfa6922ada2_mammo_2.png",
+      "mammo\\Pfa6922ada2_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P068d024d9d",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P068d024d9d_us_0.png",
+      "us\\P068d024d9d_us_1.png",
+      "us\\P068d024d9d_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P068d024d9d_mammo_0.png",
+      "mammo\\P068d024d9d_mammo_1.png",
+      "mammo\\P068d024d9d_mammo_2.png",
+      "mammo\\P068d024d9d_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P8248397cb0",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P8248397cb0_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P8248397cb0_mammo_0.png",
+      "mammo\\P8248397cb0_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pb4d3a4e2cd",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pb4d3a4e2cd_us_0.png",
+      "us\\Pb4d3a4e2cd_us_1.png",
+      "us\\Pb4d3a4e2cd_us_2.png",
+      "us\\Pb4d3a4e2cd_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pb4d3a4e2cd_mammo_0.png",
+      "mammo\\Pb4d3a4e2cd_mammo_1.png",
+      "mammo\\Pb4d3a4e2cd_mammo_2.png",
+      "mammo\\Pb4d3a4e2cd_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P47570ae9a7",
+    "n_us": 6,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P47570ae9a7_us_0.png",
+      "us\\P47570ae9a7_us_1.png",
+      "us\\P47570ae9a7_us_2.png",
+      "us\\P47570ae9a7_us_3.png",
+      "us\\P47570ae9a7_us_4.png",
+      "us\\P47570ae9a7_us_5.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P47570ae9a7_mammo_0.png",
+      "mammo\\P47570ae9a7_mammo_1.png",
+      "mammo\\P47570ae9a7_mammo_2.png",
+      "mammo\\P47570ae9a7_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P4a4d0098d9",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P4a4d0098d9_us_0.png",
+      "us\\P4a4d0098d9_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P4a4d0098d9_mammo_0.png",
+      "mammo\\P4a4d0098d9_mammo_1.png",
+      "mammo\\P4a4d0098d9_mammo_2.png",
+      "mammo\\P4a4d0098d9_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pae216b71e5",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pae216b71e5_us_0.png",
+      "us\\Pae216b71e5_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pae216b71e5_mammo_0.png",
+      "mammo\\Pae216b71e5_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P412f279c5c",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P412f279c5c_us_0.png",
+      "us\\P412f279c5c_us_1.png",
+      "us\\P412f279c5c_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P412f279c5c_mammo_0.png",
+      "mammo\\P412f279c5c_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P1837c7cb07",
+    "n_us": 5,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P1837c7cb07_us_0.png",
+      "us\\P1837c7cb07_us_1.png",
+      "us\\P1837c7cb07_us_2.png",
+      "us\\P1837c7cb07_us_3.png",
+      "us\\P1837c7cb07_us_4.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P1837c7cb07_mammo_0.png",
+      "mammo\\P1837c7cb07_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "5",
+    "label_group": "highly_suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P3eaedb7b06",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P3eaedb7b06_us_0.png",
+      "us\\P3eaedb7b06_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P3eaedb7b06_mammo_0.png",
+      "mammo\\P3eaedb7b06_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P791878e201",
+    "n_us": 5,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P791878e201_us_0.png",
+      "us\\P791878e201_us_1.png",
+      "us\\P791878e201_us_2.png",
+      "us\\P791878e201_us_3.png",
+      "us\\P791878e201_us_4.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P791878e201_mammo_0.png",
+      "mammo\\P791878e201_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P08f3adf537",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P08f3adf537_us_0.png",
+      "us\\P08f3adf537_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P08f3adf537_mammo_0.png",
+      "mammo\\P08f3adf537_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P231f98f716",
+    "n_us": 11,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P231f98f716_us_0.png",
+      "us\\P231f98f716_us_1.png",
+      "us\\P231f98f716_us_10.png",
+      "us\\P231f98f716_us_2.png",
+      "us\\P231f98f716_us_3.png",
+      "us\\P231f98f716_us_4.png",
+      "us\\P231f98f716_us_5.png",
+      "us\\P231f98f716_us_6.png",
+      "us\\P231f98f716_us_7.png",
+      "us\\P231f98f716_us_8.png",
+      "us\\P231f98f716_us_9.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P231f98f716_mammo_0.png",
+      "mammo\\P231f98f716_mammo_1.png",
+      "mammo\\P231f98f716_mammo_2.png",
+      "mammo\\P231f98f716_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pab9ba7125b",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pab9ba7125b_us_0.png",
+      "us\\Pab9ba7125b_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pab9ba7125b_mammo_0.png",
+      "mammo\\Pab9ba7125b_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P3cf9aa7ca1",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P3cf9aa7ca1_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P3cf9aa7ca1_mammo_0.png",
+      "mammo\\P3cf9aa7ca1_mammo_1.png",
+      "mammo\\P3cf9aa7ca1_mammo_2.png",
+      "mammo\\P3cf9aa7ca1_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pfb293c22b5",
+    "n_us": 9,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pfb293c22b5_us_0.png",
+      "us\\Pfb293c22b5_us_1.png",
+      "us\\Pfb293c22b5_us_2.png",
+      "us\\Pfb293c22b5_us_3.png",
+      "us\\Pfb293c22b5_us_4.png",
+      "us\\Pfb293c22b5_us_5.png",
+      "us\\Pfb293c22b5_us_6.png",
+      "us\\Pfb293c22b5_us_7.png",
+      "us\\Pfb293c22b5_us_8.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pfb293c22b5_mammo_0.png",
+      "mammo\\Pfb293c22b5_mammo_1.png",
+      "mammo\\Pfb293c22b5_mammo_2.png",
+      "mammo\\Pfb293c22b5_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P2deec6f208",
+    "n_us": 5,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P2deec6f208_us_0.png",
+      "us\\P2deec6f208_us_1.png",
+      "us\\P2deec6f208_us_2.png",
+      "us\\P2deec6f208_us_3.png",
+      "us\\P2deec6f208_us_4.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P2deec6f208_mammo_0.png",
+      "mammo\\P2deec6f208_mammo_1.png",
+      "mammo\\P2deec6f208_mammo_2.png",
+      "mammo\\P2deec6f208_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P59f6acb961",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P59f6acb961_us_0.png",
+      "us\\P59f6acb961_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P59f6acb961_mammo_0.png",
+      "mammo\\P59f6acb961_mammo_1.png",
+      "mammo\\P59f6acb961_mammo_2.png",
+      "mammo\\P59f6acb961_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pec77299033",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pec77299033_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pec77299033_mammo_0.png",
+      "mammo\\Pec77299033_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pe2c42d15e6",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pe2c42d15e6_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe2c42d15e6_mammo_0.png",
+      "mammo\\Pe2c42d15e6_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P6757832aa0",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P6757832aa0_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P6757832aa0_mammo_0.png",
+      "mammo\\P6757832aa0_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "5",
+    "label_group": "highly_suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P3e48be633c",
+    "n_us": 5,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P3e48be633c_us_0.png",
+      "us\\P3e48be633c_us_1.png",
+      "us\\P3e48be633c_us_2.png",
+      "us\\P3e48be633c_us_3.png",
+      "us\\P3e48be633c_us_4.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P3e48be633c_mammo_0.png",
+      "mammo\\P3e48be633c_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "5",
+    "label_group": "highly_suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P65103799b2",
+    "n_us": 8,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P65103799b2_us_0.png",
+      "us\\P65103799b2_us_1.png",
+      "us\\P65103799b2_us_2.png",
+      "us\\P65103799b2_us_3.png",
+      "us\\P65103799b2_us_4.png",
+      "us\\P65103799b2_us_5.png",
+      "us\\P65103799b2_us_6.png",
+      "us\\P65103799b2_us_7.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P65103799b2_mammo_0.png",
+      "mammo\\P65103799b2_mammo_1.png",
+      "mammo\\P65103799b2_mammo_2.png",
+      "mammo\\P65103799b2_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P0833323c79",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P0833323c79_us_0.png",
+      "us\\P0833323c79_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P0833323c79_mammo_0.png",
+      "mammo\\P0833323c79_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pd1dc5ffda0",
+    "n_us": 5,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pd1dc5ffda0_us_0.png",
+      "us\\Pd1dc5ffda0_us_1.png",
+      "us\\Pd1dc5ffda0_us_2.png",
+      "us\\Pd1dc5ffda0_us_3.png",
+      "us\\Pd1dc5ffda0_us_4.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pd1dc5ffda0_mammo_0.png",
+      "mammo\\Pd1dc5ffda0_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P605a5cf579",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P605a5cf579_us_0.png",
+      "us\\P605a5cf579_us_1.png",
+      "us\\P605a5cf579_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P605a5cf579_mammo_0.png",
+      "mammo\\P605a5cf579_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P470062539c",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P470062539c_us_0.png",
+      "us\\P470062539c_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P470062539c_mammo_0.png",
+      "mammo\\P470062539c_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pe89da5cb99",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pe89da5cb99_us_0.png",
+      "us\\Pe89da5cb99_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe89da5cb99_mammo_0.png",
+      "mammo\\Pe89da5cb99_mammo_1.png",
+      "mammo\\Pe89da5cb99_mammo_2.png",
+      "mammo\\Pe89da5cb99_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pdf1effdadf",
+    "n_us": 6,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pdf1effdadf_us_0.png",
+      "us\\Pdf1effdadf_us_1.png",
+      "us\\Pdf1effdadf_us_2.png",
+      "us\\Pdf1effdadf_us_3.png",
+      "us\\Pdf1effdadf_us_4.png",
+      "us\\Pdf1effdadf_us_5.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pdf1effdadf_mammo_0.png",
+      "mammo\\Pdf1effdadf_mammo_1.png",
+      "mammo\\Pdf1effdadf_mammo_2.png",
+      "mammo\\Pdf1effdadf_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P8b13b295c9",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P8b13b295c9_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P8b13b295c9_mammo_0.png",
+      "mammo\\P8b13b295c9_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Ped9f9aadd9",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Ped9f9aadd9_us_0.png",
+      "us\\Ped9f9aadd9_us_1.png",
+      "us\\Ped9f9aadd9_us_2.png",
+      "us\\Ped9f9aadd9_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Ped9f9aadd9_mammo_0.png",
+      "mammo\\Ped9f9aadd9_mammo_1.png",
+      "mammo\\Ped9f9aadd9_mammo_2.png",
+      "mammo\\Ped9f9aadd9_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P30ca1e4df7",
+    "n_us": 16,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P30ca1e4df7_us_0.png",
+      "us\\P30ca1e4df7_us_1.png",
+      "us\\P30ca1e4df7_us_10.png",
+      "us\\P30ca1e4df7_us_11.png",
+      "us\\P30ca1e4df7_us_12.png",
+      "us\\P30ca1e4df7_us_13.png",
+      "us\\P30ca1e4df7_us_14.png",
+      "us\\P30ca1e4df7_us_15.png",
+      "us\\P30ca1e4df7_us_2.png",
+      "us\\P30ca1e4df7_us_3.png",
+      "us\\P30ca1e4df7_us_4.png",
+      "us\\P30ca1e4df7_us_5.png",
+      "us\\P30ca1e4df7_us_6.png",
+      "us\\P30ca1e4df7_us_7.png",
+      "us\\P30ca1e4df7_us_8.png",
+      "us\\P30ca1e4df7_us_9.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P30ca1e4df7_mammo_0.png",
+      "mammo\\P30ca1e4df7_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P88db777d6b",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P88db777d6b_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P88db777d6b_mammo_0.png",
+      "mammo\\P88db777d6b_mammo_1.png",
+      "mammo\\P88db777d6b_mammo_2.png",
+      "mammo\\P88db777d6b_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P4dd7191687",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P4dd7191687_us_0.png",
+      "us\\P4dd7191687_us_1.png",
+      "us\\P4dd7191687_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P4dd7191687_mammo_0.png",
+      "mammo\\P4dd7191687_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P015e794ea5",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P015e794ea5_us_0.png",
+      "us\\P015e794ea5_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P015e794ea5_mammo_0.png",
+      "mammo\\P015e794ea5_mammo_1.png",
+      "mammo\\P015e794ea5_mammo_2.png",
+      "mammo\\P015e794ea5_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pfe0bbfd0b0",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pfe0bbfd0b0_us_0.png",
+      "us\\Pfe0bbfd0b0_us_1.png",
+      "us\\Pfe0bbfd0b0_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pfe0bbfd0b0_mammo_0.png",
+      "mammo\\Pfe0bbfd0b0_mammo_1.png",
+      "mammo\\Pfe0bbfd0b0_mammo_2.png",
+      "mammo\\Pfe0bbfd0b0_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pade8262448",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pade8262448_us_0.png",
+      "us\\Pade8262448_us_1.png",
+      "us\\Pade8262448_us_2.png",
+      "us\\Pade8262448_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pade8262448_mammo_0.png",
+      "mammo\\Pade8262448_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": false,
+    "birads": "5",
+    "label_group": "highly_suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P27a9f328b5",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P27a9f328b5_us_0.png",
+      "us\\P27a9f328b5_us_1.png",
+      "us\\P27a9f328b5_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P27a9f328b5_mammo_0.png",
+      "mammo\\P27a9f328b5_mammo_1.png",
+      "mammo\\P27a9f328b5_mammo_2.png",
+      "mammo\\P27a9f328b5_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P96cc7eb2d3",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P96cc7eb2d3_us_0.png",
+      "us\\P96cc7eb2d3_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P96cc7eb2d3_mammo_0.png",
+      "mammo\\P96cc7eb2d3_mammo_1.png",
+      "mammo\\P96cc7eb2d3_mammo_2.png",
+      "mammo\\P96cc7eb2d3_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P077f5dd0b8",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P077f5dd0b8_us_0.png",
+      "us\\P077f5dd0b8_us_1.png",
+      "us\\P077f5dd0b8_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P077f5dd0b8_mammo_0.png",
+      "mammo\\P077f5dd0b8_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pdb6d69636e",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pdb6d69636e_us_0.png",
+      "us\\Pdb6d69636e_us_1.png",
+      "us\\Pdb6d69636e_us_2.png",
+      "us\\Pdb6d69636e_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pdb6d69636e_mammo_0.png",
+      "mammo\\Pdb6d69636e_mammo_1.png",
+      "mammo\\Pdb6d69636e_mammo_2.png",
+      "mammo\\Pdb6d69636e_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pb7816f82f5",
+    "n_us": 6,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pb7816f82f5_us_0.png",
+      "us\\Pb7816f82f5_us_1.png",
+      "us\\Pb7816f82f5_us_2.png",
+      "us\\Pb7816f82f5_us_3.png",
+      "us\\Pb7816f82f5_us_4.png",
+      "us\\Pb7816f82f5_us_5.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pb7816f82f5_mammo_0.png",
+      "mammo\\Pb7816f82f5_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pe92a70c9e2",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pe92a70c9e2_us_0.png",
+      "us\\Pe92a70c9e2_us_1.png",
+      "us\\Pe92a70c9e2_us_2.png",
+      "us\\Pe92a70c9e2_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe92a70c9e2_mammo_0.png",
+      "mammo\\Pe92a70c9e2_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pd6985f356b",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pd6985f356b_us_0.png",
+      "us\\Pd6985f356b_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pd6985f356b_mammo_0.png",
+      "mammo\\Pd6985f356b_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P6c32d0c89b",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P6c32d0c89b_us_0.png",
+      "us\\P6c32d0c89b_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P6c32d0c89b_mammo_0.png",
+      "mammo\\P6c32d0c89b_mammo_1.png",
+      "mammo\\P6c32d0c89b_mammo_2.png",
+      "mammo\\P6c32d0c89b_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pbd38d78878",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pbd38d78878_us_0.png",
+      "us\\Pbd38d78878_us_1.png",
+      "us\\Pbd38d78878_us_2.png",
+      "us\\Pbd38d78878_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pbd38d78878_mammo_0.png",
+      "mammo\\Pbd38d78878_mammo_1.png",
+      "mammo\\Pbd38d78878_mammo_2.png",
+      "mammo\\Pbd38d78878_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P9431e7cf41",
+    "n_us": 7,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P9431e7cf41_us_0.png",
+      "us\\P9431e7cf41_us_1.png",
+      "us\\P9431e7cf41_us_2.png",
+      "us\\P9431e7cf41_us_3.png",
+      "us\\P9431e7cf41_us_4.png",
+      "us\\P9431e7cf41_us_5.png",
+      "us\\P9431e7cf41_us_6.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P9431e7cf41_mammo_0.png",
+      "mammo\\P9431e7cf41_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pb873b764a4",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pb873b764a4_us_0.png",
+      "us\\Pb873b764a4_us_1.png",
+      "us\\Pb873b764a4_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pb873b764a4_mammo_0.png",
+      "mammo\\Pb873b764a4_mammo_1.png",
+      "mammo\\Pb873b764a4_mammo_2.png",
+      "mammo\\Pb873b764a4_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P2126a906df",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P2126a906df_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P2126a906df_mammo_0.png",
+      "mammo\\P2126a906df_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P8cc3a9820e",
+    "n_us": 3,
+    "n_mammo": 1,
+    "us_paths": [
+      "us\\P8cc3a9820e_us_0.png",
+      "us\\P8cc3a9820e_us_1.png",
+      "us\\P8cc3a9820e_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P8cc3a9820e_mammo_0.png"
+    ],
+    "modality_status": "complete",
+    "has_report": false,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P4040e3854e",
+    "n_us": 7,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P4040e3854e_us_0.png",
+      "us\\P4040e3854e_us_1.png",
+      "us\\P4040e3854e_us_2.png",
+      "us\\P4040e3854e_us_3.png",
+      "us\\P4040e3854e_us_4.png",
+      "us\\P4040e3854e_us_5.png",
+      "us\\P4040e3854e_us_6.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P4040e3854e_mammo_0.png",
+      "mammo\\P4040e3854e_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pffe91ebaf5",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pffe91ebaf5_us_0.png",
+      "us\\Pffe91ebaf5_us_1.png",
+      "us\\Pffe91ebaf5_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pffe91ebaf5_mammo_0.png",
+      "mammo\\Pffe91ebaf5_mammo_1.png",
+      "mammo\\Pffe91ebaf5_mammo_2.png",
+      "mammo\\Pffe91ebaf5_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P6a09e5f7c7",
+    "n_us": 6,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P6a09e5f7c7_us_0.png",
+      "us\\P6a09e5f7c7_us_1.png",
+      "us\\P6a09e5f7c7_us_2.png",
+      "us\\P6a09e5f7c7_us_3.png",
+      "us\\P6a09e5f7c7_us_4.png",
+      "us\\P6a09e5f7c7_us_5.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P6a09e5f7c7_mammo_0.png",
+      "mammo\\P6a09e5f7c7_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pe626f17506",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pe626f17506_us_0.png",
+      "us\\Pe626f17506_us_1.png",
+      "us\\Pe626f17506_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe626f17506_mammo_0.png",
+      "mammo\\Pe626f17506_mammo_1.png",
+      "mammo\\Pe626f17506_mammo_2.png",
+      "mammo\\Pe626f17506_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P24bcd765cf",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P24bcd765cf_us_0.png",
+      "us\\P24bcd765cf_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P24bcd765cf_mammo_0.png",
+      "mammo\\P24bcd765cf_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pdd6c2ecfee",
+    "n_us": 7,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pdd6c2ecfee_us_0.png",
+      "us\\Pdd6c2ecfee_us_1.png",
+      "us\\Pdd6c2ecfee_us_2.png",
+      "us\\Pdd6c2ecfee_us_3.png",
+      "us\\Pdd6c2ecfee_us_4.png",
+      "us\\Pdd6c2ecfee_us_5.png",
+      "us\\Pdd6c2ecfee_us_6.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pdd6c2ecfee_mammo_0.png",
+      "mammo\\Pdd6c2ecfee_mammo_1.png",
+      "mammo\\Pdd6c2ecfee_mammo_2.png",
+      "mammo\\Pdd6c2ecfee_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P567e7dd059",
+    "n_us": 8,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P567e7dd059_us_0.png",
+      "us\\P567e7dd059_us_1.png",
+      "us\\P567e7dd059_us_2.png",
+      "us\\P567e7dd059_us_3.png",
+      "us\\P567e7dd059_us_4.png",
+      "us\\P567e7dd059_us_5.png",
+      "us\\P567e7dd059_us_6.png",
+      "us\\P567e7dd059_us_7.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P567e7dd059_mammo_0.png",
+      "mammo\\P567e7dd059_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P645ebe967f",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P645ebe967f_us_0.png",
+      "us\\P645ebe967f_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P645ebe967f_mammo_0.png",
+      "mammo\\P645ebe967f_mammo_1.png",
+      "mammo\\P645ebe967f_mammo_2.png",
+      "mammo\\P645ebe967f_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P79f1df55a6",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P79f1df55a6_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P79f1df55a6_mammo_0.png",
+      "mammo\\P79f1df55a6_mammo_1.png",
+      "mammo\\P79f1df55a6_mammo_2.png",
+      "mammo\\P79f1df55a6_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pe973be1e3d",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pe973be1e3d_us_0.png",
+      "us\\Pe973be1e3d_us_1.png",
+      "us\\Pe973be1e3d_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe973be1e3d_mammo_0.png",
+      "mammo\\Pe973be1e3d_mammo_1.png",
+      "mammo\\Pe973be1e3d_mammo_2.png",
+      "mammo\\Pe973be1e3d_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P913145953c",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P913145953c_us_0.png",
+      "us\\P913145953c_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P913145953c_mammo_0.png",
+      "mammo\\P913145953c_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P3c8a577cfc",
+    "n_us": 6,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P3c8a577cfc_us_0.png",
+      "us\\P3c8a577cfc_us_1.png",
+      "us\\P3c8a577cfc_us_2.png",
+      "us\\P3c8a577cfc_us_3.png",
+      "us\\P3c8a577cfc_us_4.png",
+      "us\\P3c8a577cfc_us_5.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P3c8a577cfc_mammo_0.png",
+      "mammo\\P3c8a577cfc_mammo_1.png",
+      "mammo\\P3c8a577cfc_mammo_2.png",
+      "mammo\\P3c8a577cfc_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P26298bcb83",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P26298bcb83_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P26298bcb83_mammo_0.png",
+      "mammo\\P26298bcb83_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Paef8e41e3b",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Paef8e41e3b_us_0.png",
+      "us\\Paef8e41e3b_us_1.png",
+      "us\\Paef8e41e3b_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Paef8e41e3b_mammo_0.png",
+      "mammo\\Paef8e41e3b_mammo_1.png",
+      "mammo\\Paef8e41e3b_mammo_2.png",
+      "mammo\\Paef8e41e3b_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P552fbb4248",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P552fbb4248_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P552fbb4248_mammo_0.png",
+      "mammo\\P552fbb4248_mammo_1.png",
+      "mammo\\P552fbb4248_mammo_2.png",
+      "mammo\\P552fbb4248_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P1325124c89",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P1325124c89_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P1325124c89_mammo_0.png",
+      "mammo\\P1325124c89_mammo_1.png",
+      "mammo\\P1325124c89_mammo_2.png",
+      "mammo\\P1325124c89_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pc7b0c45576",
+    "n_us": 6,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pc7b0c45576_us_0.png",
+      "us\\Pc7b0c45576_us_1.png",
+      "us\\Pc7b0c45576_us_2.png",
+      "us\\Pc7b0c45576_us_3.png",
+      "us\\Pc7b0c45576_us_4.png",
+      "us\\Pc7b0c45576_us_5.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pc7b0c45576_mammo_0.png",
+      "mammo\\Pc7b0c45576_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": false,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pf2efc6ed13",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pf2efc6ed13_us_0.png",
+      "us\\Pf2efc6ed13_us_1.png",
+      "us\\Pf2efc6ed13_us_2.png",
+      "us\\Pf2efc6ed13_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pf2efc6ed13_mammo_0.png",
+      "mammo\\Pf2efc6ed13_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": false,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Padd3d5a803",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Padd3d5a803_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Padd3d5a803_mammo_0.png",
+      "mammo\\Padd3d5a803_mammo_1.png",
+      "mammo\\Padd3d5a803_mammo_2.png",
+      "mammo\\Padd3d5a803_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pe534869c55",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pe534869c55_us_0.png",
+      "us\\Pe534869c55_us_1.png",
+      "us\\Pe534869c55_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe534869c55_mammo_0.png",
+      "mammo\\Pe534869c55_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P3e073e00fe",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P3e073e00fe_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P3e073e00fe_mammo_0.png",
+      "mammo\\P3e073e00fe_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pce5381c5b2",
+    "n_us": 13,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pce5381c5b2_us_0.png",
+      "us\\Pce5381c5b2_us_1.png",
+      "us\\Pce5381c5b2_us_10.png",
+      "us\\Pce5381c5b2_us_11.png",
+      "us\\Pce5381c5b2_us_12.png",
+      "us\\Pce5381c5b2_us_2.png",
+      "us\\Pce5381c5b2_us_3.png",
+      "us\\Pce5381c5b2_us_4.png",
+      "us\\Pce5381c5b2_us_5.png",
+      "us\\Pce5381c5b2_us_6.png",
+      "us\\Pce5381c5b2_us_7.png",
+      "us\\Pce5381c5b2_us_8.png",
+      "us\\Pce5381c5b2_us_9.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pce5381c5b2_mammo_0.png",
+      "mammo\\Pce5381c5b2_mammo_1.png",
+      "mammo\\Pce5381c5b2_mammo_2.png",
+      "mammo\\Pce5381c5b2_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P9e150868ad",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P9e150868ad_us_0.png",
+      "us\\P9e150868ad_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P9e150868ad_mammo_0.png",
+      "mammo\\P9e150868ad_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P975fccec09",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P975fccec09_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P975fccec09_mammo_0.png",
+      "mammo\\P975fccec09_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pbf855d2ec5",
+    "n_us": 5,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pbf855d2ec5_us_0.png",
+      "us\\Pbf855d2ec5_us_1.png",
+      "us\\Pbf855d2ec5_us_2.png",
+      "us\\Pbf855d2ec5_us_3.png",
+      "us\\Pbf855d2ec5_us_4.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pbf855d2ec5_mammo_0.png",
+      "mammo\\Pbf855d2ec5_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pbe52603c26",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pbe52603c26_us_0.png",
+      "us\\Pbe52603c26_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pbe52603c26_mammo_0.png",
+      "mammo\\Pbe52603c26_mammo_1.png",
+      "mammo\\Pbe52603c26_mammo_2.png",
+      "mammo\\Pbe52603c26_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pb4cc03ada1",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pb4cc03ada1_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pb4cc03ada1_mammo_0.png",
+      "mammo\\Pb4cc03ada1_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P65fa476515",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P65fa476515_us_0.png",
+      "us\\P65fa476515_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P65fa476515_mammo_0.png",
+      "mammo\\P65fa476515_mammo_1.png",
+      "mammo\\P65fa476515_mammo_2.png",
+      "mammo\\P65fa476515_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P5a00475454",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P5a00475454_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P5a00475454_mammo_0.png",
+      "mammo\\P5a00475454_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pa5bffda6b5",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pa5bffda6b5_us_0.png",
+      "us\\Pa5bffda6b5_us_1.png",
+      "us\\Pa5bffda6b5_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pa5bffda6b5_mammo_0.png",
+      "mammo\\Pa5bffda6b5_mammo_1.png",
+      "mammo\\Pa5bffda6b5_mammo_2.png",
+      "mammo\\Pa5bffda6b5_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pc8697f7cec",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pc8697f7cec_us_0.png",
+      "us\\Pc8697f7cec_us_1.png",
+      "us\\Pc8697f7cec_us_2.png",
+      "us\\Pc8697f7cec_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pc8697f7cec_mammo_0.png",
+      "mammo\\Pc8697f7cec_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P3b76905ecc",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P3b76905ecc_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P3b76905ecc_mammo_0.png",
+      "mammo\\P3b76905ecc_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pe9383f9a45",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pe9383f9a45_us_0.png",
+      "us\\Pe9383f9a45_us_1.png",
+      "us\\Pe9383f9a45_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe9383f9a45_mammo_0.png",
+      "mammo\\Pe9383f9a45_mammo_1.png",
+      "mammo\\Pe9383f9a45_mammo_2.png",
+      "mammo\\Pe9383f9a45_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P435e26b8af",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P435e26b8af_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P435e26b8af_mammo_0.png",
+      "mammo\\P435e26b8af_mammo_1.png",
+      "mammo\\P435e26b8af_mammo_2.png",
+      "mammo\\P435e26b8af_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P588b165800",
+    "n_us": 5,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P588b165800_us_0.png",
+      "us\\P588b165800_us_1.png",
+      "us\\P588b165800_us_2.png",
+      "us\\P588b165800_us_3.png",
+      "us\\P588b165800_us_4.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P588b165800_mammo_0.png",
+      "mammo\\P588b165800_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P29fc04662b",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P29fc04662b_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P29fc04662b_mammo_0.png",
+      "mammo\\P29fc04662b_mammo_1.png",
+      "mammo\\P29fc04662b_mammo_2.png",
+      "mammo\\P29fc04662b_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P5f751ba26e",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P5f751ba26e_us_0.png",
+      "us\\P5f751ba26e_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P5f751ba26e_mammo_0.png",
+      "mammo\\P5f751ba26e_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P281d8a3844",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P281d8a3844_us_0.png",
+      "us\\P281d8a3844_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P281d8a3844_mammo_0.png",
+      "mammo\\P281d8a3844_mammo_1.png",
+      "mammo\\P281d8a3844_mammo_2.png",
+      "mammo\\P281d8a3844_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pc8ef4b01ff",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pc8ef4b01ff_us_0.png",
+      "us\\Pc8ef4b01ff_us_1.png",
+      "us\\Pc8ef4b01ff_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pc8ef4b01ff_mammo_0.png",
+      "mammo\\Pc8ef4b01ff_mammo_1.png",
+      "mammo\\Pc8ef4b01ff_mammo_2.png",
+      "mammo\\Pc8ef4b01ff_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P297da68b4f",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P297da68b4f_us_0.png",
+      "us\\P297da68b4f_us_1.png",
+      "us\\P297da68b4f_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P297da68b4f_mammo_0.png",
+      "mammo\\P297da68b4f_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pb9db35155e",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pb9db35155e_us_0.png",
+      "us\\Pb9db35155e_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pb9db35155e_mammo_0.png",
+      "mammo\\Pb9db35155e_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pe2c3fbdaf6",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pe2c3fbdaf6_us_0.png",
+      "us\\Pe2c3fbdaf6_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe2c3fbdaf6_mammo_0.png",
+      "mammo\\Pe2c3fbdaf6_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pf559e98352",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pf559e98352_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pf559e98352_mammo_0.png",
+      "mammo\\Pf559e98352_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P18376eaac1",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P18376eaac1_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P18376eaac1_mammo_0.png",
+      "mammo\\P18376eaac1_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P5aa23c2826",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P5aa23c2826_us_0.png",
+      "us\\P5aa23c2826_us_1.png",
+      "us\\P5aa23c2826_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P5aa23c2826_mammo_0.png",
+      "mammo\\P5aa23c2826_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pde766ad22f",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pde766ad22f_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pde766ad22f_mammo_0.png",
+      "mammo\\Pde766ad22f_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P2b3c4c6639",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P2b3c4c6639_us_0.png",
+      "us\\P2b3c4c6639_us_1.png",
+      "us\\P2b3c4c6639_us_2.png",
+      "us\\P2b3c4c6639_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P2b3c4c6639_mammo_0.png",
+      "mammo\\P2b3c4c6639_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pe297ccfedd",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pe297ccfedd_us_0.png",
+      "us\\Pe297ccfedd_us_1.png",
+      "us\\Pe297ccfedd_us_2.png",
+      "us\\Pe297ccfedd_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe297ccfedd_mammo_0.png",
+      "mammo\\Pe297ccfedd_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "5",
+    "label_group": "highly_suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P4ff975af62",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P4ff975af62_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P4ff975af62_mammo_0.png",
+      "mammo\\P4ff975af62_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P24e3a7512a",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P24e3a7512a_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P24e3a7512a_mammo_0.png",
+      "mammo\\P24e3a7512a_mammo_1.png",
+      "mammo\\P24e3a7512a_mammo_2.png",
+      "mammo\\P24e3a7512a_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pdfc0630bc4",
+    "n_us": 7,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pdfc0630bc4_us_0.png",
+      "us\\Pdfc0630bc4_us_1.png",
+      "us\\Pdfc0630bc4_us_2.png",
+      "us\\Pdfc0630bc4_us_3.png",
+      "us\\Pdfc0630bc4_us_4.png",
+      "us\\Pdfc0630bc4_us_5.png",
+      "us\\Pdfc0630bc4_us_6.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pdfc0630bc4_mammo_0.png",
+      "mammo\\Pdfc0630bc4_mammo_1.png",
+      "mammo\\Pdfc0630bc4_mammo_2.png",
+      "mammo\\Pdfc0630bc4_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P45da25a9ad",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P45da25a9ad_us_0.png",
+      "us\\P45da25a9ad_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P45da25a9ad_mammo_0.png",
+      "mammo\\P45da25a9ad_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P1ef05b1651",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P1ef05b1651_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P1ef05b1651_mammo_0.png",
+      "mammo\\P1ef05b1651_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "5",
+    "label_group": "highly_suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pdf2240de0b",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pdf2240de0b_us_0.png",
+      "us\\Pdf2240de0b_us_1.png",
+      "us\\Pdf2240de0b_us_2.png",
+      "us\\Pdf2240de0b_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pdf2240de0b_mammo_0.png",
+      "mammo\\Pdf2240de0b_mammo_1.png",
+      "mammo\\Pdf2240de0b_mammo_2.png",
+      "mammo\\Pdf2240de0b_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pe4357a6121",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pe4357a6121_us_0.png",
+      "us\\Pe4357a6121_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe4357a6121_mammo_0.png",
+      "mammo\\Pe4357a6121_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pa0f3756a82",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pa0f3756a82_us_0.png",
+      "us\\Pa0f3756a82_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pa0f3756a82_mammo_0.png",
+      "mammo\\Pa0f3756a82_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P77d607393a",
+    "n_us": 5,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P77d607393a_us_0.png",
+      "us\\P77d607393a_us_1.png",
+      "us\\P77d607393a_us_2.png",
+      "us\\P77d607393a_us_3.png",
+      "us\\P77d607393a_us_4.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P77d607393a_mammo_0.png",
+      "mammo\\P77d607393a_mammo_1.png",
+      "mammo\\P77d607393a_mammo_2.png",
+      "mammo\\P77d607393a_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pf0cdac4fc5",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pf0cdac4fc5_us_0.png",
+      "us\\Pf0cdac4fc5_us_1.png",
+      "us\\Pf0cdac4fc5_us_2.png",
+      "us\\Pf0cdac4fc5_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pf0cdac4fc5_mammo_0.png",
+      "mammo\\Pf0cdac4fc5_mammo_1.png",
+      "mammo\\Pf0cdac4fc5_mammo_2.png",
+      "mammo\\Pf0cdac4fc5_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Paa92492034",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Paa92492034_us_0.png",
+      "us\\Paa92492034_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Paa92492034_mammo_0.png",
+      "mammo\\Paa92492034_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pcda85bf152",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pcda85bf152_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pcda85bf152_mammo_0.png",
+      "mammo\\Pcda85bf152_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "0",
+    "label_group": "incomplete",
+    "binary_label": "nan",
+    "pathology_label": "nan"
+  },
+  {
+    "pseudo_id": "P9da1847a12",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P9da1847a12_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P9da1847a12_mammo_0.png",
+      "mammo\\P9da1847a12_mammo_1.png",
+      "mammo\\P9da1847a12_mammo_2.png",
+      "mammo\\P9da1847a12_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P5f4193edfb",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P5f4193edfb_us_0.png",
+      "us\\P5f4193edfb_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P5f4193edfb_mammo_0.png",
+      "mammo\\P5f4193edfb_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "6",
+    "label_group": "known_malignant",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P911cf03b99",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P911cf03b99_us_0.png",
+      "us\\P911cf03b99_us_1.png",
+      "us\\P911cf03b99_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P911cf03b99_mammo_0.png",
+      "mammo\\P911cf03b99_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pa8e1aed0c5",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pa8e1aed0c5_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pa8e1aed0c5_mammo_0.png",
+      "mammo\\Pa8e1aed0c5_mammo_1.png",
+      "mammo\\Pa8e1aed0c5_mammo_2.png",
+      "mammo\\Pa8e1aed0c5_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pe366f07509",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pe366f07509_us_0.png",
+      "us\\Pe366f07509_us_1.png",
+      "us\\Pe366f07509_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe366f07509_mammo_0.png",
+      "mammo\\Pe366f07509_mammo_1.png",
+      "mammo\\Pe366f07509_mammo_2.png",
+      "mammo\\Pe366f07509_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P2dbe21ddf8",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P2dbe21ddf8_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P2dbe21ddf8_mammo_0.png",
+      "mammo\\P2dbe21ddf8_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pdd5cf25353",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pdd5cf25353_us_0.png",
+      "us\\Pdd5cf25353_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pdd5cf25353_mammo_0.png",
+      "mammo\\Pdd5cf25353_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P1f717df9d9",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P1f717df9d9_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P1f717df9d9_mammo_0.png",
+      "mammo\\P1f717df9d9_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pe8e2099807",
+    "n_us": 5,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pe8e2099807_us_0.png",
+      "us\\Pe8e2099807_us_1.png",
+      "us\\Pe8e2099807_us_2.png",
+      "us\\Pe8e2099807_us_3.png",
+      "us\\Pe8e2099807_us_4.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe8e2099807_mammo_0.png",
+      "mammo\\Pe8e2099807_mammo_1.png",
+      "mammo\\Pe8e2099807_mammo_2.png",
+      "mammo\\Pe8e2099807_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pb46a833fec",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pb46a833fec_us_0.png",
+      "us\\Pb46a833fec_us_1.png",
+      "us\\Pb46a833fec_us_2.png",
+      "us\\Pb46a833fec_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pb46a833fec_mammo_0.png",
+      "mammo\\Pb46a833fec_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pb9ea85bc03",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pb9ea85bc03_us_0.png",
+      "us\\Pb9ea85bc03_us_1.png",
+      "us\\Pb9ea85bc03_us_2.png",
+      "us\\Pb9ea85bc03_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pb9ea85bc03_mammo_0.png",
+      "mammo\\Pb9ea85bc03_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pc928682093",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pc928682093_us_0.png",
+      "us\\Pc928682093_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pc928682093_mammo_0.png",
+      "mammo\\Pc928682093_mammo_1.png",
+      "mammo\\Pc928682093_mammo_2.png",
+      "mammo\\Pc928682093_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P5bb55f62b4",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P5bb55f62b4_us_0.png",
+      "us\\P5bb55f62b4_us_1.png",
+      "us\\P5bb55f62b4_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P5bb55f62b4_mammo_0.png",
+      "mammo\\P5bb55f62b4_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pf2ed19a29f",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pf2ed19a29f_us_0.png",
+      "us\\Pf2ed19a29f_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pf2ed19a29f_mammo_0.png",
+      "mammo\\Pf2ed19a29f_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pe5e7a4d778",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pe5e7a4d778_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe5e7a4d778_mammo_0.png",
+      "mammo\\Pe5e7a4d778_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pff03f320fc",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pff03f320fc_us_0.png",
+      "us\\Pff03f320fc_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pff03f320fc_mammo_0.png",
+      "mammo\\Pff03f320fc_mammo_1.png",
+      "mammo\\Pff03f320fc_mammo_2.png",
+      "mammo\\Pff03f320fc_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pf5fb81d3d1",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pf5fb81d3d1_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pf5fb81d3d1_mammo_0.png",
+      "mammo\\Pf5fb81d3d1_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P8a0fc0ee3b",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P8a0fc0ee3b_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P8a0fc0ee3b_mammo_0.png",
+      "mammo\\P8a0fc0ee3b_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P0005e848cf",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P0005e848cf_us_0.png",
+      "us\\P0005e848cf_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P0005e848cf_mammo_0.png",
+      "mammo\\P0005e848cf_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pe6ec4ef81f",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pe6ec4ef81f_us_0.png",
+      "us\\Pe6ec4ef81f_us_1.png",
+      "us\\Pe6ec4ef81f_us_2.png",
+      "us\\Pe6ec4ef81f_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe6ec4ef81f_mammo_0.png",
+      "mammo\\Pe6ec4ef81f_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P85526dd55c",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P85526dd55c_us_0.png",
+      "us\\P85526dd55c_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P85526dd55c_mammo_0.png",
+      "mammo\\P85526dd55c_mammo_1.png",
+      "mammo\\P85526dd55c_mammo_2.png",
+      "mammo\\P85526dd55c_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pab43a61c53",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pab43a61c53_us_0.png",
+      "us\\Pab43a61c53_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pab43a61c53_mammo_0.png",
+      "mammo\\Pab43a61c53_mammo_1.png",
+      "mammo\\Pab43a61c53_mammo_2.png",
+      "mammo\\Pab43a61c53_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pef453b7e4b",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pef453b7e4b_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pef453b7e4b_mammo_0.png",
+      "mammo\\Pef453b7e4b_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P99b92db409",
+    "n_us": 5,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P99b92db409_us_0.png",
+      "us\\P99b92db409_us_1.png",
+      "us\\P99b92db409_us_2.png",
+      "us\\P99b92db409_us_3.png",
+      "us\\P99b92db409_us_4.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P99b92db409_mammo_0.png",
+      "mammo\\P99b92db409_mammo_1.png",
+      "mammo\\P99b92db409_mammo_2.png",
+      "mammo\\P99b92db409_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pc17fcf5460",
+    "n_us": 15,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pc17fcf5460_us_0.png",
+      "us\\Pc17fcf5460_us_1.png",
+      "us\\Pc17fcf5460_us_10.png",
+      "us\\Pc17fcf5460_us_11.png",
+      "us\\Pc17fcf5460_us_12.png",
+      "us\\Pc17fcf5460_us_13.png",
+      "us\\Pc17fcf5460_us_14.png",
+      "us\\Pc17fcf5460_us_2.png",
+      "us\\Pc17fcf5460_us_3.png",
+      "us\\Pc17fcf5460_us_4.png",
+      "us\\Pc17fcf5460_us_5.png",
+      "us\\Pc17fcf5460_us_6.png",
+      "us\\Pc17fcf5460_us_7.png",
+      "us\\Pc17fcf5460_us_8.png",
+      "us\\Pc17fcf5460_us_9.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pc17fcf5460_mammo_0.png",
+      "mammo\\Pc17fcf5460_mammo_1.png",
+      "mammo\\Pc17fcf5460_mammo_2.png",
+      "mammo\\Pc17fcf5460_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P3b78484784",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P3b78484784_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P3b78484784_mammo_0.png",
+      "mammo\\P3b78484784_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P5e14acf0ba",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P5e14acf0ba_us_0.png",
+      "us\\P5e14acf0ba_us_1.png",
+      "us\\P5e14acf0ba_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P5e14acf0ba_mammo_0.png",
+      "mammo\\P5e14acf0ba_mammo_1.png",
+      "mammo\\P5e14acf0ba_mammo_2.png",
+      "mammo\\P5e14acf0ba_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P0be318c1bf",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P0be318c1bf_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P0be318c1bf_mammo_0.png",
+      "mammo\\P0be318c1bf_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P3681a192d2",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P3681a192d2_us_0.png",
+      "us\\P3681a192d2_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P3681a192d2_mammo_0.png",
+      "mammo\\P3681a192d2_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pfec48a4279",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pfec48a4279_us_0.png",
+      "us\\Pfec48a4279_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pfec48a4279_mammo_0.png",
+      "mammo\\Pfec48a4279_mammo_1.png",
+      "mammo\\Pfec48a4279_mammo_2.png",
+      "mammo\\Pfec48a4279_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pf2bbce675b",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pf2bbce675b_us_0.png",
+      "us\\Pf2bbce675b_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pf2bbce675b_mammo_0.png",
+      "mammo\\Pf2bbce675b_mammo_1.png",
+      "mammo\\Pf2bbce675b_mammo_2.png",
+      "mammo\\Pf2bbce675b_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P627ba2fae1",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P627ba2fae1_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P627ba2fae1_mammo_0.png",
+      "mammo\\P627ba2fae1_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pf3f5539217",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pf3f5539217_us_0.png",
+      "us\\Pf3f5539217_us_1.png",
+      "us\\Pf3f5539217_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pf3f5539217_mammo_0.png",
+      "mammo\\Pf3f5539217_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P5835548e55",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P5835548e55_us_0.png",
+      "us\\P5835548e55_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P5835548e55_mammo_0.png",
+      "mammo\\P5835548e55_mammo_1.png",
+      "mammo\\P5835548e55_mammo_2.png",
+      "mammo\\P5835548e55_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P8b317e880c",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P8b317e880c_us_0.png",
+      "us\\P8b317e880c_us_1.png",
+      "us\\P8b317e880c_us_2.png",
+      "us\\P8b317e880c_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P8b317e880c_mammo_0.png",
+      "mammo\\P8b317e880c_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P7eaf73c625",
+    "n_us": 5,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P7eaf73c625_us_0.png",
+      "us\\P7eaf73c625_us_1.png",
+      "us\\P7eaf73c625_us_2.png",
+      "us\\P7eaf73c625_us_3.png",
+      "us\\P7eaf73c625_us_4.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P7eaf73c625_mammo_0.png",
+      "mammo\\P7eaf73c625_mammo_1.png",
+      "mammo\\P7eaf73c625_mammo_2.png",
+      "mammo\\P7eaf73c625_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pfdf867a5c2",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pfdf867a5c2_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pfdf867a5c2_mammo_0.png",
+      "mammo\\Pfdf867a5c2_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pa85a5efb5e",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pa85a5efb5e_us_0.png",
+      "us\\Pa85a5efb5e_us_1.png",
+      "us\\Pa85a5efb5e_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pa85a5efb5e_mammo_0.png",
+      "mammo\\Pa85a5efb5e_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pc5ae44d7ac",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pc5ae44d7ac_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pc5ae44d7ac_mammo_0.png",
+      "mammo\\Pc5ae44d7ac_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P2f7b48d201",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P2f7b48d201_us_0.png",
+      "us\\P2f7b48d201_us_1.png",
+      "us\\P2f7b48d201_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P2f7b48d201_mammo_0.png",
+      "mammo\\P2f7b48d201_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": false,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pd2c526724e",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pd2c526724e_us_0.png",
+      "us\\Pd2c526724e_us_1.png",
+      "us\\Pd2c526724e_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pd2c526724e_mammo_0.png",
+      "mammo\\Pd2c526724e_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pd6a299e0a4",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pd6a299e0a4_us_0.png",
+      "us\\Pd6a299e0a4_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pd6a299e0a4_mammo_0.png",
+      "mammo\\Pd6a299e0a4_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P274d662109",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P274d662109_us_0.png",
+      "us\\P274d662109_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P274d662109_mammo_0.png",
+      "mammo\\P274d662109_mammo_1.png",
+      "mammo\\P274d662109_mammo_2.png",
+      "mammo\\P274d662109_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pb1e9ec049f",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pb1e9ec049f_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pb1e9ec049f_mammo_0.png",
+      "mammo\\Pb1e9ec049f_mammo_1.png",
+      "mammo\\Pb1e9ec049f_mammo_2.png",
+      "mammo\\Pb1e9ec049f_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P46d2494c2f",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P46d2494c2f_us_0.png",
+      "us\\P46d2494c2f_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P46d2494c2f_mammo_0.png",
+      "mammo\\P46d2494c2f_mammo_1.png",
+      "mammo\\P46d2494c2f_mammo_2.png",
+      "mammo\\P46d2494c2f_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "0",
+    "label_group": "incomplete",
+    "binary_label": "nan",
+    "pathology_label": "nan"
+  },
+  {
+    "pseudo_id": "P4de2fe1516",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P4de2fe1516_us_0.png",
+      "us\\P4de2fe1516_us_1.png",
+      "us\\P4de2fe1516_us_2.png",
+      "us\\P4de2fe1516_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P4de2fe1516_mammo_0.png",
+      "mammo\\P4de2fe1516_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P72ae715351",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P72ae715351_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P72ae715351_mammo_0.png",
+      "mammo\\P72ae715351_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pecae6e57de",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pecae6e57de_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pecae6e57de_mammo_0.png",
+      "mammo\\Pecae6e57de_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P8df22f4b67",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P8df22f4b67_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P8df22f4b67_mammo_0.png",
+      "mammo\\P8df22f4b67_mammo_1.png",
+      "mammo\\P8df22f4b67_mammo_2.png",
+      "mammo\\P8df22f4b67_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pb49061fc0a",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pb49061fc0a_us_0.png",
+      "us\\Pb49061fc0a_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pb49061fc0a_mammo_0.png",
+      "mammo\\Pb49061fc0a_mammo_1.png",
+      "mammo\\Pb49061fc0a_mammo_2.png",
+      "mammo\\Pb49061fc0a_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P1552bb7e07",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P1552bb7e07_us_0.png",
+      "us\\P1552bb7e07_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P1552bb7e07_mammo_0.png",
+      "mammo\\P1552bb7e07_mammo_1.png",
+      "mammo\\P1552bb7e07_mammo_2.png",
+      "mammo\\P1552bb7e07_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pef9b4bf634",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pef9b4bf634_us_0.png",
+      "us\\Pef9b4bf634_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pef9b4bf634_mammo_0.png",
+      "mammo\\Pef9b4bf634_mammo_1.png",
+      "mammo\\Pef9b4bf634_mammo_2.png",
+      "mammo\\Pef9b4bf634_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pcdf00ebf30",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pcdf00ebf30_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pcdf00ebf30_mammo_0.png",
+      "mammo\\Pcdf00ebf30_mammo_1.png",
+      "mammo\\Pcdf00ebf30_mammo_2.png",
+      "mammo\\Pcdf00ebf30_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P898f997cc4",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P898f997cc4_us_0.png",
+      "us\\P898f997cc4_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P898f997cc4_mammo_0.png",
+      "mammo\\P898f997cc4_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P8a125da607",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P8a125da607_us_0.png",
+      "us\\P8a125da607_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P8a125da607_mammo_0.png",
+      "mammo\\P8a125da607_mammo_1.png",
+      "mammo\\P8a125da607_mammo_2.png",
+      "mammo\\P8a125da607_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P738f9e00cd",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P738f9e00cd_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P738f9e00cd_mammo_0.png",
+      "mammo\\P738f9e00cd_mammo_1.png",
+      "mammo\\P738f9e00cd_mammo_2.png",
+      "mammo\\P738f9e00cd_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P7dbfdfc037",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P7dbfdfc037_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P7dbfdfc037_mammo_0.png",
+      "mammo\\P7dbfdfc037_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pe484808f18",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pe484808f18_us_0.png",
+      "us\\Pe484808f18_us_1.png",
+      "us\\Pe484808f18_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe484808f18_mammo_0.png",
+      "mammo\\Pe484808f18_mammo_1.png",
+      "mammo\\Pe484808f18_mammo_2.png",
+      "mammo\\Pe484808f18_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P2bff793115",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P2bff793115_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P2bff793115_mammo_0.png",
+      "mammo\\P2bff793115_mammo_1.png",
+      "mammo\\P2bff793115_mammo_2.png",
+      "mammo\\P2bff793115_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pe56a41819c",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pe56a41819c_us_0.png",
+      "us\\Pe56a41819c_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe56a41819c_mammo_0.png",
+      "mammo\\Pe56a41819c_mammo_1.png",
+      "mammo\\Pe56a41819c_mammo_2.png",
+      "mammo\\Pe56a41819c_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P380269101b",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P380269101b_us_0.png",
+      "us\\P380269101b_us_1.png",
+      "us\\P380269101b_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P380269101b_mammo_0.png",
+      "mammo\\P380269101b_mammo_1.png",
+      "mammo\\P380269101b_mammo_2.png",
+      "mammo\\P380269101b_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pd2cf9bd755",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pd2cf9bd755_us_0.png",
+      "us\\Pd2cf9bd755_us_1.png",
+      "us\\Pd2cf9bd755_us_2.png",
+      "us\\Pd2cf9bd755_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pd2cf9bd755_mammo_0.png",
+      "mammo\\Pd2cf9bd755_mammo_1.png",
+      "mammo\\Pd2cf9bd755_mammo_2.png",
+      "mammo\\Pd2cf9bd755_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P30e888d5e8",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P30e888d5e8_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P30e888d5e8_mammo_0.png",
+      "mammo\\P30e888d5e8_mammo_1.png",
+      "mammo\\P30e888d5e8_mammo_2.png",
+      "mammo\\P30e888d5e8_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P94dba916ca",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P94dba916ca_us_0.png",
+      "us\\P94dba916ca_us_1.png",
+      "us\\P94dba916ca_us_2.png",
+      "us\\P94dba916ca_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P94dba916ca_mammo_0.png",
+      "mammo\\P94dba916ca_mammo_1.png",
+      "mammo\\P94dba916ca_mammo_2.png",
+      "mammo\\P94dba916ca_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P81ec2e62eb",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P81ec2e62eb_us_0.png",
+      "us\\P81ec2e62eb_us_1.png",
+      "us\\P81ec2e62eb_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P81ec2e62eb_mammo_0.png",
+      "mammo\\P81ec2e62eb_mammo_1.png",
+      "mammo\\P81ec2e62eb_mammo_2.png",
+      "mammo\\P81ec2e62eb_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P9202c0349b",
+    "n_us": 5,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P9202c0349b_us_0.png",
+      "us\\P9202c0349b_us_1.png",
+      "us\\P9202c0349b_us_2.png",
+      "us\\P9202c0349b_us_3.png",
+      "us\\P9202c0349b_us_4.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P9202c0349b_mammo_0.png",
+      "mammo\\P9202c0349b_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P1701835ec8",
+    "n_us": 7,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P1701835ec8_us_0.png",
+      "us\\P1701835ec8_us_1.png",
+      "us\\P1701835ec8_us_2.png",
+      "us\\P1701835ec8_us_3.png",
+      "us\\P1701835ec8_us_4.png",
+      "us\\P1701835ec8_us_5.png",
+      "us\\P1701835ec8_us_6.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P1701835ec8_mammo_0.png",
+      "mammo\\P1701835ec8_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P7673e46bcd",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P7673e46bcd_us_0.png",
+      "us\\P7673e46bcd_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P7673e46bcd_mammo_0.png",
+      "mammo\\P7673e46bcd_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pd2c6981a5f",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pd2c6981a5f_us_0.png",
+      "us\\Pd2c6981a5f_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pd2c6981a5f_mammo_0.png",
+      "mammo\\Pd2c6981a5f_mammo_1.png",
+      "mammo\\Pd2c6981a5f_mammo_2.png",
+      "mammo\\Pd2c6981a5f_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P4ffb586dbd",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P4ffb586dbd_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P4ffb586dbd_mammo_0.png",
+      "mammo\\P4ffb586dbd_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P44b335f37b",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P44b335f37b_us_0.png",
+      "us\\P44b335f37b_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P44b335f37b_mammo_0.png",
+      "mammo\\P44b335f37b_mammo_1.png",
+      "mammo\\P44b335f37b_mammo_2.png",
+      "mammo\\P44b335f37b_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pdbe5f14934",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pdbe5f14934_us_0.png",
+      "us\\Pdbe5f14934_us_1.png",
+      "us\\Pdbe5f14934_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pdbe5f14934_mammo_0.png",
+      "mammo\\Pdbe5f14934_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P32571096c5",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P32571096c5_us_0.png",
+      "us\\P32571096c5_us_1.png",
+      "us\\P32571096c5_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P32571096c5_mammo_0.png",
+      "mammo\\P32571096c5_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P5ec1ebf409",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P5ec1ebf409_us_0.png",
+      "us\\P5ec1ebf409_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P5ec1ebf409_mammo_0.png",
+      "mammo\\P5ec1ebf409_mammo_1.png",
+      "mammo\\P5ec1ebf409_mammo_2.png",
+      "mammo\\P5ec1ebf409_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P381603858a",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P381603858a_us_0.png",
+      "us\\P381603858a_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P381603858a_mammo_0.png",
+      "mammo\\P381603858a_mammo_1.png",
+      "mammo\\P381603858a_mammo_2.png",
+      "mammo\\P381603858a_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P97eb11f1f1",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P97eb11f1f1_us_0.png",
+      "us\\P97eb11f1f1_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P97eb11f1f1_mammo_0.png",
+      "mammo\\P97eb11f1f1_mammo_1.png",
+      "mammo\\P97eb11f1f1_mammo_2.png",
+      "mammo\\P97eb11f1f1_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pc7af32e452",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pc7af32e452_us_0.png",
+      "us\\Pc7af32e452_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pc7af32e452_mammo_0.png",
+      "mammo\\Pc7af32e452_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pcc0b65f753",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pcc0b65f753_us_0.png",
+      "us\\Pcc0b65f753_us_1.png",
+      "us\\Pcc0b65f753_us_2.png",
+      "us\\Pcc0b65f753_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pcc0b65f753_mammo_0.png",
+      "mammo\\Pcc0b65f753_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Padafee35bb",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Padafee35bb_us_0.png",
+      "us\\Padafee35bb_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Padafee35bb_mammo_0.png",
+      "mammo\\Padafee35bb_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P711ce72a7f",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P711ce72a7f_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P711ce72a7f_mammo_0.png",
+      "mammo\\P711ce72a7f_mammo_1.png",
+      "mammo\\P711ce72a7f_mammo_2.png",
+      "mammo\\P711ce72a7f_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P979705efcc",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P979705efcc_us_0.png",
+      "us\\P979705efcc_us_1.png",
+      "us\\P979705efcc_us_2.png",
+      "us\\P979705efcc_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P979705efcc_mammo_0.png",
+      "mammo\\P979705efcc_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P394cb7f169",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P394cb7f169_us_0.png",
+      "us\\P394cb7f169_us_1.png",
+      "us\\P394cb7f169_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P394cb7f169_mammo_0.png",
+      "mammo\\P394cb7f169_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P1f928f53b9",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P1f928f53b9_us_0.png",
+      "us\\P1f928f53b9_us_1.png",
+      "us\\P1f928f53b9_us_2.png",
+      "us\\P1f928f53b9_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P1f928f53b9_mammo_0.png",
+      "mammo\\P1f928f53b9_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P2a53a581c1",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P2a53a581c1_us_0.png",
+      "us\\P2a53a581c1_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P2a53a581c1_mammo_0.png",
+      "mammo\\P2a53a581c1_mammo_1.png",
+      "mammo\\P2a53a581c1_mammo_2.png",
+      "mammo\\P2a53a581c1_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P99b95f424a",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P99b95f424a_us_0.png",
+      "us\\P99b95f424a_us_1.png",
+      "us\\P99b95f424a_us_2.png",
+      "us\\P99b95f424a_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P99b95f424a_mammo_0.png",
+      "mammo\\P99b95f424a_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P0f7d11d732",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P0f7d11d732_us_0.png",
+      "us\\P0f7d11d732_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P0f7d11d732_mammo_0.png",
+      "mammo\\P0f7d11d732_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pb09e064120",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pb09e064120_us_0.png",
+      "us\\Pb09e064120_us_1.png",
+      "us\\Pb09e064120_us_2.png",
+      "us\\Pb09e064120_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pb09e064120_mammo_0.png",
+      "mammo\\Pb09e064120_mammo_1.png",
+      "mammo\\Pb09e064120_mammo_2.png",
+      "mammo\\Pb09e064120_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pc84cc0c047",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pc84cc0c047_us_0.png",
+      "us\\Pc84cc0c047_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pc84cc0c047_mammo_0.png",
+      "mammo\\Pc84cc0c047_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pc0879ac41c",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pc0879ac41c_us_0.png",
+      "us\\Pc0879ac41c_us_1.png",
+      "us\\Pc0879ac41c_us_2.png",
+      "us\\Pc0879ac41c_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pc0879ac41c_mammo_0.png",
+      "mammo\\Pc0879ac41c_mammo_1.png",
+      "mammo\\Pc0879ac41c_mammo_2.png",
+      "mammo\\Pc0879ac41c_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pbfb391508a",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pbfb391508a_us_0.png",
+      "us\\Pbfb391508a_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pbfb391508a_mammo_0.png",
+      "mammo\\Pbfb391508a_mammo_1.png",
+      "mammo\\Pbfb391508a_mammo_2.png",
+      "mammo\\Pbfb391508a_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P146c0b54cf",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P146c0b54cf_us_0.png",
+      "us\\P146c0b54cf_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P146c0b54cf_mammo_0.png",
+      "mammo\\P146c0b54cf_mammo_1.png",
+      "mammo\\P146c0b54cf_mammo_2.png",
+      "mammo\\P146c0b54cf_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pf57b6a4216",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pf57b6a4216_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pf57b6a4216_mammo_0.png",
+      "mammo\\Pf57b6a4216_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P5a5a13eccf",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P5a5a13eccf_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P5a5a13eccf_mammo_0.png",
+      "mammo\\P5a5a13eccf_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P22e3b471c1",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P22e3b471c1_us_0.png",
+      "us\\P22e3b471c1_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P22e3b471c1_mammo_0.png",
+      "mammo\\P22e3b471c1_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P1c2647abcd",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P1c2647abcd_us_0.png",
+      "us\\P1c2647abcd_us_1.png",
+      "us\\P1c2647abcd_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P1c2647abcd_mammo_0.png",
+      "mammo\\P1c2647abcd_mammo_1.png",
+      "mammo\\P1c2647abcd_mammo_2.png",
+      "mammo\\P1c2647abcd_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P231f344229",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P231f344229_us_0.png",
+      "us\\P231f344229_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P231f344229_mammo_0.png",
+      "mammo\\P231f344229_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "5",
+    "label_group": "highly_suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P7da52baa52",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P7da52baa52_us_0.png",
+      "us\\P7da52baa52_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P7da52baa52_mammo_0.png",
+      "mammo\\P7da52baa52_mammo_1.png",
+      "mammo\\P7da52baa52_mammo_2.png",
+      "mammo\\P7da52baa52_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pd672c6bd39",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pd672c6bd39_us_0.png",
+      "us\\Pd672c6bd39_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pd672c6bd39_mammo_0.png",
+      "mammo\\Pd672c6bd39_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pa88680227b",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pa88680227b_us_0.png",
+      "us\\Pa88680227b_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pa88680227b_mammo_0.png",
+      "mammo\\Pa88680227b_mammo_1.png",
+      "mammo\\Pa88680227b_mammo_2.png",
+      "mammo\\Pa88680227b_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P2de0f1073b",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P2de0f1073b_us_0.png",
+      "us\\P2de0f1073b_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P2de0f1073b_mammo_0.png",
+      "mammo\\P2de0f1073b_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pb9f5487c45",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pb9f5487c45_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pb9f5487c45_mammo_0.png",
+      "mammo\\Pb9f5487c45_mammo_1.png",
+      "mammo\\Pb9f5487c45_mammo_2.png",
+      "mammo\\Pb9f5487c45_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pd28ff85b93",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pd28ff85b93_us_0.png",
+      "us\\Pd28ff85b93_us_1.png",
+      "us\\Pd28ff85b93_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pd28ff85b93_mammo_0.png",
+      "mammo\\Pd28ff85b93_mammo_1.png",
+      "mammo\\Pd28ff85b93_mammo_2.png",
+      "mammo\\Pd28ff85b93_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pbd71a68844",
+    "n_us": 8,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pbd71a68844_us_0.png",
+      "us\\Pbd71a68844_us_1.png",
+      "us\\Pbd71a68844_us_2.png",
+      "us\\Pbd71a68844_us_3.png",
+      "us\\Pbd71a68844_us_4.png",
+      "us\\Pbd71a68844_us_5.png",
+      "us\\Pbd71a68844_us_6.png",
+      "us\\Pbd71a68844_us_7.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pbd71a68844_mammo_0.png",
+      "mammo\\Pbd71a68844_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pa5efce1c02",
+    "n_us": 5,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pa5efce1c02_us_0.png",
+      "us\\Pa5efce1c02_us_1.png",
+      "us\\Pa5efce1c02_us_2.png",
+      "us\\Pa5efce1c02_us_3.png",
+      "us\\Pa5efce1c02_us_4.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pa5efce1c02_mammo_0.png",
+      "mammo\\Pa5efce1c02_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pf3143d84d9",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pf3143d84d9_us_0.png",
+      "us\\Pf3143d84d9_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pf3143d84d9_mammo_0.png",
+      "mammo\\Pf3143d84d9_mammo_1.png",
+      "mammo\\Pf3143d84d9_mammo_2.png",
+      "mammo\\Pf3143d84d9_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P54cacdc59c",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P54cacdc59c_us_0.png",
+      "us\\P54cacdc59c_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P54cacdc59c_mammo_0.png",
+      "mammo\\P54cacdc59c_mammo_1.png",
+      "mammo\\P54cacdc59c_mammo_2.png",
+      "mammo\\P54cacdc59c_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pbd382d6e4e",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pbd382d6e4e_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pbd382d6e4e_mammo_0.png",
+      "mammo\\Pbd382d6e4e_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pd71ada9192",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pd71ada9192_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pd71ada9192_mammo_0.png",
+      "mammo\\Pd71ada9192_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P74e48bae9e",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P74e48bae9e_us_0.png",
+      "us\\P74e48bae9e_us_1.png",
+      "us\\P74e48bae9e_us_2.png",
+      "us\\P74e48bae9e_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P74e48bae9e_mammo_0.png",
+      "mammo\\P74e48bae9e_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pbef4b7c055",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pbef4b7c055_us_0.png",
+      "us\\Pbef4b7c055_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pbef4b7c055_mammo_0.png",
+      "mammo\\Pbef4b7c055_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P600ad57cee",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P600ad57cee_us_0.png",
+      "us\\P600ad57cee_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P600ad57cee_mammo_0.png",
+      "mammo\\P600ad57cee_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P86717ad125",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P86717ad125_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P86717ad125_mammo_0.png",
+      "mammo\\P86717ad125_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pbf1cbb7ae0",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pbf1cbb7ae0_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pbf1cbb7ae0_mammo_0.png",
+      "mammo\\Pbf1cbb7ae0_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P7725eebc39",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P7725eebc39_us_0.png",
+      "us\\P7725eebc39_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P7725eebc39_mammo_0.png",
+      "mammo\\P7725eebc39_mammo_1.png",
+      "mammo\\P7725eebc39_mammo_2.png",
+      "mammo\\P7725eebc39_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P178121da47",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P178121da47_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P178121da47_mammo_0.png",
+      "mammo\\P178121da47_mammo_1.png",
+      "mammo\\P178121da47_mammo_2.png",
+      "mammo\\P178121da47_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pd40438b4f7",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pd40438b4f7_us_0.png",
+      "us\\Pd40438b4f7_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pd40438b4f7_mammo_0.png",
+      "mammo\\Pd40438b4f7_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "Pb25d5656fb",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pb25d5656fb_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pb25d5656fb_mammo_0.png",
+      "mammo\\Pb25d5656fb_mammo_1.png",
+      "mammo\\Pb25d5656fb_mammo_2.png",
+      "mammo\\Pb25d5656fb_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pb2cf253e9d",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pb2cf253e9d_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pb2cf253e9d_mammo_0.png",
+      "mammo\\Pb2cf253e9d_mammo_1.png",
+      "mammo\\Pb2cf253e9d_mammo_2.png",
+      "mammo\\Pb2cf253e9d_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P5ed1913c3b",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P5ed1913c3b_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P5ed1913c3b_mammo_0.png",
+      "mammo\\P5ed1913c3b_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pb8c1bfbe52",
+    "n_us": 11,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pb8c1bfbe52_us_0.png",
+      "us\\Pb8c1bfbe52_us_1.png",
+      "us\\Pb8c1bfbe52_us_10.png",
+      "us\\Pb8c1bfbe52_us_2.png",
+      "us\\Pb8c1bfbe52_us_3.png",
+      "us\\Pb8c1bfbe52_us_4.png",
+      "us\\Pb8c1bfbe52_us_5.png",
+      "us\\Pb8c1bfbe52_us_6.png",
+      "us\\Pb8c1bfbe52_us_7.png",
+      "us\\Pb8c1bfbe52_us_8.png",
+      "us\\Pb8c1bfbe52_us_9.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pb8c1bfbe52_mammo_0.png",
+      "mammo\\Pb8c1bfbe52_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P7c0139ab81",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P7c0139ab81_us_0.png",
+      "us\\P7c0139ab81_us_1.png",
+      "us\\P7c0139ab81_us_2.png",
+      "us\\P7c0139ab81_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P7c0139ab81_mammo_0.png",
+      "mammo\\P7c0139ab81_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pefc89d0575",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pefc89d0575_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pefc89d0575_mammo_0.png",
+      "mammo\\Pefc89d0575_mammo_1.png",
+      "mammo\\Pefc89d0575_mammo_2.png",
+      "mammo\\Pefc89d0575_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P1e1a7f9e64",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P1e1a7f9e64_us_0.png",
+      "us\\P1e1a7f9e64_us_1.png",
+      "us\\P1e1a7f9e64_us_2.png",
+      "us\\P1e1a7f9e64_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P1e1a7f9e64_mammo_0.png",
+      "mammo\\P1e1a7f9e64_mammo_1.png",
+      "mammo\\P1e1a7f9e64_mammo_2.png",
+      "mammo\\P1e1a7f9e64_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pe3eddac27d",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pe3eddac27d_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe3eddac27d_mammo_0.png",
+      "mammo\\Pe3eddac27d_mammo_1.png",
+      "mammo\\Pe3eddac27d_mammo_2.png",
+      "mammo\\Pe3eddac27d_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P5c8a42f6ae",
+    "n_us": 2,
+    "n_mammo": 1,
+    "us_paths": [
+      "us\\P5c8a42f6ae_us_0.png",
+      "us\\P5c8a42f6ae_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P5c8a42f6ae_mammo_0.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P03141dbb70",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P03141dbb70_us_0.png",
+      "us\\P03141dbb70_us_1.png",
+      "us\\P03141dbb70_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P03141dbb70_mammo_0.png",
+      "mammo\\P03141dbb70_mammo_1.png",
+      "mammo\\P03141dbb70_mammo_2.png",
+      "mammo\\P03141dbb70_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P52e0990179",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P52e0990179_us_0.png",
+      "us\\P52e0990179_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P52e0990179_mammo_0.png",
+      "mammo\\P52e0990179_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pb562af743a",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pb562af743a_us_0.png",
+      "us\\Pb562af743a_us_1.png",
+      "us\\Pb562af743a_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pb562af743a_mammo_0.png",
+      "mammo\\Pb562af743a_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P76b9ba1fd0",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P76b9ba1fd0_us_0.png",
+      "us\\P76b9ba1fd0_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P76b9ba1fd0_mammo_0.png",
+      "mammo\\P76b9ba1fd0_mammo_1.png",
+      "mammo\\P76b9ba1fd0_mammo_2.png",
+      "mammo\\P76b9ba1fd0_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pfd48b86687",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pfd48b86687_us_0.png",
+      "us\\Pfd48b86687_us_1.png",
+      "us\\Pfd48b86687_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pfd48b86687_mammo_0.png",
+      "mammo\\Pfd48b86687_mammo_1.png",
+      "mammo\\Pfd48b86687_mammo_2.png",
+      "mammo\\Pfd48b86687_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pd09f315e44",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pd09f315e44_us_0.png",
+      "us\\Pd09f315e44_us_1.png",
+      "us\\Pd09f315e44_us_2.png",
+      "us\\Pd09f315e44_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pd09f315e44_mammo_0.png",
+      "mammo\\Pd09f315e44_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pc08e60494c",
+    "n_us": 5,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pc08e60494c_us_0.png",
+      "us\\Pc08e60494c_us_1.png",
+      "us\\Pc08e60494c_us_2.png",
+      "us\\Pc08e60494c_us_3.png",
+      "us\\Pc08e60494c_us_4.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pc08e60494c_mammo_0.png",
+      "mammo\\Pc08e60494c_mammo_1.png",
+      "mammo\\Pc08e60494c_mammo_2.png",
+      "mammo\\Pc08e60494c_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P70b8fbacc4",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P70b8fbacc4_us_0.png",
+      "us\\P70b8fbacc4_us_1.png",
+      "us\\P70b8fbacc4_us_2.png",
+      "us\\P70b8fbacc4_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P70b8fbacc4_mammo_0.png",
+      "mammo\\P70b8fbacc4_mammo_1.png",
+      "mammo\\P70b8fbacc4_mammo_2.png",
+      "mammo\\P70b8fbacc4_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P32b6b91837",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P32b6b91837_us_0.png",
+      "us\\P32b6b91837_us_1.png",
+      "us\\P32b6b91837_us_2.png",
+      "us\\P32b6b91837_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P32b6b91837_mammo_0.png",
+      "mammo\\P32b6b91837_mammo_1.png",
+      "mammo\\P32b6b91837_mammo_2.png",
+      "mammo\\P32b6b91837_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pa468d551ab",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pa468d551ab_us_0.png",
+      "us\\Pa468d551ab_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pa468d551ab_mammo_0.png",
+      "mammo\\Pa468d551ab_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "0",
+    "label_group": "incomplete",
+    "binary_label": "nan",
+    "pathology_label": "nan"
+  },
+  {
+    "pseudo_id": "P4353ba1607",
+    "n_us": 6,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P4353ba1607_us_0.png",
+      "us\\P4353ba1607_us_1.png",
+      "us\\P4353ba1607_us_2.png",
+      "us\\P4353ba1607_us_3.png",
+      "us\\P4353ba1607_us_4.png",
+      "us\\P4353ba1607_us_5.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P4353ba1607_mammo_0.png",
+      "mammo\\P4353ba1607_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P6dd9df6a97",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P6dd9df6a97_us_0.png",
+      "us\\P6dd9df6a97_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P6dd9df6a97_mammo_0.png",
+      "mammo\\P6dd9df6a97_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pace65911de",
+    "n_us": 7,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pace65911de_us_0.png",
+      "us\\Pace65911de_us_1.png",
+      "us\\Pace65911de_us_2.png",
+      "us\\Pace65911de_us_3.png",
+      "us\\Pace65911de_us_4.png",
+      "us\\Pace65911de_us_5.png",
+      "us\\Pace65911de_us_6.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pace65911de_mammo_0.png",
+      "mammo\\Pace65911de_mammo_1.png",
+      "mammo\\Pace65911de_mammo_2.png",
+      "mammo\\Pace65911de_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pccefc37adb",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pccefc37adb_us_0.png",
+      "us\\Pccefc37adb_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pccefc37adb_mammo_0.png",
+      "mammo\\Pccefc37adb_mammo_1.png",
+      "mammo\\Pccefc37adb_mammo_2.png",
+      "mammo\\Pccefc37adb_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pfc86f88211",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pfc86f88211_us_0.png",
+      "us\\Pfc86f88211_us_1.png",
+      "us\\Pfc86f88211_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pfc86f88211_mammo_0.png",
+      "mammo\\Pfc86f88211_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P1e893372dc",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P1e893372dc_us_0.png",
+      "us\\P1e893372dc_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P1e893372dc_mammo_0.png",
+      "mammo\\P1e893372dc_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pe8dd62422b",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pe8dd62422b_us_0.png",
+      "us\\Pe8dd62422b_us_1.png",
+      "us\\Pe8dd62422b_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pe8dd62422b_mammo_0.png",
+      "mammo\\Pe8dd62422b_mammo_1.png",
+      "mammo\\Pe8dd62422b_mammo_2.png",
+      "mammo\\Pe8dd62422b_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pad0658a923",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pad0658a923_us_0.png",
+      "us\\Pad0658a923_us_1.png",
+      "us\\Pad0658a923_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pad0658a923_mammo_0.png",
+      "mammo\\Pad0658a923_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P05f9f55631",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P05f9f55631_us_0.png",
+      "us\\P05f9f55631_us_1.png",
+      "us\\P05f9f55631_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P05f9f55631_mammo_0.png",
+      "mammo\\P05f9f55631_mammo_1.png",
+      "mammo\\P05f9f55631_mammo_2.png",
+      "mammo\\P05f9f55631_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P681c5bc6b4",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P681c5bc6b4_us_0.png",
+      "us\\P681c5bc6b4_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P681c5bc6b4_mammo_0.png",
+      "mammo\\P681c5bc6b4_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P175b298953",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P175b298953_us_0.png",
+      "us\\P175b298953_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P175b298953_mammo_0.png",
+      "mammo\\P175b298953_mammo_1.png",
+      "mammo\\P175b298953_mammo_2.png",
+      "mammo\\P175b298953_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P48c8bbeebb",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P48c8bbeebb_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P48c8bbeebb_mammo_0.png",
+      "mammo\\P48c8bbeebb_mammo_1.png",
+      "mammo\\P48c8bbeebb_mammo_2.png",
+      "mammo\\P48c8bbeebb_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P974037aad4",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P974037aad4_us_0.png",
+      "us\\P974037aad4_us_1.png",
+      "us\\P974037aad4_us_2.png",
+      "us\\P974037aad4_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P974037aad4_mammo_0.png",
+      "mammo\\P974037aad4_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P393ce8b144",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P393ce8b144_us_0.png",
+      "us\\P393ce8b144_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P393ce8b144_mammo_0.png",
+      "mammo\\P393ce8b144_mammo_1.png",
+      "mammo\\P393ce8b144_mammo_2.png",
+      "mammo\\P393ce8b144_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P4718027496",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P4718027496_us_0.png",
+      "us\\P4718027496_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P4718027496_mammo_0.png",
+      "mammo\\P4718027496_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P21c609a25f",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P21c609a25f_us_0.png",
+      "us\\P21c609a25f_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P21c609a25f_mammo_0.png",
+      "mammo\\P21c609a25f_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pad7c4b0c3d",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pad7c4b0c3d_us_0.png",
+      "us\\Pad7c4b0c3d_us_1.png",
+      "us\\Pad7c4b0c3d_us_2.png",
+      "us\\Pad7c4b0c3d_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pad7c4b0c3d_mammo_0.png",
+      "mammo\\Pad7c4b0c3d_mammo_1.png",
+      "mammo\\Pad7c4b0c3d_mammo_2.png",
+      "mammo\\Pad7c4b0c3d_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P3d40267024",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P3d40267024_us_0.png",
+      "us\\P3d40267024_us_1.png",
+      "us\\P3d40267024_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P3d40267024_mammo_0.png",
+      "mammo\\P3d40267024_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P2ccd1cff1f",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P2ccd1cff1f_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P2ccd1cff1f_mammo_0.png",
+      "mammo\\P2ccd1cff1f_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P217e3fe10e",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P217e3fe10e_us_0.png",
+      "us\\P217e3fe10e_us_1.png",
+      "us\\P217e3fe10e_us_2.png",
+      "us\\P217e3fe10e_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P217e3fe10e_mammo_0.png",
+      "mammo\\P217e3fe10e_mammo_1.png",
+      "mammo\\P217e3fe10e_mammo_2.png",
+      "mammo\\P217e3fe10e_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pef129bb100",
+    "n_us": 6,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pef129bb100_us_0.png",
+      "us\\Pef129bb100_us_1.png",
+      "us\\Pef129bb100_us_2.png",
+      "us\\Pef129bb100_us_3.png",
+      "us\\Pef129bb100_us_4.png",
+      "us\\Pef129bb100_us_5.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pef129bb100_mammo_0.png",
+      "mammo\\Pef129bb100_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pd720d4cbbd",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pd720d4cbbd_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pd720d4cbbd_mammo_0.png",
+      "mammo\\Pd720d4cbbd_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "Pff300dae86",
+    "n_us": 2,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pff300dae86_us_0.png",
+      "us\\Pff300dae86_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pff300dae86_mammo_0.png",
+      "mammo\\Pff300dae86_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  },
+  {
+    "pseudo_id": "P67a4ffaf71",
+    "n_us": 8,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P67a4ffaf71_us_0.png",
+      "us\\P67a4ffaf71_us_1.png",
+      "us\\P67a4ffaf71_us_2.png",
+      "us\\P67a4ffaf71_us_3.png",
+      "us\\P67a4ffaf71_us_4.png",
+      "us\\P67a4ffaf71_us_5.png",
+      "us\\P67a4ffaf71_us_6.png",
+      "us\\P67a4ffaf71_us_7.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P67a4ffaf71_mammo_0.png",
+      "mammo\\P67a4ffaf71_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P589328fad1",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P589328fad1_us_0.png",
+      "us\\P589328fad1_us_1.png",
+      "us\\P589328fad1_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P589328fad1_mammo_0.png",
+      "mammo\\P589328fad1_mammo_1.png",
+      "mammo\\P589328fad1_mammo_2.png",
+      "mammo\\P589328fad1_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P3f96b7625c",
+    "n_us": 7,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P3f96b7625c_us_0.png",
+      "us\\P3f96b7625c_us_1.png",
+      "us\\P3f96b7625c_us_2.png",
+      "us\\P3f96b7625c_us_3.png",
+      "us\\P3f96b7625c_us_4.png",
+      "us\\P3f96b7625c_us_5.png",
+      "us\\P3f96b7625c_us_6.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P3f96b7625c_mammo_0.png",
+      "mammo\\P3f96b7625c_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P8951c941d6",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P8951c941d6_us_0.png",
+      "us\\P8951c941d6_us_1.png",
+      "us\\P8951c941d6_us_2.png",
+      "us\\P8951c941d6_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P8951c941d6_mammo_0.png",
+      "mammo\\P8951c941d6_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pd337059fcc",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pd337059fcc_us_0.png",
+      "us\\Pd337059fcc_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pd337059fcc_mammo_0.png",
+      "mammo\\Pd337059fcc_mammo_1.png",
+      "mammo\\Pd337059fcc_mammo_2.png",
+      "mammo\\Pd337059fcc_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pcb32f54a83",
+    "n_us": 1,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pcb32f54a83_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pcb32f54a83_mammo_0.png",
+      "mammo\\Pcb32f54a83_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pa93c96073b",
+    "n_us": 4,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pa93c96073b_us_0.png",
+      "us\\Pa93c96073b_us_1.png",
+      "us\\Pa93c96073b_us_2.png",
+      "us\\Pa93c96073b_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pa93c96073b_mammo_0.png",
+      "mammo\\Pa93c96073b_mammo_1.png",
+      "mammo\\Pa93c96073b_mammo_2.png",
+      "mammo\\Pa93c96073b_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P69b68f64b4",
+    "n_us": 8,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P69b68f64b4_us_0.png",
+      "us\\P69b68f64b4_us_1.png",
+      "us\\P69b68f64b4_us_2.png",
+      "us\\P69b68f64b4_us_3.png",
+      "us\\P69b68f64b4_us_4.png",
+      "us\\P69b68f64b4_us_5.png",
+      "us\\P69b68f64b4_us_6.png",
+      "us\\P69b68f64b4_us_7.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P69b68f64b4_mammo_0.png",
+      "mammo\\P69b68f64b4_mammo_1.png",
+      "mammo\\P69b68f64b4_mammo_2.png",
+      "mammo\\P69b68f64b4_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "3",
+    "label_group": "probably_benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pacd69c1a67",
+    "n_us": 3,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\Pacd69c1a67_us_0.png",
+      "us\\Pacd69c1a67_us_1.png",
+      "us\\Pacd69c1a67_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pacd69c1a67_mammo_0.png",
+      "mammo\\Pacd69c1a67_mammo_1.png",
+      "mammo\\Pacd69c1a67_mammo_2.png",
+      "mammo\\Pacd69c1a67_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "0",
+    "label_group": "incomplete",
+    "binary_label": "nan",
+    "pathology_label": "nan"
+  },
+  {
+    "pseudo_id": "P62609b5344",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P62609b5344_us_0.png",
+      "us\\P62609b5344_us_1.png",
+      "us\\P62609b5344_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P62609b5344_mammo_0.png",
+      "mammo\\P62609b5344_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P72e6599191",
+    "n_us": 2,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P72e6599191_us_0.png",
+      "us\\P72e6599191_us_1.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P72e6599191_mammo_0.png",
+      "mammo\\P72e6599191_mammo_1.png",
+      "mammo\\P72e6599191_mammo_2.png",
+      "mammo\\P72e6599191_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P8dcfdc9fbb",
+    "n_us": 3,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P8dcfdc9fbb_us_0.png",
+      "us\\P8dcfdc9fbb_us_1.png",
+      "us\\P8dcfdc9fbb_us_2.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P8dcfdc9fbb_mammo_0.png",
+      "mammo\\P8dcfdc9fbb_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": false,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "Pcff8e575f3",
+    "n_us": 4,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\Pcff8e575f3_us_0.png",
+      "us\\Pcff8e575f3_us_1.png",
+      "us\\Pcff8e575f3_us_2.png",
+      "us\\Pcff8e575f3_us_3.png"
+    ],
+    "mammo_paths": [
+      "mammo\\Pcff8e575f3_mammo_0.png",
+      "mammo\\Pcff8e575f3_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "4",
+    "label_group": "suspicious",
+    "binary_label": "Positive",
+    "pathology_label": "Malignant"
+  },
+  {
+    "pseudo_id": "P7e7179f125",
+    "n_us": 5,
+    "n_mammo": 2,
+    "us_paths": [
+      "us\\P7e7179f125_us_0.png",
+      "us\\P7e7179f125_us_1.png",
+      "us\\P7e7179f125_us_2.png",
+      "us\\P7e7179f125_us_3.png",
+      "us\\P7e7179f125_us_4.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P7e7179f125_mammo_0.png",
+      "mammo\\P7e7179f125_mammo_1.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "2",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Benign"
+  },
+  {
+    "pseudo_id": "P435f18b646",
+    "n_us": 1,
+    "n_mammo": 4,
+    "us_paths": [
+      "us\\P435f18b646_us_0.png"
+    ],
+    "mammo_paths": [
+      "mammo\\P435f18b646_mammo_0.png",
+      "mammo\\P435f18b646_mammo_1.png",
+      "mammo\\P435f18b646_mammo_2.png",
+      "mammo\\P435f18b646_mammo_3.png"
+    ],
+    "modality_status": "complete",
+    "has_report": true,
+    "birads": "1",
+    "label_group": "benign",
+    "binary_label": "Negative",
+    "pathology_label": "Normal"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "pseudo_id": "P_3052y14",
+  "age": 52,
+  "predicted_birads": "BI-RADS 2",
+  "confidence": 0.95,
+  "risk_level": "Benign Finding",
+  "summary": "Multimodal evaluation for patient P_3052y14 shows estimated malignancy probability of 0.05 (entropy 0.18). Mammography and ultrasound scores point toward a Benign Finding profile [E1] [E2]. Parenchymal findings are supported by retrieved clinical guidelines.",
+  "evidence_citations": [
+    "E1",
+    "E2"
+  ],
+  "recommendations": [
+    "Routine annual screening mammography.",
+    "Self-examination awareness."
+  ],
+  "limitations": [
+    "Research baseline artificial intelligence model, not clinically certified as autonomous diagnostic tool.",
+    "Must be reviewed and signed off by a licensed radiologist."
+  ],
+  "safety_audit": {
+    "approved": true,
+    "attempts": 1,
+    "status": "APPROVED_BY_SAFETY_AGENT",
+    "feedback_resolved": []
+  },
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "source_type": "ACR_GUIDELINE",
+      "doc_id": "ACR_BIRADS_2",
+      "similarity": 0.818,
+      "passage": "[ACR BI-RADS Category 2: Benign Finding(s)] ACR BI-RADS Category 2: Benign finding(s). Like category 1, this is a normal assessment, but benign findings are described. Includes simple cysts, intramammary lymph nodes, benign vascular calcifications, stable fibroadenomas, and fat necrosis. Malignancy risk is 0%. Management: Routine screening mammography."
+    },
+    {
+      "evidence_id": "E2",
+      "source_type": "ACR_GUIDELINE",
+      "doc_id": "ACR_BIRADS_3",
+      "similarity": 0.78,
+      "passage": "[ACR BI-RADS Category 3: Probably Benign] ACR BI-RADS Category 3: Probably Benign finding. Finding has a very high probability (> 98%) of being benign. Malignancy risk is > 0% but <= 2%. Specific findings include non-calcified circumscribed solid mass, focal asymmetry, or cluster of round punctate calcifications. Management: Short-interval follow-up (usually unilateral at 6 months, then bilateral at 12 and 24 months) to establish stability."
+    }
+  ],
+  "heatmaps": {
+    "mammo_html": "<span>[Mammogram Grad-CAM]: Concentrated in upper outer quadrant</span>",
+    "us_html": "<span>[Ultrasound Grad-CAM]: Concentrated on glandular interface</span>"
+  }
+}

@@ -1,0 +1,15 @@
+ID: 3803/19
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 12:00:00 <NOM>: <NOM>
+<NOM>
+ <NOM> pattern (ACR B)
+ <NOM> <NOM> <NOM>
+ <NOM>.
+<NOM>
+ <NOM> <NOM> <NOM> identified
+ <NOM> <NOM> <NOM> <NOM> 1 o’<NOM>, 12 <NOM> 6 <NOM>
+averaging 5x2mm and 2mm respectively…BIRADS 2
+ <NOM> <NOM>
+ <NOM> <NOM> <NOM>.
+OPINION:
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM>……<NOM>……….BIRADS 2
+Dr.<NOM>.MS

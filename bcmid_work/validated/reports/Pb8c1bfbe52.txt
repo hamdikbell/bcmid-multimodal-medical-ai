@@ -1,0 +1,17 @@
+ID: 3454/15
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 2:15:00 <NOM>: <NOM> <NOM> <NOM> a <NOM> <NOM> views …….<NOM>, <NOM>
+ <NOM> <NOM> <NOM> B
+ <NOM>.
+ <NOM> calcification ,<NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM> <NOM>
+ <NOM>.
+ <NOM> <NOM> .
+ <NOM> <NOM> <NOM>
+ <NOM>.
+<NOM> <NOM> <NOM>,<NOM> <NOM> <NOM> …….. <NOM>.
+BIRADS 2
+<NOM> <NOM> ( BI- RADS)
+BIRAD 0 <NOM> 1 <NOM> , <NOM> 2 <NOM> 3 <NOM> , 6 <NOM> 4 <NOM> , <NOM> 5 <NOM>
+Dr .<NOM>

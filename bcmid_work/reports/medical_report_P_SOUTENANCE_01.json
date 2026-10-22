@@ -1,0 +1,50 @@
+{
+  "pseudo_id": "P_SOUTENANCE_01",
+  "age": 52,
+  "predicted_birads": "BI-RADS 4A",
+  "confidence": 0.74,
+  "risk_level": "Suspicion Modérée",
+  "summary": "Mammography and Ultrasound multimodal evaluation for patient P_SOUTENANCE_01 reveals suspicious focal parenchymal asymmetry with estimated malignancy probability of 0.74. ACR 4A suspicion warrants histopathological confirmation.",
+  "recommendations": [
+    "Image-guided core needle biopsy (CNB) recommended per ACR BI-RADS 4A guidelines.",
+    "Multidisciplinary breast committee review.",
+    "Targeted ultrasound correlation."
+  ],
+  "limitations": [
+    "Artificial Intelligence diagnostic assistance system — not certified as autonomous diagnostic tool.",
+    "Must be reviewed and validated by a licensed radiologist before clinical intervention."
+  ],
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "source_type": "ACR_GUIDELINE",
+      "doc_id": "ACR_BIRADS_4B",
+      "similarity": 0.825,
+      "passage": "[ACR BI-RADS Category 4B: Moderate Suspicion for Malignancy] ACR BI-RADS Category 4B: Moderate suspicion for malignancy. Malignancy risk range is > 10% to <= 50%. Includes amorphous or coarse heterogeneous calcifications, or solid mass with partially indistinct margins. Tissue diagnosis via image-guided biopsy is recommended."
+    },
+    {
+      "evidence_id": "E2",
+      "source_type": "ACR_GUIDELINE",
+      "doc_id": "ACR_BIRADS_4A",
+      "similarity": 0.821,
+      "passage": "[ACR BI-RADS Category 4A: Low Suspicion for Malignancy] ACR BI-RADS Category 4A: Low suspicion for malignancy. Malignancy risk range is > 2% to <= 10%. Includes partially circumscribed solid mass with ultrasound features suggestive of fibroadenoma, or solitary complicated cyst. Tissue sampling (core needle biopsy) is indicated, though benign pathology is expected."
+    },
+    {
+      "evidence_id": "E3",
+      "source_type": "ACR_GUIDELINE",
+      "doc_id": "ACR_BIRADS_4C",
+      "similarity": 0.817,
+      "passage": "[ACR BI-RADS Category 4C: High Suspicion for Malignancy] ACR BI-RADS Category 4C: High suspicion for malignancy. Malignancy risk range is > 50% to < 95%. Includes new cluster of fine pleomorphic calcifications or irregular solid mass with microlobulated or indistinct margins. Histopathological verification is mandatory."
+    }
+  ],
+  "heatmaps": {
+    "mammo_html": "<div style=\"text-align:center;\"><img src=\"/uploads/P_SOUTENANCE_01/P_SOUTENANCE_01_mammo_gradcam.png\" style=\"max-width:320px; border-radius:8px; border:2px solid #134074;\"><p style=\"font-size:12px; color:#64748b; margin-top:4px;\"><b>Mammographie</b> : Carte Grad-CAM XAI</p></div>",
+    "us_html": "<div style=\"text-align:center;\"><img src=\"/uploads/P_SOUTENANCE_01/P_SOUTENANCE_01_us_gradcam.png\" style=\"max-width:320px; border-radius:8px; border:2px solid #134074;\"><p style=\"font-size:12px; color:#64748b; margin-top:4px;\"><b>Échographie</b> : Carte Grad-CAM XAI</p></div>"
+  },
+  "safety_audit": {
+    "approved": true,
+    "attempts": 1,
+    "status": "APPROVED_BY_SAFETY_AGENT",
+    "feedback_resolved": []
+  }
+}

@@ -1,0 +1,22 @@
+ID: 2995/15
+Ref . Dr: <NOM>: <NOM>: <DATE> <NOM>:
+<NOM>
+ <NOM> of (ACR A).
+ <NOM> …..<NOM>
+ <NOM> <NOM>
+ <NOM> <NOM>.
+<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM> (4mm) <NOM> <NOM> identified…..<NOM>
+ Left 2 o’<NOM> <NOM>
+<NOM> 3 x 1 cm (<NOM>
+<NOM>)…. <NOM>.
+ <NOM> 12 o’<NOM> <NOM> about 12 x 6 mm.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> ….<NOM>…..BIRAD 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM>

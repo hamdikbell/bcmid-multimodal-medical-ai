@@ -1,0 +1,21 @@
+ID: 2024/19
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 3:30:00 <NOM>: <NOM> <NOM>
+ <NOM> pattern (ACR B)
+ <NOM> <NOM>
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM>
+1. <NOM>, <NOM> 11 o’<NOM> 13 mm.
+2. <NOM>-<NOM> ( 52 x 20 mm )
+ <NOM> <NOM>
+ <NOM> <NOM>
+ <NOM> <NOM> <NOM>.
+OPINION:
+<NOM> <NOM> <NOM> <NOM> <NOM>……<NOM>……….BIRADS 1
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>, <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM>

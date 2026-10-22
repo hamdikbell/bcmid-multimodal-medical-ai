@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BCMID Medical AI Report - Pf9bea655cf</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #212529;
+            margin: 0;
+            padding: 24px;
+        }
+        .report-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+            overflow: hidden;
+            border: 1px solid #e2e8f0;
+        }
+        .report-header {
+            background: linear-gradient(135deg, #0b2545 0%, #134074 100%);
+            color: #ffffff;
+            padding: 24px 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header-title h1 {
+            margin: 0;
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+        .header-title p {
+            margin: 4px 0 0 0;
+            opacity: 0.85;
+            font-size: 13px;
+        }
+        .safety-badge {
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+        }
+        .report-body {
+            padding: 32px;
+        }
+        .patient-summary-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 28px;
+            border: 1px solid #edf2f7;
+        }
+        .meta-item .label {
+            font-size: 12px;
+            color: #64748b;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        .meta-item .value {
+            font-size: 18px;
+            font-weight: 700;
+            color: #0f172a;
+            margin-top: 4px;
+        }
+        .birads-tag {
+            display: inline-block;
+            background-color: #ffc107;
+            color: white;
+            padding: 2px 10px;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        .section-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #0b2545;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+            margin-top: 32px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            clear: both;
+        }
+        .interpretation-box {
+            background: #fdfefe;
+            border-left: 4px solid #134074;
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            font-size: 15px;
+            line-height: 1.6;
+            color: #334155;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+        }
+        .visual-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 16px;
+            margin-bottom: 24px;
+        }
+        .visual-card {
+            background: #0f172a;
+            color: white;
+            padding: 18px;
+            border-radius: 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+        }
+        .visual-card h4 {
+            margin: 0 0 12px 0;
+            font-size: 14px;
+            color: #94a3b8;
+            font-weight: 600;
+        }
+        .visual-placeholder {
+            width: 100%;
+            min-height: 260px;
+            height: auto;
+            background: #1e293b;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #94a3b8;
+            font-size: 13px;
+            padding: 14px;
+            box-sizing: border-box;
+        }
+        .visual-placeholder img {
+            max-width: 100%;
+            max-height: 240px;
+            height: auto;
+            object-fit: contain;
+            display: block;
+            margin: 0 auto;
+            border-radius: 6px;
+        }
+        .evidence-card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 12px 16px;
+            margin-bottom: 12px;
+        }
+        .evidence-header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            margin-bottom: 6px;
+        }
+        .evidence-tag {
+            font-weight: 700;
+            color: #2563eb;
+        }
+        .evidence-source {
+            color: #64748b;
+        }
+        .evidence-body {
+            font-size: 13px;
+            line-height: 1.5;
+            color: #334155;
+            font-style: italic;
+        }
+        .recs-box {
+            background: #eff6ff;
+            border: 1px solid #bfdbfe;
+            border-radius: 8px;
+            padding: 16px 20px;
+        }
+        .recs-box ul, .lims-box ul {
+            margin: 0;
+            padding-left: 20px;
+            line-height: 1.6;
+            font-size: 14px;
+        }
+        .lims-box {
+            background: #fffbeb;
+            border: 1px solid #fde68a;
+            border-radius: 8px;
+            padding: 16px 20px;
+            color: #92400e;
+        }
+        .report-footer {
+            background: #f8fafc;
+            border-top: 1px solid #e2e8f0;
+            padding: 16px 32px;
+            font-size: 12px;
+            color: #94a3b8;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="report-container">
+        <div class="report-header">
+            <div class="header-title">
+                <h1>Multimodal Medical AI Diagnostic Report</h1>
+                <p>BCMID System with Explainable AI (XAI) & Clinical RAG</p>
+            </div>
+            <div class="safety-badge">
+                Safety Status: APPROVED_BY_SAFETY_AGENT
+            </div>
+        </div>
+
+        <div class="report-body">
+            <!-- Patient Demographics & Key Prediction -->
+            <div class="patient-summary-grid">
+                <div class="meta-item">
+                    <div class="label">Patient Pseudo-ID</div>
+                    <div class="value">Pf9bea655cf</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">Patient Age</div>
+                    <div class="value">46 years</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">Predicted Assessment</div>
+                    <div class="value"><span class="birads-tag">BI-RADS 3</span></div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">Confidence & Risk</div>
+                    <div class="value">78.0% &bull; Short-Interval Surveillance</div>
+                </div>
+            </div>
+
+            <!-- Interpretation -->
+            <div class="section-title">Diagnostic Interpretation (Reasoning Agent)</div>
+            <div class="interpretation-box">
+                Findings in patient Pf9bea655cf exhibit predominantly benign morphological characteristics with low probability of malignancy (0.12). Short-interval surveillance is appropriate.
+            </div>
+
+            <!-- Visual Explanations (XAI Heatmaps) -->
+            <div class="section-title">Visual Explanations (XAI Grad-CAM Heatmaps)</div>
+            <div class="visual-grid">
+                <div class="visual-card">
+                    <h4>Mammography Grad-CAM Overlay</h4>
+                    <div class="visual-placeholder">
+                        <div style="text-align:center; width:100%;"><img src="/uploads/Pf9bea655cf/Pf9bea655cf_mammo_gradcam.png" style="max-width:100%; max-height:230px; object-fit:contain; border-radius:8px; border:2px solid #3b82f6; display:block; margin:0 auto;"><p style="font-size:12px; color:#cbd5e1; margin-top:8px; margin-bottom:0;"><b>Mammography</b>: Grad-CAM XAI Attention Map</p></div>
+                    </div>
+                </div>
+                <div class="visual-card">
+                    <h4>Ultrasound Grad-CAM Overlay</h4>
+                    <div class="visual-placeholder">
+                        <div style="text-align:center; width:100%;"><img src="/uploads/Pf9bea655cf/Pf9bea655cf_us_gradcam.png" style="max-width:100%; max-height:230px; object-fit:contain; border-radius:8px; border:2px solid #3b82f6; display:block; margin:0 auto;"><p style="font-size:12px; color:#cbd5e1; margin-top:8px; margin-bottom:0;"><b>Ultrasound</b>: Grad-CAM XAI Attention Map</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Supporting Evidence (RAG) -->
+            <div class="section-title">Supporting Clinical Evidence (Clinical RAG Agent)</div>
+            
+            <div class="evidence-card">
+                <div class="evidence-header">
+                    <span class="evidence-tag">[E1]</span>
+                    <span class="evidence-source">ACR_GUIDELINE &bull; Sim: 0.81</span>
+                </div>
+                <div class="evidence-body">"[ACR BI-RADS Category 4B: Moderate Suspicion for Malignancy] ACR BI-RADS Category 4B: Moderate suspicion for malignancy. Malignancy risk range is > 10% to <= 50%. Includes amorphous or coarse heterogeneous calcifications, or solid mass with partially indistinct margins. Tissue diagnosis via image-guided biopsy is recommended."</div>
+            </div>
+            
+            <div class="evidence-card">
+                <div class="evidence-header">
+                    <span class="evidence-tag">[E2]</span>
+                    <span class="evidence-source">ACR_GUIDELINE &bull; Sim: 0.80</span>
+                </div>
+                <div class="evidence-body">"[ACR BI-RADS Category 3: Probably Benign] ACR BI-RADS Category 3: Probably Benign finding. Finding has a very high probability (> 98%) of being benign. Malignancy risk is > 0% but <= 2%. Specific findings include non-calcified circumscribed solid mass, focal asymmetry, or cluster of round punctate calcifications. Management: Short-interval follow-up (usually unilateral at 6 months, then bilateral at 12 and 24 months) to establish stability."</div>
+            </div>
+            
+            <div class="evidence-card">
+                <div class="evidence-header">
+                    <span class="evidence-tag">[E3]</span>
+                    <span class="evidence-source">ACR_GUIDELINE &bull; Sim: 0.80</span>
+                </div>
+                <div class="evidence-body">"[ACR BI-RADS Category 4A: Low Suspicion for Malignancy] ACR BI-RADS Category 4A: Low suspicion for malignancy. Malignancy risk range is > 2% to <= 10%. Includes partially circumscribed solid mass with ultrasound features suggestive of fibroadenoma, or solitary complicated cyst. Tissue sampling (core needle biopsy) is indicated, though benign pathology is expected."</div>
+            </div>
+            
+
+            <!-- Clinical Recommendations -->
+            <div class="section-title">Clinical Recommendations</div>
+            <div class="recs-box">
+                <ul><li>Short-interval 6-month follow-up imaging (unilateral).</li><li>Comparison with baseline views.</li></ul>
+            </div>
+
+            <!-- Limitations & Uncertainty -->
+            <div class="section-title">Uncertainty, Disclaimers & Limitations</div>
+            <div class="lims-box">
+                <ul><li>Artificial Intelligence diagnostic assistance system — not certified as autonomous diagnostic tool.</li><li>Must be reviewed and validated by a licensed radiologist before clinical intervention.</li></ul>
+            </div>
+        </div>
+
+        <div class="report-footer">
+            Generated by BCMID Multimodal Medical AI Automation System &bull; Not for autonomous diagnosis &bull; For clinical pair review only.
+        </div>
+    </div>
+</body>
+</html>

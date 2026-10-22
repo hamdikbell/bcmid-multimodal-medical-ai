@@ -1,0 +1,22 @@
+ID: 1769/15
+Ref. Prof: <NOM>: Mammography & <NOM>: 14-Sep-21 1:30:00 <NOM>: <NOM>
+<NOM> by a <NOM> <NOM> views ...<NOM>, <NOM>.
+ <NOM> of a <NOM> (ACR c) .
+ <NOM> <NOM> <NOM> <NOM> …….<NOM>
+ <NOM>.
+ <NOM>.
+ <NOM> <NOM> TRASONOGRAPHY
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM> <NOM> measuring 1.3 <NOM> <NOM>,
+otherwise, <NOM> <NOM>….. <NOM>
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM>
+<NOM> <NOM> <NOM> <NOM>…..<NOM>…..BIRAD 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM>,MS

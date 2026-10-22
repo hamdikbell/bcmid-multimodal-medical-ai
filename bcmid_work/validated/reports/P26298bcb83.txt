@@ -1,0 +1,21 @@
+ID: 0544/16
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 10:15:00 <NOM>: <NOM> <NOM> <NOM> a <NOM> <NOM> views … <NOM> U/S, <NOM>
+ <NOM> fibro-<NOM> (ACR B).
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM> <NOM> <NOM> <NOM>
+<NOM>.
+ <NOM> cysts.
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM> detected.
+ <NOM> <NOM>
+<NOM> & <NOM> <NOM> up. …<NOM> BIRADS 1
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM>

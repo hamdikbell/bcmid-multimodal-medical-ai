@@ -1,0 +1,26 @@
+ID: 1173/15
+Ref. Dr.: <NOM>: Mammography& <NOM>: <DATE> 1:00:00 <NOM>:
+<NOM>
+ <NOM> fatty ( ACR A)
+ <NOM> <NOM> <NOM>
+…. <NOM>
+ <NOM> <NOM> .
+ <NOM>.
+ <NOM>.
+ <NOM> <NOM>.
+<NOM>:
+ Right 8/9 o’<NOM> <NOM> <NOM> 2.6 x1.8 <NOM> shadowing & <NOM> , <NOM> & <NOM> nipple …. <NOM> <NOM> … <NOM> .
+ <NOM> <NOM> ; <NOM> <NOM> &
+<NOM> ; <NOM> 1.5 cm …<NOM> .
+ <NOM> <NOM>.
+ <NOM> parenchyma.
+<NOM> <NOM> uterus , <NOM> <NOM> , <NOM>
+<NOM> <NOM> <NOM> &
+<NOM> nodes …. <NOM>
+….BIRADS 5
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM>

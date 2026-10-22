@@ -1,0 +1,18 @@
+ID: 05891/20
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> <NOM>:
+<NOM> <NOM> a <NOM> <NOM>
+<NOM> <NOM> a <NOM> <NOM> <NOM>.
+ <NOM> <NOM> ACR b
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM> seen.
+ <NOM>.
+<NOM> :
+ <NOM> <NOM> .
+ <NOM> <NOM> region.
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM> <NOM>
+<NOM> scar.
+BI-RADS 1
+BIRAD 0 <NOM> 1 <NOM> , <NOM> 2 <NOM> 3 <NOM> , 6 <NOM> 4 <NOM> , <NOM> 5 <NOM>
+Dr.<NOM>

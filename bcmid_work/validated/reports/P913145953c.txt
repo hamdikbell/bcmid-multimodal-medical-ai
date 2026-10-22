@@ -1,0 +1,19 @@
+ID : 05365/20
+Consultant : Dr. <NOM> : Mammography & <NOM> : <DATE> <NOM> : <NOM> <NOM>
+ <NOM> ACR B.
+ <NOM> <NOM> <NOM> <NOM> ,<NOM> <NOM> muscle.
+ <NOM> <NOM> <NOM>.
+ <NOM>.
+<NOM>:
+ <NOM> 10 -11 o’<NOM> <NOM> <NOM> .<NOM> <NOM> collectively 3.8 x 0.9 mm, <NOM> <NOM> <NOM> ….BIRADS 6 …<NOM> carcinoma.
+ <NOM> <NOM>
+<NOM> <NOM> <NOM>.
+ <NOM> <NOM> region.
+ <NOM> detected.
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> dated10/10/2020
+BIRAD 6
+<NOM> <NOM> ( BI- RADS)
+BIRAD 0 <NOM> 1 <NOM> , <NOM> 2 <NOM> 3 <NOM> , 6 <NOM> 4 <NOM> , <NOM> 5 <NOM>
+<NOM> lesion
+6
+Dr.<NOM>,EFR

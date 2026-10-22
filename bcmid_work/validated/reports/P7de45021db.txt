@@ -1,0 +1,16 @@
+ID: 0016/11
+Ref. Dr: <NOM>: Mammography & <NOM>: <DATE> 12:30:00 <NOM>: <NOM> MAMMOGRAPHY
+ <NOM> (ACR A).
+ <NOM>.
+ <NOM> <NOM>-<NOM>.
+ <NOM>
+ <NOM> <NOM> TRASONOGRAPHY
+ <NOM> <NOM>
+<NOM> <NOM>
+5mm….<NOM>..BIRADS 2
+ <NOM>-<NOM> <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> … …BIRADS 2
+Dr.<NOM>.MS

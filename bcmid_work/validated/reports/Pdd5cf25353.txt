@@ -1,0 +1,21 @@
+ID: 1386/12
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 10:45:00 <NOM>: <NOM> <NOM>
+ <NOM> <NOM> pattern(<NOM> B
+ <NOM> <NOM>
+ <NOM>.
+ <NOM> <NOM> <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM> 3 o’<NOM>
+10 <NOM> <NOM> 12.7 x 10 mm .. Suspicious..
+<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM>
+<NOM> <NOM> <NOM> <NOM> Left 3 o’<NOM> ? suspicious.. <NOM> 4b
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM> , MS

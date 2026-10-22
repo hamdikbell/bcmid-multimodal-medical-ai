@@ -1,0 +1,22 @@
+ID: 0263/19
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 12:00:00 <NOM>:
+<NOM>
+ <NOM> pattern (ACR B)
+ <NOM> <NOM>
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> noted .
+ <NOM> 3 o’<NOM> <NOM> <NOM> 4.2 mm …<NOM> …BIRADS 3 <NOM>.
+ <NOM> <NOM> .
+ <NOM> <NOM> 8.7
+x 5.4 mm .
+ <NOM> nodes .
+ <NOM> <NOM> <NOM> <NOM>:
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> 3 o’<NOM> …..BIRADS 3 <NOM> .
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>, <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM>,EFR

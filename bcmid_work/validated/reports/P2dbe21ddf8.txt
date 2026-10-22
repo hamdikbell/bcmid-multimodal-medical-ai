@@ -1,0 +1,22 @@
+Sex: F
+<NOM>: <DATE> 2:00:00 <NOM>: 1362/19
+<NOM>: <DATE> 9:38:53 <NOM>: MG & <NOM> <NOM> a <NOM> <NOM> <NOM> <NOM> a <NOM> <NOM> <NOM>.
+ <NOM> <NOM> (ACR b).
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM> :
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM>
+ <NOM> <NOM> region.
+ <NOM> <NOM>.
+ <NOM> a <NOM> lesion (5 mm), <NOM> <NOM> <NOM> <NOM>.? Post-
+<NOM>...<NOM>.
+ Otherwise, <NOM> <NOM>.
+<NOM> <NOM> <NOM>
+<NOM> <NOM>……. <NOM>
+BIRAD 2
+BIRAD 0 <NOM> 1 <NOM> , <NOM> 2 <NOM> 3 <NOM> , 6 <NOM> 4 <NOM> , <NOM> 5 <NOM>
+Dr.<NOM>, MS.

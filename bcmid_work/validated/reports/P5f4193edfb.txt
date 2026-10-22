@@ -1,0 +1,20 @@
+ID: 1291/17
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 1:15:00 <NOM>: <NOM> MAMMOGRPHY
+ <NOM> <NOM> A
+ <NOM> <NOM> <NOM> right.
+ <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> study.
+ <NOM> <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>:
+ <NOM> <NOM> <NOM>
+reaching 16 <NOM> region.
+ <NOM> <NOM> <NOM> <NOM> couldn’t <NOM> <NOM>.
+……<NOM> <NOM> <NOM>, <NOM> <NOM>-<NOM>-<NOM>
+<NOM>….<NOM> /<NOM> <NOM>…BIRADS 6
+ <NOM> <NOM> <NOM> <NOM> <NOM> <NOM>.
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+BIRADS 6
+Dr.<NOM>.MS

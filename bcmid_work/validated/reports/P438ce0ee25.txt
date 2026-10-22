@@ -1,0 +1,23 @@
+ID: 01566/21
+procedure: Mammography &<NOM>. DR.: <NOM>: 31-Mar-21 2:00:00 <NOM>: <NOM>
+<NOM>
+ <NOM> <NOM> A
+ <NOM> <NOM> <NOM>
+retraction
+ <NOM> <NOM>
+…. <NOM>
+ <NOM> <NOM>
+ <NOM>.
+ <NOM> <NOM> TRASONOGAPHY:
+ <NOM>
+ Right 9-11 o’<NOM> <NOM>
+measuring 4.8 x 2.3 <NOM> <NOM> , 3 <NOM> , 1 <NOM>
+ <NOM> <NOM>
+ <NOM> <NOM> <NOM>
+….. <NOM> ….<NOM>
+ <NOM> 2 o’<NOM> , 10 <NOM> <NOM> <NOM> 6 x 5 <NOM> <NOM> <NOM> 4 <NOM> <NOM> <NOM>…. <NOM> ….<NOM>
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> , <NOM>, <NOM> <NOM> <NOM>
+<NOM> , <NOM> ….<NOM>
+Right …BIRADS 5 Left ….BIRADS 4b
+Dr. Walaa M.Saad,MS

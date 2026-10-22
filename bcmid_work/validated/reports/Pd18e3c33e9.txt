@@ -1,0 +1,7 @@
+ID: 00278/20
+Ref. Dr: <NOM>: <NOM>: 28-Jun-22 2:00:00 <NOM>: <NOM> <NOM> <NOM> ( <NOM>
+<NOM> , <NOM> ) <NOM> &
+<NOM>, <NOM> .
+BIRADS 6
+<NOM> <NOM> <NOM> <NOM>.
+Dr.<NOM>

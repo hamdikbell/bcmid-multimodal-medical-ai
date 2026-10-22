@@ -1,0 +1,19 @@
+ID : 9693/18
+Dr : <NOM> : Mammography & <NOM> : <DATE> <NOM> : <NOM> MAMMOGRPHY
+ <NOM> <NOM> B.
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+ <NOM> <NOM> TRASONOGAPHY:
+ <NOM> <NOM> <NOM> <NOM> <NOM> lobules.
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> ….. <NOM>….BIRADS 1.
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM>

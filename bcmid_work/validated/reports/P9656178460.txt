@@ -1,0 +1,23 @@
+Id :00717/20
+Ref .Dr . <NOM> ; MG & <NOM> :<DATE> <NOM> :
+<NOM> <NOM> a <NOM> <NOM> views … <NOM>
+U/S,
+ <NOM> <NOM> <NOM>
+<NOM> ….ACR c.
+ <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM>.
+ <NOM> cysts.
+ <NOM> <NOM> reaching 3mm.
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM>.
+<NOM> & <NOM> <NOM> <NOM> …BIRADS 1….<NOM>
+BIRADS 1
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM>. MS

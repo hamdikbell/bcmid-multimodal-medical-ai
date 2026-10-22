@@ -1,0 +1,22 @@
+ID: 0609/09
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 1:00:00 <NOM>:
+<NOM>
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+ <NOM> noted.
+<NOM>:
+ <NOM> <NOM> <NOM>.
+ <NOM>.
+ <NOM> <NOM>. <NOM>-<NOM>
+seen.
+ <NOM>.
+<NOM> <NOM> <NOM> <NOM> excision (<NOM>’s words, <NOM>) <NOM> <NOM>
+- <NOM> <NOM>.
+-<NOM>.
+BIRAD 2
+<NOM> <NOM> ( BI- RADS)
+BIRAD 0 <NOM> 1 <NOM> , <NOM> 2 <NOM> 3 <NOM> , 6 <NOM> 4 <NOM> , <NOM> 5 <NOM>
+Dr.<NOM>

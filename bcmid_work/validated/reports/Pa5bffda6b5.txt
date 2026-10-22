@@ -1,0 +1,23 @@
+ID : 06511/20
+Dr. Procedure : Mammography & <NOM> : <DATE> <NOM> :
+<NOM>
+ <NOM> <NOM>; pattern ..ACR
+A
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+ <NOM>.
+ <NOM> lesion .
+<NOM>:
+ <NOM> <NOM>.
+ <NOM> measuring 6x4 mm.
+ <NOM> <NOM> 5x1.6 mm
+ <NOM>.
+ <NOM> <NOM> region.
+ <NOM> detected.
+<NOM> 36 <NOM> <NOM> ,<NOM>
+<NOM> <NOM> 2
+<NOM> <NOM> ( BI- RADS)
+BIRAD 0 <NOM> 1 <NOM> , <NOM> 2 <NOM> 3 <NOM> , 6 <NOM> 4 <NOM> , <NOM> 5 <NOM>
+Dr.<NOM>

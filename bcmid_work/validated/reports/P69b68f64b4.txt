@@ -1,0 +1,21 @@
+ID: 6054/19
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 9:30:00 <NOM>:
+Name : <NOM> : 6054/19
+Sex : 41 <NOM> : Mammography & <NOM> : <DATE> <NOM> :
+<NOM>
+ <NOM> <NOM> ..ACR B
+ <NOM> <NOM> thickening
+ <NOM> asymmetry
+ <NOM> lesions
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM> <NOM>:
+ <NOM> <NOM> .
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM> <NOM> <NOM>…<NOM> <NOM> .
+ <NOM>.
+<NOM> 40 <NOM> <NOM>
+<NOM> <NOM> <NOM> <NOM> show2ing <NOM> ..<NOM> <NOM> ..BIRADs 3
+<NOM> <NOM> ( BI- RADS)
+BIRAD 0 <NOM> 1 <NOM> , <NOM> 2 <NOM> 3 <NOM> , 6 <NOM> 4 <NOM> , <NOM> <NOM> 5 <NOM>

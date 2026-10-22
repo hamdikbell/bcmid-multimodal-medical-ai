@@ -1,0 +1,29 @@
+ID: 00247/21
+Ref. Prof.: <NOM>: Mammography&<NOM>: <DATE> 4:00:00 <NOM>: 62 <NOM>
+ <NOM> <NOM> (ACR b)
+ <NOM> <NOM> <NOM>.
+ <NOM> <NOM> & <NOM>,
+<NOM> <NOM> calcifications.
+ <NOM>.
+ <NOM> <NOM>.
+<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM>;
+o <NOM> <NOM> 4.4mm..
+o <NOM> 10-11 o’<NOM> <NOM>
+<NOM> 6.3mm x3.4mm <NOM>
+,<NOM> <NOM> … <NOM> …<NOM>.
+ <NOM> <NOM>;
+o Left 3o’<NOM>-<NOM> <NOM>
+3mm x 2.5mm <NOM> 6cm <NOM>.
+o Left 6 o’<NOM> 7mm x 4.3mm <NOM> 3cm <NOM>….. <NOM>.
+o Left 1o’<NOM> <NOM> 4mm <NOM>.
+ <NOM> lymph.
+OPINION
+62 <NOM> <NOM> <NOM> <NOM> 3 & 6 o’<NOM> <NOM> <NOM> comparison …….BIRADS 6
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM>. MS

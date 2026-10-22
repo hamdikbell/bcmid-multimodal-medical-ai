@@ -1,0 +1,38 @@
+ID: 02922/23
+Ref. Prof.: <NOM>: Mammography&<NOM>: <DATE> 1:30:00 <NOM>: <NOM>: 42 <NOM>: F
+<NOM>
+ <NOM> <NOM> ACR A
+ <NOM> following;
+o <NOM> <NOM> <NOM>.
+o <NOM> <NOM>.
+o <NOM> <NOM> shadow.
+o <NOM>-<NOM>.
+o <NOM> <NOM>.
+o <NOM> <NOM>.
+ <NOM> <NOM> <NOM>;
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>:
+ <NOM> <NOM> <NOM> <NOM> <NOM> lobules, <NOM>.
+ <NOM> nodes.
+ <NOM> following;
+o 3o’<NOM> lesion , ill-<NOM> <NOM> , <NOM> distortion ,
+<NOM> <NOM> <NOM> contents , averaging 2.7cm x 2cm <NOM> 5cm
+<NOM> & 2cmfrom <NOM>..... <NOM>.
+o <NOM> <NOM> <NOM>... <NOM>.
+o 3 o’<NOM> <NOM>, <NOM> <NOM> thickening 4.5mm &
+<NOM> 7.5mm x 6.5mm.... <NOM>.
+o <NOM> 9 o’<NOM> <NOM>-<NOM> 10mm x 11mm... <NOM>.
+ <NOM> & <NOM>, <NOM>, <NOM>; <NOM> 1.7cm x 1.1cm.
+<NOM> for 42 <NOM> <NOM> <NOM>...
+BIRADS-1
+<NOM> <NOM> <NOM>, <NOM> 3 o’<NOM> <NOM> <NOM> <NOM> 9 o’<NOM>......<NOM>.
+<NOM> & <NOM> ….BIRADS 6
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM>.MS

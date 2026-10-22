@@ -1,0 +1,20 @@
+ID: 01262/21
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 11:30:00 <NOM>: <NOM> MAMMOGRAPHY
+ <NOM> of (ACR B).
+ <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM>
+ <NOM> <NOM> <NOM> at:
+o <NOM> averaging 3.5x1.6cm
+o <NOM> averaging 1cm.
+o A <NOM> <NOM> 10x6mm <NOM> 3mm
+…….<NOM>..<NOM>…BIRADS5
+ <NOM> <NOM>-<NOM> reaching 8mm
+<NOM> A-P <NOM> <NOM>
+<NOM> <NOM> reaching 6mm…<NOM>….BIRADS 3
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM>
+<NOM> <NOM> <NOM>…BIRADS 5
+Dr.<NOM>.MS

@@ -1,0 +1,21 @@
+ID: 2099/15
+Ref. Dr.: <NOM>: Mammography & <NOM>: 13-Jul-21 1:15:00 <NOM>:
+<NOM>
+ <NOM> of a <NOM>-<NOM> (ACR B)
+ <NOM> <NOM> <NOM>…..Post-
+<NOM>
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> .
+ <NOM> <NOM>-<NOM> currently
+10 and 9 mm , 1 <NOM> <NOM> 10 o’<NOM>……<NOM>….<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> study ……<NOM>………BI-RADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM>.Ms

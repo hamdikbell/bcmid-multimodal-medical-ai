@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Rapport Médical BCMID - P0221</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background:#f4f6f9; color:#212529; margin:0; padding:24px; }
+        .container { max-width:960px; margin:0 auto; background:#ffffff; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,0.08); overflow:hidden; border:1px solid #e2e8f0; }
+        .header { background:linear-gradient(135deg, #0b2545 0%, #134074 100%); color:#fff; padding:24px 32px; display:flex; justify-content:space-between; align-items:center; }
+        .section { padding:20px 32px; border-bottom:1px solid #edf2f7; }
+        .section-title { font-size:15px; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; color:#134074; margin-bottom:12px; display:flex; align-items:center; gap:8px; }
+        .badge { display:inline-block; padding:6px 14px; border-radius:20px; font-weight:bold; color:#fff; font-size:15px; }
+        .tag { display:inline-block; padding:3px 8px; border-radius:4px; font-size:11px; background:#edf2f7; color:#4a5568; margin-right:6px; }
+        .status-ok { background:#d4edda; color:#155724; padding:4px 10px; border-radius:4px; font-weight:600; font-size:12px; }
+        .status-warn { background:#fff3cd; color:#856404; padding:4px 10px; border-radius:4px; font-weight:600; font-size:12px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <h1 style="margin:0; font-size:22px;">BCMID Multimodal Clinical Report</h1>
+                <div style="font-size:13px; opacity:0.85; margin-top:4px;">Patient ID: <strong>P0221</strong> &bull; Modalité: <strong>les_deux</strong> &bull; Matériel: <strong>Standard</strong></div>
+            </div>
+            <div>
+                <span class="badge" style="background:#28a745;">BI-RADS 1</span>
+            </div>
+        </div>
+
+        <div class="section" style="background:#fafbfc;">
+            <div class="section-title">🩺 Synthèse & Interprétation Clinique</div>
+            <p style="font-size:14px; line-height:1.6; margin:0 0 10px 0;">Mammography model: normal=0.51, benign=0.49, malignant=0.00 (entropy=0.64). Ultrasound malignant=0.54. The two modality scores point in different directions.</p>
+            <div>
+                <span class="tag">Confiance brute: 0.75</span>
+                <span class="tag">Raisonnement: llm_succeeded</span>
+                <span class="status-ok">Sécurité: checks_passed</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">📋 Recommandations Concrètes (ACR BI-RADS)</div>
+            <ul style="margin:0; padding-left:20px;"><li style="margin-bottom:6px; color:#1a365d; font-weight:500;">Negative findings. Standard age-appropriate routine screening.</li></ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">🔍 Explicabilité Visuelle (Grad-CAM XAI)</div>
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+                <div style="background:#f8f9fa; border:1px solid #e2e8f0; border-radius:6px; padding:12px;">
+                    <strong style="font-size:12px; color:#134074;">Mammographie Grad-CAM :</strong>
+                    <div style="font-size:13px; margin-top:6px; color:#2d3748;">View CC: zones=[milieu de l'image, côté paroi thoracique (gauche)] outside_breast=0.0%; View MLO: zones=[haut de l'image, centre] outside_breast=21.4%</div>
+                </div>
+                <div style="background:#f8f9fa; border:1px solid #e2e8f0; border-radius:6px; padding:12px;">
+                    <strong style="font-size:12px; color:#134074;">Échographie Grad-CAM :</strong>
+                    <div style="font-size:13px; margin-top:6px; color:#2d3748;">US zones=[haut de l'image, centre]; US zones=[haut de l'image, centre]</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">📚 Preuves Documentaires (ACR Guidelines & Cas similaires)</div>
+            <div style="margin-bottom:12px;">
+                <div style="font-weight:600; font-size:12px; color:#718096; margin-bottom:6px;">RÈGLES OFFICIELLES ACR INJECTÉES :</div>
+                <div style="background:#f8f9fa; border-left:4px solid #134074; padding:10px 14px; margin-bottom:8px; border-radius:4px; font-size:13px;">G1 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit</div><div style="background:#f8f9fa; border-left:4px solid #134074; padding:10px 14px; margin-bottom:8px; border-radius:4px; font-size:13px;">G2 [ACR_CAT_4] BI-RADS 4: suspicious, biopsy required. 4A: >2%-≤10% (low suspicion, partially circumscribed solid). 4B: >10%-≤50% (mode</div>
+            </div>
+            <div>
+                <div style="font-weight:600; font-size:12px; color:#718096; margin-bottom:6px;">CAS SIMILAIRES ANONYMISÉS (EXCLUSION PLI/GROUPE STRICTE) :</div>
+                <div style="background:#eef2f7; padding:8px 12px; margin-bottom:6px; border-radius:4px; font-size:12px;"><strong>[E1] P0254 (sim: 0.95):</strong> "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography & US Breast Study Date: [DATE] eft Breast Cancer BREAST MAMMOGRAPHY Right breast was examined by a series of cranio caudal and oblique medio lateral v"</div><div style="background:#eef2f7; padding:8px 12px; margin-bottom:6px; border-radius:4px; font-size:12px;"><strong>[E2] P0161 (sim: 0.95):</strong> "ID: [ID] Ref. Prof.: Amr Mahmoud procedure: Mammography &US Breast Study Date: [DATE] t Breast Cancer BREAST MAMMOGRAPHY Right breast was examined by a series of cranio caudal and oblique medio latera"</div><div style="background:#eef2f7; padding:8px 12px; margin-bottom:6px; border-radius:4px; font-size:12px;"><strong>[E3] P0180 (sim: 0.94):</strong> "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography & US Breast Study Date: [DATE] eft Breast Cancer BREAST MAMMOGRAPHY Right breast was examined by a series of cranio caudal and oblique medio lateral v"</div>
+            </div>
+        </div>
+
+        <div class="section" style="background:#fffaf0; border-left:4px solid #dd6b20;">
+            <div class="section-title" style="color:#c05621;">⚠️ Limitations & Contrôle Qualité / Sécurité</div>
+            <ul style="margin:0; padding-left:20px;"><li style="margin-bottom:4px; color:#4a5568; font-size:12px;">Research baseline AI models — not clinically validated as autonomous diagnostic tools.</li><li style="margin-bottom:4px; color:#4a5568; font-size:12px;">Human radiologist review required before any clinical decision.</li><li style="margin-bottom:4px; color:#4a5568; font-size:12px;">Grad-CAM highlights network attention areas, not definitive tissue boundaries.</li><li style="margin-bottom:4px; color:#4a5568; font-size:12px;">Ultrasound model is secondary; mammography carries primary weight.</li></ul>
+            <div style="margin-top:12px; font-size:12px; color:#744210;">
+                <strong>Revue humaine obligatoire :</strong> Automated checks only — radiologist review mandatory for any clinical use
+            </div>
+        </div>
+
+        <div class="section" style="background:#edf2f7; display:flex; justify-content:space-between; align-items:center;">
+            <div>
+                <span style="font-size:12px; color:#4a5568;">Validé par l'orchestrateur n8n &bull; Statut : <strong>Triage automatique validé. Priorité: ROUTINE. Recommandations confirmées.</strong></span>
+            </div>
+            <a href="index.html" style="text-decoration:none; color:#134074; font-weight:600; font-size:13px;">&larr; Retour au Dashboard</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+ID: 2386/11
+Ref. Dr: <NOM>: Mammography & <NOM>: <DATE> <NOM>: <NOM> MAMMOGRAPHY
+ <NOM> ACRA.
+ <NOM> <NOM>-<NOM> <NOM> <NOM>.
+ <NOM>.
+ <NOM> <NOM>
+ <NOM> axilla
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM> 6 mm … <NOM>
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> & <NOM> <NOM> ……<NOM>…… BIRADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM>

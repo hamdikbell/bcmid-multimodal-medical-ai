@@ -1,0 +1,25 @@
+ID: 1608/18
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 10:00:00 <NOM>: <NOM> MAMMOGRAPHY
+ <NOM> <NOM> (ACR c)
+ <NOM>-<NOM> <NOM>
+<NOM>…..<NOM>.
+ <NOM>.
+ <NOM>.
+<NOM> TRASONOGRAPHY
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM> <NOM> 11 o’<NOM> 13x7.5mm…….<NOM>…. post-<NOM> .
+ <NOM> <NOM> <NOM>:
+1. Well-<NOM> <NOM> about
+8x5.6mm <NOM> 5-6 o’<NOM>…. <NOM>
+2. Well-<NOM> <NOM> 5 o’<NOM> 14 <NOM> averaging 10x5mm…<NOM> <NOM>
+…BIRADS 3
+…… <NOM> <NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> <NOM> …..<NOM> 6 months; .BI-RADS 3
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr/ <NOM>, MS.

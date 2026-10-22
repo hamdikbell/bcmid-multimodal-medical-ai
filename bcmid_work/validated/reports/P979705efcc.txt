@@ -1,0 +1,19 @@
+ID: 2599/11
+Ref. Prof.: <NOM>: Mammography& <NOM>: <DATE> Age: 51 <NOM>:
+ <NOM> <NOM> (ACR A)
+ <NOM> <NOM>
+ <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>:
+ <NOM> <NOM> <NOM> –<NOM> <NOM> <NOM> <NOM> scar …<NOM>
+ <NOM>.
+ <NOM> detected.
+<NOM> <NOM> <NOM> <NOM> <NOM> …<NOM> .
+BIRADS 1
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B - IsRuAspDic i(o4u)s abnormality , <NOM>-RAD (4 a ) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM>

@@ -1,0 +1,21 @@
+ID: 1404/16
+Ref. Dr: <NOM>: Mammography & <NOM>: 02-Jun-21 10:45:00 <NOM>: <NOM> <NOM> <NOM> a <NOM> <NOM> views
+...<NOM>, <NOM>.
+ <NOM> a semi-<NOM>.ACR (B)
+ <NOM> <NOM> <NOM> tail … <NOM>-<NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM> post-<NOM>.
+ <NOM> <NOM> intra-<NOM> averaging 8x6.5mm <NOM>.
+ <NOM> <NOM> <NOM>
+ <NOM> <NOM>-<NOM>.
+ <NOM> <NOM> .
+N.B :<NOM> <NOM> <NOM> <NOM> <NOM> 6 mm …. <NOM> <NOM> .
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM>….<NOM>….BIRAD 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM> Dr.<NOM>

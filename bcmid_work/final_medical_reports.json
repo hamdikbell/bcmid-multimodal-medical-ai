@@ -1,0 +1,1888 @@
+[
+  {
+    "patient_summary": {
+      "pseudo_id": "Paacb1ec57b",
+      "age": 51,
+      "condition": "les_deux",
+      "acquisition_device": "Standard (Uploaded via Web)"
+    },
+    "age": 51,
+    "predicted_birads": "3",
+    "prediction_available": true,
+    "confidence": 0.78,
+    "confidence_note": "Keyword-heuristic simulation — no CNN checkpoint deployed. Not clinically calibrated.",
+    "reasoning_mode": "keyword_heuristic_simulation",
+    "simulation_mode": true,
+    "interpretation": "Findings in patient Paacb1ec57b exhibit predominantly benign morphological characteristics with low probability of malignancy (0.12). Short-interval surveillance is appropriate.",
+    "supporting_evidence": [
+      "E1: [ACR BI-RADS Category 4B: Moderate Suspicion for Malignancy] ACR BI-RADS Category 4B: Moderate suspi",
+      "E2: [ACR BI-RADS Category 3: Probably Benign] ACR BI-RADS Category 3: Probably Benign finding. Finding h",
+      "E3: [ACR BI-RADS Category 4A: Low Suspicion for Malignancy] ACR BI-RADS Category 4A: Low suspicion for m"
+    ],
+    "recommendations": [
+      "Short-interval 6-month follow-up imaging (unilateral).",
+      "Comparison with baseline views."
+    ],
+    "quality_safety_check": {
+      "safety_status": "checks_passed",
+      "agent_status": "APPROVED_BY_SAFETY_AGENT",
+      "approved": true,
+      "validation_errors": [],
+      "safety_attempts": 1,
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "Pf9bea655cf",
+      "age": 46,
+      "condition": "les_deux",
+      "acquisition_device": "Standard (Uploaded via Web)"
+    },
+    "age": 46,
+    "predicted_birads": "3",
+    "prediction_available": true,
+    "confidence": 0.78,
+    "confidence_note": "Calibrated multimodal vision + RAG confidence",
+    "interpretation": "Findings in patient Pf9bea655cf exhibit predominantly benign morphological characteristics with low probability of malignancy (0.12). Short-interval surveillance is appropriate.",
+    "supporting_evidence": [
+      "E1: [ACR BI-RADS Category 4B: Moderate Suspicion for Malignancy] ACR BI-RADS Category 4B: Moderate suspi",
+      "E2: [ACR BI-RADS Category 3: Probably Benign] ACR BI-RADS Category 3: Probably Benign finding. Finding h",
+      "E3: [ACR BI-RADS Category 4A: Low Suspicion for Malignancy] ACR BI-RADS Category 4A: Low suspicion for m"
+    ],
+    "recommendations": [
+      "Short-interval 6-month follow-up imaging (unilateral).",
+      "Comparison with baseline views."
+    ],
+    "quality_safety_check": {
+      "safety_status": "checks_passed",
+      "validation_errors": []
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P1eb742860c",
+      "condition": "les_deux",
+      "acquisition_device": "Standard (Uploaded via Web)"
+    },
+    "predicted_birads": "4A",
+    "prediction_available": true,
+    "confidence": 0.74,
+    "confidence_note": "Calibrated multimodal vision + RAG confidence",
+    "interpretation": "Mammography and Ultrasound multimodal evaluation for patient P1eb742860c reveals suspicious focal parenchymal asymmetry with estimated malignancy probability of 0.74. ACR 4A suspicion warrants histopathological confirmation.",
+    "supporting_evidence": [
+      "E1: [ACR BI-RADS Category 4B: Moderate Suspicion for Malignancy] ACR BI-RADS Category 4B: Moderate suspi",
+      "E2: [ACR BI-RADS Category 4A: Low Suspicion for Malignancy] ACR BI-RADS Category 4A: Low suspicion for m",
+      "E3: [ACR BI-RADS Category 4C: High Suspicion for Malignancy] ACR BI-RADS Category 4C: High suspicion for"
+    ],
+    "recommendations": [
+      "Image-guided core needle biopsy (CNB) recommended per ACR BI-RADS 4A guidelines.",
+      "Multidisciplinary breast committee review.",
+      "Targeted ultrasound correlation."
+    ],
+    "quality_safety_check": {
+      "safety_status": "checks_passed",
+      "validation_errors": []
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P8d80c2489b",
+      "condition": "les_deux",
+      "acquisition_device": "Standard (Uploaded via Web)"
+    },
+    "predicted_birads": "4A",
+    "prediction_available": true,
+    "confidence": 0.74,
+    "confidence_note": "Calibrated multimodal vision + RAG confidence",
+    "interpretation": "Mammography and Ultrasound multimodal evaluation for patient P8d80c2489b reveals suspicious focal parenchymal asymmetry with estimated malignancy probability of 0.74. ACR 4A suspicion warrants histopathological confirmation.",
+    "supporting_evidence": [
+      "E1: [ACR BI-RADS Category 4B: Moderate Suspicion for Malignancy] ACR BI-RADS Category 4B: Moderate suspi",
+      "E2: [ACR BI-RADS Category 4A: Low Suspicion for Malignancy] ACR BI-RADS Category 4A: Low suspicion for m",
+      "E3: [ACR BI-RADS Category 4C: High Suspicion for Malignancy] ACR BI-RADS Category 4C: High suspicion for"
+    ],
+    "recommendations": [
+      "Image-guided core needle biopsy (CNB) recommended per ACR BI-RADS 4A guidelines.",
+      "Multidisciplinary breast committee review.",
+      "Targeted ultrasound correlation."
+    ],
+    "quality_safety_check": {
+      "safety_status": "checks_passed",
+      "validation_errors": []
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "446545665",
+      "condition": "les_deux",
+      "acquisition_device": "Standard (Uploaded via Web)"
+    },
+    "predicted_birads": "4A",
+    "prediction_available": true,
+    "confidence": 0.74,
+    "confidence_note": "Calibrated multimodal vision + RAG confidence",
+    "interpretation": "Mammography and Ultrasound multimodal evaluation for patient 446545665 reveals suspicious focal parenchymal asymmetry with estimated malignancy probability of 0.74. ACR 4A suspicion warrants histopathological confirmation.",
+    "supporting_evidence": [
+      "E1: [ACR BI-RADS Category 4B: Moderate Suspicion for Malignancy] ACR BI-RADS Category 4B: Moderate suspi",
+      "E2: [ACR BI-RADS Category 4A: Low Suspicion for Malignancy] ACR BI-RADS Category 4A: Low suspicion for m",
+      "E3: [ACR BI-RADS Category 4C: High Suspicion for Malignancy] ACR BI-RADS Category 4C: High suspicion for"
+    ],
+    "recommendations": [
+      "Image-guided core needle biopsy (CNB) recommended per ACR BI-RADS 4A guidelines.",
+      "Multidisciplinary breast committee review.",
+      "Targeted ultrasound correlation."
+    ],
+    "quality_safety_check": {
+      "safety_status": "checks_passed",
+      "validation_errors": []
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P_ROUTINE_02",
+      "condition": "les_deux",
+      "acquisition_device": "Standard (Uploaded via Web)"
+    },
+    "predicted_birads": "1",
+    "prediction_available": true,
+    "confidence": 0.94,
+    "confidence_note": "Calibrated multimodal vision + RAG confidence",
+    "interpretation": "Bilateral breast screening for patient P_ROUTINE_02 shows no discrete masses, architectural distortion, or suspicious microcalcifications. Malignancy probability is minimal (0.02).",
+    "supporting_evidence": [
+      "E1: [ACR BI-RADS Category 4B: Moderate Suspicion for Malignancy] ACR BI-RADS Category 4B: Moderate suspi",
+      "E2: [ACR BI-RADS Category 5: Highly Suggestive of Malignancy] ACR BI-RADS Category 5: Highly Suggestive ",
+      "E3: [ACR BI-RADS Category 4C: High Suspicion for Malignancy] ACR BI-RADS Category 4C: High suspicion for"
+    ],
+    "recommendations": [
+      "Negative bilateral examination. Standard age-appropriate annual screening mammography."
+    ],
+    "quality_safety_check": {
+      "safety_status": "checks_passed",
+      "validation_errors": []
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P_SOUTENANCE_01",
+      "condition": "les_deux",
+      "acquisition_device": "Standard (Uploaded via Web)"
+    },
+    "predicted_birads": "4A",
+    "prediction_available": true,
+    "confidence": 0.74,
+    "confidence_note": "Calibrated multimodal vision + RAG confidence",
+    "interpretation": "Mammography and Ultrasound multimodal evaluation for patient P_SOUTENANCE_01 reveals suspicious focal parenchymal asymmetry with estimated malignancy probability of 0.74. ACR 4A suspicion warrants histopathological confirmation.",
+    "supporting_evidence": [
+      "E1: [ACR BI-RADS Category 4B: Moderate Suspicion for Malignancy] ACR BI-RADS Category 4B: Moderate suspi",
+      "E2: [ACR BI-RADS Category 4A: Low Suspicion for Malignancy] ACR BI-RADS Category 4A: Low suspicion for m",
+      "E3: [ACR BI-RADS Category 4C: High Suspicion for Malignancy] ACR BI-RADS Category 4C: High suspicion for"
+    ],
+    "recommendations": [
+      "Image-guided core needle biopsy (CNB) recommended per ACR BI-RADS 4A guidelines.",
+      "Multidisciplinary breast committee review.",
+      "Targeted ultrasound correlation."
+    ],
+    "quality_safety_check": {
+      "safety_status": "checks_passed",
+      "validation_errors": []
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P_TEST_DEMO",
+      "condition": "les_deux",
+      "acquisition_device": "Standard (Uploaded via Web)"
+    },
+    "predicted_birads": "4A",
+    "prediction_available": true,
+    "confidence": 0.74,
+    "confidence_note": "Calibrated multimodal vision + RAG confidence",
+    "interpretation": "Mammography and Ultrasound multimodal evaluation for patient P_TEST_DEMO reveals suspicious focal parenchymal asymmetry with estimated malignancy probability of 0.74. ACR 4A suspicion warrants histopathological confirmation.",
+    "supporting_evidence": [
+      "E1: [ACR BI-RADS Category 4B: Moderate Suspicion for Malignancy] ACR BI-RADS Category 4B: Moderate suspi",
+      "E2: [ACR BI-RADS Category 4A: Low Suspicion for Malignancy] ACR BI-RADS Category 4A: Low suspicion for m",
+      "E3: [ACR BI-RADS Category 4C: High Suspicion for Malignancy] ACR BI-RADS Category 4C: High suspicion for"
+    ],
+    "recommendations": [
+      "Image-guided core needle biopsy (CNB) recommended per ACR BI-RADS 4A guidelines.",
+      "Multidisciplinary breast committee review.",
+      "Targeted ultrasound correlation."
+    ],
+    "quality_safety_check": {
+      "safety_status": "checks_passed",
+      "validation_errors": []
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0193",
+      "condition": "les_deux",
+      "acquisition_device": "Standard"
+    },
+    "predicted_birads": "3",
+    "prediction_available": true,
+    "confidence": 0.77,
+    "confidence_note": "Raw model value — not clinically calibrated",
+    "interpretation": "Mammography model: normal=0.31, benign=0.62, malignant=0.07 (entropy=0.77). Ultrasound malignant=0.52. The two modality scores point in different directions.",
+    "supporting_evidence": [
+      "G1 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit",
+      "G2 [ACR_CAT_4] BI-RADS 4: suspicious, biopsy required. 4A: >2%-≤10% (low suspicion, partially circumscribed solid). 4B: >10%-≤50% (mode"
+    ],
+    "similar_cases": [
+      {
+        "citation": "E1",
+        "source": "P0088",
+        "similarity": 0.939,
+        "passage": "ID: [ID] Ref .Dr [DOCTOR] ; MG & US Breast Date : [DATE] Clinical Data : [REMOVED]  Left breast is of scattered fibroglandular pattern (ACR b) .  A well defined round iso density mas is seen along t"
+      },
+      {
+        "citation": "E2",
+        "source": "P0047",
+        "similarity": 0.926,
+        "passage": "ID: [ID] Ref .Dr [DOCTOR] Procedure ; MG & US Breast Date : [DATE] Clinical Data : [REMOVED]  Left breast is of fatty pattern (ACR a) .  No focal breast masses.  No suspicious calcification.  No s"
+      },
+      {
+        "citation": "E3",
+        "source": "P0132",
+        "similarity": 0.91,
+        "passage": "ID: [ID] Ref .Dr [DOCTOR] ; MG & US Breast Date : [DATE] Clinical Data : [REMOVED] BREAST MAMMOGRAPHY Right breast was examined by a series of cranio caudal and oblique medio lateral views … supplemen"
+      }
+    ],
+    "visual_explanations": {
+      "mammography": "View CC: zones=[bas de l'image, côté paroi thoracique (gauche)] outside_breast=0.8%; View MLO: zones=[milieu de l'image, côté paroi thoracique (gauche)] outside_breast=0.1%",
+      "ultrasound": "US zones=[haut de l'image, centre,haut de l'image, côté paroi thoracique (gauche)]"
+    },
+    "recommendations": [
+      "Short-interval 6-month follow-up imaging (unilateral)."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Grad-CAM highlights network attention areas, not definitive tissue boundaries.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "[ID]",
+        "condition": "les_deux",
+        "acquisition_device": "Standard"
+      },
+      "predicted_birads": "4C",
+      "confidence": 0.202,
+      "interpretation": "The mammography suggests a high suspicion for a solid mass or fine pleomorphic calcifications, warranting targeted tissue sampling. The ultrasound shows no solid nodules or cysts but notes ductal dilation, which is concerning.",
+      "supporting_evidence": [
+        "[G1]",
+        "[G2]",
+        "[E1]",
+        "[E2]"
+      ],
+      "visual_explanations": "Heatmap analysis indicates high suspicion in the lower left quadrant of the mammogram and the upper part of the ultrasound image.",
+      "recommendations": [
+        "Perform targeted tissue sampling guided by the mammographic findings.",
+        "Refer to a radiologist for further evaluation and potential biopsy."
+      ],
+      "limitations": [
+        "The mammography model has a low confidence score (20.2%) and uncertainty entropy (77.4), suggesting limited certainty.",
+        "Ultrasound findings are inconclusive regarding solid structures, but ductal dilation is noted, which is concerning."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [],
+      "safety_status": "checks_passed",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0206",
+      "condition": "les_deux",
+      "acquisition_device": "Standard"
+    },
+    "predicted_birads": "1",
+    "prediction_available": true,
+    "confidence": 0.93,
+    "confidence_note": "Raw model value — not clinically calibrated",
+    "interpretation": "Mammography model: normal=0.77, benign=0.23, malignant=0.00 (entropy=0.50). Ultrasound malignant=0.33. Both modalities agree.",
+    "supporting_evidence": [
+      "G1 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit",
+      "G2 [ACR_CAT_4] BI-RADS 4: suspicious, biopsy required. 4A: >2%-≤10% (low suspicion, partially circumscribed solid). 4B: >10%-≤50% (mode"
+    ],
+    "similar_cases": [
+      {
+        "citation": "E1",
+        "source": "P0019",
+        "similarity": 0.967,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography & US Breast Study Date: [DATE] eft Breast Cancer BREAST MAMMOGRAPHY Right breast was examined by a series of cranio caudal and oblique medio lateral v"
+      },
+      {
+        "citation": "E2",
+        "source": "P0167",
+        "similarity": 0.952,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography Study Date: [DATE] BREAST MAMMOGRAPHY Right breast was examined by a series of cranio caudal and oblique medio lateral views … supplemented by breast "
+      },
+      {
+        "citation": "E3",
+        "source": "P0277",
+        "similarity": 0.951,
+        "passage": "ID: [ID] Ref. Prof: Sherif Elzawawy Procedure: Mammography & US Breast Study Date: [DATE] reast Cancer BREAST MAMMOGRAPHY Right breast was examined by a series of cranio caudal and oblique medio later"
+      }
+    ],
+    "visual_explanations": {
+      "mammography": "View CC: zones=[milieu de l'image, côté opposé à la paroi (droite)] outside_breast=0.0%; View MLO: zones=[milieu de l'image, côté opposé à la paroi (droite)] outside_breast=0.0%",
+      "ultrasound": "US zones=[milieu de l'image, centre]"
+    },
+    "recommendations": [
+      "Negative findings. Standard age-appropriate routine screening."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Grad-CAM highlights network attention areas, not definitive tissue boundaries.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "[ID]",
+        "condition": "les_deux",
+        "acquisition_device": "Standard"
+      },
+      "predicted_birads": "4C",
+      "confidence": 0.019,
+      "interpretation": "The mammography suggests a high suspicion for an irregular indistinct solid mass, warranting targeted tissue sampling. The ultrasound shows a well-defined oblong shaped organizing seroma, but no residual or recurrent lesions were noted.",
+      "supporting_evidence": [
+        "[G1]",
+        "[G2]",
+        "[E1]",
+        "[E2]",
+        "[E3]"
+      ],
+      "visual_explanations": "Heatmap analysis indicates high suspicion in the central area of the right breast for an irregular mass, while the ultrasound shows a well-defined seroma.",
+      "recommendations": [
+        "Perform targeted tissue sampling guided by the mammographic findings.",
+        "Refer to a human radiologist for final interpretation and biopsy recommendation."
+      ],
+      "limitations": [
+        "The mammography model has a low confidence score (0.019), suggesting uncertainty.",
+        "Ultrasound findings are limited to a well-defined seroma, which does not rule out malignancy."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [],
+      "safety_status": "checks_passed",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0207",
+      "condition": "les_deux",
+      "acquisition_device": "Non-standard (reduced resolution)"
+    },
+    "predicted_birads": "3",
+    "prediction_available": true,
+    "confidence": 0.78,
+    "confidence_note": "Raw model value — not clinically calibrated",
+    "interpretation": "Mammography model: normal=0.61, benign=0.33, malignant=0.06 (entropy=0.76). Ultrasound malignant=0.55. The two modality scores point in different directions. Non-standard acquisition device: scores are less reliable.",
+    "supporting_evidence": [
+      "G1 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit",
+      "G2 [ACR_CAT_4] BI-RADS 4: suspicious, biopsy required. 4A: >2%-≤10% (low suspicion, partially circumscribed solid). 4B: >10%-≤50% (mode"
+    ],
+    "similar_cases": [
+      {
+        "citation": "E1",
+        "source": "P0229",
+        "similarity": 0.955,
+        "passage": "ID: [ID] procedure: Mammography & US Breast Ref. Dr: [DOCTOR] Study Date: [DATE] REPORT BREAST MAMMOGRAPHY  Both breasts shadows are of (ACR B).  Stationary right patchy density….. ..post management"
+      },
+      {
+        "citation": "E2",
+        "source": "P0300",
+        "similarity": 0.946,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] procedure: Mammography & US breast Study Date: [DATE] reast Cancer BREAST MAMMOGRAPHY  Both breasts shadows are of ACR B  More or less stationary left asymmetrical minimal"
+      },
+      {
+        "citation": "E3",
+        "source": "P0042",
+        "similarity": 0.943,
+        "passage": "ID: [ID] procedure: Mammography Ref. Dr: [DOCTOR] Study Date: [DATE] BREAST MAMMOGRAPHY  Both breasts shadows are of a symmetrical semi-dense pattern.  Left asymmetrical diffuse increased density an"
+      }
+    ],
+    "visual_explanations": {
+      "mammography": "View CC: zones=[milieu de l'image, centre] outside_breast=2.6%; View MLO: zones=[milieu de l'image, centre,bas de l'image, côté paroi thoracique (gauche)] outside_breast=2.1%; View CC: zones=[bas de l'image, centre] outside_breast=4.3%",
+      "ultrasound": "US zones=[haut de l'image, côté paroi thoracique (gauche)]; US zones=[haut de l'image, côté paroi thoracique (gauche)]"
+    },
+    "recommendations": [
+      "Short-interval 6-month follow-up imaging (unilateral)."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Grad-CAM highlights network attention areas, not definitive tissue boundaries.",
+      "Non-standard acquisition hardware: image quality may be reduced.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "[ID]",
+        "condition": "les_deux",
+        "acquisition_device": "Non-standard (reduced resolution)"
+      },
+      "predicted_birads": "4C",
+      "confidence": 0.198,
+      "interpretation": "The mammography shows a suspicious finding warranting biopsy, while the ultrasound is inconclusive. The highest-suspicion modality (mammography) suggests a substantial risk of malignancy.",
+      "supporting_evidence": [
+        "[G1]",
+        "[E1]",
+        "[E2]",
+        "[E3]"
+      ],
+      "visual_explanations": "Heatmap analysis indicates high suspicion in the lower center and outer areas of the mammogram, and subtle abnormalities in the right breast on ultrasound.",
+      "recommendations": [
+        "Perform targeted tissue sampling guided by the mammographic findings.",
+        "Refer to a specialist for further evaluation and potential biopsy."
+      ],
+      "limitations": [
+        "Models are research baselines and not clinically validated.",
+        "Ultrasound results are inconclusive, which may affect the final decision."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [],
+      "safety_status": "checks_passed",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0280",
+      "condition": "les_deux",
+      "acquisition_device": "Standard"
+    },
+    "predicted_birads": "3",
+    "prediction_available": true,
+    "confidence": 0.84,
+    "confidence_note": "Raw model value — not clinically calibrated",
+    "interpretation": "Mammography model: normal=0.61, benign=0.36, malignant=0.03 (entropy=0.70). Ultrasound malignant=0.61. The two modality scores point in different directions.",
+    "supporting_evidence": [
+      "G1 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit",
+      "G2 [ACR_CAT_4] BI-RADS 4: suspicious, biopsy required. 4A: >2%-≤10% (low suspicion, partially circumscribed solid). 4B: >10%-≤50% (mode"
+    ],
+    "similar_cases": [
+      {
+        "citation": "E1",
+        "source": "P0129",
+        "similarity": 0.938,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography & US Breast Study Date: [DATE] ight Breast Cancer LEFT BREAST MAMMOGRAPHY  Left breast of fatty pattern (ACR B)  No defined masses could be identifi"
+      },
+      {
+        "citation": "E2",
+        "source": "P0239",
+        "similarity": 0.93,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography & US Breast Study Date: [DATE] LEFT BREAST MAMMOGRAPHY  Left breast of semidense pattern (ACR B)  No defined masses could be identified  No abnorma"
+      },
+      {
+        "citation": "E3",
+        "source": "P0293",
+        "similarity": 0.929,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography & US Breast Study Date: [DATE] ight Breast Cancer LEFT BREAST MAMMOGRAPHY  Left breast of semidense pattern (ACR B)  No abnormal densities.  No pat"
+      }
+    ],
+    "visual_explanations": {
+      "mammography": "View CC: zones=[haut de l'image, côté paroi thoracique (gauche)] outside_breast=0.0%; View MLO: zones=[haut de l'image, centre] outside_breast=10.3%",
+      "ultrasound": "US zones=[haut de l'image, centre,haut de l'image, côté paroi thoracique (gauche)]"
+    },
+    "recommendations": [
+      "Short-interval 6-month follow-up imaging (unilateral)."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Grad-CAM highlights network attention areas, not definitive tissue boundaries.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "[ID]",
+        "condition": "les_deux",
+        "acquisition_device": "Standard"
+      },
+      "predicted_birads": "4B",
+      "confidence": 0.363,
+      "interpretation": "The mammography shows two well-circumscribed densities in the upper outer quadrant of the left breast, which are considered benign. However, the ultrasound reveals two reactive-looking intramammary lymph nodes, which are suspicious and warrant further investigation.",
+      "supporting_evidence": [
+        "[G1]",
+        "[E1]",
+        "[E2]"
+      ],
+      "visual_explanations": "Heatmap for mammography shows high confidence in the benign nature of the densities, while the heatmap for ultrasound highlights the suspicious lymph nodes.",
+      "recommendations": [
+        "Perform targeted tissue sampling guided by the ultrasound findings to confirm the nature of the lymph nodes.",
+        "Refer to a specialist for further evaluation and potential biopsy."
+      ],
+      "limitations": [
+        "The mammography model has a lower probability of malignancy (2.6%) compared to the ultrasound model (61.2%).",
+        "The mammography findings are consistent with benign lesions, but the ultrasound findings are suspicious.",
+        "The models are research baselines and not clinically validated."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [],
+      "safety_status": "checks_passed",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0284",
+      "condition": "les_deux",
+      "acquisition_device": "Standard"
+    },
+    "predicted_birads": "3",
+    "prediction_available": true,
+    "confidence": 0.76,
+    "confidence_note": "Raw model value — not clinically calibrated",
+    "interpretation": "Mammography model: normal=0.25, benign=0.47, malignant=0.28 (entropy=0.96). Ultrasound malignant=0.29. Both modalities agree.",
+    "supporting_evidence": [
+      "G1 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit",
+      "G2 [ACR_DENSITY] Composition A-D: A=almost entirely fatty, B=scattered fibroglandular, C=heterogeneously dense, D=extremely dense. ACR C/"
+    ],
+    "similar_cases": [
+      {
+        "citation": "E1",
+        "source": "P0145",
+        "similarity": 0.883,
+        "passage": "ID: [ID] Consultant : Dr [DOCTOR] : Mammography & US Breast Date : [DATE] Clinical Data : [REMOVED]  Both breasts shadows are ACR B.  Left breast upper inner quadrant irregular spiculated mass with "
+      },
+      {
+        "citation": "E2",
+        "source": "P0237",
+        "similarity": 0.881,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography & US Breast Study Date: [DATE] yxoid Liposarcoma REPORT BILATERAL BREST MAMMOGRPHY  Both breasts shadows are of ACR A  A well circumscribed dense le"
+      },
+      {
+        "citation": "E3",
+        "source": "P0256",
+        "similarity": 0.878,
+        "passage": "ID: [ID] Ref. Prof: Aseem Roustom Procedure: Mammography & US Breast Study Date: [DATE] eft Breast Cancer REPORT BILATERAL BREST MAMMOGRPHY  Both breasts shadows are of ACR A  Right breast mild skin"
+      }
+    ],
+    "visual_explanations": {
+      "mammography": "View CC: zones=[haut de l'image, côté paroi thoracique (gauche)] outside_breast=0.0%; View MLO: zones=[milieu de l'image, centre] outside_breast=1.5%; View CC: zones=[bas de l'image, côté paroi thoracique (gauche),haut de l'image, centre] outside_breast=0.4%",
+      "ultrasound": "US zones=[haut de l'image, centre]; US zones=[haut de l'image, centre]"
+    },
+    "recommendations": [
+      "Short-interval 6-month follow-up imaging (unilateral)."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Grad-CAM highlights network attention areas, not definitive tissue boundaries.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "[ID]",
+        "condition": "les_deux",
+        "acquisition_device": "Standard"
+      },
+      "predicted_birads": "4C",
+      "confidence": 0.283,
+      "interpretation": "The mammography and ultrasound findings suggest a high suspicion of a solid mass in the left breast, warranting targeted tissue sampling.",
+      "supporting_evidence": [
+        "[G1]",
+        "[E1]",
+        "[E2]"
+      ],
+      "visual_explanations": "Heatmap shows high suspicion in the left breast, particularly in the upper outer quadrant.",
+      "recommendations": [
+        "Perform targeted tissue sampling guided by the ultrasound findings.",
+        "Refer to a pathologist for histopathological confirmation."
+      ],
+      "limitations": [
+        "Models are research baselines and not clinically validated.",
+        "Ultrasound findings are secondary to mammography but still significant."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [],
+      "safety_status": "checks_passed",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0221",
+      "condition": "les_deux",
+      "acquisition_device": "Standard"
+    },
+    "predicted_birads": "1",
+    "prediction_available": true,
+    "confidence": 0.75,
+    "confidence_note": "Raw model value — not clinically calibrated",
+    "interpretation": "Mammography model: normal=0.51, benign=0.49, malignant=0.00 (entropy=0.64). Ultrasound malignant=0.54. The two modality scores point in different directions.",
+    "supporting_evidence": [
+      "G1 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit",
+      "G2 [ACR_CAT_4] BI-RADS 4: suspicious, biopsy required. 4A: >2%-≤10% (low suspicion, partially circumscribed solid). 4B: >10%-≤50% (mode"
+    ],
+    "similar_cases": [
+      {
+        "citation": "E1",
+        "source": "P0254",
+        "similarity": 0.95,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography & US Breast Study Date: [DATE] eft Breast Cancer BREAST MAMMOGRAPHY Right breast was examined by a series of cranio caudal and oblique medio lateral v"
+      },
+      {
+        "citation": "E2",
+        "source": "P0161",
+        "similarity": 0.949,
+        "passage": "ID: [ID] Ref. Prof.: Amr Mahmoud procedure: Mammography &US Breast Study Date: [DATE] t Breast Cancer BREAST MAMMOGRAPHY Right breast was examined by a series of cranio caudal and oblique medio latera"
+      },
+      {
+        "citation": "E3",
+        "source": "P0180",
+        "similarity": 0.944,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography & US Breast Study Date: [DATE] eft Breast Cancer BREAST MAMMOGRAPHY Right breast was examined by a series of cranio caudal and oblique medio lateral v"
+      }
+    ],
+    "visual_explanations": {
+      "mammography": "View CC: zones=[milieu de l'image, côté paroi thoracique (gauche)] outside_breast=0.0%; View MLO: zones=[haut de l'image, centre] outside_breast=21.4%",
+      "ultrasound": "US zones=[haut de l'image, centre]; US zones=[haut de l'image, centre]"
+    },
+    "recommendations": [
+      "Negative findings. Standard age-appropriate routine screening."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Grad-CAM highlights network attention areas, not definitive tissue boundaries.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "[ID]",
+        "condition": "les_deux",
+        "acquisition_device": "Standard"
+      },
+      "predicted_birads": "4C",
+      "confidence": 0.03,
+      "interpretation": "The mammography suggests a high suspicion of a solid mass, while the ultrasound is inconclusive. Given the discordant findings, a targeted biopsy is recommended based on the highest-suspicion modality.",
+      "supporting_evidence": [
+        "[G1]",
+        "[G2]",
+        "[E1]",
+        "[E2]",
+        "[E3]"
+      ],
+      "visual_explanations": "Heatmap analysis shows high suspicion in the central area of the right breast in both mammography and ultrasound views.",
+      "recommendations": [
+        "Perform a targeted biopsy guided by the mammographic findings.",
+        "Refer to a specialist for further evaluation."
+      ],
+      "limitations": [
+        "The mammography model has an uncertainty entropy of 0.64, indicating moderate confidence.",
+        "Ultrasound results are inconclusive, which may affect the final diagnosis."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [],
+      "safety_status": "checks_passed",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0081",
+      "condition": "les_deux",
+      "acquisition_device": "Standard"
+    },
+    "predicted_birads": "2",
+    "prediction_available": true,
+    "confidence": 0.89,
+    "confidence_note": "Raw model value — not clinically calibrated",
+    "interpretation": "Mammography model: normal=0.31, benign=0.69, malignant=0.00 (entropy=0.57). Ultrasound malignant=0.55. The two modality scores point in different directions.",
+    "supporting_evidence": [
+      "G1 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit",
+      "G2 [ACR_CAT_4] BI-RADS 4: suspicious, biopsy required. 4A: >2%-≤10% (low suspicion, partially circumscribed solid). 4B: >10%-≤50% (mode"
+    ],
+    "similar_cases": [
+      {
+        "citation": "E1",
+        "source": "P0095",
+        "similarity": 0.936,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography Study Date: [DATE] Bilateral breast mammography  Both breasts are of scattered fibroglandular pattern (ACR b)  Bilateral scattered spots of benign l"
+      },
+      {
+        "citation": "E2",
+        "source": "P0055",
+        "similarity": 0.928,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography Study Date: [DATE] BREAST MAMMOGRAPHY  Both breasts are of scattered fibro glandular pattern (ACR b)  Bilateral UOQ intra mammary nodes seen.  Othe"
+      },
+      {
+        "citation": "E3",
+        "source": "P0262",
+        "similarity": 0.926,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography Study Date: [DATE] Bilateral breast mammography  Both breasts are of scattered fibroglandular pattern (ACR b)  Stationary right minimal diffuse skin"
+      }
+    ],
+    "visual_explanations": {
+      "mammography": "View CC: zones=[milieu de l'image, côté opposé à la paroi (droite)] outside_breast=0.0%; View MLO: zones=[haut de l'image, côté paroi thoracique (gauche)] outside_breast=0.1%; View CC: zones=[milieu de l'image, côté opposé à la paroi (droite)] outside_breast=0.0%",
+      "ultrasound": "US zones=[haut de l'image, centre,haut de l'image, côté paroi thoracique (gauche)]; US zones=[milieu de l'image, côté opposé à la paroi (droite)]"
+    },
+    "recommendations": [
+      "Routine annual screening mammography."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Grad-CAM highlights network attention areas, not definitive tissue boundaries.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "[ID]",
+        "condition": "les_deux",
+        "acquisition_device": "Standard"
+      },
+      "predicted_birads": "4C",
+      "confidence": 0.027,
+      "interpretation": "The mammography suggests a low suspicion finding, while the ultrasound indicates a high suspicion for a solid mass or fine pleomorphic calcifications. Given the discordant findings, the highest suspicion modality (ultrasound) governs, and a targeted biopsy is recommended.",
+      "supporting_evidence": [
+        "[G1]",
+        "[G2]",
+        "[E1]",
+        "[E2]",
+        "[E3]"
+      ],
+      "visual_explanations": "Ultrasound heatmap shows a high suspicion area in the center of the breast, consistent with the clinical description of a high suspicion finding.",
+      "recommendations": [
+        "Perform a targeted biopsy guided by the ultrasound findings.",
+        "Refer to a pathologist for histopathological confirmation."
+      ],
+      "limitations": [
+        "The mammography findings suggest a low suspicion, which may be influenced by the presence of benign calcifications.",
+        "The ultrasound findings indicate a high suspicion, but further investigation is needed to confirm the nature of the lesion.",
+        "The clinical history of non-malignant lymphoma should be considered in the differential diagnosis."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [],
+      "safety_status": "checks_passed",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0276",
+      "condition": "les_deux",
+      "acquisition_device": "Standard"
+    },
+    "predicted_birads": "1",
+    "prediction_available": true,
+    "confidence": 0.93,
+    "confidence_note": "Raw model value — not clinically calibrated",
+    "interpretation": "Mammography model: normal=0.76, benign=0.24, malignant=0.00 (entropy=0.51). Ultrasound malignant=0.31. Both modalities agree.",
+    "supporting_evidence": [
+      "G1 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit",
+      "G2 [ACR_CAT_4] BI-RADS 4: suspicious, biopsy required. 4A: >2%-≤10% (low suspicion, partially circumscribed solid). 4B: >10%-≤50% (mode"
+    ],
+    "similar_cases": [
+      {
+        "citation": "E1",
+        "source": "P0211",
+        "similarity": 0.922,
+        "passage": "ID: [ID] procedure: Mammography&US Breast Ref. Dr: [DOCTOR] Study Date: [DATE] ight Breast Cancer LEFT BREAST MAMMOGRAPHY  Left breast of clear fatty pattern ( ACR A)  Left axillary nodal shadows ar"
+      },
+      {
+        "citation": "E2",
+        "source": "P0225",
+        "similarity": 0.921,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography & US Breast Study Date: [DATE] ight Breast Cancer LEFT BREAST MAMMOGRAPHY  Left breast of fatty pattern.( ACR A)  No mass lesion.  No abnormal dens"
+      },
+      {
+        "citation": "E3",
+        "source": "P0023",
+        "similarity": 0.92,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography & US Breast Study Date: [DATE] ight Breast Cancer LEFT BREAST MAMMOGRAPHY  Left breast of fatty pattern (ACR B) .  Left scattered rounded microcalci"
+      }
+    ],
+    "visual_explanations": {
+      "mammography": "View CC: zones=[milieu de l'image, centre] outside_breast=0.0%; View MLO: zones=[bas de l'image, centre,bas de l'image, côté paroi thoracique (gauche)] outside_breast=0.0%",
+      "ultrasound": "US zones=[haut de l'image, centre]; US zones=[haut de l'image, centre]"
+    },
+    "recommendations": [
+      "Negative findings. Standard age-appropriate routine screening."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Grad-CAM highlights network attention areas, not definitive tissue boundaries.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "[ID]",
+        "condition": "les_deux",
+        "acquisition_device": "Standard"
+      },
+      "predicted_birads": "4C",
+      "confidence": 0.013,
+      "interpretation": "The mammography suggests a low suspicion finding, while the ultrasound indicates a suspicious focal hypoechoic area likely representing fibrocystic changes. Given the discordant findings, the highest suspicion modality (ultrasound) governs, and a biopsy is recommended.",
+      "supporting_evidence": [
+        "[G1]",
+        "[E1]",
+        "[E2]",
+        "[E3]"
+      ],
+      "visual_explanations": "Ultrasound heatmap showing a focal hypoechoic area at 3 o'clock axis, measuring 6.6x5.7mm with posterior shadowing, indicative of fibrocystic changes. Mammography heatmap showing a low suspicion finding.",
+      "recommendations": [
+        "Perform an image-guided core needle biopsy of the suspicious focal hypoechoic area based on the ultrasound findings.",
+        "Follow up with annual mammograms and ultrasounds for monitoring."
+      ],
+      "limitations": [
+        "Models are research baselines and not clinically validated.",
+        "Ultrasound findings may be influenced by equipment quality and operator expertise."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [],
+      "safety_status": "checks_passed",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0017",
+      "condition": "les_deux",
+      "acquisition_device": "Standard"
+    },
+    "predicted_birads": "2",
+    "prediction_available": true,
+    "confidence": 0.82,
+    "confidence_note": "Raw model value — not clinically calibrated",
+    "interpretation": "Mammography model: normal=0.37, benign=0.63, malignant=0.00 (entropy=0.62). Ultrasound malignant=0.41. Both modalities agree.",
+    "supporting_evidence": [
+      "G1 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit",
+      "G2 [ACR_CAT_4] BI-RADS 4: suspicious, biopsy required. 4A: >2%-≤10% (low suspicion, partially circumscribed solid). 4B: >10%-≤50% (mode"
+    ],
+    "similar_cases": [
+      {
+        "citation": "E1",
+        "source": "P0011",
+        "similarity": 0.948,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography & US Breast Study Date: [DATE] ight Breast Cancer LEFT BREAST MAMMOGRAPHY Left breast is examined by a series of cranio caudal and oblique Medio later"
+      },
+      {
+        "citation": "E2",
+        "source": "P0156",
+        "similarity": 0.947,
+        "passage": "ID: [ID] Ref. Prof: Ahmed Ashour Procedure: Mammography & US Breast Study Date: [DATE] reast Cancer LEFT BREAST MAMMOGRAPHY Left breast is examined by a series of cranio caudal and oblique Medio later"
+      },
+      {
+        "citation": "E3",
+        "source": "P0120",
+        "similarity": 0.943,
+        "passage": "ID: [ID] procedure: Mammography &US Breast Ref. Dr: [DOCTOR] Study Date: [DATE] ight breast cancer LEFT BREAST MAMMOGRAPHY Left breast is examined by a series of cranio caudal and oblique Medio latera"
+      }
+    ],
+    "visual_explanations": {
+      "mammography": "View CC: zones=[] outside_breast=0.0%; View MLO: zones=[bas de l'image, côté opposé à la paroi (droite)] outside_breast=0.1%",
+      "ultrasound": "US zones=[milieu de l'image, centre]; US zones=[haut de l'image, côté paroi thoracique (gauche)]"
+    },
+    "recommendations": [
+      "Routine annual screening mammography."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Grad-CAM highlights network attention areas, not definitive tissue boundaries.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "[ID]",
+        "condition": "les_deux",
+        "acquisition_device": "Standard"
+      },
+      "predicted_birads": "4C",
+      "confidence": 0.036,
+      "interpretation": "The mammography suggests a high suspicion of a solid mass or fine pleomorphic calcifications, warranting targeted tissue sampling. The ultrasound shows no suspicious findings.",
+      "supporting_evidence": [
+        "[G1]",
+        "[G2]",
+        "[E1]",
+        "[E2]"
+      ],
+      "visual_explanations": "Heatmap analysis indicates high suspicion in the lower breast region on mammography and no suspicious findings on ultrasound.",
+      "recommendations": [
+        "Perform targeted tissue sampling guided by the mammographic findings.",
+        "Refer to a human radiologist for final interpretation and biopsy recommendation."
+      ],
+      "limitations": [
+        "Models are research baselines and not clinically validated.",
+        "Ultrasound findings are inconclusive, mammography remains the primary modality."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [],
+      "safety_status": "checks_passed",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0264",
+      "condition": "les_deux",
+      "acquisition_device": "Non-standard (reduced resolution)"
+    },
+    "predicted_birads": "2",
+    "prediction_available": true,
+    "confidence": 0.98,
+    "confidence_note": "Raw model value — not clinically calibrated",
+    "interpretation": "Mammography model: normal=0.05, benign=0.94, malignant=0.01 (entropy=0.23). Ultrasound malignant=0.62. The two modality scores point in different directions. Non-standard acquisition device: scores are less reliable.",
+    "supporting_evidence": [
+      "G1 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit",
+      "G2 [ACR_CAT_4] BI-RADS 4: suspicious, biopsy required. 4A: >2%-≤10% (low suspicion, partially circumscribed solid). 4B: >10%-≤50% (mode"
+    ],
+    "similar_cases": [
+      {
+        "citation": "E1",
+        "source": "P0323",
+        "similarity": 0.928,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] procedure: Mammography Study Date: [DATE] G Age: [AGE] Sex: F [AGE] years old lady known with left breast cancer ( pathologically proved as infiltrating ductal carcinoma) , "
+      },
+      {
+        "citation": "E2",
+        "source": "P0054",
+        "similarity": 0.916,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] procedure: Mammography&US Breast Study Date: [DATE] G Age: [AGE] Sex: F [AGE] years old lady presented with right breast lump infiltrating the overlying skin …. Pathological"
+      },
+      {
+        "citation": "E3",
+        "source": "P0144",
+        "similarity": 0.905,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] procedure: Mammography Study Date: [DATE] G Age: [AGE] Sex: F [AGE] years old lady known with pathologically proved right breast cancer ( infiltrating ductal carcinoma , lob"
+      }
+    ],
+    "visual_explanations": {
+      "mammography": "View CC: zones=[milieu de l'image, centre] outside_breast=0.0%; View MLO: zones=[haut de l'image, côté paroi thoracique (gauche)] outside_breast=0.0%",
+      "ultrasound": "US zones=[milieu de l'image, centre]; US zones=[milieu de l'image, centre]"
+    },
+    "recommendations": [
+      "Routine annual screening mammography."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Grad-CAM highlights network attention areas, not definitive tissue boundaries.",
+      "Non-standard acquisition hardware: image quality may be reduced.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "[ID]",
+        "condition": "les_deux",
+        "acquisition_device": "Non-standard (reduced resolution)"
+      },
+      "predicted_birads": "4C",
+      "confidence": 0.086,
+      "interpretation": "The mammography and ultrasound findings suggest a high suspicion for a suspicious mass, warranting targeted tissue sampling.",
+      "supporting_evidence": [
+        "[G1]",
+        "[G2]",
+        "[E1]",
+        "[E2]",
+        "[E3]"
+      ],
+      "visual_explanations": "Heatmap analysis shows high suspicion in the center of the mammogram and ultrasound images.",
+      "recommendations": [
+        "Perform targeted tissue sampling guided by the highest-suspicion modality (ultrasound in this case).",
+        "Refer to a human radiologist for final interpretation and biopsy confirmation."
+      ],
+      "limitations": [
+        "Models are research baselines and not clinically validated.",
+        "Ultrasound findings may be less reliable due to reduced resolution.",
+        "Uncertainty entropy score indicates moderate uncertainty in the predictions."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [],
+      "safety_status": "checks_passed",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0159",
+      "condition": "les_deux",
+      "acquisition_device": "Non-standard (reduced resolution)"
+    },
+    "predicted_birads": "4A",
+    "prediction_available": true,
+    "confidence": 0.74,
+    "confidence_note": "Raw model value — not clinically calibrated",
+    "interpretation": "Mammography model: normal=0.36, benign=0.51, malignant=0.14 (entropy=0.90). Ultrasound malignant=0.62. The two modality scores point in different directions. Non-standard acquisition device: scores are less reliable.",
+    "supporting_evidence": [
+      "G1 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit",
+      "G2 [ACR_CAT_4] BI-RADS 4: suspicious, biopsy required. 4A: >2%-≤10% (low suspicion, partially circumscribed solid). 4B: >10%-≤50% (mode"
+    ],
+    "similar_cases": [
+      {
+        "citation": "E1",
+        "source": "P0289",
+        "similarity": 0.933,
+        "passage": "ID: [ID] Ref. Prof.: Dina Anwar procedure: Mammography & US Breast Study Date: [DATE] Right Breast Cancer Bilateral breast mammography  Both breasts are of scattered fibroglandular pattern (ACR b)  "
+      },
+      {
+        "citation": "E2",
+        "source": "P0241",
+        "similarity": 0.926,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography & US Breast Study Date: [DATE] ight Breast Cancer Bilateral breast mammography  Both breasts are of scattered fibroglandular pattern (ACR b)  The ri"
+      },
+      {
+        "citation": "E3",
+        "source": "P0262",
+        "similarity": 0.918,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography Study Date: [DATE] Bilateral breast mammography  Both breasts are of scattered fibroglandular pattern (ACR b)  Stationary right minimal diffuse skin"
+      }
+    ],
+    "visual_explanations": {
+      "mammography": "View CC: zones=[haut de l'image, centre] outside_breast=0.2%; View MLO: zones=[milieu de l'image, centre,haut de l'image, côté paroi thoracique (gauche)] outside_breast=14.2%; View CC: zones=[haut de l'image, centre,haut de l'image, côté paroi thoracique (gauche)] outside_breast=1.1%",
+      "ultrasound": "US zones=[haut de l'image, côté paroi thoracique (gauche)]; US zones=[haut de l'image, côté paroi thoracique (gauche)]"
+    },
+    "recommendations": [
+      "Image-guided core needle biopsy (CNB) recommended — ACR 4A.",
+      "Multidisciplinary breast tumor board review."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Grad-CAM highlights network attention areas, not definitive tissue boundaries.",
+      "Non-standard acquisition hardware: image quality may be reduced.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "[ID]",
+        "condition": "les_deux",
+        "acquisition_device": "Non-standard (reduced resolution)"
+      },
+      "predicted_birads": "4C",
+      "confidence": 0.31,
+      "interpretation": "The mammography suggests a high suspicion for an irregular indistinct solid mass, while the ultrasound indicates a suspicious lesion. Given the discordant findings, a targeted biopsy is recommended based on the highest-suspicion modality.",
+      "supporting_evidence": [
+        "[G1]",
+        "[G2]",
+        "[E1]",
+        "[E2]",
+        "[E3]"
+      ],
+      "visual_explanations": "Heatmap analysis shows high suspicion in the mammography view CC and MLO, and a suspicious lesion in the ultrasound view.",
+      "recommendations": [
+        "Perform a targeted biopsy guided by the highest-suspicion modality (mammography).",
+        "Refer to a human radiologist for final interpretation and management plan."
+      ],
+      "limitations": [
+        "Models are research baselines and not clinically validated.",
+        "Ultrasound findings may be influenced by reduced resolution.",
+        "Mammography findings may be affected by the standard device used."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [],
+      "safety_status": "checks_passed",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0022",
+      "condition": "les_deux",
+      "acquisition_device": "Standard"
+    },
+    "predicted_birads": "3",
+    "prediction_available": true,
+    "confidence": 0.9,
+    "confidence_note": "Raw model value — not clinically calibrated",
+    "interpretation": "Mammography model: normal=0.77, benign=0.22, malignant=0.01 (entropy=0.54). Ultrasound malignant=0.64. The two modality scores point in different directions.",
+    "supporting_evidence": [
+      "G1 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit",
+      "G2 [ACR_DENSITY] Composition A-D: A=almost entirely fatty, B=scattered fibroglandular, C=heterogeneously dense, D=extremely dense. ACR C/"
+    ],
+    "similar_cases": [
+      {
+        "citation": "E1",
+        "source": "P0227",
+        "similarity": 0.966,
+        "passage": "Sex: F procedure date: [DATE] Report Date: [DATE] G &US Breast BREAST MAMMOGRAPHY  Both breasts shadows are of (ACR B).  Right outer asymmetrical increased density associated with minimal diffuse sk"
+      },
+      {
+        "citation": "E2",
+        "source": "P0273",
+        "similarity": 0.95,
+        "passage": "Sex: F procedure date: [DATE] Report Date: [DATE] G &US Breast BREAST MAMMOGRAPHY  Both breasts shadows are of ….ACRB  Left upper outer asymmetry in the form of increased density ,, diffuse skin thi"
+      },
+      {
+        "citation": "E3",
+        "source": "P0112",
+        "similarity": 0.946,
+        "passage": "Sex: F procedure date: [DATE] Report Date: [DATE] G & US Breast BREAST MAMMOGRAPHY Both breasts were examined by a series of cranio caudal and oblique medio lateral views ...supplemented by breasts US"
+      }
+    ],
+    "visual_explanations": {
+      "mammography": "View CC: zones=[haut de l'image, côté paroi thoracique (gauche)] outside_breast=23.7%; View MLO: zones=[milieu de l'image, côté paroi thoracique (gauche)] outside_breast=0.2%; View CC: zones=[bas de l'image, côté paroi thoracique (gauche)] outside_breast=18.8%",
+      "ultrasound": "US zones=[milieu de l'image, centre,milieu de l'image, côté opposé à la paroi (droite)]"
+    },
+    "recommendations": [
+      "Short-interval 6-month follow-up imaging (unilateral)."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Grad-CAM highlights network attention areas, not definitive tissue boundaries.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "ANONYMIZED_PSEUDO_ID",
+        "condition": "les_deux",
+        "acquisition_device": "Standard"
+      },
+      "predicted_birads": "4C",
+      "confidence": 0.103,
+      "interpretation": "The mammography suggests a high suspicion of a solid mass or irregularity, warranting targeted biopsy. The ultrasound also indicates a suspicious finding, supporting the need for further investigation.",
+      "supporting_evidence": [
+        "[G1]",
+        "[E1]",
+        "[E2]",
+        "[E3]"
+      ],
+      "visual_explanations": "Heatmap analysis shows high suspicion in the lower inner quadrant of the left breast on mammography and heterogeneous fatty pattern with suspicious areas on ultrasound.",
+      "recommendations": [
+        "Perform targeted tissue sampling guided by the highest-suspicion modality (ultrasound in this case).",
+        "Refer to a specialist for further evaluation and potential biopsy."
+      ],
+      "limitations": [
+        "Models are research baselines and not clinically validated.",
+        "Ultrasound findings may vary due to equipment quality and patient positioning."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [],
+      "safety_status": "checks_passed",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0193",
+      "condition": "texte",
+      "acquisition_device": "Standard"
+    },
+    "predicted_birads": null,
+    "prediction_available": false,
+    "confidence": null,
+    "confidence_note": null,
+    "interpretation": "Text-only evaluation: no deep learning vision scores available.",
+    "supporting_evidence": [
+      "G1 [ACR_DENSITY] Composition A-D: A=almost entirely fatty, B=scattered fibroglandular, C=heterogeneously dense, D=extremely dense. ACR C/",
+      "G2 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit"
+    ],
+    "similar_cases": [
+      {
+        "citation": "E1",
+        "source": "P0088",
+        "similarity": 0.939,
+        "passage": "ID: [ID] Ref .Dr [DOCTOR] ; MG & US Breast Date : [DATE] Clinical Data : [REMOVED]  Left breast is of scattered fibroglandular pattern (ACR b) .  A well defined round iso density mas is seen along t"
+      },
+      {
+        "citation": "E2",
+        "source": "P0047",
+        "similarity": 0.926,
+        "passage": "ID: [ID] Ref .Dr [DOCTOR] Procedure ; MG & US Breast Date : [DATE] Clinical Data : [REMOVED]  Left breast is of fatty pattern (ACR a) .  No focal breast masses.  No suspicious calcification.  No s"
+      },
+      {
+        "citation": "E3",
+        "source": "P0132",
+        "similarity": 0.91,
+        "passage": "ID: [ID] Ref .Dr [DOCTOR] ; MG & US Breast Date : [DATE] Clinical Data : [REMOVED] BREAST MAMMOGRAPHY Right breast was examined by a series of cranio caudal and oblique medio lateral views … supplemen"
+      }
+    ],
+    "visual_explanations": null,
+    "recommendations": [
+      "Clinical management per radiologist review of findings.",
+      "Correlate with dedicated breast imaging."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "[ID]",
+        "condition": "les_deux",
+        "acquisition_device": "Standard"
+      },
+      "predicted_birads": "4C",
+      "confidence": 0.85,
+      "interpretation": "The left breast shows a heterogeneously dense composition with scattered fibroglandular patterns and ductal dilation. The presence of calcifications and a suspicious ductal dilation warrant further investigation. A biopsy is recommended.",
+      "supporting_evidence": [
+        "[G1]",
+        "[E1]",
+        "[E2]"
+      ],
+      "visual_explanations": null,
+      "recommendations": [
+        "Refer to the patient for a biopsy of the suspicious ductal dilation.",
+        "Consider adjunctive ultrasound if the mammogram suggests a higher risk."
+      ],
+      "limitations": [
+        "The model's accuracy is based on research and may not be fully validated.",
+        "The mammogram and ultrasound findings are discordant, requiring a biopsy regardless of the other modality's assessment."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [],
+      "safety_status": "checks_passed",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0206",
+      "condition": "texte",
+      "acquisition_device": "Standard"
+    },
+    "predicted_birads": null,
+    "prediction_available": false,
+    "confidence": null,
+    "confidence_note": null,
+    "interpretation": "Text-only evaluation: no deep learning vision scores available.",
+    "supporting_evidence": [
+      "G1 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit",
+      "G2 [ACR_MAMMO_DESC] Mammographic masses: shape (oval/round/irregular), margins (circumscribed/obscured/microlobulated/indistinct/spiculated)"
+    ],
+    "similar_cases": [
+      {
+        "citation": "E1",
+        "source": "P0019",
+        "similarity": 0.967,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography & US Breast Study Date: [DATE] eft Breast Cancer BREAST MAMMOGRAPHY Right breast was examined by a series of cranio caudal and oblique medio lateral v"
+      },
+      {
+        "citation": "E2",
+        "source": "P0167",
+        "similarity": 0.952,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography Study Date: [DATE] BREAST MAMMOGRAPHY Right breast was examined by a series of cranio caudal and oblique medio lateral views … supplemented by breast "
+      },
+      {
+        "citation": "E3",
+        "source": "P0277",
+        "similarity": 0.951,
+        "passage": "ID: [ID] Ref. Prof: Sherif Elzawawy Procedure: Mammography & US Breast Study Date: [DATE] reast Cancer BREAST MAMMOGRAPHY Right breast was examined by a series of cranio caudal and oblique medio later"
+      }
+    ],
+    "visual_explanations": null,
+    "recommendations": [
+      "Clinical management per radiologist review of findings.",
+      "Correlate with dedicated breast imaging."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "[ID]",
+        "condition": "texte",
+        "acquisition_device": "Standard"
+      },
+      "predicted_birads": "null",
+      "confidence": "null",
+      "interpretation": "The mammography and ultrasound studies of the right breast show a scattered fibro-glandular parenchymal pattern without focal masses, calcifications, or skin thickening. The ultrasound reveals a well-defined oblong-shaped organizing seroma along the right mastectomy scar. The mammography does not indicate any suspicious findings, but the ultrasound suggests a seroma. Given the conflicting findings, the highest suspicion modality (ultrasound) governs, and a targeted biopsy is recommended.",
+      "supporting_evidence": [
+        "[G1]",
+        "[E1]",
+        "[E2]",
+        "[E3]"
+      ],
+      "visual_explanations": "null",
+      "recommendations": [
+        "Perform a targeted biopsy of the seroma based on the ultrasound findings.",
+        "Refer to the radiologist for further evaluation and potential biopsy.",
+        "Consider a follow-up mammogram in six months."
+      ],
+      "limitations": [
+        "Models are research baselines and not clinically validated.",
+        "Ultrasound findings may not be definitive due to reduced resolution.",
+        "Mammographic findings do not rule out the possibility of a seroma."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [],
+      "safety_status": "checks_passed",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0207",
+      "condition": "texte",
+      "acquisition_device": "Non-standard (reduced resolution)"
+    },
+    "predicted_birads": null,
+    "prediction_available": false,
+    "confidence": null,
+    "confidence_note": null,
+    "interpretation": "Text-only evaluation: no deep learning vision scores available.",
+    "supporting_evidence": [
+      "G1 [ACR_DENSITY] Composition A-D: A=almost entirely fatty, B=scattered fibroglandular, C=heterogeneously dense, D=extremely dense. ACR C/",
+      "G2 [ACR_MAMMO_DESC] Mammographic masses: shape (oval/round/irregular), margins (circumscribed/obscured/microlobulated/indistinct/spiculated)"
+    ],
+    "similar_cases": [
+      {
+        "citation": "E1",
+        "source": "P0229",
+        "similarity": 0.955,
+        "passage": "ID: [ID] procedure: Mammography & US Breast Ref. Dr: [DOCTOR] Study Date: [DATE] REPORT BREAST MAMMOGRAPHY  Both breasts shadows are of (ACR B).  Stationary right patchy density….. ..post management"
+      },
+      {
+        "citation": "E2",
+        "source": "P0300",
+        "similarity": 0.946,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] procedure: Mammography & US breast Study Date: [DATE] reast Cancer BREAST MAMMOGRAPHY  Both breasts shadows are of ACR B  More or less stationary left asymmetrical minimal"
+      },
+      {
+        "citation": "E3",
+        "source": "P0042",
+        "similarity": 0.943,
+        "passage": "ID: [ID] procedure: Mammography Ref. Dr: [DOCTOR] Study Date: [DATE] BREAST MAMMOGRAPHY  Both breasts shadows are of a symmetrical semi-dense pattern.  Left asymmetrical diffuse increased density an"
+      }
+    ],
+    "visual_explanations": null,
+    "recommendations": [
+      "Clinical management per radiologist review of findings.",
+      "Correlate with dedicated breast imaging."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Non-standard acquisition hardware: image quality may be reduced.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "[ID]",
+        "condition": "texte",
+        "acquisition_device": "Standard"
+      },
+      "predicted_birads": "null",
+      "confidence": "null",
+      "interpretation": "The patient's mammogram shows semi-dense breasts (ACR B) with no significant calcifications or suspicious masses. The right axillary lymph nodes are noted. The ultrasonography indicates a homogenous right breast parenchyma and clear left lumpectomy bed without recurrent suspicious masses. The mammogram does not meet the criteria for a definitive BI-RADS category but suggests a low-risk finding.",
+      "supporting_evidence": [
+        "[G1]",
+        "[E1]",
+        "[E2]",
+        "[E3]"
+      ],
+      "visual_explanations": "null",
+      "recommendations": [
+        "Annual follow-up mammogram and ultrasound.",
+        "Consider adjunctive ultrasound for further evaluation if ACR C/D density is suspected.",
+        "Biopsy for any suspicious or concerning findings."
+      ],
+      "limitations": [
+        "Models are research baselines and not clinically validated.",
+        "Ultrasound findings are secondary to mammography.",
+        "No confirmed diagnosis was made."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [
+        "discordance_mammo_echo_non_signalee"
+      ],
+      "safety_status": "review_required",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "inconsistent",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0280",
+      "condition": "texte",
+      "acquisition_device": "Standard"
+    },
+    "predicted_birads": null,
+    "prediction_available": false,
+    "confidence": null,
+    "confidence_note": null,
+    "interpretation": "Text-only evaluation: no deep learning vision scores available.",
+    "supporting_evidence": [
+      "G1 [ACR_DENSITY] Composition A-D: A=almost entirely fatty, B=scattered fibroglandular, C=heterogeneously dense, D=extremely dense. ACR C/",
+      "G2 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit"
+    ],
+    "similar_cases": [
+      {
+        "citation": "E1",
+        "source": "P0129",
+        "similarity": 0.938,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography & US Breast Study Date: [DATE] ight Breast Cancer LEFT BREAST MAMMOGRAPHY  Left breast of fatty pattern (ACR B)  No defined masses could be identifi"
+      },
+      {
+        "citation": "E2",
+        "source": "P0239",
+        "similarity": 0.93,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography & US Breast Study Date: [DATE] LEFT BREAST MAMMOGRAPHY  Left breast of semidense pattern (ACR B)  No defined masses could be identified  No abnorma"
+      },
+      {
+        "citation": "E3",
+        "source": "P0293",
+        "similarity": 0.929,
+        "passage": "ID: [ID] Ref. Dr: [DOCTOR] Procedure: Mammography & US Breast Study Date: [DATE] ight Breast Cancer LEFT BREAST MAMMOGRAPHY  Left breast of semidense pattern (ACR B)  No abnormal densities.  No pat"
+      }
+    ],
+    "visual_explanations": null,
+    "recommendations": [
+      "Clinical management per radiologist review of findings.",
+      "Correlate with dedicated breast imaging."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "[ID]",
+        "condition": "texte",
+        "acquisition_device": "Standard"
+      },
+      "predicted_birads": "null",
+      "confidence": "null",
+      "interpretation": "The patient has a left breast with a fatty composition (ACR B). Two well-circumscribed ovoid densities are noted in the upper outer quadrant of the left breast. No pathological calcifications were observed. The left breast contains two reactive-looking intramammary lymph nodes at 1 o'clock axis, measuring 5x2mm and 2mm respectively. No other abnormalities were found in the left breast or the right breast. Annual follow-up is recommended.",
+      "supporting_evidence": [
+        "[E1]",
+        "[E2]",
+        "[E3]"
+      ],
+      "visual_explanations": "null",
+      "recommendations": [
+        "Annual follow-up for the patient.",
+        "Consider targeted biopsy if there is any suspicion of malignancy based on the highest-suspicion modality."
+      ],
+      "limitations": [
+        "Models are research baselines and not clinically validated.",
+        "Ultrasound findings are secondary to mammography.",
+        "No specific BI-RADS category was predicted due to the nature of the input data."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [],
+      "safety_status": "checks_passed",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0264",
+      "condition": "image",
+      "acquisition_device": "Non-standard (reduced resolution)"
+    },
+    "predicted_birads": "2",
+    "prediction_available": true,
+    "confidence": 0.98,
+    "confidence_note": "Raw model value — not clinically calibrated",
+    "interpretation": "Mammography model: normal=0.05, benign=0.94, malignant=0.01 (entropy=0.23). Ultrasound malignant=0.62. The two modality scores point in different directions. Non-standard acquisition device: scores are less reliable.",
+    "supporting_evidence": [
+      "G1 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit",
+      "G2 [ACR_CAT_4] BI-RADS 4: suspicious, biopsy required. 4A: >2%-≤10% (low suspicion, partially circumscribed solid). 4B: >10%-≤50% (mode"
+    ],
+    "similar_cases": [],
+    "visual_explanations": {
+      "mammography": "View CC: zones=[milieu de l'image, centre] outside_breast=0.0%; View MLO: zones=[haut de l'image, côté paroi thoracique (gauche)] outside_breast=0.0%",
+      "ultrasound": "US zones=[milieu de l'image, centre]; US zones=[milieu de l'image, centre]"
+    },
+    "recommendations": [
+      "Routine annual screening mammography."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Grad-CAM highlights network attention areas, not definitive tissue boundaries.",
+      "Non-standard acquisition hardware: image quality may be reduced.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "P001",
+        "condition": "texte",
+        "acquisition_device": "Non-standard (reduced resolution)"
+      },
+      "predicted_birads": "4C",
+      "confidence": 0.086,
+      "interpretation": "The mammogram shows a suspicious finding with a high suspicion for an irregular indistinct solid mass, warranting targeted tissue sampling.",
+      "supporting_evidence": [
+        "[G1]",
+        "[E1]"
+      ],
+      "visual_explanations": "null",
+      "recommendations": [
+        "Perform targeted tissue sampling guided by the mammographic findings."
+      ],
+      "limitations": [
+        "Models are research baselines and not clinically validated.",
+        "Ultrasound findings were discordant with the mammogram, but the mammogram remains the primary modality.",
+        "Uncertainty in the mammogram's malignant probability due to reduced resolution device."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [
+        "citation_inexistante:E1"
+      ],
+      "safety_status": "review_required",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0176",
+      "condition": "image",
+      "acquisition_device": "Standard"
+    },
+    "predicted_birads": "2",
+    "prediction_available": true,
+    "confidence": 0.89,
+    "confidence_note": "Raw model value — not clinically calibrated",
+    "interpretation": "Mammography model: normal=0.29, benign=0.71, malignant=0.01 (entropy=0.57). Ultrasound malignant=0.47. Both modalities agree.",
+    "supporting_evidence": [
+      "G1 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit",
+      "G2 [ACR_CAT_4] BI-RADS 4: suspicious, biopsy required. 4A: >2%-≤10% (low suspicion, partially circumscribed solid). 4B: >10%-≤50% (mode"
+    ],
+    "similar_cases": [],
+    "visual_explanations": {
+      "mammography": "View CC: zones=[haut de l'image, côté paroi thoracique (gauche),milieu de l'image, centre] outside_breast=0.0%; View MLO: zones=[haut de l'image, côté paroi thoracique (gauche)] outside_breast=1.1%",
+      "ultrasound": "US zones=[milieu de l'image, côté opposé à la paroi (droite),milieu de l'image, centre]"
+    },
+    "recommendations": [
+      "Routine annual screening mammography."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Grad-CAM highlights network attention areas, not definitive tissue boundaries.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "P001",
+        "condition": "texte",
+        "acquisition_device": "Standard"
+      },
+      "predicted_birads": "4C",
+      "confidence": 0.048,
+      "interpretation": "The mammogram shows a suspicious finding with a high suspicion for an irregular indistinct solid mass, warranting targeted tissue sampling.",
+      "supporting_evidence": [
+        "[G1]",
+        "[G2]"
+      ],
+      "visual_explanations": "Heatmap for MLO view shows high suspicion in the upper part of the image and the right side of the breast.",
+      "recommendations": [
+        "Perform targeted tissue sampling guided by the mammographic findings."
+      ],
+      "limitations": [
+        "Models are research baselines and not clinically validated.",
+        "Ultrasound findings are discordant with mammography, but mammography carries primary weight.",
+        "Quality of imaging equipment may affect results."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [],
+      "safety_status": "checks_passed",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0260",
+      "condition": "image",
+      "acquisition_device": "Standard"
+    },
+    "predicted_birads": "3",
+    "prediction_available": true,
+    "confidence": 0.8,
+    "confidence_note": "Raw model value — not clinically calibrated",
+    "interpretation": "Mammography model: normal=0.24, benign=0.70, malignant=0.06 (entropy=0.69). Ultrasound malignant=0.52. The two modality scores point in different directions.",
+    "supporting_evidence": [
+      "G1 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit",
+      "G2 [ACR_CAT_4] BI-RADS 4: suspicious, biopsy required. 4A: >2%-≤10% (low suspicion, partially circumscribed solid). 4B: >10%-≤50% (mode"
+    ],
+    "similar_cases": [],
+    "visual_explanations": {
+      "mammography": "View CC: zones=[milieu de l'image, côté paroi thoracique (gauche),haut de l'image, côté paroi thoracique (gauche)] outside_breast=7.3%; View MLO: zones=[milieu de l'image, côté paroi thoracique (gauche)] outside_breast=2.4%",
+      "ultrasound": "US zones=[haut de l'image, centre]; US zones=[haut de l'image, côté paroi thoracique (gauche),haut de l'image, côté opposé à la paroi (droite)]"
+    },
+    "recommendations": [
+      "Short-interval 6-month follow-up imaging (unilateral)."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Grad-CAM highlights network attention areas, not definitive tissue boundaries.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "P001",
+        "condition": "texte",
+        "acquisition_device": "Standard"
+      },
+      "predicted_birads": "4C",
+      "confidence": 0.183,
+      "interpretation": "The mammogram shows a suspicious finding classified as BI-RADS 4C, indicating a high suspicion for an irregular indistinct solid mass. The ultrasound also indicates a suspicious area, warranting further investigation.",
+      "supporting_evidence": [
+        "[G1]",
+        "[E1]",
+        "[E2]"
+      ],
+      "visual_explanations": "Heatmap analysis suggests the highest suspicion area is in the upper part of the breast and near the left chest wall on both mammography and ultrasound.",
+      "recommendations": [
+        "Refer to a human radiologist for final interpretation and management plan.",
+        "Perform targeted tissue sampling guided by imaging findings.",
+        "Consider histopathological diagnosis via image-guided core needle biopsy."
+      ],
+      "limitations": [
+        "Models are research baselines and not clinically validated.",
+        "Ultrasound findings are secondary to mammography, which carries primary weight.",
+        "Uncertainty entropy score is high, suggesting variability in model predictions."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [
+        "citation_inexistante:E1",
+        "citation_inexistante:E2"
+      ],
+      "safety_status": "review_required",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  },
+  {
+    "patient_summary": {
+      "pseudo_id": "P0309",
+      "condition": "image",
+      "acquisition_device": "Standard"
+    },
+    "predicted_birads": "3",
+    "prediction_available": true,
+    "confidence": 0.78,
+    "confidence_note": "Raw model value — not clinically calibrated",
+    "interpretation": "Mammography model: normal=0.62, benign=0.32, malignant=0.06 (entropy=0.76). Ultrasound malignant=0.53. The two modality scores point in different directions.",
+    "supporting_evidence": [
+      "G1 [ACR_DISCORDANCE] Discordant mammo/US assessments: management governed by HIGHEST BI-RADS category. A suspicious finding on either modalit",
+      "G2 [ACR_CAT_4] BI-RADS 4: suspicious, biopsy required. 4A: >2%-≤10% (low suspicion, partially circumscribed solid). 4B: >10%-≤50% (mode"
+    ],
+    "similar_cases": [],
+    "visual_explanations": {
+      "mammography": "View CC: zones=[haut de l'image, côté paroi thoracique (gauche)] outside_breast=0.0%; View MLO: zones=[milieu de l'image, centre] outside_breast=0.1%; View CC: zones=[milieu de l'image, côté paroi thoracique (gauche)] outside_breast=3.2%",
+      "ultrasound": "US zones=[haut de l'image, côté paroi thoracique (gauche),haut de l'image, côté opposé à la paroi (droite)]; US zones=[haut de l'image, côté paroi thoracique (gauche)]"
+    },
+    "recommendations": [
+      "Short-interval 6-month follow-up imaging (unilateral)."
+    ],
+    "limitations": [
+      "Research baseline AI models — not clinically validated as autonomous diagnostic tools.",
+      "Human radiologist review required before any clinical decision.",
+      "Grad-CAM highlights network attention areas, not definitive tissue boundaries.",
+      "Ultrasound model is secondary; mammography carries primary weight."
+    ],
+    "reasoning_mode": "llm_succeeded",
+    "human_review_required": true,
+    "llm_output": {
+      "patient_summary": {
+        "pseudo_id": "P001",
+        "condition": "texte",
+        "acquisition_device": "Standard"
+      },
+      "predicted_birads": "null",
+      "confidence": "null",
+      "interpretation": "The mammography suggests a low to moderate suspicion for a suspicious lesion, warranting further investigation. The ultrasound findings are inconclusive.",
+      "supporting_evidence": [
+        "G1",
+        "E1",
+        "E2"
+      ],
+      "visual_explanations": "null",
+      "recommendations": [
+        "Perform targeted tissue sampling guided by the highest-suspicion modality.",
+        "Refer to a human radiologist for final assessment and decision-making."
+      ],
+      "limitations": [
+        "Models are research baselines and not clinically validated.",
+        "Ultrasound findings are inconclusive, requiring additional imaging or biopsy confirmation."
+      ],
+      "human_review_required": true
+    },
+    "quality_safety_check": {
+      "validation_errors": [],
+      "safety_status": "checks_passed",
+      "groundedness": "not_evaluated",
+      "hallucination_detection": "not_evaluated",
+      "birads_consistency": "checks_passed",
+      "modality_isolation": "checks_passed",
+      "human_review_required": true,
+      "human_review_note": "Automated checks only — radiologist review mandatory for any clinical use"
+    }
+  }
+]

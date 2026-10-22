@@ -1,0 +1,51 @@
+{
+  "pseudo_id": "P_3761y16",
+  "age": 61,
+  "predicted_birads": "BI-RADS 0",
+  "confidence": 0.9,
+  "risk_level": "Incomplete Assessment (Need Additional Imaging)",
+  "summary": "Patient P_3761y16 presents with incomplete baseline imaging features requiring supplementary examination [E1] [E2]. The mammographic assessment shows non-definitive parenchymal asymmetry. According to ACR guidelines E1, a definitive BI-RADS category cannot be assigned without complementary targeted ultrasound.",
+  "evidence_citations": [
+    "E1",
+    "E2"
+  ],
+  "recommendations": [
+    "Perform targeted ultrasound or additional spot compression mammographic views.",
+    "Compare with prior screening mammograms if available.",
+    "Schedule clinical breast examination."
+  ],
+  "limitations": [
+    "Research baseline artificial intelligence model, not clinically certified as autonomous diagnostic tool.",
+    "Must be reviewed and signed off by a licensed radiologist.",
+    "High model uncertainty detected (entropy >= 0.50); scores should be interpreted with caution."
+  ],
+  "safety_audit": {
+    "approved": false,
+    "attempts": 3,
+    "status": "FLAGGED_FOR_MANUAL_CLINICIAN_REVIEW",
+    "unresolved_errors": [
+      "Potential hallucination detected: Medical finding term 'asymmetry' mentioned in summary but absent from patient inputs and retrieved evidence."
+    ]
+  },
+  "review_level": "PRIORITY_MANUAL_REVIEW",
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "source_type": "ACR_GUIDELINE",
+      "doc_id": "ACR_BIRADS_0",
+      "similarity": 0.818,
+      "passage": "[ACR BI-RADS Category 0: Incomplete Assessment] ACR BI-RADS Category 0: Incomplete - Need Additional Imaging Evaluation and/or Prior Mammograms for Comparison. Recall for additional mammographic views (spot compression, magnification, rolled views) and/or targeted breast ultrasound. Used almost exclusively in screening mammography. Further evaluation is required before a definitive assessment category can be assigned."
+    },
+    {
+      "evidence_id": "E2",
+      "source_type": "ACR_GUIDELINE",
+      "doc_id": "ACR_BIRADS_4A",
+      "similarity": 0.73,
+      "passage": "[ACR BI-RADS Category 4A: Low Suspicion for Malignancy] ACR BI-RADS Category 4A: Low suspicion for malignancy. Malignancy risk range is > 2% to <= 10%. Includes partially circumscribed solid mass with ultrasound features suggestive of fibroadenoma, or solitary complicated cyst. Tissue sampling (core needle biopsy) is indicated, though benign pathology is expected."
+    }
+  ],
+  "heatmaps": {
+    "mammo_html": "<span>[Mammogram Grad-CAM]: Concentrated in upper outer quadrant</span>",
+    "us_html": "<span>[Ultrasound Grad-CAM]: Concentrated on glandular interface</span>"
+  }
+}

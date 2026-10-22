@@ -1,0 +1,68 @@
+[
+  {
+    "doc_id": "ACR_BIRADS_0",
+    "category": "BI-RADS 0",
+    "title": "ACR BI-RADS Category 0: Incomplete Assessment",
+    "text": "ACR BI-RADS Category 0: Incomplete - Need Additional Imaging Evaluation and/or Prior Mammograms for Comparison. Recall for additional mammographic views (spot compression, magnification, rolled views) and/or targeted breast ultrasound. Used almost exclusively in screening mammography. Further evaluation is required before a definitive assessment category can be assigned."
+  },
+  {
+    "doc_id": "ACR_BIRADS_1",
+    "category": "BI-RADS 1",
+    "title": "ACR BI-RADS Category 1: Negative",
+    "text": "ACR BI-RADS Category 1: Negative. Symmetrical breasts with no masses, architectural distortion, or suspicious calcifications. Malignancy risk is essentially 0%. Management recommendation: Routine annual screening according to patient age and risk profile."
+  },
+  {
+    "doc_id": "ACR_BIRADS_2",
+    "category": "BI-RADS 2",
+    "title": "ACR BI-RADS Category 2: Benign Finding(s)",
+    "text": "ACR BI-RADS Category 2: Benign finding(s). Like category 1, this is a normal assessment, but benign findings are described. Includes simple cysts, intramammary lymph nodes, benign vascular calcifications, stable fibroadenomas, and fat necrosis. Malignancy risk is 0%. Management: Routine screening mammography."
+  },
+  {
+    "doc_id": "ACR_BIRADS_3",
+    "category": "BI-RADS 3",
+    "title": "ACR BI-RADS Category 3: Probably Benign",
+    "text": "ACR BI-RADS Category 3: Probably Benign finding. Finding has a very high probability (> 98%) of being benign. Malignancy risk is > 0% but <= 2%. Specific findings include non-calcified circumscribed solid mass, focal asymmetry, or cluster of round punctate calcifications. Management: Short-interval follow-up (usually unilateral at 6 months, then bilateral at 12 and 24 months) to establish stability."
+  },
+  {
+    "doc_id": "ACR_BIRADS_4A",
+    "category": "BI-RADS 4A",
+    "title": "ACR BI-RADS Category 4A: Low Suspicion for Malignancy",
+    "text": "ACR BI-RADS Category 4A: Low suspicion for malignancy. Malignancy risk range is > 2% to <= 10%. Includes partially circumscribed solid mass with ultrasound features suggestive of fibroadenoma, or solitary complicated cyst. Tissue sampling (core needle biopsy) is indicated, though benign pathology is expected."
+  },
+  {
+    "doc_id": "ACR_BIRADS_4B",
+    "category": "BI-RADS 4B",
+    "title": "ACR BI-RADS Category 4B: Moderate Suspicion for Malignancy",
+    "text": "ACR BI-RADS Category 4B: Moderate suspicion for malignancy. Malignancy risk range is > 10% to <= 50%. Includes amorphous or coarse heterogeneous calcifications, or solid mass with partially indistinct margins. Tissue diagnosis via image-guided biopsy is recommended."
+  },
+  {
+    "doc_id": "ACR_BIRADS_4C",
+    "category": "BI-RADS 4C",
+    "title": "ACR BI-RADS Category 4C: High Suspicion for Malignancy",
+    "text": "ACR BI-RADS Category 4C: High suspicion for malignancy. Malignancy risk range is > 50% to < 95%. Includes new cluster of fine pleomorphic calcifications or irregular solid mass with microlobulated or indistinct margins. Histopathological verification is mandatory."
+  },
+  {
+    "doc_id": "ACR_BIRADS_5",
+    "category": "BI-RADS 5",
+    "title": "ACR BI-RADS Category 5: Highly Suggestive of Malignancy",
+    "text": "ACR BI-RADS Category 5: Highly Suggestive of Malignancy. Malignancy risk is >= 95%. Classic findings include irregular, spiculated high-density mass, segmental or linear fine linear/branching calcifications. Management: Biopsy required. Surgical oncology consultation indicated even if initial needle biopsy is non-malignant (discordance)."
+  },
+  {
+    "doc_id": "ACR_BIRADS_6",
+    "category": "BI-RADS 6",
+    "title": "ACR BI-RADS Category 6: Known Biopsy-Proven Malignancy",
+    "text": "ACR BI-RADS Category 6: Known Biopsy-Proven Malignancy. Reserved for cases where prior biopsy has confirmed malignancy before definitive therapy (lumpectomy, mastectomy, radiation, or neoadjuvant chemotherapy) is completed."
+  },
+  {
+    "doc_id": "ACR_DENSITY",
+    "category": "Breast Density",
+    "title": "ACR Breast Density Composition Categories (A, B, C, D)",
+    "text": "ACR Breast Density Lexicon: Category A: The breasts are almost entirely fatty. Category B: There are scattered areas of fibroglandular density. Category C: The breasts are heterogeneously dense, which may obscure small masses. Category D: The breasts are extremely dense, which lowers the sensitivity of mammography. Dense breast tissue (categories C and D) is an independent risk factor and warrants supplemental ultrasound evaluation."
+  },
+  {
+    "doc_id": "ACR_US_LEXICON",
+    "category": "Ultrasound Lexicon",
+    "title": "ACR Ultrasound Feature Descriptors",
+    "text": "ACR Breast Ultrasound Descriptors: Shape (Oval, Round, Irregular); Orientation (Parallel vs Non-parallel / taller-than-wide); Margin (Circumscribed vs Non-circumscribed: indistinct, angular, microlobulated, spiculated); Echo pattern (Anechoic, Hypoechoic, Complex cystic/solid, Isoechoic, Hyperechoic); Posterior features (No posterior acoustic features, Enhancement, Shadowing, Combined pattern). Irregular shape, non-parallel orientation, spiculated margins, and posterior acoustic shadowing are suspicious for malignancy."
+  }
+]

@@ -1,0 +1,17 @@
+ID: 1893/15
+REF.PROF: Prof. <NOM>-<NOM>: MG & <NOM>: <DATE> <NOM> : <NOM> MAMMOGRPHY
+ <NOM> <NOM> B.
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+<NOM>:
+ <NOM> <NOM> <NOM> <NOM> <NOM> lobules.
+ Right 7 o’<NOM> <NOM> <NOM> <NOM> 12x10 <NOM> 6 <NOM> 1 <NOM>. <NOM> <NOM>…<NOM>…BIRDAS4a.
+ Right 6 o’<NOM> about 5x5mm <NOM>.
+ <NOM> <NOM> region.
+ <NOM> detected.
+<NOM> 7 o’<NOM> …<NOM>…BIRDAS4a…<NOM>.
+<NOM> <NOM> ( BI- RADS)
+BIRAD 0 <NOM> 1 <NOM> , <NOM> 2 <NOM> 3 <NOM> , 6 <NOM> 4 <NOM> , <NOM> 5 <NOM>
+Dr.<NOM>

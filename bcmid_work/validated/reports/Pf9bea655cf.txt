@@ -1,0 +1,29 @@
+ID: 00760/21
+Ref. Dr: <NOM>: Mammography&<NOM>: <DATE> 10:30:00 <NOM>: <NOM>: 42 <NOM>: F
+<NOM>
+ <NOM> dense ( ACR B)
+ <NOM> <NOM> clips
+ <NOM> <NOM> … ? <NOM>.
+ <NOM> <NOM> density.
+ <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM> <NOM> <NOM> :
+o <NOM> <NOM> <NOM> <NOM> 6 o’<NOM>. <NOM> <NOM> 6 o’<NOM> 15x6.6 <NOM> <NOM>
+<NOM>……<NOM>-<NOM> (<NOM>).
+o <NOM> <NOM> <NOM> line. <NOM> <NOM> 7 o’<NOM> 6x3.2mm…..<NOM> post-<NOM>.
+ <NOM>:
+o <NOM> <NOM> circumareolary.
+o Stationary 3 o’clock 5.4x2 cm (about 5 <NOM>) <NOM> (<NOM> mass) …….<NOM> .
+o A 1.8x5 <NOM> <NOM> along 3 o’<NOM> <NOM> … <NOM> (<NOM>).
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> & <NOM> , <NOM>
+<NOM> <NOM> <NOM> …
+<NOM> <NOM> <NOM> ….. BIRADS 3
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 3 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM>. MS

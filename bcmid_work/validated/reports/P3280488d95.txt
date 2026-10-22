@@ -1,0 +1,21 @@
+ID: 01668/21
+<NOM>: <DATE> 4:15:00 <NOM>: MG & <NOM>: <DATE> 11:45:03 <NOM> :
+<NOM>
+ <NOM> <NOM> …ACR A.
+ <NOM> seen.
+ <NOM> <NOM>.
+ <NOM> .
+ <NOM> ,, <NOM>.
+ <NOM>.
+<NOM>:
+ <NOM> <NOM> .
+ <NOM> <NOM> <NOM> 2 o’<NOM> <NOM> .
+ <NOM>.
+ <NOM> <NOM> region.
+ <NOM> detected.
+<NOM> <NOM> <NOM> <NOM>
+, <NOM> <NOM> .
+BIRADS 2
+<NOM> <NOM> ( BI- RADS)
+BIRAD 0 <NOM> 1 <NOM> , <NOM> 2 <NOM> 3 <NOM> , 6 <NOM> 4 <NOM> , <NOM> 5 <NOM>
+Dr .<NOM>

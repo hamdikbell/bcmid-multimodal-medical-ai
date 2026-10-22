@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>BCMID Medical AI - Clinical Dashboard (20 Patients)</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background:#f4f6f9; color:#212529; margin:0; padding:32px; }
+        .header-dash { background:linear-gradient(135deg, #0b2545 0%, #134074 100%); color:#fff; padding:28px 36px; border-radius:12px; margin-bottom:24px; box-shadow:0 4px 16px rgba(0,0,0,0.1); }
+        .table-box { background:#fff; border-radius:12px; box-shadow:0 2px 12px rgba(0,0,0,0.06); overflow:hidden; border:1px solid #e2e8f0; }
+        table { width:100%; border-collapse:collapse; text-align:left; }
+        th { background:#f8fafc; padding:14px 16px; font-size:12px; font-weight:700; color:#64748b; text-transform:uppercase; letter-spacing:0.5px; border-bottom:2px solid #e2e8f0; }
+        .badge { display:inline-block; border-radius:20px; font-weight:bold; color:#fff; }
+        .tag { display:inline-block; padding:3px 8px; border-radius:4px; font-size:11px; background:#edf2f7; color:#4a5568; }
+        .status-ok { background:#d4edda; color:#155724; padding:3px 8px; border-radius:4px; font-weight:600; font-size:11px; }
+        .status-warn { background:#fff3cd; color:#856404; padding:3px 8px; border-radius:4px; font-weight:600; font-size:11px; }
+        .stat-card { background:#fff; border-radius:8px; padding:16px 20px; border:1px solid #e2e8f0; flex:1; }
+    </style>
+</head>
+<body>
+    <div class="header-dash">
+        <h1 style="margin:0; font-size:26px;">BCMID Clinical Orchestration Dashboard</h1>
+        <p style="margin:6px 0 0 0; opacity:0.9; font-size:14px;">Surveillance et Triage des 20 Patients Kaggle &bull; Pipeline RAG + LLM Qwen + Safety + n8n</p>
+    </div>
+
+    <div style="display:flex; gap:16px; margin-bottom:24px;">
+        <div class="stat-card">
+            <div style="font-size:12px; color:#64748b; font-weight:600; text-transform:uppercase;">Total Dossiers Traités</div>
+            <div style="font-size:28px; font-weight:bold; color:#0f172a; margin-top:4px;">20</div>
+            <div style="font-size:12px; color:#10b981; margin-top:4px;">100% conformes Box 7</div>
+        </div>
+        <div class="stat-card">
+            <div style="font-size:12px; color:#64748b; font-weight:600; text-transform:uppercase;">Cas Urgents (Biopsie CNB)</div>
+            <div style="font-size:28px; font-weight:bold; color:#ef4444; margin-top:4px;">2</div>
+            <div style="font-size:12px; color:#ef4444; margin-top:4px;">Alerte n8n immédiate</div>
+        </div>
+        <div class="stat-card">
+            <div style="font-size:12px; color:#64748b; font-weight:600; text-transform:uppercase;">Surveillance (6 Mois)</div>
+            <div style="font-size:28px; font-weight:bold; color:#f59e0b; margin-top:4px;">9</div>
+            <div style="font-size:12px; color:#f59e0b; margin-top:4px;">BI-RADS 3 stabilisé</div>
+        </div>
+        <div class="stat-card">
+            <div style="font-size:12px; color:#64748b; font-weight:600; text-transform:uppercase;">Dépistage Routine</div>
+            <div style="font-size:28px; font-weight:bold; color:#10b981; margin-top:4px;">9</div>
+            <div style="font-size:12px; color:#10b981; margin-top:4px;">BI-RADS 1 & 2 bénins</div>
+        </div>
+    </div>
+
+    <div class="table-box">
+        <table>
+            <thead>
+                <tr>
+                    <th>Patient</th>
+                    <th>Modalité</th>
+                    <th>BI-RADS Prédit</th>
+                    <th>Confiance</th>
+                    <th>Priorité Triage</th>
+                    <th>Contrôle Sécurité</th>
+                    <th>Action Recommandée</th>
+                    <th style="text-align:right;">Rapport</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0193" target="_blank" style="color:#134074; text-decoration:none;">P0193</a></td>
+        <td style="padding:14px 16px;"><span class="tag">les_deux</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#ffc107; font-size:12px; padding:3px 10px;">BI-RADS 3</span></td>
+        <td style="padding:14px 16px; font-size:13px;">0.77</td>
+        <td style="padding:14px 16px;"><span style="color:#ffc107; font-weight:bold; font-size:12px;">SURVEILLANCE</span></td>
+        <td style="padding:14px 16px;"><span class="status-ok">checks_passed</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Short-interval 6-month follow-up imaging (unilateral).</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0193" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0206" target="_blank" style="color:#134074; text-decoration:none;">P0206</a></td>
+        <td style="padding:14px 16px;"><span class="tag">les_deux</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#28a745; font-size:12px; padding:3px 10px;">BI-RADS 1</span></td>
+        <td style="padding:14px 16px; font-size:13px;">0.93</td>
+        <td style="padding:14px 16px;"><span style="color:#28a745; font-weight:bold; font-size:12px;">ROUTINE</span></td>
+        <td style="padding:14px 16px;"><span class="status-ok">checks_passed</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Negative findings. Standard age-appropriate routine screening.</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0206" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0207" target="_blank" style="color:#134074; text-decoration:none;">P0207</a></td>
+        <td style="padding:14px 16px;"><span class="tag">les_deux</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#ffc107; font-size:12px; padding:3px 10px;">BI-RADS 3</span></td>
+        <td style="padding:14px 16px; font-size:13px;">0.78</td>
+        <td style="padding:14px 16px;"><span style="color:#ffc107; font-weight:bold; font-size:12px;">SURVEILLANCE</span></td>
+        <td style="padding:14px 16px;"><span class="status-ok">checks_passed</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Short-interval 6-month follow-up imaging (unilateral).</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0207" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0280" target="_blank" style="color:#134074; text-decoration:none;">P0280</a></td>
+        <td style="padding:14px 16px;"><span class="tag">les_deux</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#ffc107; font-size:12px; padding:3px 10px;">BI-RADS 3</span></td>
+        <td style="padding:14px 16px; font-size:13px;">0.84</td>
+        <td style="padding:14px 16px;"><span style="color:#ffc107; font-weight:bold; font-size:12px;">SURVEILLANCE</span></td>
+        <td style="padding:14px 16px;"><span class="status-ok">checks_passed</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Short-interval 6-month follow-up imaging (unilateral).</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0280" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0284" target="_blank" style="color:#134074; text-decoration:none;">P0284</a></td>
+        <td style="padding:14px 16px;"><span class="tag">les_deux</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#ffc107; font-size:12px; padding:3px 10px;">BI-RADS 3</span></td>
+        <td style="padding:14px 16px; font-size:13px;">0.76</td>
+        <td style="padding:14px 16px;"><span style="color:#ffc107; font-weight:bold; font-size:12px;">SURVEILLANCE</span></td>
+        <td style="padding:14px 16px;"><span class="status-ok">checks_passed</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Short-interval 6-month follow-up imaging (unilateral).</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0284" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0221" target="_blank" style="color:#134074; text-decoration:none;">P0221</a></td>
+        <td style="padding:14px 16px;"><span class="tag">les_deux</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#28a745; font-size:12px; padding:3px 10px;">BI-RADS 1</span></td>
+        <td style="padding:14px 16px; font-size:13px;">0.75</td>
+        <td style="padding:14px 16px;"><span style="color:#28a745; font-weight:bold; font-size:12px;">ROUTINE</span></td>
+        <td style="padding:14px 16px;"><span class="status-ok">checks_passed</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Negative findings. Standard age-appropriate routine screening.</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0221" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0081" target="_blank" style="color:#134074; text-decoration:none;">P0081</a></td>
+        <td style="padding:14px 16px;"><span class="tag">les_deux</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#28a745; font-size:12px; padding:3px 10px;">BI-RADS 2</span></td>
+        <td style="padding:14px 16px; font-size:13px;">0.89</td>
+        <td style="padding:14px 16px;"><span style="color:#28a745; font-weight:bold; font-size:12px;">ROUTINE</span></td>
+        <td style="padding:14px 16px;"><span class="status-ok">checks_passed</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Routine annual screening mammography.</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0081" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0276" target="_blank" style="color:#134074; text-decoration:none;">P0276</a></td>
+        <td style="padding:14px 16px;"><span class="tag">les_deux</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#28a745; font-size:12px; padding:3px 10px;">BI-RADS 1</span></td>
+        <td style="padding:14px 16px; font-size:13px;">0.93</td>
+        <td style="padding:14px 16px;"><span style="color:#28a745; font-weight:bold; font-size:12px;">ROUTINE</span></td>
+        <td style="padding:14px 16px;"><span class="status-ok">checks_passed</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Negative findings. Standard age-appropriate routine screening.</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0276" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0017" target="_blank" style="color:#134074; text-decoration:none;">P0017</a></td>
+        <td style="padding:14px 16px;"><span class="tag">les_deux</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#28a745; font-size:12px; padding:3px 10px;">BI-RADS 2</span></td>
+        <td style="padding:14px 16px; font-size:13px;">0.82</td>
+        <td style="padding:14px 16px;"><span style="color:#28a745; font-weight:bold; font-size:12px;">ROUTINE</span></td>
+        <td style="padding:14px 16px;"><span class="status-ok">checks_passed</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Routine annual screening mammography.</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0017" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0264" target="_blank" style="color:#134074; text-decoration:none;">P0264</a></td>
+        <td style="padding:14px 16px;"><span class="tag">les_deux</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#28a745; font-size:12px; padding:3px 10px;">BI-RADS 2</span></td>
+        <td style="padding:14px 16px; font-size:13px;">0.98</td>
+        <td style="padding:14px 16px;"><span style="color:#28a745; font-weight:bold; font-size:12px;">ROUTINE</span></td>
+        <td style="padding:14px 16px;"><span class="status-ok">checks_passed</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Routine annual screening mammography.</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0264" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0159" target="_blank" style="color:#134074; text-decoration:none;">P0159</a></td>
+        <td style="padding:14px 16px;"><span class="tag">les_deux</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#fd7e14; font-size:12px; padding:3px 10px;">BI-RADS 4A</span></td>
+        <td style="padding:14px 16px; font-size:13px;">0.74</td>
+        <td style="padding:14px 16px;"><span style="color:#dc3545; font-weight:bold; font-size:12px;">URGENT</span></td>
+        <td style="padding:14px 16px;"><span class="status-ok">checks_passed</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Image-guided core needle biopsy (CNB) recommended — ACR 4A.</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0159" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0022" target="_blank" style="color:#134074; text-decoration:none;">P0022</a></td>
+        <td style="padding:14px 16px;"><span class="tag">les_deux</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#ffc107; font-size:12px; padding:3px 10px;">BI-RADS 3</span></td>
+        <td style="padding:14px 16px; font-size:13px;">0.90</td>
+        <td style="padding:14px 16px;"><span style="color:#ffc107; font-weight:bold; font-size:12px;">SURVEILLANCE</span></td>
+        <td style="padding:14px 16px;"><span class="status-ok">checks_passed</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Short-interval 6-month follow-up imaging (unilateral).</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0022" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0193" target="_blank" style="color:#134074; text-decoration:none;">P0193</a></td>
+        <td style="padding:14px 16px;"><span class="tag">texte</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#6c757d; font-size:12px; padding:3px 10px;">BI-RADS N/A</span></td>
+        <td style="padding:14px 16px; font-size:13px;">—</td>
+        <td style="padding:14px 16px;"><span style="color:#28a745; font-weight:bold; font-size:12px;">ROUTINE</span></td>
+        <td style="padding:14px 16px;"><span class="status-ok">checks_passed</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Clinical management per radiologist review of findings.</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0193" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0206" target="_blank" style="color:#134074; text-decoration:none;">P0206</a></td>
+        <td style="padding:14px 16px;"><span class="tag">texte</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#6c757d; font-size:12px; padding:3px 10px;">BI-RADS N/A</span></td>
+        <td style="padding:14px 16px; font-size:13px;">—</td>
+        <td style="padding:14px 16px;"><span style="color:#28a745; font-weight:bold; font-size:12px;">ROUTINE</span></td>
+        <td style="padding:14px 16px;"><span class="status-ok">checks_passed</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Clinical management per radiologist review of findings.</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0206" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0207" target="_blank" style="color:#134074; text-decoration:none;">P0207</a></td>
+        <td style="padding:14px 16px;"><span class="tag">texte</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#6c757d; font-size:12px; padding:3px 10px;">BI-RADS N/A</span></td>
+        <td style="padding:14px 16px; font-size:13px;">—</td>
+        <td style="padding:14px 16px;"><span style="color:#28a745; font-weight:bold; font-size:12px;">ROUTINE</span></td>
+        <td style="padding:14px 16px;"><span class="status-warn">review_required</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Clinical management per radiologist review of findings.</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0207" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0280" target="_blank" style="color:#134074; text-decoration:none;">P0280</a></td>
+        <td style="padding:14px 16px;"><span class="tag">texte</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#6c757d; font-size:12px; padding:3px 10px;">BI-RADS N/A</span></td>
+        <td style="padding:14px 16px; font-size:13px;">—</td>
+        <td style="padding:14px 16px;"><span style="color:#28a745; font-weight:bold; font-size:12px;">ROUTINE</span></td>
+        <td style="padding:14px 16px;"><span class="status-ok">checks_passed</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Clinical management per radiologist review of findings.</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0280" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0264" target="_blank" style="color:#134074; text-decoration:none;">P0264</a></td>
+        <td style="padding:14px 16px;"><span class="tag">image</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#28a745; font-size:12px; padding:3px 10px;">BI-RADS 2</span></td>
+        <td style="padding:14px 16px; font-size:13px;">0.98</td>
+        <td style="padding:14px 16px;"><span style="color:#28a745; font-weight:bold; font-size:12px;">ROUTINE</span></td>
+        <td style="padding:14px 16px;"><span class="status-warn">review_required</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Routine annual screening mammography.</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0264" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0176" target="_blank" style="color:#134074; text-decoration:none;">P0176</a></td>
+        <td style="padding:14px 16px;"><span class="tag">image</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#28a745; font-size:12px; padding:3px 10px;">BI-RADS 2</span></td>
+        <td style="padding:14px 16px; font-size:13px;">0.89</td>
+        <td style="padding:14px 16px;"><span style="color:#28a745; font-weight:bold; font-size:12px;">ROUTINE</span></td>
+        <td style="padding:14px 16px;"><span class="status-ok">checks_passed</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Routine annual screening mammography.</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0176" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0260" target="_blank" style="color:#134074; text-decoration:none;">P0260</a></td>
+        <td style="padding:14px 16px;"><span class="tag">image</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#ffc107; font-size:12px; padding:3px 10px;">BI-RADS 3</span></td>
+        <td style="padding:14px 16px; font-size:13px;">0.80</td>
+        <td style="padding:14px 16px;"><span style="color:#ffc107; font-weight:bold; font-size:12px;">SURVEILLANCE</span></td>
+        <td style="padding:14px 16px;"><span class="status-warn">review_required</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Short-interval 6-month follow-up imaging (unilateral).</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0260" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+    <tr style="border-bottom:1px solid #edf2f7;">
+        <td style="padding:14px 16px; font-weight:bold;"><a href="/report/P0309" target="_blank" style="color:#134074; text-decoration:none;">P0309</a></td>
+        <td style="padding:14px 16px;"><span class="tag">image</span></td>
+        <td style="padding:14px 16px;"><span class="badge" style="background:#ffc107; font-size:12px; padding:3px 10px;">BI-RADS 3</span></td>
+        <td style="padding:14px 16px; font-size:13px;">0.78</td>
+        <td style="padding:14px 16px;"><span style="color:#ffc107; font-weight:bold; font-size:12px;">SURVEILLANCE</span></td>
+        <td style="padding:14px 16px;"><span class="status-ok">checks_passed</span></td>
+        <td style="padding:14px 16px; font-size:13px; color:#4a5568;">Short-interval 6-month follow-up imaging (unilateral).</td>
+        <td style="padding:14px 16px; text-align:right;"><a href="/report/P0309" target="_blank" style="background:#134074; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:12px; font-weight:600;">Ouvrir Rapport</a></td>
+    </tr>
+    
+            </tbody>
+        </table>
+    </div>
+
+    <div style="margin-top:20px; font-size:12px; color:#64748b; text-align:center;">
+        API FastAPI : <code>http://localhost:8000</code> &bull; Swagger UI : <code>http://localhost:8000/docs</code> &bull; Workflow n8n : <code>bcmid/triage</code>
+    </div>
+</body>
+</html>

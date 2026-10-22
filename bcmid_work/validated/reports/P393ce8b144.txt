@@ -1,0 +1,24 @@
+ID: 4162/19
+procedure: Mammography &<NOM>. DR.: <NOM>: 31-Mar-21 1:00:00 <NOM>: <NOM> MAMMOGRAPHY
+ <NOM> <NOM> B
+ <NOM> density
+ <NOM>.
+ <NOM>.
+ <NOM>.
+ <NOM> .
+<NOM>
+ <NOM> <NOM>
+12.9 x 24 <NOM> <NOM> , <NOM> <NOM> identified …<NOM>
+ <NOM>.
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM>,
+<NOM> <NOM> <NOM>
+….<NOM> ….BIRADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+<NOM>. Walaa M.Saad,MS

@@ -1,0 +1,20 @@
+ID: 4315/15
+Ref. Dr: <NOM>: Mammography & U <NOM>: 04-Jun-22 9:00:00 <NOM>: <NOM> MAMMOGRAPHY
+ <NOM> ( ACR A)
+ <NOM> <NOM> …<NOM>
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM>.
+ <NOM> 1 o’<NOM> <NOM> measuring 4.5 x
+4mm <NOM> 2 <NOM> <NOM> …. <NOM>. <NOM>.
+ <NOM> <NOM>
+ <NOM> <NOM> <NOM> <NOM> <NOM>.
+<NOM> for a <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> ….<NOM>
+BIRADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM>

@@ -1,0 +1,48 @@
+{
+  "pseudo_id": "P_ROUTINE_02",
+  "age": 48,
+  "predicted_birads": "BI-RADS 1",
+  "confidence": 0.94,
+  "risk_level": "Bénin",
+  "summary": "Bilateral breast screening for patient P_ROUTINE_02 shows no discrete masses, architectural distortion, or suspicious microcalcifications. Malignancy probability is minimal (0.02).",
+  "recommendations": [
+    "Negative bilateral examination. Standard age-appropriate annual screening mammography."
+  ],
+  "limitations": [
+    "Artificial Intelligence diagnostic assistance system — not certified as autonomous diagnostic tool.",
+    "Must be reviewed and validated by a licensed radiologist before clinical intervention."
+  ],
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "source_type": "ACR_GUIDELINE",
+      "doc_id": "ACR_BIRADS_4B",
+      "similarity": 0.806,
+      "passage": "[ACR BI-RADS Category 4B: Moderate Suspicion for Malignancy] ACR BI-RADS Category 4B: Moderate suspicion for malignancy. Malignancy risk range is > 10% to <= 50%. Includes amorphous or coarse heterogeneous calcifications, or solid mass with partially indistinct margins. Tissue diagnosis via image-guided biopsy is recommended."
+    },
+    {
+      "evidence_id": "E2",
+      "source_type": "ACR_GUIDELINE",
+      "doc_id": "ACR_BIRADS_5",
+      "similarity": 0.794,
+      "passage": "[ACR BI-RADS Category 5: Highly Suggestive of Malignancy] ACR BI-RADS Category 5: Highly Suggestive of Malignancy. Malignancy risk is >= 95%. Classic findings include irregular, spiculated high-density mass, segmental or linear fine linear/branching calcifications. Management: Biopsy required. Surgical oncology consultation indicated even if initial needle biopsy is non-malignant (discordance)."
+    },
+    {
+      "evidence_id": "E3",
+      "source_type": "ACR_GUIDELINE",
+      "doc_id": "ACR_BIRADS_4C",
+      "similarity": 0.79,
+      "passage": "[ACR BI-RADS Category 4C: High Suspicion for Malignancy] ACR BI-RADS Category 4C: High suspicion for malignancy. Malignancy risk range is > 50% to < 95%. Includes new cluster of fine pleomorphic calcifications or irregular solid mass with microlobulated or indistinct margins. Histopathological verification is mandatory."
+    }
+  ],
+  "heatmaps": {
+    "mammo_html": "<div style=\"text-align:center;\"><img src=\"/uploads/P_ROUTINE_02/P_ROUTINE_02_mammo_gradcam.png\" style=\"max-width:320px; border-radius:8px; border:2px solid #134074;\"><p style=\"font-size:12px; color:#64748b; margin-top:4px;\"><b>Mammographie</b> : Carte Grad-CAM XAI</p></div>",
+    "us_html": "<div style=\"text-align:center;\"><img src=\"/uploads/P_ROUTINE_02/P_ROUTINE_02_us_gradcam.png\" style=\"max-width:320px; border-radius:8px; border:2px solid #134074;\"><p style=\"font-size:12px; color:#64748b; margin-top:4px;\"><b>Échographie</b> : Carte Grad-CAM XAI</p></div>"
+  },
+  "safety_audit": {
+    "approved": true,
+    "attempts": 1,
+    "status": "APPROVED_BY_SAFETY_AGENT",
+    "feedback_resolved": []
+  }
+}

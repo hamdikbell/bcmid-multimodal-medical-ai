@@ -1,0 +1,28 @@
+ID: 02500/22
+Ref. Dr: <NOM>: Mammography & <NOM>: <DATE> 1:15:00 <NOM>: <NOM>: 53 <NOM>: F
+<NOM>
+ <NOM> <NOM> (ACR c)
+ <NOM> <NOM> <NOM> <NOM> <NOM>
+<NOM>.
+ <NOM>.
+ <NOM> .
+ <NOM> <NOM> <NOM>.
+<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM>
+<NOM> 12 o’<NOM> 5cm <NOM> & 0.6cm <NOM> , averaging 1.3cm x 0.8cm <NOM> <NOM> 0.5cm x 0.6cm <NOM> &
+<NOM> …. <NOM>.
+ <NOM> <NOM> <NOM> & <NOM> 0.6cm …
+<NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM>.
+OPINION
+A <NOM> <NOM> <NOM>
+<NOM> & <NOM>…. BIRADS-5…. <NOM>.
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. <NOM>. MS

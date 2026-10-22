@@ -1,0 +1,23 @@
+ID: 3284/18
+Ref. Prof: <NOM>: Mammography & <NOM>:20-Apr-2021 5:00:00 <NOM>: 50 <NOM>
+<NOM> by a <NOM> <NOM> views ...<NOM>, <NOM>.
+ <NOM> <NOM> ( ACR B) .
+ <NOM> <NOM> <NOM> <NOM> ..<NOM> changes
+ <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM> .
+ <NOM> <NOM> ….. <NOM>.
+ <NOM> <NOM> <NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM> .
+<NOM> <NOM> <NOM> <NOM> <NOM>, <NOM> <NOM>
+<NOM> <NOM> <NOM>.
+BI-RADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM>,EFR

@@ -1,0 +1,21 @@
+Sex: F
+<NOM>: <DATE> 11:30:00 <NOM>: 1549/19
+<NOM>: <DATE> 8:47:10 <NOM>: MG & <NOM>
+ <NOM> <NOM>. ACRA.
+ <NOM>.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM> <NOM> <NOM> <NOM>
+<NOM>.
+ <NOM> cysts.
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM> 5 <NOM> <NOM> <NOM> <NOM> <NOM> ….<NOM> ….BIRADS 1
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr. Walaa M.Saad,MS

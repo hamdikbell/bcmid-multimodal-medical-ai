@@ -1,0 +1,33 @@
+ID: 1218/15
+Ref. Dr: <NOM>-<NOM>: Mammography & <NOM>: 03-Apr-21 1:15:00 <NOM>:
+<NOM> <NOM> a <NOM> <NOM> <NOM> <NOM> a <NOM> <NOM> <NOM>.
+
+<NOM> <NOM>-<NOM>.
+
+<NOM>.
+
+<NOM> <NOM>.
+
+<NOM> <NOM>.
+
+<NOM>.
+<NOM>:
+ <NOM> <NOM>
+ <NOM> <NOM> <NOM>.
+ <NOM> <NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM> .
+ <NOM> <NOM> ; <NOM> <NOM> <NOM> 9x7 mm… <NOM> … <NOM> <NOM> .
+N.B .
+o <NOM> <NOM> ; <NOM> averaging 3 <NOM> <NOM> 9 mm… <NOM>.
+o <NOM> <NOM> <NOM>
+<NOM> <NOM> <NOM> <NOM> (14 x 10 mm) , <NOM> <NOM>
+( 3 mm) .. <NOM> & <NOM>.
+<NOM> <NOM> n <NOM> <NOM> <NOM> , <NOM> <NOM> <NOM> … <NOM> <NOM>
+BIRAD-S 3
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM>. <NOM>

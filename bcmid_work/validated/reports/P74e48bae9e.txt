@@ -1,0 +1,16 @@
+ID: 3216/14
+Ref. Prof.: <NOM>: Mammography & <NOM>: <DATE> Age: 51 <NOM>
+ <NOM> ACR B
+ <NOM> fullness
+ <NOM> <NOM> .
+ <NOM> <NOM>,<NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM> 12 <NOM>
+3.7mm, <NOM> <NOM>
+<NOM>…<NOM>….BIRADS 3
+ <NOM> cysts .
+ <NOM> <NOM> , <NOM> <NOM>, <NOM> <NOM> <NOM> 5mm …. <NOM> <NOM>
+ <NOM> <NOM> <NOM>
+<NOM> 3
+Dr.<NOM>.MS

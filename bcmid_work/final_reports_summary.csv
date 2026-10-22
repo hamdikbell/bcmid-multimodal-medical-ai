@@ -1,0 +1,21 @@
+pseudo_id,condition,predicted_birads,prediction_available,confidence,safety_status,n_errors,modality_isolation,reasoning_mode,n_recommendations,n_guidelines,n_similar_cases,errors_list
+P0193,les_deux,3,True,0.77,checks_passed,0,checks_passed,llm_succeeded,1,2,3,
+P0206,les_deux,1,True,0.93,checks_passed,0,checks_passed,llm_succeeded,1,2,3,
+P0207,les_deux,3,True,0.78,checks_passed,0,checks_passed,llm_succeeded,1,2,3,
+P0280,les_deux,3,True,0.84,checks_passed,0,checks_passed,llm_succeeded,1,2,3,
+P0284,les_deux,3,True,0.76,checks_passed,0,checks_passed,llm_succeeded,1,2,3,
+P0221,les_deux,1,True,0.75,checks_passed,0,checks_passed,llm_succeeded,1,2,3,
+P0081,les_deux,2,True,0.89,checks_passed,0,checks_passed,llm_succeeded,1,2,3,
+P0276,les_deux,1,True,0.93,checks_passed,0,checks_passed,llm_succeeded,1,2,3,
+P0017,les_deux,2,True,0.82,checks_passed,0,checks_passed,llm_succeeded,1,2,3,
+P0264,les_deux,2,True,0.98,checks_passed,0,checks_passed,llm_succeeded,1,2,3,
+P0159,les_deux,4A,True,0.74,checks_passed,0,checks_passed,llm_succeeded,2,2,3,
+P0022,les_deux,3,True,0.9,checks_passed,0,checks_passed,llm_succeeded,1,2,3,
+P0193,texte,,False,,checks_passed,0,checks_passed,llm_succeeded,2,2,3,
+P0206,texte,,False,,checks_passed,0,checks_passed,llm_succeeded,2,2,3,
+P0207,texte,,False,,review_required,1,checks_passed,llm_succeeded,2,2,3,discordance_mammo_echo_non_signalee
+P0280,texte,,False,,checks_passed,0,checks_passed,llm_succeeded,2,2,3,
+P0264,image,2,True,0.98,review_required,1,checks_passed,llm_succeeded,1,2,0,citation_inexistante:E1
+P0176,image,2,True,0.89,checks_passed,0,checks_passed,llm_succeeded,1,2,0,
+P0260,image,3,True,0.8,review_required,2,checks_passed,llm_succeeded,1,2,0,citation_inexistante:E1 | citation_inexistante:E2
+P0309,image,3,True,0.78,checks_passed,0,checks_passed,llm_succeeded,1,2,0,

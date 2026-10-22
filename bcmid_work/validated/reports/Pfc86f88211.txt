@@ -1,0 +1,26 @@
+ID: 3912/19
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 10:45:00 <NOM>:
+<NOM> <NOM> a <NOM> <NOM> views ...<NOM>, <NOM>.
+ <NOM> <NOM> A.
+ <NOM> <NOM> <NOM>
+<NOM>. <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM>.
+ <NOM> <NOM> <NOM>
+seen.
+ <NOM> <NOM> 3 o’<NOM> 13 x 6 mm... Post-
+<NOM>.
+ <NOM> <NOM> cyst
+ <NOM> <NOM>.
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM>
+<NOM> <NOM> <NOM>. <NOM> <NOM> <NOM>.
+BI-RADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM>

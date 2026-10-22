@@ -1,0 +1,20 @@
+ID: 01991/22
+Ref. Dr: <NOM>: Mammography & <NOM>: 28-Oct-23 6:00:00 <NOM>: <NOM>
+ <NOM> dense (ACR b).
+ <NOM> <NOM> <NOM>-<NOM> ..<NOM>
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM>-<NOM> <NOM>.
+ <NOM> interstitial & <NOM>
+<NOM> , otherwise, <NOM> <NOM>…..<NOM>.
+ <NOM> <NOM>.
+ <NOM> <NOM>-<NOM>
+ <NOM> <NOM>.
+<NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> <NOM> ……….<NOM>……… BI-RADS 2
+<NOM> <NOM> ( BI- RADS)
+BI-RAD (0) <NOM>-RAD (1) <NOM> , <NOM>-RAD (2) <NOM>-RAD( 3) <NOM> , 6 <NOM>
+B-IRAD (4) <NOM> , <NOM>-RAD (4a) <NOM>-RAD (4b) <NOM>
+B-IRAD (4C) <NOM>-RAD (5) <NOM>
+BI-RAD (6) <NOM>
+Dr.<NOM>

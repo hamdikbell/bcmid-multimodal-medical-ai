@@ -1,0 +1,116 @@
+{
+  "date_generated": "2026-10-05T08:03:06.802460+00:00",
+  "library_versions": {
+    "Pillow": "12.3.0",
+    "numpy": "2.4.2",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.8.0",
+    "tqdm": "4.67.1",
+    "pyyaml": "6.0.1",
+    "pydicom": "N/A"
+  },
+  "n_patient_folders": 332,
+  "n_patients_in_annotations": 332,
+  "ecart_patients": 0,
+  "patients_only_in_folders": [],
+  "patients_only_in_annotations": [],
+  "modality_status": {
+    "complete": 332
+  },
+  "patients_ready_multimodal": 332,
+  "birads_distribution": {
+    "0": 5,
+    "1": 50,
+    "2": 167,
+    "3": 47,
+    "4": 24,
+    "5": 15,
+    "6": 24
+  },
+  "corrupted_or_invalid_count": 1,
+  "corrupted_or_invalid_sample": [
+    {
+      "member": "0165y09/Ultrasound/0165y09_US_1.png",
+      "reason": "cannot decode image"
+    }
+  ],
+  "duplicate_files_count": 6,
+  "duplicate_groups": [
+    [
+      "00263y23/Ultrasound/00263y23_US_L_5.png",
+      "00263y23/Ultrasound/00263y23_US_L_6.png",
+      "00263y23/Ultrasound/00263y23_US_L_15.png"
+    ],
+    [
+      "00278y20/Ultrasound/00278y20_US_L_1.png",
+      "00278y20/Ultrasound/00278y20_US_L_2.png"
+    ],
+    [
+      "0249y16/Ultrasound/0249y16_US_R_1.png",
+      "0249y16/Ultrasound/0249y16_US_R_2.png"
+    ],
+    [
+      "04747y22/Ultrasound/04747y22_US_L_1.png",
+      "04747y22/Ultrasound/04747y22_US_L_3.png"
+    ],
+    [
+      "06025y20/Ultrasound/06025y20_US_R_4.png",
+      "06025y20/Ultrasound/06025y20_US_R_5.png"
+    ],
+    [
+      "4908y16/Ultrasound/4908y16_US_L_1.png",
+      "4908y16/Ultrasound/4908y16_US_L_4.png"
+    ]
+  ],
+  "patients_without_label": [],
+  "labels_without_folder": [],
+  "duplicate_ids_in_annotations": [],
+  "malformed_labels": [],
+  "tsv_columns_detected": [
+    "Patient ID",
+    "BI-RADS Label",
+    "Binary Label",
+    "Pathology Label"
+  ],
+  "id_column_detected": "Patient ID",
+  "label_column_detected": "BI-RADS Label",
+  "extra_tsv_columns": [
+    "Binary Label",
+    "Pathology Label"
+  ],
+  "image_extensions": {
+    "png": 2001
+  },
+  "us_per_patient": {
+    "min": 1,
+    "max": 16,
+    "mean": 3.16,
+    "std": 2.47
+  },
+  "mammo_per_patient": {
+    "min": 1,
+    "max": 4,
+    "mean": 2.86,
+    "std": 1.0
+  },
+  "patients_without_report_pdf": 11,
+  "reports_stats": {
+    "reports_extracted_ok": 321,
+    "reports_scanned_unreadable": 0,
+    "reports_error": 0,
+    "reports_no_pdf": 11,
+    "reports_total_with_pdf": 321,
+    "birads_mention_in_reports": 308,
+    "label_leakage_risk_pct": 96.0
+  },
+  "label_leakage_risk_pct": 96.0,
+  "parametres_preprocessing": {
+    "target_size": 512,
+    "mammo_clahe_clip_limit": 2.0,
+    "mammo_clahe_tile_grid": 8,
+    "us_median_ksize": 3,
+    "nlm_h": 5,
+    "bit_depth": 8
+  },
+  "all_issues": []
+}

@@ -1,0 +1,19 @@
+ID : 03911/20
+Prof : Dr. <NOM>-<NOM> : <NOM>: <DATE> <NOM> : <NOM> MAMMOGRPHY
+ <NOM> <NOM> A.
+ <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>:
+ <NOM> <NOM>.
+ Left 3 o’<NOM> <NOM> <NOM> 44x8 <NOM> about 6 <NOM> <NOM> <NOM>. <NOM> <NOM>
+ <NOM> <NOM> region.
+ <NOM> detected.
+OPINION
+-<NOM> <NOM> <NOM> <NOM> <NOM>, <NOM> 3 o’<NOM> <NOM> <NOM> <NOM>
+-<NOM> <NOM>.
+BIRAD6
+<NOM> <NOM> ( BI- RADS)
+BIRAD 0 <NOM> 1 <NOM> , <NOM> 2 <NOM> 3 <NOM> , 6 <NOM> 4 <NOM> , <NOM> 5 <NOM>
+Dr.<NOM>

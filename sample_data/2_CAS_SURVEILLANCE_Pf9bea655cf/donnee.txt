@@ -1,0 +1,10 @@
+Fiche Patiente : Pf9bea655cf (Test Set)
+Âge : 46 ans 
+
+1. Observations Cliniques / Historique
+
+Nodule circonscrit ovale, grand axe parallèle à la peau, mesurant 9 mm, sans atténuation postérieure. Aspect échographique compatible avec un fibroadénome bénin ou kyste compliqué stable. Absence d'adénopathie axillaire suspecte.
+
+2. Hypothèse / Suspicion Clinique Prévue
+
+Lésion Probablement Bénigne → Attente BI-RADS 3 (Suivi 6 mois)

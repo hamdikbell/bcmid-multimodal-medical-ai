@@ -1,0 +1,16 @@
+ID: 01880/20
+Ref. Dr.: <NOM>: Mammography & <NOM>: <DATE> 1:00:00 <NOM>: <NOM> <NOM> <NOM> a <NOM> <NOM> views …
+<NOM> U/S, <NOM>
+ <NOM> semi-<NOM> …ACR B .
+ <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>
+ <NOM> <NOM> <NOM>.
+ <NOM> <NOM> couldn’t <NOM> <NOM>.
+ A <NOM> <NOM> <NOM> <NOM> <NOM> 7x3mm
+ <NOM> <NOM>-<NOM> 12 o’<NOM> 7x5 <NOM> para-<NOM> <NOM> 4 <NOM> retro-<NOM> , <NOM> <NOM>
+… <NOM> … BIRADS 2
+ <NOM> <NOM>.
+BIRADS 2
+Dr.<NOM>.MS

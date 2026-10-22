@@ -1,0 +1,17 @@
+ID : 04362/20
+Dr. <NOM> : Mammography & <NOM> : <DATE> <NOM> ; <NOM>
+ <NOM>: ACR B
+ <NOM> <NOM> <NOM> a <NOM> <NOM> <NOM>.
+ <NOM> <NOM> <NOM>.
+ <NOM>.
+ <NOM>.
+<NOM>:
+ <NOM> <NOM> <NOM> 1 o’<NOM>, 16 <NOM>, <NOM>
+<NOM> <NOM>, averaging 12x6mm and
+7mm…<NOM>…BIRADS 3
+ <NOM> <NOM>
+<NOM> <NOM> <NOM> <NOM>.
+ <NOM> <NOM> region.
+ <NOM> detected.
+BIRAD 3
+Dr.<NOM>.MS
